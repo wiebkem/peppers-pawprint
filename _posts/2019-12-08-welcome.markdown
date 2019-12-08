@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Pepper's Pawprint!"
+title:  "Wilkommen bei Pepper's Pawprint!"
 date:   2019-12-08 13:24:25
 categories: welcome
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+Ich freue mich, dass Du den Weg zu uns, Wiebke und Pepper, gefunden hast. Auf diesem Blog möchte ich Dich an meinem Weg zum Hundetrainer teilhaben lassen. Außerdem wirst Du mehr erfahren, wie Pepper mich dazu inspiriert hat und was ich schon alles von ihm lernen durfte. 
