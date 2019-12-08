@@ -71,7 +71,7 @@
             <hr>
             <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
           </section>
-          <section class="copyright">All content copyright <a href="{{@blog.url}}/">Pepper's Pawprint</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
+          <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.name}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
           {{/post}}
         </div>
         {%if site.disqus %}
