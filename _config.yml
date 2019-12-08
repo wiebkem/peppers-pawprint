@@ -4,9 +4,8 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
-description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+title: "Pepper's Pawprint"
+description: Mein Weg zum Hundetrainer
 
 email: pepperspawprint@gmail.com
 #blog logo
@@ -16,13 +15,13 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/blog-background.jpg"
 
-name: 'Pepper's Pawprint'
+name: 'Wiebke'
 author: 'Wiebke'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://www.peppers-pawprint.com"
+url: "http://www.peppers-pawprint.com" # the base hostname & protocol for your site
 baseurl: ""
 
 #google_analytics: UA-XXXXX-X
@@ -32,3 +31,4 @@ social:
   - icon:	instagram
     url:	https://www.instagram.com/peppers_pawprint/
     desc: Follow me on instagram
+    
