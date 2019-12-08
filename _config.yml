@@ -15,9 +15,8 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/blog-background.jpg"
 
-name: 'Wiebke'
+name: 'Peppers Pawprint'
 author: 'Wiebke'
-author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
