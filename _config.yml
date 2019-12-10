@@ -9,7 +9,7 @@ description: Mein Weg zum Hundetrainer
 
 email: pepperspawprint@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
