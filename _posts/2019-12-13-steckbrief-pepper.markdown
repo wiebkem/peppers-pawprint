@@ -8,6 +8,7 @@ image: /assets/article_images/2019-12-13-steckbrief-pepper/pepper.jpg
 ---
 # Wer ist Pepper?
 
+
 In diesem Post möchte ich euch meinen treuen Freund Pepper in einem Steckbrief genauer vorstellen.
 
 **Geburtsdatum:** 08.04.2009
