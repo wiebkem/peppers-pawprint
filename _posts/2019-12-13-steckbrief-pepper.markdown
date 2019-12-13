@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Steckbrief Pepper"
-date:   2019-12-08 13:24:25
+date:   2019-12-13 07:47:00
 categories: welcome
-tags: featured
+tags: pepper
 image: /assets/images/blog-background.jpg
 ---
 #Wer ist Pepper?
