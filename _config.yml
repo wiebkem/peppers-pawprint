@@ -5,7 +5,9 @@ gems:
 
 # Site settings
 title: "Pepper's Pawprint"
-# description: Mein Weg zum Hundetrainer
+#description: Mein Weg zum Hundetrainer
+meta-description: Blog
+meta-keywords: blog; dogblog; hundeblog
 
 email: pepperspawprint@gmail.com
 #blog logo
