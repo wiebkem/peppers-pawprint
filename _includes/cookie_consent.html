@@ -32,9 +32,7 @@
     }
 
     if(readCookie('cookie-notice-dismissed')=='true') {
-        {% if site.google_analytics %}
         {% include google_analytics.html %}
-        {% endif %}
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
