@@ -25,7 +25,7 @@ paginate:	5
 url: "http://www.peppers-pawprint.com" # the base hostname & protocol for your site
 baseurl: ""
 
-#google_analytics: UA-XXXXX-X
+google_analytics: UA-154765901-1
 
 # social icons and sharing options
 social:
