@@ -29,7 +29,7 @@
 /* a. Common Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #D2D8D8 url(../images/bg.jpg); }
+body { background-color: #D2D8D8; }
 img { border-radius: 3px; }
 .content-outer { background: #fff }
 
@@ -669,6 +669,12 @@ img { border-radius: 3px; }
 .post .post-thumb {
    margin: 6px 0 18px 0;
    width: 100%;
+}
+
+.post .post-thumb img {
+   height: 246px;
+   width: 100%;
+   object-fit: cover;
 }
 
 /* post content */
