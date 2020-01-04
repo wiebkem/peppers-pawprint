@@ -34,7 +34,7 @@ defaultContentLanguageInSubdir = true
   pages = "/:slug/"
 
 [author]                     # required
-  name = "Wiebke Meyer"
+  name = "Pepper's Pawprint - Wiebke Meyer"
 
 [sitemap]                    # required
   changefreq = "weekly"
@@ -52,7 +52,7 @@ defaultContentLanguageInSubdir = true
   keywords = ["blog", "dogblog","hundeblog"]
   description = "Pepper's Pawprint Blog"
   siteLogoImage = "images/logo.jpg"     # shown besides logoTitle
-  showAuthorCard = true # Whether to show author information below the article
+  showAuthorCard = false # Whether to show author information below the article
 
   faviconImage = "images/favicon.png"     # shown besides logoTitle
 
@@ -130,7 +130,7 @@ defaultContentLanguageInSubdir = true
 
   [[languages.en.menu.social]]
     name = "Mail"
-    weight = 10
+    weight = 5
     pre = '<i class="far fa-envelope"></i>'
     identifier = "mail"
     url = "mailto:pepperspawprint@gmail.com"
@@ -143,14 +143,8 @@ defaultContentLanguageInSubdir = true
     url = "https://www.instagram.com/peppers_pawprint/"
 
   [[languages.en.menu.links]]
-    name = "Cookies"
-    weight = 10
-    identifier = "cookies"
-    url = "cookies/"
-
-  [[languages.en.menu.links]]
     name = "Privacy"
-    weight = 10
+    weight = 5
     identifier = "privacy"
     url = "privacy/"
 
@@ -177,7 +171,7 @@ defaultContentLanguageInSubdir = true
 
   [[languages.de.menu.social]]
     name = "Mail"
-    weight = 10
+    weight = 5
     pre = '<i class="far fa-envelope"></i>'
     identifier = "mail"
     url = "mailto:pepperspawprint@gmail.com"
@@ -190,14 +184,8 @@ defaultContentLanguageInSubdir = true
     url = "https://www.instagram.com/peppers_pawprint/"
 
   [[languages.de.menu.links]]
-    name = "Cookies"
-    weight = 10
-    identifier = "cookies"
-    url = "cookies/"
-
-  [[languages.de.menu.links]]
     name = "Datenschutz"
-    weight = 10
+    weight = 5
     identifier = "privacy"
     url = "privacy/"
 
