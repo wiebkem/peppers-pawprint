@@ -12,7 +12,7 @@
         {{ if .Site.Menus.social }}
           {{ range .Site.Menus.social }}
           <li>
-            <a href="{{ .URL | safeURL }}">{{ .Pre }}</a>
+            <a href="{{ .URL | safeURL }}" target="_blank">{{ .Pre }}</a>
           </li>
           {{ end }}
         {{ end }}
