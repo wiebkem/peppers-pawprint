@@ -2,8 +2,8 @@
 title =  "Who is Pepper?"
 date = 2019-12-13T07:47:39+01:00
 tags = [
-    "gettoknow",
-    "pepper",
+    "Gettoknow",
+    "Pepper",
 ]
 categories = [
     "Welcome"
