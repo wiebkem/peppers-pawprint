@@ -1,0 +1,45 @@
+{{ define "header" }}
+<div id="page-title">
+  <div class="row">
+     <div class="ten columns centered text-center">
+        <h1>{{ .Title }}<span>.</span></h1>
+        <p>{{ .Description }}</p>
+     </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<div class="content-outer">
+  <div id="page-content" class="row page">
+     <div id="primary" class="eight columns">
+        <section>
+           <!--<h1>Test</h1>
+
+           <p class="lead">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+           nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+           cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>-->
+
+           <p>{{ .Content }}</p>
+        </section> <!-- section end -->
+     </div> <!-- primary end -->
+
+     <div id="secondary" class="four columns end">
+        <aside id="sidebar">
+          <div class="widget widget_contact">
+            <!--<h5>Address and Phone</h5>
+            <p class="address">
+              Test street<br>
+              <span>(0) 123-456</span>
+            </p> -->
+            <h5>Email and Social</h5>
+            <p>
+              E-mail: <a href="{{ .Site.Params.mail }}">{{ .Site.Params.mail_title }}</a><br>
+              Instagram: <a href="{{ .Site.Params.instagram }}">{{ .Site.Title }}</a>
+            </p>
+          </div>
+        </aside>
+     </div> <!-- secondary End-->
+  </div> <!-- page-content End-->
+</div>
+{{ end }}

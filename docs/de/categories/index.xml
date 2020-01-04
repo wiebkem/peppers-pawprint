@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Pepper&#39;s Pawprint</title>
+    <link>https://wiebkem.github.io/hugoTry/de/categories/</link>
+    <description>Recent content in Categories on Pepper&#39;s Pawprint</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 13 Dec 2019 07:47:39 +0100</lastBuildDate>
+    
+	<atom:link href="https://wiebkem.github.io/hugoTry/de/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>willkommen</title>
+      <link>https://wiebkem.github.io/hugoTry/de/category/willkommen/</link>
+      <pubDate>Fri, 13 Dec 2019 07:47:39 +0100</pubDate>
+      
+      <guid>https://wiebkem.github.io/hugoTry/de/category/willkommen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

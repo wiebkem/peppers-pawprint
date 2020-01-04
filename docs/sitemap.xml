@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://wiebkem.github.io/hugoTry/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-12-13T07:47:39+01:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://wiebkem.github.io/hugoTry/de/sitemap.xml</loc>
+		
+	   	<lastmod>2019-12-13T07:47:39+01:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>

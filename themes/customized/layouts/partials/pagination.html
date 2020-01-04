@@ -1,0 +1,52 @@
+{{ $paginator := $.Paginator }}
+{{ if gt $paginator.TotalPages  1 }}
+<nav class="col full pagination">
+  <ul>
+  {{ if .Site.Params.paginateOriginalStyle -}}
+    {{- if $paginator.HasPrev -}}
+      <li><a href="{{ $paginator.Prev.URL }}" class="page-numbers prev">{{ i18n "previous" }}</a></li>
+    {{ end -}}
+    {{- if $paginator.HasNext -}}
+      <li><a href="{{ $paginator.Next.URL }}" class="page-numbers next">{{ i18n "next" }}</a></li>
+    {{ end }}
+  {{ else }}
+    {{ $adjacent_links := (.Site.Params.adjacentPages | default 5) }}
+    {{ $max_links := (add (mul $adjacent_links 2) 1) }}
+    {{ $lower_limit := (sub $paginator.PageNumber $adjacent_links) }}
+    {{ $upper_limit := (add $paginator.PageNumber $adjacent_links) }}
+      {{ if (le $paginator.TotalPages $max_links) }}
+        {{ range $paginator.Pagers }}
+          {{ if eq . $paginator }}
+          <li><a href="#" class="page-numbers current">{{ .PageNumber }}</a></li>
+          {{ else }}
+          <li><a href="{{ .URL }}" class="page-numbers">{{ .PageNumber }}</a></li>
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{ if ne $paginator.PageNumber 1 }}
+          <li><a href="{{ $paginator.First.URL }}" class="page-numbers"><i class="fas fa-angle-double-left"></i></a></li>
+        {{ end }}
+        {{ if $paginator.HasPrev }}
+          <li><a href="{{ $paginator.Prev.URL }}" class="page-numbers">{{ i18n "previous" }}</a></li>  
+        {{ end }}
+        {{ range $paginator.Pagers }}
+          {{ if and (le .PageNumber $upper_limit) (ge .PageNumber $lower_limit)}}
+            {{ if eq . $paginator }}
+            <li><a href="#" class="page-numbers current">{{ .PageNumber }}</a></li>
+            {{ else }}
+            <li><a href="{{ .URL }}" class="page-numbers">{{ .PageNumber }}</a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ if $paginator.HasNext }}
+          <li><a href="{{ $paginator.Next.URL }}" class="page-numbers">{{ i18n "next" }}</a></li>
+        {{ end }}
+        {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+          <li><a href="{{ $paginator.Last.URL }}" class="page-numbers"><i class="fas fa-angle-double-right"></i></a></li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  {{ end }}
+  </ul>
+</nav>
+{{ end }}

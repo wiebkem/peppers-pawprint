@@ -1,0 +1,77 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+  <channel>
+    <title>Pepper&#39;s Pawprint</title>
+    <link>https://wiebkem.github.io/hugoTry/en/</link>
+    <description>Recent content on Pepper&#39;s Pawprint</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>All rights reserved.</copyright>
+    <lastBuildDate>Fri, 13 Dec 2019 07:47:39 +0100</lastBuildDate>
+    
+        <atom:link href="https://wiebkem.github.io/hugoTry/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>https://wiebkem.github.io/hugoTry/en/posts/</link>
+      <pubDate>Fri, 13 Dec 2019 07:47:39 +0100</pubDate>
+      
+      <guid>https://wiebkem.github.io/hugoTry/en/posts/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>About us</title>
+      <link>https://wiebkem.github.io/hugoTry/en/about/</link>
+      <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
+      
+      <guid>https://wiebkem.github.io/hugoTry/en/about/</guid>
+      
+        <description>&lt;p&gt;I am glad that you have found us! 😃&lt;/p&gt;
+&lt;p&gt;Here I would like to let you participate in our journey 🛤️ and to report on interesting topics in everyday dog life 🐶. You will also read more about traveling with a dog and why I started a dog trainer education 🐕. It remains exciting!&lt;/p&gt;
+&lt;p&gt;Have fun on this blog!&lt;/p&gt;
+&lt;p&gt;Wiebke &amp;amp; Pepper&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Cookies</title>
+      <link>https://wiebkem.github.io/hugoTry/en/cookies/</link>
+      <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
+      
+      <guid>https://wiebkem.github.io/hugoTry/en/cookies/</guid>
+      
+        <description>&lt;p&gt;Cookies&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Imprint</title>
+      <link>https://wiebkem.github.io/hugoTry/en/impressum/</link>
+      <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
+      
+      <guid>https://wiebkem.github.io/hugoTry/en/impressum/</guid>
+      
+        <description>&lt;p&gt;Imprint&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://wiebkem.github.io/hugoTry/en/privacy/</link>
+      <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
+      
+      <guid>https://wiebkem.github.io/hugoTry/en/privacy/</guid>
+      
+        <description>&lt;p&gt;Privacy&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

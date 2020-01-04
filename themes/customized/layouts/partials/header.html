@@ -1,0 +1,61 @@
+<header>
+  <div class="row">
+    <div class="twelve columns">
+      <div class="logo">
+        {{ with .Site.GetPage "home" }}
+          <a href="{{ .Permalink }}">
+        {{ end }}
+        {{ with .Site.Params.siteLogoImage }}
+          <img alt="logo" src="{{ . | absURL }}">
+        {{ end }}
+        </a>
+      </div>
+      <nav id="nav-wrap">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+        <ul id="nav" class="nav">
+          {{ with .Site.GetPage "home" }}
+          <!-- class current -->
+          <li><a href="{{ .Permalink }}">{{ i18n "blog" }}</a></li>
+          {{ end }}          
+
+          {{ range $index, $menuItem := .Site.Menus.main }}
+          <li>
+            {{ with $menuItem.Page }}
+              <a href="{{ .Permalink }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
+            {{ else }}
+              {{ if hasPrefix .URL "http" }}
+                <a href="{{ .URL | safeURL }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
+              {{ else }}
+                <a href="{{ .URL | absLangURL | safeURL }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
+              {{ end }}
+            {{ end }}
+          </li>
+          {{ end }}
+          
+          <!-- Languages -->
+          {{ if .IsTranslated }}
+          {{- $last := (sub (len .Translations) 1) -}}
+            {{ range $index, $value := (.Translations | sort) -}}
+              <li>
+                <a href="{{ $value.Permalink }}"><i class="fa fa-globe"></i> {{ $value.Lang | upper }}</a>
+              </li>
+              {{- if ne $index $last }}, {{ end -}}
+            {{ end }}
+          {{ else }}
+          {{ if and (gt (len .Site.Home.AllTranslations) 1) (.Site.Params.showMenuLanguages | default false ) }}
+            {{- $.Scratch.Set "language" .Language -}}
+            {{ range .Site.Home.AllTranslations }}
+            {{ if ne ($.Scratch.Get "language") .Language }}
+              <li>
+                <a href="{{ .Permalink }}"><i class="fa fa-globe"></i> {{ .Language.LanguageName }}</a>
+              </li>
+            {{ end }}
+            {{ end }}
+          {{ end }}
+          {{ end }}
+        </ul> <!-- end #nav -->
+      </nav> <!-- end #nav-wrap -->
+     </div>
+  </div>
+</header>

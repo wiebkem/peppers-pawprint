@@ -1,0 +1,105 @@
+/* ------------------------------------------------------------------ */
+/* m. footer
+/* ------------------------------------------------------------------ */
+
+footer {
+   margin-top: 66px;
+   margin-bottom: 84px;
+   font-size: 14px;
+}
+footer a, footer a:visited { color: #6A747C; }
+footer a:hover { color: #11ABB0; }
+
+/* footer nav */
+footer .footer-nav {
+   font: 18px/36px raleway-bold, sans-serif;
+   margin: 0;
+   padding: 0 0 24px 0;
+   text-align: center;
+   border-bottom: 1px solid #c4caca;
+}
+footer .footer-nav li {
+   display: inline;
+   margin-right: 20px;
+   margin-left: 20px;
+}
+footer .footer-nav a { color: #7B858E; }
+footer .footer-nav a:hover { color: #313131; }
+
+/* social links */
+footer .footer-social {
+   margin: 36px 0 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-align: center;
+}
+footer .footer-social li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   margin-left: 24px;
+   margin-right: 24px;
+}
+footer .footer-social li a { color: #7B858E; }
+footer .footer-social li a:hover { color: #313131; }
+
+/* copyright */
+footer .copyright {
+    margin: 0;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+    font: 14px/30px notosans-regular, sans-serif;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.ie footer .copyright li {
+   display: inline;
+}
+
+footer .copyright li:before {
+    content: "|";
+    padding-left: 10px;
+    padding-right: 12px;
+    color: #B4BBBB;
+}
+footer .copyright  li:first-child:before {
+    display: none;
+}
+
+/* Go To Top Button */
+#go-top {
+	position: fixed;
+	bottom: 0px;
+   right: 25px;
+   display: display;
+}
+#go-top a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 60px;
+	height: 40px;
+	background-color: #1f2024;
+
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+ 	border-radius: 3px 3px 0 0;
+
+   text-shadow: none;
+   color: transparent;
+}
+#go-top a i {
+   color: #ffffff;
+   padding: 8px 19px;
+   font-size: 25px;
+}
+#go-top a:hover { background-color: #0F9095; }

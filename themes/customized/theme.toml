@@ -1,0 +1,4 @@
+name = "customized"
+description = "Customized theme"
+tags = ["responsive", "blog", "multilingual"]
+features = ["responsive", "blog", "multilingual"]

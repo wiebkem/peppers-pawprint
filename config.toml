@@ -1,0 +1,208 @@
+# ------------------------------------- #
+# ---- General Settings --------------- #
+# ------------------------------------- #
+baseURL = "https://wiebkem.github.io/peppers-pawprint/"
+title = "Pepper's Pawprint"
+description = "Blog"
+publishDir = "docs"
+theme = "customized"
+
+enableRobotsTXT = true       # generate robots.txt
+enableEmoji = true           # use emoji support
+hasCJKLanguage = true        # detect CJK languages for word count etc.
+preserveTaxonomyNames = true # do not make tag names lowercase
+rssLimit = 20                # limit number of entries in RSS feeds
+
+# Pagination
+# number of entries per page for archives, tags and categories
+# since we don't have list view, recommend a large value
+paginate = 10
+paginatePath = "page"
+
+# service plugins
+#googleAnalytics = "UA-154765901-1"
+
+# language support # en / de translations present in i18n
+defaultContentLanguage = "en"           # Default language to use
+defaultContentLanguageInSubdir = true
+
+# Links format
+[permalinks]
+  posts = "/:slug/"
+  categories = "/category/:slug/"      # required
+  tags = "/tag/:slug/"                 # required
+  pages = "/:slug/"
+
+[author]                     # required
+  name = "Wiebke Meyer"
+
+[sitemap]                    # required
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# ------------------------------------- #
+# ---- Other Params ------------------- #
+# ------------------------------------- #
+[params]
+  since = "2019"             # Site creation time
+  rssFullContent = true      # set true to use full content instead of summary
+
+  # site info (optional)
+  keywords = ["blog", "dogblog","hundeblog"]
+  description = "Pepper's Pawprint Blog"
+  siteLogoImage = "images/logo.jpg"     # shown besides logoTitle
+  showAuthorCard = true # Whether to show author information below the article
+
+  faviconImage = "images/favicon.png"     # shown besides logoTitle
+
+  showMenuLanguages = true
+  autoLoadComments = false # auto load comment when scrolling down
+
+  # paginate style, default use numbered pagination links
+  # if true, use original "Previous" and "Next" links.
+  # paginateOriginalStyle = true
+
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "02 Jan 06"
+
+  google_verification = ""  # Google_Verification
+
+  # social accounts
+  instagram =	"https://www.instagram.com/peppers_pawprint/"
+  mail =	"mailto:pepperspawprint@gmail.com"
+  mail_title =	"pepperspawprint@gmail.com"
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = ['default.css', 'layout.css', 'media-queries.css']      # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
+
+# ------------------------------------- #
+# ---- Related Articles --------------- #
+# ------------------------------------- #
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 50
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = true
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+[[related.indices]]
+  name = "categories"
+  weight = 200
+
+[[related.indices]]
+  name = "keywords"
+  weight = 150
+
+[[related.indices]]
+  name = "tags"
+  weight = 100
+
+
+# ------------------------------------- #
+# ----------- Resources --------------- #
+# ------------------------------------- #
+[[resources]]
+  name = "logo"
+  src = "static/images/logo.jpg"
+
+# ------------------------------------- #
+# ----------- Languages --------------- #
+# ------------------------------------- #
+[languages.en]
+  languageCode = "en"
+  languageName = "English"
+  contentDir = "content/en"
+  cookie_consent_info_url = "/information/cookies/"
+  copyright = "All rights reserved."
+  weight = 1    
+
+  [[languages.en.menu.main]]
+    name = "About us"
+    weight = 10
+    identifier = "about"
+    url = "about/"
+
+  [[languages.en.menu.social]]
+    name = "Mail"
+    weight = 10
+    pre = '<i class="far fa-envelope"></i>'
+    identifier = "mail"
+    url = "mailto:pepperspawprint@gmail.com"
+
+  [[languages.en.menu.social]]
+    name = "Instagram"
+    weight = 10
+    pre = '<i class="fab fa-instagram"></i>'
+    identifier = "instagram"
+    url = "https://www.instagram.com/peppers_pawprint/"
+
+  [[languages.en.menu.links]]
+    name = "Cookies"
+    weight = 10
+    identifier = "cookies"
+    url = "cookies/"
+
+  [[languages.en.menu.links]]
+    name = "Privacy"
+    weight = 10
+    identifier = "privacy"
+    url = "privacy/"
+
+  [[languages.en.menu.links]]
+    name = "Imprint"
+    weight = 10
+    identifier = "impressum"
+    url = "impressum/"
+
+
+[languages.de]
+  languageCode = "de"
+  languageName = "Deutsch"
+  contentDir = "content/de"
+  cookie_consent_info_url = "de/information/cookies/"
+  copyright = ""
+  weight = 2
+
+  [[languages.de.menu.main]]
+    name = "Über uns"
+    weight = 10
+    identifier = "about"
+    url = "about/"
+
+  [[languages.de.menu.social]]
+    name = "Mail"
+    weight = 10
+    pre = '<i class="far fa-envelope"></i>'
+    identifier = "mail"
+    url = "mailto:pepperspawprint@gmail.com"
+
+  [[languages.de.menu.social]]
+    name = "Instagram"
+    weight = 10
+    pre = '<i class="fab fa-instagram"></i>'
+    identifier = "instagram"
+    url = "https://www.instagram.com/peppers_pawprint/"
+
+  [[languages.de.menu.links]]
+    name = "Cookies"
+    weight = 10
+    identifier = "cookies"
+    url = "cookies/"
+
+  [[languages.de.menu.links]]
+    name = "Datenschutz"
+    weight = 10
+    identifier = "privacy"
+    url = "privacy/"
+
+  [[languages.de.menu.links]]
+    name = "Impressum"
+    weight = 10
+    identifier = "impressum"
+    url = "impressum/"
