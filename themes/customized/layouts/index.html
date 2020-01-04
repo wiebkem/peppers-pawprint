@@ -74,7 +74,7 @@
           <h5 class="widget-title">{{ i18n "category" }}</h5>
           <ul class="link-list cf">
             {{ range .Site.Taxonomies.categories }}
-            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
             {{ end }}
           </ul>
         </div>
