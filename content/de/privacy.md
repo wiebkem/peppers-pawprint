@@ -102,14 +102,10 @@ Wenn Sie in Ihrem Instagram-Account eingeloggt sind, können Sie durch Anklicken
 Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Webseitenbetreiber hat ein berechtigtes Interesse an einer möglichst umfangreichen Sichtbarkeit in den Sozialen Medien. Sofern eine entsprechende Einwilligung abgefragt wurde (z. B. eine Einwilligung zur Speicherung von Cookies), erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.  
 Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram: https://instagram.com/about/legal/privacy/. 
 
-## 6. Analyse Tools und Werbung
-### Google Analytics
-hhkjx
-
-## 7. Plugins und Tools 
+## 6. Plugins und Tools 
 ### Google Web Fonts 
 Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern von Google findet dabei nicht statt.  
 Weitere Informationen zu Google Web Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de. 
 
-## 8. Datenschutzbeauftragter
+## 7. Datenschutzbeauftragter
 Auf Grund der kleinen Größe dieser Seite ist kein Datenschutzbeauftragter nötig.
