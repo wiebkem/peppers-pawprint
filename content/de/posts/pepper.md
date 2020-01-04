@@ -6,7 +6,7 @@ tags = [
     "pepper",
 ]
 categories = [
-    "willkommen"
+    "Willkommen"
 ]
 featured_image = "images/background.jpg"
 description = "Dieser Blogeintrag ist erzählt über Pepper's Hobbys und seine Eigenarten."
