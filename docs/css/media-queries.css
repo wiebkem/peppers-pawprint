@@ -92,10 +92,6 @@
    #nav-wrap {
       width: auto;
       margin: 0;
-
-      position: absolute;
-      top: 0;
-      right: 0;
    }
    #nav-wrap > a {
 	   width: 48px;
@@ -112,8 +108,6 @@
       color: transparent;
 
       position: relative;
-      top: 36px;
-      right: 36px;
    }
 
 	#nav-wrap > a:before,

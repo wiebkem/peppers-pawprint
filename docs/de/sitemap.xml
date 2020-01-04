@@ -58,21 +58,7 @@
   </url>
   
   <url>
-    <loc>https://wiebkem.github.io/peppers-pawprint/de/tag/blog/</loc>
-    <lastmod>2019-12-08T20:14:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://wiebkem.github.io/peppers-pawprint/de/cookies/</loc>
-    <lastmod>2019-12-08T20:14:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://wiebkem.github.io/peppers-pawprint/de/tag/hundeblog/</loc>
     <lastmod>2019-12-08T20:14:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -87,13 +73,6 @@
   
   <url>
     <loc>https://wiebkem.github.io/peppers-pawprint/de/privacy/</loc>
-    <lastmod>2019-12-08T20:14:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://wiebkem.github.io/peppers-pawprint/de/tag/willkommen/</loc>
     <lastmod>2019-12-08T20:14:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
