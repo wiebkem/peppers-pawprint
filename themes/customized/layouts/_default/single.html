@@ -14,13 +14,12 @@
   <div id="page-content" class="row page">
      <div id="primary" class="eight columns">
         <section>
-           <!--<h1>Test</h1>
-
-           <p class="lead">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-           nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
-           cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>-->
-
-           <p>{{ .Content }}</p>
+          {{ with .Params.featured_image -}}
+          <div class="post-thumb">
+            <img src="{{ . | absURL }}" alt="post-image" title="post-image">
+          </div>
+          {{ end }}
+          <p>{{ .Content }}</p>
         </section> <!-- section end -->
      </div> <!-- primary end -->
 
