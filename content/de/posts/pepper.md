@@ -8,8 +8,8 @@ tags = [
 categories = [
     "Willkommen"
 ]
-featured_image = "images/background.jpg"
-description = "Dieser Blogeintrag ist erzählt über Pepper's Hobbys und seine Eigenarten."
+featured_image = "images/about.jpg"
+description = "Dieser Blogeintrag erzählt über Pepper's Hobbys und seine Eigenarten."
 +++
 
 Geburtsdatum: 08.04.2009

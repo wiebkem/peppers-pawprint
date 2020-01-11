@@ -8,7 +8,7 @@ tags = [
 categories = [
     "Welcome"
 ]
-featured_image = "images/background.jpg"
+featured_image = "images/about.jpg"
 description = "This blog entry is about Pepper's characteristics and what he likes to do in his 'free' time."
 +++
 
