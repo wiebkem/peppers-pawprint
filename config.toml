@@ -75,8 +75,9 @@ defaultContentLanguageInSubdir = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  basicCSS = ['bootstrap.4.1.3.min', 'fontawesome.5.2.0']
+  basicCSS = ['bootstrap.4.1.3.min.css', 'fontawesome.5.2.0.css']
   customCSS = ['default.css', 'layout.css', 'media-queries.css']      # if ['custom.css'], load '/static/css/custom.css' file
+  basicJS = ['jquery-3.3.1.slim.min.js', 'popper.min.js', 'bootstrap.4.1.3.min.js']
   customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
 
 # ------------------------------------- #
