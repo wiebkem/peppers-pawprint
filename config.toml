@@ -148,12 +148,6 @@ defaultContentLanguageInSubdir = true
     identifier = "privacy"
     url = "privacy/"
 
-  [[languages.en.menu.links]]
-    name = "Imprint"
-    weight = 10
-    identifier = "impressum"
-    url = "impressum/"
-
 
 [languages.de]
   languageCode = "de"
