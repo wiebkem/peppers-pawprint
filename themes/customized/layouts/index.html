@@ -53,14 +53,17 @@
           {{ end }}
         </p>
       </div>
-      {{ with .Params.featured_image -}}
-        <div class="post-thumb">
-          <img src="{{ . | absURL }}" alt="post-image" title="post-image">
-        </div>
-      {{ end }}
+      <a href="{{ .Permalink }}" title="">
+        {{ with .Params.featured_image -}}
+          <div class="post-thumb">
+            <img src="{{ . | absURL }}" alt="post-image" title="post-image">
+          </div>
+        {{ end }}
+      </a>
       <div class="post-content">
           <p>{{ .Description }}</p>
       </div>
+      <!--<a href="{{ .Permalink }}" class="button">Read more...</a>-->
     </article>
     {{ end }}
 
