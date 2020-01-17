@@ -3,6 +3,7 @@ title =  "Datenschutzerklärung"
 date = 2019-12-08T20:14:39+01:00
 featured_image = ""
 description = ""
+privacyOptOut = "Google Analytics deaktivieren"
 +++
 
 ## 1. Datenschutz auf einen Blick 
@@ -111,7 +112,10 @@ Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSG
 
 Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.  
 
-## 5. Soziale Medien 
+## 5. Datenschutzbeauftragter 
+Auf Grund der kleinen Größe dieser Seite ist kein Datenschutzbeauftragter nötig.
+
+## 6. Soziale Medien 
 ### Instagram Plugin 
 Auf dieser Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten durch die Instagram Inc., 1601 Willow Road, Menlo Park, CA 94025, USA integriert.  
 
@@ -120,7 +124,15 @@ Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 li
 
 Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram: https://instagram.com/about/legal/privacy/. 
 
-## 6. Webanalysedienste
+## 7. Plugins und Tools
+### Google Web Fonts
+Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts die von der Google LLC., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA („Google“) bereitgestellt werden. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern von Google findet dabei nicht statt. Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.  
+
+Google LLC mit Sitz in den USA ist für das us-europäische Datenschutzübereinkommen „Privacy Shield“ zertifiziert, welches die Einhaltung des in der EU geltenden Datenschutzniveaus gewährleistet.
+
+Weitere Informationen zu Google Web Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://www.google.com/policies/privacy/
+
+## 8. Webanalysedienste
 ### Google Analytics
 Diese Website benutzt Google Analytics, einen Webanalysedienst der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ("Google"). Google Analytics verwendet sog. "Cookies", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich der gekürzten IP-Adresse) werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. 
 
@@ -132,25 +144,13 @@ Im Rahmen der Vereinbarung zur Auftragsdatenvereinbarung, welche die Websitebetr
 
 In unserem Auftrag wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen uns gegenüber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.  
 
+#### Datenschutzübereinkommen
+Google LLC mit Sitz in den USA ist für das us-europäische Datenschutzübereinkommen „Privacy Shield“ zertifiziert, welches die Einhaltung des in der EU geltenden Datenschutzniveaus gewährleistet.  
+
+Mehr Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google: https://support.google.com/analytics/answer/6004245?hl=de  
+
 #### Browser Plugin zum Widerspruch gegen Datenerfassung
 Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren:
 http://tools.google.com/dlpage/gaoptout?hl=de  
 
-Alternativ zum Browser-Plugin oder innerhalb von Browsern auf mobilen Geräten klicken Sie bitte auf den folgenden Link, um ein Opt-Out-Cookie zu setzen, der die Erfassung durch Google Analytics innerhalb dieser Website zukünftig verhindert (dieses Opt-Out-Cookie funktioniert nur in diesem Browser und nur für diese Domain, löschen Sie Ihre Cookies in diesem Browser, müssen Sie diesen Link erneut klicken): <a onclick=”alert(‘Google Analytics wurde deaktiviert’);” href=”javascript:disableGoogleAnalytics()”>Google Analytics deaktivieren</a>
-
-#### Datenschutzübereinkommen
-Google LLC mit Sitz in den USA ist für das us-europäische Datenschutzübereinkommen „Privacy Shield“ zertifiziert, welches die Einhaltung des in der EU geltenden Datenschutzniveaus gewährleistet.  
-
-Mehr Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google: https://support.google.com/analytics/answer/6004245?hl=de
-
-
-## 7. Plugins und Tools
-### Google Web Fonts
-Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts die von der Google LLC., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA („Google“) bereitgestellt werden. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern von Google findet dabei nicht statt. Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.  
-
-Google LLC mit Sitz in den USA ist für das us-europäische Datenschutzübereinkommen „Privacy Shield“ zertifiziert, welches die Einhaltung des in der EU geltenden Datenschutzniveaus gewährleistet.
-
-Weitere Informationen zu Google Web Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://www.google.com/policies/privacy/
-
-## 8. Datenschutzbeauftragter
-Auf Grund der kleinen Größe dieser Seite ist kein Datenschutzbeauftragter nötig.
+Alternativ zum Browser-Plugin oder innerhalb von Browsern auf mobilen Geräten klicken Sie bitte auf den folgenden Link, um ein Opt-Out-Cookie zu setzen, der die Erfassung durch Google Analytics innerhalb dieser Website zukünftig verhindert (dieses Opt-Out-Cookie funktioniert nur in diesem Browser und nur für diese Domain, löschen Sie Ihre Cookies in diesem Browser, müssen Sie diesen Link erneut klicken):
