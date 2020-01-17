@@ -86,7 +86,7 @@
   translation: "Übersetzungen: "
 
 - id: cookie_message
-  translation: Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
+  translation: Diese Website verwendet Cookies. Wir verwenden Cookies, um Inhalte zu personalisieren und unseren Datenverkehr zu analysieren. Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
 
 - id: cookie_dismiss
   translation: Ablehnen
