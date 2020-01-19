@@ -591,7 +591,7 @@ input[type="checkbox"] { display: inline; }
 
 /* default
 --------------------------------------------------------------- */
-.row {
+.row, .navbar-container {
    width: 96%;
    max-width: 1020px;
    margin: 0 auto;
@@ -613,12 +613,18 @@ input[type="checkbox"] { display: inline; }
     clear: both;
 }
 
+.navbar-container {
+   padding-left: 20px !important;
+   padding-right: 20px !important;
+}
+
 .column, .columns {
    position: relative;
    padding: 0 20px;
    min-height: 1px;
    float: left;
 }
+
 .column.centered, .columns.centered  {
     float: none;
     margin: 0 auto;
@@ -644,7 +650,7 @@ input[type="checkbox"] { display: inline; }
 .row .nine        { width: 75%; }
 .row .ten         { width: 83.33333%; }
 .row .eleven      { width: 91.66667%; }
-.row .twelve      { width: 100%; }
+.row .twelve , .navbar-container     { width: 100%; }
 
 /* Offsets */
 .row .offset-1    { margin-left: 8.33333%; }
@@ -723,7 +729,11 @@ properly.
 	   width: 480px;
 	   margin: 0 auto;
       padding: 0;
-	}
+   }
+   .navbar-container {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+   }
    .column, .columns {
 	   width: auto !important;
 	   float: none;

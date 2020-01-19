@@ -1,56 +1,58 @@
-<header class="navbar navbar-expand-md fixed-top">
-  {{ with .Site.GetPage "home" }}
-    <a class="navbar-brand" href="{{ .Permalink }}">
-      {{ with .Site.Params.siteLogoImage }}
-        <img class="logo" alt="logo" src="{{ . | absURL }}" />
-      {{ end }}
-    </a>
-  {{ end }}
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fa fa-bars"></i>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav">
-      {{ with .Site.GetPage "home" }}
-        <!-- class active -->
-        <li class="nav-item"><a class="nav-link" href="{{ .Permalink }}">{{ i18n "blog" }}</a></li>
-      {{ end }}
+<header class="navbar-expand-md fixed-top">
+  <div class="navbar navbar-container">
+    {{ with .Site.GetPage "home" }}
+      <a class="navbar-brand" href="{{ .Permalink }}">
+        {{ with .Site.Params.siteLogoImage }}
+          <img class="logo" alt="logo" src="{{ . | absURL }}" />
+        {{ end }}
+      </a>
+    {{ end }}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav">
+        {{ with .Site.GetPage "home" }}
+          <!-- class active -->
+          <li class="nav-item"><a class="nav-link" href="{{ .Permalink }}">{{ i18n "blog" }}</a></li>
+        {{ end }}
 
-      {{ range $index, $menuItem := .Site.Menus.main }}
-      <li class="nav-item">
-        {{ with $menuItem.Page }}
-          <a class="nav-link" href="{{ .Permalink }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
-        {{ else }}
-          {{ if hasPrefix .URL "http" }}
-            <a class="nav-link" href="{{ .URL | safeURL }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
+        {{ range $index, $menuItem := .Site.Menus.main }}
+        <li class="nav-item">
+          {{ with $menuItem.Page }}
+            <a class="nav-link" href="{{ .Permalink }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
           {{ else }}
-            <a class="nav-link" href="{{ .URL | absLangURL | safeURL }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
+            {{ if hasPrefix .URL "http" }}
+              <a class="nav-link" href="{{ .URL | safeURL }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
+            {{ else }}
+              <a class="nav-link" href="{{ .URL | absLangURL | safeURL }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
+            {{ end }}
+          {{ end }}
+        </li>
+        {{ end }}
+
+        <!-- Languages -->
+        {{ if .IsTranslated }}
+        {{- $last := (sub (len .Translations) 1) -}}
+          {{ range $index, $value := (.Translations | sort) -}}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ $value.Permalink }}"><i class="fa fa-globe"></i> {{ $value.Lang | upper }}</a>
+            </li>
+            {{- if ne $index $last }}, {{ end -}}
+          {{ end }}
+        {{ else }}
+        {{ if and (gt (len .Site.Home.AllTranslations) 1) (.Site.Params.showMenuLanguages | default false ) }}
+          {{- $.Scratch.Set "language" .Language -}}
+          {{ range .Site.Home.AllTranslations }}
+          {{ if ne ($.Scratch.Get "language") .Language }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .Permalink }}"><i class="fa fa-globe"></i> {{ .Language.LanguageName }}</a>
+            </li>
+          {{ end }}
           {{ end }}
         {{ end }}
-      </li>
-      {{ end }}
-
-      <!-- Languages -->
-      {{ if .IsTranslated }}
-      {{- $last := (sub (len .Translations) 1) -}}
-        {{ range $index, $value := (.Translations | sort) -}}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ $value.Permalink }}"><i class="fa fa-globe"></i> {{ $value.Lang | upper }}</a>
-          </li>
-          {{- if ne $index $last }}, {{ end -}}
         {{ end }}
-      {{ else }}
-      {{ if and (gt (len .Site.Home.AllTranslations) 1) (.Site.Params.showMenuLanguages | default false ) }}
-        {{- $.Scratch.Set "language" .Language -}}
-        {{ range .Site.Home.AllTranslations }}
-        {{ if ne ($.Scratch.Get "language") .Language }}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ .Permalink }}"><i class="fa fa-globe"></i> {{ .Language.LanguageName }}</a>
-          </li>
-        {{ end }}
-        {{ end }}
-      {{ end }}
-      {{ end }}
-    </ul>
+      </ul>
+    </div>
   </div>
 </header>
