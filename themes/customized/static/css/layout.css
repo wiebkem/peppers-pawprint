@@ -33,17 +33,22 @@ body { background-color: #D2D8D8; }
 img { border-radius: 3px; }
 .content-outer { background: #fff }
 
+.cc-revoke {
+   display: none;
+}
+
 /* page title */
 #page-title {
    background: #383232;
-   padding-top: 42px;
-   padding-bottom: 54px;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   margin-top: 78px;
 }
 #page-title h1 {
    font: 50px/60px raleway-bold, sans-serif;
    color: #fff;
    padding: 0;
-   margin: 0 0 18px 0;
+   margin: 0;
    text-shadow: 0px 1px 5px rgba(0, 0, 0, .3);
 }
 #page-title h1 span,
