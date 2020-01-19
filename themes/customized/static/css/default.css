@@ -54,6 +54,7 @@ time, mark, audio, video {
    font-size: 100%;
    vertical-align: baseline;
    background: transparent;
+   word-break: break-word;
 }
 
 article,aside,details,figcaption,figure,
