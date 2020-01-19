@@ -11,6 +11,7 @@
   {{- partial "head.html" . -}}
 </head>
 <body>
+  {{- partial "header.html" . -}}
   {{ if .Resources.GetMatch "header" }}
   <div class="header-container" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('{{ (.Resources.GetMatch "header").Permalink }}'); background-position: center; background-size: cover; ">
   {{ else if .Site.Params.headerImage }}
@@ -18,7 +19,6 @@
   {{ else }}
   <div class="header-container gradient">
   {{ end }}
-  {{- partial "header.html" . -}}
   {{ block "header" . }}{{- end }}
   </div>
   <main>
