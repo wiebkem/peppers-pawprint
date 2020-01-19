@@ -26,4 +26,4 @@ We hereby declare that at the time of linking, no illegal content was recognizab
 
 Therefore, we dissociate ourselves from all contents of all pages linked / referred to, which were changed after the link setting. This statement applies to all links and references within this online presence.
 
-For illegal, incorrect or incomplete contents and in particular for damages resulting from the use or non-use of such information presented, liability lies with the provider of the page linked or referred to, and not the one linking or referring to.
+For illegal, incorrect or incomplete contents and in particular for damages resulting from the use or non-use of such information presented, liability lies with the provider of the page linked or referred to, and not the one linking or referring to. Use of any such linked website is at the user's own risk.
