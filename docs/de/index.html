@@ -106,27 +106,6 @@
   <div id="page-content" class="row">
     <div id="primary" class="eight columns"><article class="post">
       <div class="entry-header cf">
-        <h1><a href="https://wiebkem.github.io/peppers-pawprint/de/rohf%C3%BCtterung/" title="">Rohfütterung</a></h1>
-        <p class="post-meta">
-          <time class="date" datetime="2014-01-14T11:24">13 Dec 19</time>
-          
-          /
-          <span class="categories">
-              <a href="https://wiebkem.github.io/peppers-pawprint/de/category/gesundheit/">Gesundheit</a>
-          </span>
-          
-        </p>
-      </div>
-      <a href="https://wiebkem.github.io/peppers-pawprint/de/rohf%C3%BCtterung/" title="">
-        
-      </a>
-      <div class="post-content">
-          <p></p>
-      </div>
-      
-    </article>
-    <article class="post">
-      <div class="entry-header cf">
         <h1><a href="https://wiebkem.github.io/peppers-pawprint/de/wer-ist-pepper/" title="">Wer ist Pepper?</a></h1>
         <p class="post-meta">
           <time class="date" datetime="2014-01-14T11:24">13 Dec 19</time>
@@ -162,8 +141,6 @@
         <div class="widget widget_categories">
           <h5 class="widget-title">Kategorie</h5>
           <ul class="link-list cf">
-            
-            <li><a href="https://wiebkem.github.io/peppers-pawprint/de/category/gesundheit/">Gesundheit (1)</a></li>
             
             <li><a href="https://wiebkem.github.io/peppers-pawprint/de/category/willkommen/">Willkommen (1)</a></li>
             
@@ -287,29 +264,27 @@
     }
 
     function enableGoogleAnalytics() {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-in' && didConsent) {
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'UA-110091808-1', 'auto');
-            ga('set', 'anonymizeIp', true);
-            ga('send', 'pageview');
-        }
+        alert("enableGoogleAnalytics");
+        alert("did consent!!");
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-110091808-1', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+        alert("disabled");
     }
 
     function disableGoogleAnalytics() {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-out' && !didConsent) {
-            var gaProperty = 'UA-110091808-1';
-            var disableStr = 'ga-disable-' + gaProperty;
-            if (document.cookie.indexOf(disableStr + '=true') > -1) {
-            window[disableStr] = true;
-            }
-            function gaOptout() {
-            document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
-            window[disableStr] = true;
-            }
+        alert("disableGoogleAnalytics");
+        var gaProperty = 'UA-110091808-1';
+        var disableStr = 'ga-disable-' + gaProperty;
+        if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+        alert("disabled cookie");
+        }
+        function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+        alert("gaOptout");
         }
     }
 
@@ -377,29 +352,27 @@
     }
 
     function enableGoogleAnalytics() {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-in' && didConsent) {
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'UA-110091808-1', 'auto');
-            ga('set', 'anonymizeIp', true);
-            ga('send', 'pageview');
-        }
+        alert("enableGoogleAnalytics");
+        alert("did consent!!");
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-110091808-1', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+        alert("disabled");
     }
 
     function disableGoogleAnalytics() {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-out' && !didConsent) {
-            var gaProperty = 'UA-110091808-1';
-            var disableStr = 'ga-disable-' + gaProperty;
-            if (document.cookie.indexOf(disableStr + '=true') > -1) {
-            window[disableStr] = true;
-            }
-            function gaOptout() {
-            document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
-            window[disableStr] = true;
-            }
+        alert("disableGoogleAnalytics");
+        var gaProperty = 'UA-110091808-1';
+        var disableStr = 'ga-disable-' + gaProperty;
+        if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+        alert("disabled cookie");
+        }
+        function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+        alert("gaOptout");
         }
     }
 

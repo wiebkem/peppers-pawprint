@@ -283,29 +283,27 @@ You can find our email address in the imprint above.</p>
     }
 
     function enableGoogleAnalytics() {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-in' && didConsent) {
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'UA-110091808-1', 'auto');
-            ga('set', 'anonymizeIp', true);
-            ga('send', 'pageview');
-        }
+        alert("enableGoogleAnalytics");
+        alert("did consent!!");
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-110091808-1', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+        alert("disabled");
     }
 
     function disableGoogleAnalytics() {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-out' && !didConsent) {
-            var gaProperty = 'UA-110091808-1';
-            var disableStr = 'ga-disable-' + gaProperty;
-            if (document.cookie.indexOf(disableStr + '=true') > -1) {
-            window[disableStr] = true;
-            }
-            function gaOptout() {
-            document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
-            window[disableStr] = true;
-            }
+        alert("disableGoogleAnalytics");
+        var gaProperty = 'UA-110091808-1';
+        var disableStr = 'ga-disable-' + gaProperty;
+        if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+        alert("disabled cookie");
+        }
+        function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+        alert("gaOptout");
         }
     }
 
@@ -373,29 +371,27 @@ You can find our email address in the imprint above.</p>
     }
 
     function enableGoogleAnalytics() {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-in' && didConsent) {
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'UA-110091808-1', 'auto');
-            ga('set', 'anonymizeIp', true);
-            ga('send', 'pageview');
-        }
+        alert("enableGoogleAnalytics");
+        alert("did consent!!");
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-110091808-1', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+        alert("disabled");
     }
 
     function disableGoogleAnalytics() {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-out' && !didConsent) {
-            var gaProperty = 'UA-110091808-1';
-            var disableStr = 'ga-disable-' + gaProperty;
-            if (document.cookie.indexOf(disableStr + '=true') > -1) {
-            window[disableStr] = true;
-            }
-            function gaOptout() {
-            document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
-            window[disableStr] = true;
-            }
+        alert("disableGoogleAnalytics");
+        var gaProperty = 'UA-110091808-1';
+        var disableStr = 'ga-disable-' + gaProperty;
+        if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+        alert("disabled cookie");
+        }
+        function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+        alert("gaOptout");
         }
     }
 
