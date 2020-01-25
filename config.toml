@@ -20,7 +20,7 @@ paginate = 10
 paginatePath = "page"
 
 # service plugins
-googleAnalytics = "UA-110091808-1"
+googleAnalytics = "UA-154765901-1"
 
 # language support # en / de translations present in i18n
 defaultContentLanguage = "en"           # Default language to use
