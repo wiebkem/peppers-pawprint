@@ -47,6 +47,27 @@
 <meta itemprop="keywords" content="Steckbrief,Pepper," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Wer ist Pepper?"/>
 <meta name="twitter:description" content="Dieser Blogeintrag erzählt über Pepper&#39;s Hobbys und seine Eigenarten."/>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-154765901-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 </head>
 <body><header class="navbar-expand-md fixed-top">
   <div class="navbar navbar-container">
@@ -283,7 +304,7 @@ Außerdem findet Pepper es genial sich auf einem Spaziergang im Gras 🌿 zu rol
         alert("enableGoogleAnalytics");
         alert("did consent!!");
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', 'UA-110091808-1', 'auto');
+        ga('create', 'UA-154765901-1', 'auto');
         ga('set', 'anonymizeIp', true);
         ga('send', 'pageview');
         alert("disabled");
@@ -291,7 +312,7 @@ Außerdem findet Pepper es genial sich auf einem Spaziergang im Gras 🌿 zu rol
 
     function disableGoogleAnalytics() {
         alert("disableGoogleAnalytics");
-        var gaProperty = 'UA-110091808-1';
+        var gaProperty = 'UA-154765901-1';
         var disableStr = 'ga-disable-' + gaProperty;
         if (document.cookie.indexOf(disableStr + '=true') > -1) {
         window[disableStr] = true;
