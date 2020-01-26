@@ -2,6 +2,10 @@
 <script src="{{ "js/" | absURL }}{{ . }}" crossorigin="anonymous"></script>
 {{ end }}
 
+{{ range .Site.Params.customJS }}
+<script src="{{ "js/" | absURL }}{{ . }}" crossorigin="anonymous"></script>
+{{ end }}
+
 
 <!-- {{- if and (or .Params.mathjax (and .Site.Params.mathjax (ne .Params.mathjax false))) (or .IsPage .IsHome) }}
 <script>
