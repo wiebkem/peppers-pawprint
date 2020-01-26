@@ -3,56 +3,49 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/categories/</loc>
-    <lastmod>2019-12-13T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/tag/pepper/</loc>
-    <lastmod>2019-12-13T07:47:39+01:00</lastmod>
+    <lastmod>2020-01-26T10:46:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/</loc>
-    <lastmod>2019-12-13T07:47:39+01:00</lastmod>
+    <lastmod>2020-01-26T10:46:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/posts/</loc>
-    <lastmod>2019-12-13T07:47:39+01:00</lastmod>
+    <lastmod>2020-01-26T10:46:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/de/tag/steckbrief/</loc>
-    <lastmod>2019-12-13T07:47:39+01:00</lastmod>
+    <loc>https://www.peppers-pawprint.com/de/category/reisen/</loc>
+    <lastmod>2020-01-26T10:46:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/tag/schweden/</loc>
+    <lastmod>2020-01-26T10:46:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/schweden/</loc>
+    <lastmod>2020-01-26T10:46:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/tags/</loc>
-    <lastmod>2019-12-13T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/wer-ist-pepper/</loc>
-    <lastmod>2019-12-13T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/category/willkommen/</loc>
-    <lastmod>2019-12-13T07:47:39+01:00</lastmod>
+    <lastmod>2020-01-26T10:46:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
