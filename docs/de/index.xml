@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
     <title>Pepper&#39;s Pawprint</title>
-    <link>https://wiebkem.github.io/peppers-pawprint/de/</link>
+    <link>https://www.peppers-pawprint.com/de/</link>
     <description>Recent content on Pepper&#39;s Pawprint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Fri, 13 Dec 2019 07:47:39 +0100</lastBuildDate>
     
-        <atom:link href="https://wiebkem.github.io/peppers-pawprint/de/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.peppers-pawprint.com/de/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Posts</title>
-      <link>https://wiebkem.github.io/peppers-pawprint/de/posts/</link>
+      <link>https://www.peppers-pawprint.com/de/posts/</link>
       <pubDate>Fri, 13 Dec 2019 07:47:39 +0100</pubDate>
       
-      <guid>https://wiebkem.github.io/peppers-pawprint/de/posts/</guid>
+      <guid>https://www.peppers-pawprint.com/de/posts/</guid>
       
         <description></description>
       
@@ -23,10 +23,10 @@
     
     <item>
       <title>Datenschutzerklärung</title>
-      <link>https://wiebkem.github.io/peppers-pawprint/de/privacy/</link>
+      <link>https://www.peppers-pawprint.com/de/privacy/</link>
       <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
       
-      <guid>https://wiebkem.github.io/peppers-pawprint/de/privacy/</guid>
+      <guid>https://www.peppers-pawprint.com/de/privacy/</guid>
       
         <description>&lt;h2 id=&#34;1-datenschutz-auf-einen-blick&#34;&gt;1. Datenschutz auf einen Blick&lt;/h2&gt;
 &lt;h3 id=&#34;allgemeine-hinweise&#34;&gt;Allgemeine Hinweise&lt;/h3&gt;
@@ -131,10 +131,10 @@ Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 li
     
     <item>
       <title>Impressum</title>
-      <link>https://wiebkem.github.io/peppers-pawprint/de/impressum/</link>
+      <link>https://www.peppers-pawprint.com/de/impressum/</link>
       <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
       
-      <guid>https://wiebkem.github.io/peppers-pawprint/de/impressum/</guid>
+      <guid>https://www.peppers-pawprint.com/de/impressum/</guid>
       
         <description>&lt;h2 id=&#34;angaben-gem--5-tmg&#34;&gt;Angaben gemäß § 5 TMG&lt;/h2&gt;
 &lt;p&gt;Wiebke Meyer&lt;br&gt;
@@ -163,10 +163,10 @@ Unsere E-Mail-Adresse finden Sie oben im Impressum.&lt;/p&gt;
     
     <item>
       <title>Über uns</title>
-      <link>https://wiebkem.github.io/peppers-pawprint/de/about/</link>
+      <link>https://www.peppers-pawprint.com/de/about/</link>
       <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
       
-      <guid>https://wiebkem.github.io/peppers-pawprint/de/about/</guid>
+      <guid>https://www.peppers-pawprint.com/de/about/</guid>
       
         <description>&lt;p&gt;Ich freue mich, dass Du den Weg zu uns gefunden hast! 😃&lt;/p&gt;
 &lt;p&gt;Hier möchte ich Dich an unserem Weg 🛤️ teilhaben lassen und über interessante Themen im Hundealltag 🐶 berichten. Außerdem wirst Du mehr lesen über Reisen mit Hund und warum ich eine Ausbildung zum Hundetrainer 🐕 angefangen habe. Es bleibt also spannend!&lt;/p&gt;

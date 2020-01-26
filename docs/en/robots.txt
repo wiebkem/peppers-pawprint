@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://wiebkem.github.io/peppers-pawprint/sitemap.xml
+Sitemap: https://www.peppers-pawprint.com/sitemap.xml

@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
     <title>Pepper&#39;s Pawprint</title>
-    <link>https://wiebkem.github.io/peppers-pawprint/en/</link>
+    <link>https://www.peppers-pawprint.com/en/</link>
     <description>Recent content on Pepper&#39;s Pawprint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All rights reserved.</copyright>
     <lastBuildDate>Fri, 13 Dec 2019 07:47:39 +0100</lastBuildDate>
     
-        <atom:link href="https://wiebkem.github.io/peppers-pawprint/en/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.peppers-pawprint.com/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Posts</title>
-      <link>https://wiebkem.github.io/peppers-pawprint/en/posts/</link>
+      <link>https://www.peppers-pawprint.com/en/posts/</link>
       <pubDate>Fri, 13 Dec 2019 07:47:39 +0100</pubDate>
       
-      <guid>https://wiebkem.github.io/peppers-pawprint/en/posts/</guid>
+      <guid>https://www.peppers-pawprint.com/en/posts/</guid>
       
         <description></description>
       
@@ -24,10 +24,10 @@
     
     <item>
       <title>About us</title>
-      <link>https://wiebkem.github.io/peppers-pawprint/en/about/</link>
+      <link>https://www.peppers-pawprint.com/en/about/</link>
       <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
       
-      <guid>https://wiebkem.github.io/peppers-pawprint/en/about/</guid>
+      <guid>https://www.peppers-pawprint.com/en/about/</guid>
       
         <description>&lt;p&gt;I am glad that you have found us! 😃&lt;/p&gt;
 &lt;p&gt;Here I would like to let you participate in our journey 🛤️ and to report on interesting topics in everyday dog life 🐶. You will also read more about traveling with a dog and why I started a dog trainer education 🐕. Stay tuned!&lt;/p&gt;
@@ -48,10 +48,10 @@ On a walk, Pepper thinks it&#39;s great to roll in the grass 🌿. It became a s
     
     <item>
       <title>Imprint</title>
-      <link>https://wiebkem.github.io/peppers-pawprint/en/impressum/</link>
+      <link>https://www.peppers-pawprint.com/en/impressum/</link>
       <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
       
-      <guid>https://wiebkem.github.io/peppers-pawprint/en/impressum/</guid>
+      <guid>https://www.peppers-pawprint.com/en/impressum/</guid>
       
         <description>&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
 &lt;p&gt;Wiebke Meyer&lt;br&gt;
@@ -75,10 +75,10 @@ You can find our email address in the imprint above.&lt;/p&gt;
     
     <item>
       <title>Privacy</title>
-      <link>https://wiebkem.github.io/peppers-pawprint/en/privacy/</link>
+      <link>https://www.peppers-pawprint.com/en/privacy/</link>
       <pubDate>Sun, 08 Dec 2019 20:14:39 +0100</pubDate>
       
-      <guid>https://wiebkem.github.io/peppers-pawprint/en/privacy/</guid>
+      <guid>https://www.peppers-pawprint.com/en/privacy/</guid>
       
         <description>&lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h2&gt;
 &lt;p&gt;This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.&lt;br&gt;
