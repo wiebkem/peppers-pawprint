@@ -35,9 +35,3 @@
     <div id="go-top" style="display: block;"><a title="Back to Top" href="#"><i class="fas fa-chevron-up"></i>Go To Top</a></div>
   </div>
 </footer>
-
-{{- if and .Site.GoogleAnalytics (not .Site.IsServer) -}}
-  {{ partial "cookies.html" . }}
-{{- end -}}
-
-{{ partial "cookies.html" . }}
