@@ -1,5 +1,5 @@
 +++
-title =  "Schweden"
+title =  "Generelle Tipps für Schweden"
 date = 2020-01-26T10:46:00+01:00
 tags = [
     "Schweden",
@@ -25,10 +25,22 @@ Die Fähre dauert 6 bis 7 Stunden. Die reine Überfahrt ist ungefähr 6 Stunden,
 Persönlich habe ich mich dazu entschlossen von Deutschland nach Schweden nicht über Dänemark zu fahren, sondern die Fähre zu nehmen. Dies hat sich so ergeben, da ich die Strecke alleine gefahren bin. Ich bevorzuge auch die Nachtfähren, da ich dann die Möglichkeit habe auf der Fähre zu schlafen und mich aus zu ruhen.
 
 
-### Hunde Einreisebestimmungen
-Wenn man mit seinem Hund generell in ein andere Land reist, benötigt dieser einen Heimtierausweis, einen Mikrochip und eine gültige Tollwutimpfung. Desweiteren gibt es keine speziellen Einreisebestimmungen für Schweden.
+### Einreisebestimmungen
+Wenn man mit seinem Hund generell in ein anderes Land in der EU reist, benötigt dieser einen Heimtierausweis, einen Mikrochip und eine gültige Tollwutimpfung. Desweiteren gibt es mittlerweile keine weiteren Einreisebestimmungen für Schweden.
 
 
 ### Nationalparks
 In allen Nationalparks in Schweden müssen Hunde angeleint werden. Dies ist zum Schutz der Tiere und der Natur. Alle Informationen zu den Nationalparks stehen auf der Webseite von [National parks of Sweden](http://www.nationalparksofsweden.se/de/).  
 Pepper habe ich in den Nationalparks meistens mit einer Schleppleine angeleint. Unsere Schleppleine ist 7,5 Meter lang. Auf diese Weise hatte er mehr Freiraum um sich zu bewegen und war trotzdem angeleint.
+
+
+### Freilauf außerhalb der Nationalparks
+Der Hund muss im Stadtbereich angeleint sein. Im Waldbereich darf der Hund meistens freilaufen. Um sicher zu gehen, sollten Sie die Informationsstafel lesen, auf denen steht, zu welcher Jahreszeit Ihr Hund in dem Wald frei laufen darf.
+
+
+### Öffentliche Verkehrsmittel
+Hunde dürfen in den öffentlichen Verkehrsmitteln kostenlos mitgenommen werden. Dafür gibt es spezielle Bereiche für Hunde, welche meistens im hinteren Abteil sind, da in dem Fall Menschen mit einer Allergie im vorderen Teil geschützt sind. Wenn man diese Bereiche beachtet, ist es ganz unkompliziert mit seinem Hund die öffentlichen Verkehrsmittel zu nutzen.
+
+
+### Weitere Informationen
+Weitere Information zu den Regionen in Schweden, Unterkünften und Aktivitäten gibt es auch auf [Visit Sweden](https://visitsweden.de/).
