@@ -56,28 +56,6 @@ Interpretation and Definitions Interpretation The words of which the initial let
 <meta name="twitter:description" content="Privacy Policy This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
 Interpretation and Definitions Interpretation The words of which the initial letter is capitalized have meanings defined under the following conditions."/>
-<template id="cookieConsent">
-<script type="application/javascript">
-var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-var doNotTrack = (dnt == "1" || dnt == "yes");
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	if (window.sessionStorage) {
-		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
-		ga('create', 'UA-154765901-1', {
-	    'storage': 'none',
-	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
-	   });
-	   ga(function(tracker) {
-	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
-	   });
-   }
-	ga('set', 'anonymizeIp', true);
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-</template>
 </head>
 <body><header class="navbar-expand-md fixed-top">
   <div class="navbar navbar-container">
@@ -370,7 +348,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
             "deny": 'Decline',
             "allow": 'Allow',
             "link": 'Learn more.',
-            "href": 'https:\/\/www.peppers-pawprint.com\/privacy'
+            "href": 'privacy'
         },
         onInitialise: initialise,
         onStatusChange: statusChange
