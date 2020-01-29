@@ -6,6 +6,8 @@
 <script src="{{ "js/" | absURL }}{{ . }}" crossorigin="anonymous"></script>
 {{ end }}
 
+{{ partial "cookies.html" . }}
+
 
 <!-- {{- if and (or .Params.mathjax (and .Site.Params.mathjax (ne .Params.mathjax false))) (or .IsPage .IsHome) }}
 <script>
