@@ -9,7 +9,6 @@
 })();
 
 function enableGoogleAnalytics() {
-  alert("enableGoogleAnalytics");
   // check the do not track option from the browser
   var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
   var doNotTrack = (dnt == "1" || dnt == "yes");
@@ -31,14 +30,11 @@ function enableGoogleAnalytics() {
 }
 
 function disableGoogleAnalytics() {
-  alert("disableGoogleAnalytics");
   var gaProperty = '{{ .Site.GoogleAnalytics }}';
   var disableStr = 'ga-disable-' + gaProperty;
   if (document.cookie.indexOf(disableStr + '=true') > -1) {
       window[disableStr] = true;
   }
-  function gaOptout() {
-      document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
-      window[disableStr] = true;
-  }
+  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+  window[disableStr] = true;
 }
