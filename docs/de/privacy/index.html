@@ -394,7 +394,8 @@ Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 li
         if (document.cookie.indexOf(disableStr + '=true') > -1) {
             window[disableStr] = true;
         } else {
-            gaOptOut();
+            document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+            window[disableStr] = true;
         }
     }
 </script>
