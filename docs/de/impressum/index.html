@@ -285,6 +285,7 @@ Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
     });
 
     function initialise(status) {
+        alert("initialise status: " + status + " cookie: " + document.cookie);
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
             activateTemplate('#cookieConsent')

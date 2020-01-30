@@ -266,6 +266,7 @@ On a walk, Pepper thinks it's great to roll in the grass 🌿. It became a stand
     });
 
     function initialise(status) {
+        alert("initialise status: " + status + " cookie: " + document.cookie);
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
             activateTemplate('#cookieConsent')
