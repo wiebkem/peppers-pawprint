@@ -22,7 +22,7 @@
           <p>
             {{ .Content }}
             {{ with .Params.privacyOptOut -}}
-              <a id="privacyOptOut" href="javascript:disableGoogleAnalytics()">{{ . }}</a>
+              <a id="privacyOptOut" href="javascript:gaOptout()">{{ . }}</a>
             {{ end }}
           </p>
         </section> <!-- section end -->
