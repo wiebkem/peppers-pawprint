@@ -236,7 +236,7 @@ Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 li
 <a href="http://tools.google.com/dlpage/gaoptout?hl=de">http://tools.google.com/dlpage/gaoptout?hl=de</a></p>
 <p>Alternativ zum Browser-Plugin oder innerhalb von Browsern auf mobilen Geräten klicken Sie bitte auf den folgenden Link, um ein Opt-Out-Cookie zu setzen, der die Erfassung durch Google Analytics innerhalb dieser Website zukünftig verhindert (dieses Opt-Out-Cookie funktioniert nur in diesem Browser und nur für diese Domain, löschen Sie Ihre Cookies in diesem Browser, müssen Sie diesen Link erneut klicken):</p>
 
-            <a id="privacyOptOut" href="javascript:disableGoogleAnalytics()">Google Analytics deaktivieren</a>
+            <a id="privacyOptOut" href="javascript:gaOptout()">Google Analytics deaktivieren</a>
             
           </p>
         </section> 
@@ -364,6 +364,44 @@ Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 li
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableGoogleAnalytics() {
+        
+        var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+        var doNotTrack = (dnt == "1" || dnt == "yes");
+        if (!doNotTrack) {
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        if (window.sessionStorage) {
+            var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+            ga('create', 'UA-154765901-1', {
+                'storage': 'none',
+                'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+            });
+            ga(function(tracker) {
+                sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+            });
+        }
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+        }
+    }
+
+    function disableGoogleAnalytics() {
+        
+        var gaProperty = 'UA-154765901-1';
+        var disableStr = 'ga-disable-' + gaProperty;
+        if (document.cookie.indexOf(disableStr + '=true') > -1) {
+            window[disableStr] = true;
+        } else {
+            gaOptOut();
+        }
+    }
+
+    
+    function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
     }
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
