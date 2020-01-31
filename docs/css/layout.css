@@ -33,7 +33,9 @@ body { background-color: #D2D8D8; }
 img { border-radius: 3px; }
 .content-outer { background: #fff }
 
-
+.cc-revoke {
+   display: none;
+}
 
 /* page title */
 #page-title {
