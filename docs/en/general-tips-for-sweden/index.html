@@ -47,7 +47,28 @@
 <meta itemprop="keywords" content="Sweden," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="General tips for Sweden"/>
 <meta name="twitter:description" content="This blog entry is about the travel options to Sweden from Germany, the entry requirements for dogs and the national parks in Sweden."/>
-<template id="cookieConsent"></template>
+<template id="cookieConsent">
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-154765901-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</template>
 </head>
 <body><header class="navbar-expand-md fixed-top">
   <div class="navbar navbar-container">
@@ -325,7 +346,7 @@ I usually kept Pepper on a long leash in the national parks which is 7.5 meters 
 
     function disableGoogleAnalytics() {
         
-        var gaProperty = '';
+        var gaProperty = 'UA-154765901-1';
         var disableStr = 'ga-disable-' + gaProperty;
         if (document.cookie.indexOf(disableStr + '=true') > -1) {
             window[disableStr] = true;
