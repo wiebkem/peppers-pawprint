@@ -11,7 +11,7 @@
 
 // Opt-out function
 function gaOptout() {
-  var gaProperty = 'UA-154765901-1';
+  var gaProperty = 'UA-157451297-1';
   var disableStr = 'ga-disable-' + gaProperty;
   document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
   window[disableStr] = true;
