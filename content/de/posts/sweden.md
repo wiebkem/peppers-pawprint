@@ -8,7 +8,7 @@ categories = [
     "Reisen"
 ]
 featured_image = "article_images/swedenTravel.jpg"
-description = "Dieser Blogeintrag erzählt über die Reisemöglichkeiten von Deutschland nach Schweden, die Einreisebestimmungen für Hunde und die Nationaparks in Schweden."
+description = "Dieser Blogeintrag erzählt über die Reisemöglichkeiten von Deutschland nach Schweden, die Einreisebestimmungen für Hunde und die Nationalparks in Schweden."
 +++
 
 Es war schon immer mein Traum, dass ich für eine Zeit in Schweden wohnen werde. Für mein Masterstudium ist dieser Traum dann in Erfüllung gegangen. Pepper und ich haben insgesamt 1,5 Jahre in Schweden verbracht und dort die Wälder unsicher gemacht.
