@@ -22,7 +22,7 @@ On the ferry you cannot stay inside the car, but most ferries have their own lou
 Many children run around during the day and it is generally very restless. At night you can sleep on the floor next to your dog if you don't have a pet cabin, and everything is calmer and more relaxed than during the day.  
 The ferry takes 6 to 7 hours. The pure crossing is about 6 hours, but you are usually loaded onto the ship a little earlier and it takes a little longer to unload. I always waited at a petrol station or rest area at the ferry port to let the dog out for the last time. After the crossing and unloading all cars, the first resting place was my point of interest to leave out the dog.
 
-Personally, I decided not to travel from Germany to Sweden via Denmark, but to take the ferry. I made this choise as I drove the route alone. Additionally, I prefer the night ferries as I have the opportunity to sleep on the ferry.
+Personally, I decided not to travel from Germany to Sweden via Denmark, but to take the ferry. I made this choice as I drove the route alone. Additionally, I prefer the night ferries as I have the opportunity to sleep on the ferry.
 
 
 ### Entry requirements

@@ -35,7 +35,7 @@ Pepper habe ich in den Nationalparks meistens mit einer Schleppleine angeleint. 
 
 
 ### Freilauf außerhalb der Nationalparks
-Der Hund muss im Stadtbereich angeleint sein. Im Waldbereich darf der Hund meistens freilaufen. Um sicher zu gehen, sollten Sie die Informationsstafel lesen, auf denen steht, zu welcher Jahreszeit Ihr Hund in dem Wald frei laufen darf.
+Der Hund muss im Stadtbereich angeleint sein. Im Waldbereich darf der Hund meistens freilaufen. Um sicher zu gehen, sollten Sie die Informationsstafel lesen, auf denen steht, zu welcher Jahreszeit Ihr Hund in dem Wald freilaufen darf.
 
 
 ### Öffentliche Verkehrsmittel
