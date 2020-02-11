@@ -21,7 +21,7 @@ Im Januar 2014 fing ein neues Problem an. Wir hatten damals gerade den Ausschlag
 Mit dem Barfen hatte ich dann auch ganz spontan angefangen und Pepper konnte es auch direkt gut verwerten. Nach ein paar Wochen bin ich dann auch das Prey Model Raw Konzept gestoßen. Dies sagte mir noch mehr zu, da dort keine pflanzlichen Inhaltsstoffe und auch keine etlichen Zusätze gefüttert werden. Pepper mochte das Gemüse beim Barfen sowieso nicht und hatte es auch nur mit Widerwillen gefressen. Somit sind wir innerhalb von ein paar Wochen direkt vom Barfen zum Prey Model Raw gewechselt und sind seitdem wirklich glücklich mit dieser Entscheidung. Nach 6 Jahren können wir sagen, dass wir nicht mehr wechseln werden und unsere Fütterungsmethode gefunden haben.
 
 
-## Prey Model Raw (RAW) Konzept
+## Prey Model Raw Konzept
 Das Prey Model Raw (PMR) Konzept basiert auf ganzen Beutetieren ohne pflanzliche Inhaltsstoffe. Wenn es keine Möglichkeit gibt ganze Beutetiere zu füttern, wird dieses auf Basis der folgenden Aufteilung zusammengestellt:
 - 80 % Fleisch incl. Fett
 - 10 % Knochen
