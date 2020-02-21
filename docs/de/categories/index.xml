@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Pepper&#39;s Pawprint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Thu, 06 Feb 2020 07:47:39 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2020 07:47:39 +0100</lastBuildDate>
     
 	<atom:link href="https://www.peppers-pawprint.com/de/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fütterung</title>
+      <link>https://www.peppers-pawprint.com/de/category/f%C3%BCtterung/</link>
+      <pubDate>Fri, 21 Feb 2020 07:47:39 +0100</pubDate>
+      
+      <guid>https://www.peppers-pawprint.com/de/category/f%C3%BCtterung/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Reisen</title>

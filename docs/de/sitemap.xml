@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.peppers-pawprint.com/de/categories/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/category/f%C3%BCtterung/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/posts/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/tag/prey-model-raw/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/rohf%C3%BCtterung-oder-auch-prey-model-raw/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/tags/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.peppers-pawprint.com/de/aktivit%C3%A4ten-rund-um-ciney-ardenne/</loc>
     <lastmod>2020-02-06T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,35 +72,7 @@
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/de/categories/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/posts/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.peppers-pawprint.com/de/category/reisen/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/tags/</loc>
     <lastmod>2020-02-06T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

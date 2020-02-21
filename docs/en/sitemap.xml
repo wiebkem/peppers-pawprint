@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.peppers-pawprint.com/en/categories/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/category/diet/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/posts/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/tag/prey-model-raw/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/rawdiet-or-prey-model-raw/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/tags/</loc>
+    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.peppers-pawprint.com/en/tag/ardennes/</loc>
     <lastmod>2020-02-06T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -10,34 +59,6 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/tag/belgium/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/categories/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/tags/</loc>
     <lastmod>2020-02-06T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
