@@ -41,7 +41,7 @@ abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
 b, i,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
@@ -298,7 +298,6 @@ p a, p a:visited { line-height: inherit; }
 /*  4. List  --------------------------------------------------------- */
 
 ul, ol { margin-bottom: 24px; margin-top: 12px; }
-ul { list-style: none outside; }
 ol { list-style: decimal; }
 ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
 ul.square { list-style: square outside; }
@@ -308,7 +307,6 @@ ul ul, ul ol,
 ol ol, ol ul { margin: 6px 0 6px 30px; }
 ul ul li, ul ol li,
 ol ol li, ol ul li { margin-bottom: 6px; }
-li { line-height: 18px; margin-bottom: 12px; }
 ul.large li { }
 li p { }
 
