@@ -2,8 +2,7 @@
 title =  "Aktivitäten rund um Ciney, Ardenne"
 date = 2020-02-06T07:47:39+01:00
 tags = [
-    "Belgien",
-    "Ardenne",
+    "Belgien"
 ]
 categories = [
     "Reisen"
