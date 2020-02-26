@@ -309,6 +309,7 @@ ul ul li, ul ol li,
 ol ol li, ol ul li { margin-bottom: 6px; }
 ul.large li { }
 li p { }
+.link-list { list-style: none; }
 
 /* ---------------------------------------------------------------------
 /*  Stats Tab Markup
