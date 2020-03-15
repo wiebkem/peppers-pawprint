@@ -2,13 +2,11 @@
 <div id="page-title">
   <div class="row">
      <div class="ten columns centered text-center">
-        <h1>{{i18n "blog" }}<span>.</span></h1>
+        <h1>{{ .Title }}</h1>
      </div>
   </div>
 </div>
 {{ end }}
-
-
 
 {{ define "main" }}
 <div class="content-outer">
@@ -16,7 +14,6 @@
     <div id="primary" class="eight columns">
       <article class="post">
         <div class="entry-header cf">
-          <h1>{{ .Title }}</h1>
           <p class="post-meta">
             <time class="date" datetime="2014-01-14T11:24">{{ .Date.Format (.Site.Params.dateFormatToUse | default "Mon 02 January 2006") }}</time>
             {{ with .Params.categories -}}

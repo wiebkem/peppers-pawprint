@@ -27,8 +27,16 @@ header .navbar-toggler {
 header .navbar-brand {
 	height: 48px;
 	padding: 0;
+	display: flex;
 }
 
 header .navbar-brand .logo {
    height: 48px;
 }
+
+header .navbar-brand .name {
+	color: #ffffff;
+	font-family: raleway-bold, sans-serif;
+	padding: 13px 0 0 10px;
+	font-size: 25px;
+ }

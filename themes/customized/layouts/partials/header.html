@@ -5,6 +5,9 @@
         {{ with .Site.Params.siteLogoImage }}
           <img class="logo" alt="logo" src="{{ . | absURL }}" />
         {{ end }}
+        {{ if .Site.Title }}
+          <span class="name">{{ .Site.Title | safeHTML }}</span>
+        {{ end }}
       </a>
     {{ end }}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

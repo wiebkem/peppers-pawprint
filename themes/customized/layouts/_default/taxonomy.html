@@ -3,11 +3,7 @@
 <div id="page-title">
   <div class="row">
      <div class="ten columns centered text-center">
-        <h1>
-          {{ i18n .Data.Singular }}: {{ .Title }}
-          <span>.</span>
-        </h1>
-        <p>{{ i18n (printf "archive_of_%s" .Data.Singular) }} "{{ .Title }}"</p>
+        <h1>{{ i18n .Data.Singular }}: {{ .Title }}</h1>
      </div>
   </div>
 </div>

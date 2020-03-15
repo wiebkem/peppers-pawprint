@@ -2,17 +2,7 @@
 <div id="page-title">
   <div class="row">
      <div class="ten columns centered text-center">
-        <h1>
-          {{ if .Site.Params.headerTitle }}
-          {{ .Site.Params.headerTitle | safeHTML }}
-          {{ else }}
-            {{ .Site.Title | safeHTML }}
-          {{ end }}
-          <span>.</span>
-        </h1>
-        {{ with .Site.Params.description }}
-        <p>{{ . | safeHTML }}</p>
-        {{ end }}
+      <h1>{{i18n "blog" }}</h1>
      </div>
   </div>
 </div>
