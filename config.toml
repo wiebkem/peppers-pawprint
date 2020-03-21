@@ -12,6 +12,7 @@ enableEmoji = true           # use emoji support
 hasCJKLanguage = true        # detect CJK languages for word count etc.
 preserveTaxonomyNames = true # do not make tag names lowercase
 rssLimit = 20                # limit number of entries in RSS feeds
+removePathAccents = true     # fix taxonomies in foreign languages
 
 # Pagination
 # number of entries per page for archives, tags and categories
