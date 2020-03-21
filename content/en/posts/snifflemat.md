@@ -1,6 +1,6 @@
 +++
 title =  "Sniffle mat and searching for treats"
-date = 2020-03-21T07:47:39+01:00
+date = 2020-03-21T09:00:00+01:00
 tags = [
     "Indoor enrichment"
 ]
