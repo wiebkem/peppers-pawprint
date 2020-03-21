@@ -2,28 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.peppers-pawprint.com/de/categories/</loc>
-    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <loc>https://www.peppers-pawprint.com/de/category/besch%C3%A4ftigung/</loc>
+    <lastmod>2020-03-21T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/de/category/f%C3%BCtterung/</loc>
-    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <loc>https://www.peppers-pawprint.com/de/tag/besch%C3%A4ftigung-f%C3%BCr-drinnen/</loc>
+    <lastmod>2020-03-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/categories/</loc>
+    <lastmod>2020-03-21T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/</loc>
-    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
+    <lastmod>2020-03-21T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/posts/</loc>
+    <lastmod>2020-03-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/schn%C3%BCffelmatte-und-leckerlis-suchen/</loc>
+    <lastmod>2020-03-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/tags/</loc>
+    <lastmod>2020-03-21T07:47:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/category/f%C3%BCtterung/</loc>
     <lastmod>2020-02-21T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -38,13 +66,6 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/rohf%C3%BCtterung-oder-auch-prey-model-raw/</loc>
-    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/tags/</loc>
     <lastmod>2020-02-21T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
