@@ -30,9 +30,9 @@ defaultContentLanguageInSubdir = true
 
 # Links format
 [permalinks]
-  posts = "/:slug/"
-  categories = "/category/:slug/"      # required
-  tags = "/tag/:slug/"                 # required
+  posts = "/posts/:slug/"
+  categories = "/posts/category/:slug/"      # required
+  tags = "/posts/tag/:slug/"                 # required
   pages = "/:slug/"
 
 [author]                     # required
