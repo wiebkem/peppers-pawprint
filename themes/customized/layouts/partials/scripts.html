@@ -7,33 +7,3 @@
 {{ end }}
 
 {{ partial "cookies.html" . }}
-
-
-<!-- {{- if and (or .Params.mathjax (and .Site.Params.mathjax (ne .Params.mathjax false))) (or .IsPage .IsHome) }}
-<script>
-  window.MathJax = {
-    showProcessingMessages: false,
-    messageStyle: 'none'
-  };
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-{{- end }}
-{{- if .Site.Params.autoLoadComments }}
-<script>
-$(document).ready(function() {
-  if ($('#load_disqus').length) {
-    $(window).scroll(function() {
-      if ($('#load_disqus').length) {
-        var elementTop = $('#load_disqus').offset().top;
-        var viewportTop = $(window).scrollTop();
-        var viewportBottom = viewportTop + $(window).height();
-        if (viewportTop < elementTop && elementTop < viewportBottom) {
-          load_disqus();
-        }
-      }
-    });
-  }
-});
-</script>
-{{- end }}
--->
