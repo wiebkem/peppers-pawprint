@@ -46,39 +46,3 @@ footer {
     border-top: $border-size solid $color-secondary;
   }
 }
-
-
-
-
-/* Go To Top Button */
-#go-top {
- position: fixed;
- bottom: 0px;
-  right: 25px;
-  display: display;
-}
-#go-top a {
- text-decoration: none;
- border: 0 none;
- display: block;
- width: 60px;
- height: 40px;
- background-color: #1f2024;
-
- -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-
-  border-radius: 3px 3px 0 0;
-
-  text-shadow: none;
-  color: transparent;
-}
-#go-top a i {
-  color: #ffffff;
-  padding: 8px 19px;
-  font-size: 25px;
-}
-#go-top a:hover { background-color: #0F9095; }
