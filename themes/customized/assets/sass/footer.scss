@@ -1,0 +1,84 @@
+@import 'variables';
+
+footer {
+  background-color: $color-grey-10;
+
+  .footer-nav, .footer-social, .copyright {
+    margin: 0;
+    padding: $spacing-m 0;
+    text-align: center;
+
+    li {
+      display: inline;
+    }
+  }
+
+  .footer-nav, .footer-social {
+    li {
+      margin-right: $spacing-m;
+      margin-left: $spacing-m;
+
+      a, a:visited {
+        color: $color-grey-100;
+      }
+
+      &:hover a, &:active a, & a:hover, & a:active { 
+        color: $color-grey-60;
+      }
+    }
+  }
+
+  .footer-nav li {
+    a, a:visited {
+      font-family: $font-family-bold;
+      font-size: $font-size-h2;
+      text-decoration: none;
+    }
+  }
+  
+  .footer-social li {
+    a, a:visited {
+      font-size: $font-size-h1;
+    }
+  }
+
+  .copyright {
+    border-top: $border-size solid $color-secondary;
+  }
+}
+
+
+
+
+/* Go To Top Button */
+#go-top {
+ position: fixed;
+ bottom: 0px;
+  right: 25px;
+  display: display;
+}
+#go-top a {
+ text-decoration: none;
+ border: 0 none;
+ display: block;
+ width: 60px;
+ height: 40px;
+ background-color: #1f2024;
+
+ -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  border-radius: 3px 3px 0 0;
+
+  text-shadow: none;
+  color: transparent;
+}
+#go-top a i {
+  color: #ffffff;
+  padding: 8px 19px;
+  font-size: 25px;
+}
+#go-top a:hover { background-color: #0F9095; }

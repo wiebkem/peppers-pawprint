@@ -1,6 +1,6 @@
 <footer>
   <div class="row">
-    <div class="twelve columns">
+    <div class="six columns">
       <ul class="footer-nav">
         {{ if .Site.Menus.links }}
           {{ range .Site.Menus.links }}
@@ -8,6 +8,8 @@
           {{ end }}
         {{ end }}
       </ul>
+    </div>
+    <div class="six columns">
       <ul class="footer-social">
         {{ if .Site.Menus.social }}
           {{ range .Site.Menus.social }}
@@ -17,6 +19,8 @@
           {{ end }}
         {{ end }}
       </ul>
+    </div>
+    <div class="twelve columns">
       <ul class="copyright">
         <li>
           Copyright &copy; {{ $current := now.Format "2006" -}}
@@ -29,7 +33,6 @@
             {{ .Site.Copyright | safeHTML }}
           {{ end }}
         </li> 
-        <li>Design by <a href="http://www.styleshout.com/" target="_blank">Styleshout</a></li>
       </ul>
     </div>
     <div id="go-top" style="display: block;"><a title="Back to Top" href="#"><i class="fas fa-chevron-up"></i>Go To Top</a></div>
