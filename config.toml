@@ -73,7 +73,7 @@ defaultContentLanguageInSubdir = true
 # ---- Other Params ------------------- #
 # ------------------------------------- #
 [params]
-  since = "2019"             # Site creation time
+  since = "2020"             # Site creation time
   rssFullContent = true      # set true to use full content instead of summary
 
   # site info (optional)
@@ -159,6 +159,12 @@ defaultContentLanguageInSubdir = true
     url = "/en/"
 
   [[languages.en.menu.main]]
+    name = "Blog"
+    weight = 2
+    identifier = "blog"
+    url = "/posts/"
+
+  [[languages.en.menu.main]]
     name = "About us"
     weight = 3
     identifier = "about"
@@ -204,6 +210,12 @@ defaultContentLanguageInSubdir = true
     weight = 1
     identifier = "home"
     url = "/"
+
+  [[languages.de.menu.main]]
+    name = "Blog"
+    weight = 2
+    identifier = "blog"
+    url = "/posts/"
 
   [[languages.de.menu.main]]
     name = "Über uns"
