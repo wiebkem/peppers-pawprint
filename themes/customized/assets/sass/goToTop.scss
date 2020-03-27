@@ -4,35 +4,19 @@
   position: fixed;
   bottom: 0px;
   right: $spacing-l;
-  display: display;
 
-  a {
-    text-decoration: none;
-    border: 0 none;
+  a, a:visited {
     display: block;
-    width: 60px;
-    height: 40px;
-    background-color: #1f2024;
+    background-color: $color-secondary;
+    color: $color-grey-100;
    
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  
-    border-radius: 3px 3px 0 0;
-  
-    text-shadow: none;
-    color: transparent;
-
-    &:hover { 
-      background-color: #0F9095; 
+    &:hover, &:active { 
+      background-color: $color-secondary-darker; 
     }
 
     i {
-      color: #ffffff;
-      padding: 8px 19px;
-      font-size: 25px;
+      padding: $spacing-m $spacing-m;
+      font-size: $font-size-h2;
     }
   }
 }
