@@ -150,13 +150,19 @@ defaultContentLanguageInSubdir = true
   contentDir = "content/en"
   cookie_consent_info_url = "/information/cookies/"
   copyright = "All rights reserved."
-  weight = 1    
+  weight = 1 
+
+  [[languages.en.menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "home"
+    url = "/en/"
 
   [[languages.en.menu.main]]
     name = "About us"
-    weight = 10
+    weight = 3
     identifier = "about"
-    url = "about/"
+    url = "/about/"
 
   [[languages.en.menu.social]]
     name = "Mail"
@@ -176,13 +182,13 @@ defaultContentLanguageInSubdir = true
     name = "Privacy"
     weight = 5
     identifier = "privacy"
-    url = "privacy/"
+    url = "/privacy/"
 
   [[languages.en.menu.links]]
     name = "Imprint"
     weight = 10
     identifier = "impressum"
-    url = "impressum/"
+    url = "/impressum/"
 
 
 [languages.de]
@@ -194,10 +200,16 @@ defaultContentLanguageInSubdir = true
   weight = 2
 
   [[languages.de.menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "home"
+    url = "/"
+
+  [[languages.de.menu.main]]
     name = "Über uns"
-    weight = 10
+    weight = 3
     identifier = "about"
-    url = "about/"
+    url = "/about/"
 
   [[languages.de.menu.social]]
     name = "Mail"
@@ -217,10 +229,10 @@ defaultContentLanguageInSubdir = true
     name = "Datenschutz"
     weight = 5
     identifier = "privacy"
-    url = "privacy/"
+    url = "/privacy/"
 
   [[languages.de.menu.links]]
     name = "Impressum"
     weight = 10
     identifier = "impressum"
-    url = "impressum/"
+    url = "/impressum/"
