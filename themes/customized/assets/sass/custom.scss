@@ -1,1 +1,22 @@
+@import 'variables';
 @import 'header';
+@import 'footer';
+
+
+
+body {
+    font-family: $font-family;
+    color: $color-grey-100;
+}
+
+h1 {
+    font-size: $font-size-h1;
+}
+
+h2 {
+    font-size: $font-size-h2;
+}
+
+p, a {
+    font-size: $font-size-text;
+}
