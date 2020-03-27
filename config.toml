@@ -73,7 +73,7 @@ defaultContentLanguageInSubdir = true
 # ---- Other Params ------------------- #
 # ------------------------------------- #
 [params]
-  since = "2019"             # Site creation time
+  since = "2020"             # Site creation time
   rssFullContent = true      # set true to use full content instead of summary
 
   # site info (optional)
