@@ -8,12 +8,12 @@ header {
 
   .nav-item {
     .nav-link {
-      color: $color-grey-80;
+      color: $color-grey-100;
       padding-left: $spacing-s;
     }
 
     &:hover .nav-link {
-      color: $color-grey-40;
+      color: $color-grey-60;
     }
 
     &.active .nav-link {
@@ -57,7 +57,7 @@ header {
   header {
     .nav-item {
       &.active .nav-link {
-        border-bottom: $header-border solid $color-secondary; 
+        border-bottom: $border-size solid $color-secondary; 
         background-color: transparent;
       }
 
