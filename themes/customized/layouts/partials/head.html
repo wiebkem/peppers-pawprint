@@ -38,6 +38,9 @@
 <link rel="stylesheet" href="{{ "css/" | absURL }}{{ . }}">
 {{ end }}
 
+{{ $style := resources.Get "sass/custom.scss" | toCSS }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
 {{ with .OutputFormats.Get "RSS" }}
 <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
 {{ end }}
