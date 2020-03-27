@@ -21,3 +21,8 @@ h2 {
 p, a {
     font-size: $font-size-text;
 }
+
+/* custom styling for the cookie consent message */
+.cc-revoke {
+    display: none;
+ }
