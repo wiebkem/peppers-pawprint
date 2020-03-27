@@ -15,11 +15,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav">
-        {{ with .Site.GetPage "home" }}
-          <!-- class active -->
-          <li class="nav-item"><a class="nav-link" href="{{ .Permalink }}">{{ i18n "blog" }}</a></li>
-        {{ end }}
-
         {{ range $index, $menuItem := .Site.Menus.main }}
         <li class="nav-item">
           {{ with $menuItem.Page }}
