@@ -211,19 +211,6 @@
 .post .post-meta .categories a { display: inline-block; }
 
 
-/* post image */
-.post .post-thumb {
-   margin: 6px 0 18px 0;
-   width: 100%;
-}
-
-.post .post-thumb img,
-.post-thumb img {
-   height: 246px;
-   width: 100%;
-   object-fit: cover;
-}
-
 /* post content */
 .post .post-content {
    margin-bottom: 18px;
