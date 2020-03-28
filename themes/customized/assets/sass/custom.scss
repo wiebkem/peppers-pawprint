@@ -54,8 +54,23 @@ li:hover a, li:active a, li a:hover, li a:active {
 }
 
 /* main content */
-main #sidebar .widget {
-    .widget-title {
-        margin-bottom: $spacing-s;
+main {
+    #sidebar .widget {
+        .widget-title {
+            margin-bottom: $spacing-s;
+        }
+    }
+
+    /* post image */
+    .post .post-thumb {
+        margin: $spacing-s 0;
+        width: 100%;
+    }
+
+    .post .post-thumb img,
+    .post-thumb img {
+        height: 246px;
+        width: 100%;
+        object-fit: cover;
     }
 }
