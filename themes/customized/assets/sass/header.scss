@@ -42,13 +42,13 @@ header {
 
   /* header logo */
   .navbar-brand {
-    height: $header-height;
+    height: $logo-height;
     padding: 0;
     display: flex;
     margin-right: $header-height;
 
     .logo {
-      height: $header-height;
+      height: $logo-height;
     }
   }
 }
@@ -57,7 +57,7 @@ header {
   header {
     .nav-item {
       &.active .nav-link {
-        border-bottom: $border-size solid $color-secondary; 
+        border-bottom: $line-size solid $color-secondary; 
         background-color: transparent;
       }
 

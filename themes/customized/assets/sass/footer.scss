@@ -17,14 +17,6 @@ footer {
     li {
       margin-right: $spacing-m;
       margin-left: $spacing-m;
-
-      a, a:visited {
-        color: $color-grey-100;
-      }
-
-      &:hover a, &:active a, & a:hover, & a:active { 
-        color: $color-grey-60;
-      }
     }
   }
 
@@ -32,7 +24,6 @@ footer {
     a, a:visited {
       font-family: $font-family-bold;
       font-size: $font-size-h2;
-      text-decoration: none;
     }
   }
   
@@ -43,6 +34,6 @@ footer {
   }
 
   .copyright {
-    border-top: $border-size solid $color-secondary;
+    border-top: $line-size solid $color-secondary;
   }
 }
