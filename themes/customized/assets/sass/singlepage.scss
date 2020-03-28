@@ -1,1 +1,12 @@
 @import 'variables';
+
+main #sidebar {  
+    .socials a, .socials a:visited {
+        color: $color-grey-100;
+        text-decoration: none;
+
+        &:hover, &:active {
+            color: $color-grey-60;
+        }
+    }
+  }
