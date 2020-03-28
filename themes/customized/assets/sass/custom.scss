@@ -2,7 +2,7 @@
 @import 'header';
 @import 'footer';
 @import 'goToTop';
-
+@import 'blogsection';
 
 
 body {
@@ -10,7 +10,7 @@ body {
     color: $color-grey-100;
 }
 
-h1 {
+h1, h1 a {
     font-size: $font-size-h1;
 }
 
@@ -22,7 +22,35 @@ p, a {
     font-size: $font-size-text;
 }
 
+a, a:visited, li a, li a:visited {
+    color: $color-grey-100;
+}
+
+li:hover a, li:active a, li a:hover, li a:active { 
+    color: $color-grey-60;
+    text-decoration: none;
+}
+
 /* custom styling for the cookie consent message */
 .cc-revoke {
     display: none;
- }
+}
+
+/* header container */
+#header-container {
+    margin-top: $header-height;
+    padding-top: $spacing-xl;
+    padding-bottom: $spacing-xl;
+
+    h1 {
+        font-size: $font-size-display;
+        margin: 0;
+    }
+}
+
+/* main content */
+main #sidebar .widget {
+    .widget-title {
+        margin-bottom: $spacing-s;
+    }
+}
