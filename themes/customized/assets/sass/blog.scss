@@ -62,31 +62,3 @@ main {
  font-family: notosans-regular, sans-serif;
 }
 .post .post-content .tags a { font-family: notosans-bold, sans-serif; }
-
-/* bio */
-.post .bio {
-  margin-top: 30px;
-  padding-top: 30px;
-  padding: 36px;
-  background: #EFF1F0;
-
- border-radius: 3px;
-}
-.post .bio .gravatar {
-  width: 16.66667%;
-  float: left;
-  width: 72px;
-  height: 72px;
-}
-.post .bio .gravatar img {
-  margin-top: 12px;
- border-radius: 100%;
-}
-.post .bio .about {
-  width: 78%;
-  float: right;
-}
-.post .bio .about h5 {
-  font: 18px/30px notosans-bold, sans-serif;
-  margin-bottom: 6px;
-}
