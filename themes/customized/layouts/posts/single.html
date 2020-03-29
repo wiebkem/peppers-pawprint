@@ -70,49 +70,31 @@
             {{ partial "author_card.html" (dict "author" . "context" $) }}
             {{ end }}
           {{ end }}
-
-          <!--<ul class="post-nav cf">
-            <li class="prev"><a rel="prev" href="#"><strong>Previous Article</strong> Duis Sed Odio Sit Amet Nibh Vulputate</a></li>
-            <li class="next"><a rel="next" href="#"><strong>Next Article</strong> Morbi Elit Consequat Ipsum</a></li>
-          </ul>-->
         </div>
       </article> <!-- post end -->
     </div> <!-- Primary End -->
 
     <div id="secondary" class="four columns end">
       <aside id="sidebar">
-        <div class="widget widget_categories">
-          <h5 class="widget-title">{{ i18n "category" }}</h5>
-          <ul class="link-list cf">
+        <div class="widget">
+          <h2 class="widget-title">{{ i18n "category" }}</h2>
+          <ul class="link-list">
             {{ range .Site.Taxonomies.categories }}
             <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
             {{ end }}
           </ul>
         </div>
           
-        <div class="widget widget_tag_cloud">
-          <h5 class="widget-title">{{ i18n "tags" }}</h5>
-          <div class="tagcloud cf">
+        <div class="widget">
+          <h2 class="widget-title">{{ i18n "tags" }}</h2>
+          <div class="tagcloud clearfix">
             {{ range .Site.Taxonomies.tags }}
             <a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
             {{ end }}
           </div>
         </div>
-
-        {{ if .Site.Params.enableRelated -}}
-        {{- $related := .Site.RegularPages.Related . | first 5 -}}
-        {{- with $related }}
-            <h4>{{ i18n "related" }}</h4>
-            <dl class="row">
-            {{ range . }}
-                <dt class="col-md-3">{{ .Date.Format (.Site.Params.dateFormatToUse | default "Mon 02 January 2006") }}</dt>
-                <dd class="col-md-9"><a href="{{ .RelPermalink }}">{{ .Title }}</a></dd>
-            {{ end }}
-            </dl>
-        {{ end }}
-        {{ end }}
       </aside> <!-- Sidebar End -->
-    </div> <!-- Secondary End -->
+    </div> <!-- Secondary End-->
   </div>
 </div>
 {{ end }}
