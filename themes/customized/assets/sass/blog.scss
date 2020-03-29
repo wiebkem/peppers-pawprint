@@ -1,0 +1,146 @@
+@import 'variables';
+
+main #sidebar {  
+  .link-list {
+    margin-bottom: $spacing-m;
+    padding: 0;
+    list-style: none;
+  }
+
+  .tagcloud {
+    display: block;
+    margin-bottom: $spacing-s;
+
+    a {
+      margin: 0 $spacing-s $spacing-s 0;
+      padding: $spacing-s $spacing-m;
+
+      border-radius: $button-border-radius;
+      background: $color-secondary;
+      color: $color-grey-100;
+      text-decoration: none;
+
+      display: inline-block;
+      float: left;
+
+      &:hover {
+        color: $color-white;
+        background: $color-secondary-darker;
+      }
+    }
+  }
+}
+
+
+/* ------------------------------------------------------------------ */
+/* i. Blog
+/* ------------------------------------------------------------------ */
+
+.post {
+  padding-top: 24px;
+  padding-bottom: 18px;
+}
+.post .entry-header {
+  position: relative;
+  width: 100%;
+}
+.post .entry-header h1 {
+  font: 39px/48px raleway-semibold, sans-serif;
+  margin-bottom: 18px;
+}
+.post .entry-header h1 a,
+.post .entry-header h1 a:visited { color: #313131; }
+.post .entry-header h1 a:hover,
+.post .entry-header h1 a:focus { color: #11ABB0; }
+
+.post .post-meta {
+  font: 15px/24px notosans-regular, sans-serif;
+}
+.post .post-meta a,
+.post .post-meta a:visited { color: #AFB4BB; }
+.post .post-meta a:hover,
+.post .post-meta a:focus { color: #11ABB0; }
+
+.post .post-meta .date {
+  display: inline-block;
+  font: 15px/24px notosans-bold, sans-serif;
+  color: #313131;
+}
+.post .post-meta .categories {
+  display: inline-block;
+}
+.post .post-meta .categories a { display: inline-block; }
+
+
+/* post content */
+.post .post-content {
+  margin-bottom: 18px;
+}
+
+/* tags */
+.post .post-content .tags {
+ margin-top: 18px;
+ font-family: notosans-regular, sans-serif;
+}
+.post .post-content .tags a { font-family: notosans-bold, sans-serif; }
+
+/* bio */
+.post .bio {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding: 36px;
+  background: #EFF1F0;
+
+ border-radius: 3px;
+}
+.post .bio .gravatar {
+  width: 16.66667%;
+  float: left;
+  width: 72px;
+  height: 72px;
+}
+.post .bio .gravatar img {
+  margin-top: 12px;
+ border-radius: 100%;
+}
+.post .bio .about {
+  width: 78%;
+  float: right;
+}
+.post .bio .about h5 {
+  font: 18px/30px notosans-bold, sans-serif;
+  margin-bottom: 6px;
+}
+
+/* post-nav */
+.post-nav {
+  margin: 24px 0;
+  padding: 30px 0 0 0;
+  border-top: 1px solid #E0E0E0;
+  font: 16px/30px notosans-regular, sans-serif;
+}
+.post-nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 49%;
+  line-height: 30px;
+}
+.post-nav li a { color: #9FA5AD;  }
+.post-nav li a:hover { color: #313131; }
+.post-nav li strong {
+  font: 16px/30px raleway-heavy, sans-serif;
+  text-transform: uppercase;
+  color: #11ABB0;
+  letter-spacing: 0.5px;
+  display: block;
+}
+.post-nav li.next {
+  float: right;
+  text-align: right;
+}
+.post-nav li.prev {
+  float: left;
+  text-align: left;
+}
+
