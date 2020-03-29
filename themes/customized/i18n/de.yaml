@@ -96,3 +96,6 @@
 
 - id: cookie_link
   translation: Erfahren Sie mehr.
+
+- id: readMore_link
+  translation: Mehr lesen...

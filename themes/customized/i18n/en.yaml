@@ -100,3 +100,6 @@
 
 - id: cookie_link
   translation: Learn more.
+
+- id: readMore_link
+  translation: Read more...
