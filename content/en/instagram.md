@@ -5,6 +5,9 @@ featured_image = ""
 description = ""
 +++
 
+## Treat boxes
+[![Treat boxes](/article_images/treat-boxes.jpeg)](../posts/treat-boxes/)
+
 ## Hand puzzle
 [![Hand puzzle](/article_images/hand-puzzle.png)](../posts/hand-puzzle/)
 

@@ -5,6 +5,9 @@ featured_image = ""
 description = ""
 +++
 
+## Leckerli Boxes
+[![Leckerli Boxes](/article_images/treat-boxes.jpeg)](../posts/leckerli-boxes/)
+
 ## Händespiel
 [![Händespiel](/article_images/hand-puzzle.png)](../posts/handespiel/)
 
