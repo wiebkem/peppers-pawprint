@@ -209,7 +209,7 @@ defaultContentLanguageInSubdir = true
     name = "Blog"
     weight = 1
     identifier = "home"
-    url = "/"
+    url = "/de/"
 
 #  [[languages.de.menu.main]]
 #    name = "Blog"
