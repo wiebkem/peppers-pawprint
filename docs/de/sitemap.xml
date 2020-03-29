@@ -3,48 +3,55 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/posts/category/beschaftigung/</loc>
-    <lastmod>2020-03-22T09:00:00+01:00</lastmod>
+    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/posts/tag/beschaftigung-fur-drinnen/</loc>
-    <lastmod>2020-03-22T09:00:00+01:00</lastmod>
+    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/categories/</loc>
-    <lastmod>2020-03-22T09:00:00+01:00</lastmod>
+    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/de/posts/handespiel/</loc>
-    <lastmod>2020-03-22T09:00:00+01:00</lastmod>
+    <loc>https://www.peppers-pawprint.com/de/posts/leckerli-boxes/</loc>
+    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/</loc>
-    <lastmod>2020-03-22T09:00:00+01:00</lastmod>
+    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/posts/</loc>
-    <lastmod>2020-03-22T09:00:00+01:00</lastmod>
+    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/tags/</loc>
+    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/posts/handespiel/</loc>
     <lastmod>2020-03-22T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
