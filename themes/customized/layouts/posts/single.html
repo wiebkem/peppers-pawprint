@@ -7,92 +7,88 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="content-outer">
-  <div id="page-content" class="row">
-    <div id="primary" class="eight columns">
-      <article class="post">
-        <div class="entry-header cf">
-          <p class="post-meta">
-            <time class="date" datetime="2014-01-14T11:24">{{ .Date.Format (.Site.Params.dateFormatToUse | default "Mon 02 January 2006") }}</time>
-            {{ with .Params.categories -}}
-            {{ $.Scratch.Set "firstcategory" true }}
-            /
-            <span class="categories">
-                {{ range . -}}
-                {{- $name := . -}}
-                {{- with $.Site.GetPage "taxonomy" (printf "/categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "/categories/%s" ($name | urlize))) -}}
-                  {{- if not ($.Scratch.Get "firstcategory") -}}
-                  / 
-                  {{ else -}}
-                  {{- $.Scratch.Set "firstcategory" false -}}
-                  {{- end -}}
-                  <a href="{{ .Permalink }}">{{ $name }}</a>
-                {{- end -}}
-                {{ end }}
-            </span>
-            {{ end }}
-          </p>
-        </div>
-
-        {{ with .Params.featured_image -}}
-        <div class="post-thumb">
-          <img src="{{ . | absURL }}" alt="post-image" title="post-image">
-        </div>
-        {{ end }}
-
-        <div class="post-content">
-          <p class="lead">{{ .Description }}</p>
-          <p>{{ .Content }}</p>
-
-
-          {{ with .Params.tags -}}
-          {{ $.Scratch.Set "firsttag" true }}
-          <p class="tags">
-            <span>{{ i18n "tags" }}:</span>
-              {{ range (. | sort) -}}
+<div class="row">
+  <div id="primary" class="eight columns">
+    <article class="post">
+      <div class="entry-header cf">
+        <p class="post-meta">
+          <time class="date" datetime="2014-01-14T11:24">{{ .Date.Format (.Site.Params.dateFormatToUse | default "Mon 02 January 2006") }}</time>
+          {{ with .Params.categories -}}
+          {{ $.Scratch.Set "firstcategory" true }}
+          /
+          <span class="categories">
+              {{ range . -}}
               {{- $name := . -}}
-              {{- with $.Site.GetPage "taxonomy" (printf "/tags/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "/tags/%s" ($name | urlize))) -}}
-                {{- if not ($.Scratch.Get "firsttag") -}}
-                , 
+              {{- with $.Site.GetPage "taxonomy" (printf "/categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "/categories/%s" ($name | urlize))) -}}
+                {{- if not ($.Scratch.Get "firstcategory") -}}
+                / 
                 {{ else -}}
-                {{- $.Scratch.Set "firsttag" false -}}
+                {{- $.Scratch.Set "firstcategory" false -}}
                 {{- end -}}
                 <a href="{{ .Permalink }}">{{ $name }}</a>
               {{- end -}}
               {{ end }}
-          </p>
+          </span>
           {{ end }}
+        </p>
+      </div>
 
-          {{ if (.Params.showAuthorCard | default .Site.Params.showAuthorCard) }}
-            {{ range .Params.authors }}
-            {{ partial "author_card.html" (dict "author" . "context" $) }}
+      {{ with .Params.featured_image -}}
+      <div class="post-thumb">
+        <img src="{{ . | absURL }}" alt="post-image" title="post-image">
+      </div>
+      {{ end }}
+
+      <div class="post-content">
+        <p class="lead">{{ .Description }}</p>
+        <p>{{ .Content }}</p>
+
+
+        {{ with .Params.tags -}}
+        {{ $.Scratch.Set "firsttag" true }}
+        <p class="tags">
+          <span>{{ i18n "tags" }}:</span>
+            {{ range (. | sort) -}}
+            {{- $name := . -}}
+            {{- with $.Site.GetPage "taxonomy" (printf "/tags/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "/tags/%s" ($name | urlize))) -}}
+              {{- if not ($.Scratch.Get "firsttag") -}}
+              , 
+              {{ else -}}
+              {{- $.Scratch.Set "firsttag" false -}}
+              {{- end -}}
+              <a href="{{ .Permalink }}">{{ $name }}</a>
+            {{- end -}}
             {{ end }}
+        </p>
+        {{ end }}
+
+        {{ if (.Params.showAuthorCard | default .Site.Params.showAuthorCard) }}
+          {{ range .Params.authors }}
+          {{ partial "author_card.html" (dict "author" . "context" $) }}
           {{ end }}
-        </div>
-      </article> <!-- post end -->
-    </div> <!-- Primary End -->
+        {{ end }}
+      </div>
+    </article> <!-- post end -->
+  </div> <!-- Primary End -->
 
-    <div id="secondary" class="four columns end">
-      <aside id="sidebar">
-        <div class="widget">
-          <h2 class="widget-title">{{ i18n "category" }}</h2>
-          <ul class="link-list">
-            {{ range .Site.Taxonomies.categories }}
-            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
-            {{ end }}
-          </ul>
-        </div>
-          
-        <div class="widget">
-          <h2 class="widget-title">{{ i18n "tags" }}</h2>
-          <div class="tagcloud clearfix">
-            {{ range .Site.Taxonomies.tags }}
-            <a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
-            {{ end }}
-          </div>
-        </div>
-      </aside> <!-- Sidebar End -->
-    </div> <!-- Secondary End-->
+  <div class="col-xs-12 col-sm-4 col-md-3">
+    <div class="sidebar-widget">
+      <h2 class="widget-title">{{ i18n "category" }}</h2>
+      <ul class="link-list">
+        {{ range .Site.Taxonomies.categories }}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <div class="sidebar-widget">
+      <h2 class="widget-title">{{ i18n "tags" }}</h2>
+      <div class="tagcloud clearfix">
+        {{ range .Site.Taxonomies.tags }}
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+        {{ end }}
+      </div>
+    </div>
   </div>
 </div>
 {{ end }}
