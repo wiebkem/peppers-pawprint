@@ -23,7 +23,8 @@ main {
   .post {
     .post-header .post-header-title,
     .post-meta .categories,
-    .post-description {
+    .post-description,
+    .post-content .tags {
       a, a:visited {
         text-decoration: none;
       }
@@ -53,12 +54,27 @@ main {
       margin-bottom: $spacing-xl;
       display: inline-flex;
     }
+
+    /* single post entry */
+    .post-content {
+      p {
+        margin-bottom: $spacing-s;
+
+        &.lead {
+          margin-bottom: $spacing-m;
+          color: $color-grey-70;
+          //font-family: $font-family-italic;
+          font-size: $font-size-text;
+        }
+      }
+
+      .tags {
+        margin-top: $spacing-m;
+
+        span {
+          font-family: $font-family-medium;
+        }
+       }       
+    }
   }
 }
-
-/* tags */
-.post .post-content .tags {
- margin-top: 18px;
- font-family: notosans-regular, sans-serif;
-}
-.post .post-content .tags a { font-family: notosans-bold, sans-serif; }

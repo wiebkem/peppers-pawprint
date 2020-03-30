@@ -26,6 +26,10 @@ p, a {
     font-size: $font-size-text;
 }
 
+strong {
+    font-family: $font-family-medium;
+}
+
 a, a:visited, li a, li a:visited {
     color: $color-grey-100;
 }
