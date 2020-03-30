@@ -58,6 +58,9 @@ defaultContentLanguageInSubdir = true
   [privacy.instagram]
     disable = true
     simple = false
+  [privacy.facebook]
+    disable = true
+    simple = false
   [privacy.twitter]
     disable = true
     enableDNT = false
@@ -98,6 +101,7 @@ defaultContentLanguageInSubdir = true
 
   # social accounts
   instagram =	"https://www.instagram.com/peppers_pawprint/"
+  facebook =	"https://www.facebook.com/pepperspawprint/"
   mail =	"mailto:pepperspawprint@gmail.com"
   mail_title =	"pepperspawprint@gmail.com"
 
@@ -171,28 +175,35 @@ defaultContentLanguageInSubdir = true
     url = "/about/"
 
   [[languages.en.menu.social]]
-    name = "Mail"
-    weight = 5
+    name = "E-mail"
+    weight = 1
     pre = '<i class="far fa-envelope"></i>'
     identifier = "mail"
     url = "mailto:pepperspawprint@gmail.com"
 
   [[languages.en.menu.social]]
     name = "Instagram"
-    weight = 10
+    weight = 2
     pre = '<i class="fab fa-instagram"></i>'
     identifier = "instagram"
     url = "https://www.instagram.com/peppers_pawprint/"
 
+  [[languages.en.menu.social]]
+    name = "Facebook"
+    weight = 3
+    pre = '<i class="fab fa-facebook-f"></i>'
+    identifier = "facebook"
+    url = "https://www.facebook.com/pepperspawprint/"
+
   [[languages.en.menu.links]]
     name = "Privacy"
-    weight = 5
+    weight = 1
     identifier = "privacy"
     url = "/privacy/"
 
   [[languages.en.menu.links]]
     name = "Imprint"
-    weight = 10
+    weight = 2
     identifier = "impressum"
     url = "/impressum/"
 
@@ -224,27 +235,34 @@ defaultContentLanguageInSubdir = true
     url = "/about/"
 
   [[languages.de.menu.social]]
-    name = "Mail"
-    weight = 5
+    name = "E-Mail"
+    weight = 1
     pre = '<i class="far fa-envelope"></i>'
     identifier = "mail"
     url = "mailto:pepperspawprint@gmail.com"
 
   [[languages.de.menu.social]]
     name = "Instagram"
-    weight = 10
+    weight = 2
     pre = '<i class="fab fa-instagram"></i>'
     identifier = "instagram"
     url = "https://www.instagram.com/peppers_pawprint/"
 
+  [[languages.de.menu.social]]
+    name = "Facebook"
+    weight = 3
+    pre = '<i class="fab fa-facebook-f"></i>'
+    identifier = "facebook"
+    url = "https://www.facebook.com/pepperspawprint/"
+
   [[languages.de.menu.links]]
     name = "Datenschutz"
-    weight = 5
+    weight = 1
     identifier = "privacy"
     url = "/privacy/"
 
   [[languages.de.menu.links]]
     name = "Impressum"
-    weight = 10
+    weight = 2
     identifier = "impressum"
     url = "/impressum/"
