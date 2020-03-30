@@ -1,44 +1,46 @@
 <footer>
-  <div class="row">
-    <div class="six columns">
-      <ul class="footer-nav">
-        {{ if .Site.Menus.links }}
-          {{ range .Site.Menus.links }}
-            <li><a href="{{ .URL | absLangURL | safeURL }}">{{ .Name }}.</a></li>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <ul class="footer-nav">
+          {{ if .Site.Menus.links }}
+            {{ range .Site.Menus.links }}
+              <li><a href="{{ .URL | absLangURL | safeURL }}">{{ .Name }}.</a></li>
+            {{ end }}
           {{ end }}
-        {{ end }}
-      </ul>
-    </div>
-    <div class="six columns">
-      <ul class="footer-social">
-        {{ if .Site.Menus.social }}
-          {{ range .Site.Menus.social }}
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <ul class="footer-social">
+          {{ if .Site.Menus.social }}
+            {{ range .Site.Menus.social }}
+            <li>
+              <a href="{{ .URL | safeURL }}" target="_blank">{{ .Pre }}</a>
+            </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-12">
+        <ul class="copyright">
           <li>
-            <a href="{{ .URL | safeURL }}" target="_blank">{{ .Pre }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-      </ul>
-    </div>
-    <div class="twelve columns">
-      <ul class="copyright">
-        <li>
-          Copyright &copy; {{ $current := now.Format "2006" -}}
-          {{ if and .Site.Params.since (ne .Site.Params.since $current) }}
-            {{ .Site.Params.since }} -
-          {{ end }}
-          {{- $current }}
-          {{ .Site.Author.name }}.
-          {{if .Site.Copyright }}
-            {{ .Site.Copyright | safeHTML }}
-          {{ end }}
-        </li> 
-      </ul>
-    </div>
-    <div id="go-top">
-      <a title="Back to Top" href="#">
-        <i class="fas fa-chevron-up"></i>
-      </a>
+            Copyright &copy; {{ $current := now.Format "2006" -}}
+            {{ if and .Site.Params.since (ne .Site.Params.since $current) }}
+              {{ .Site.Params.since }} -
+            {{ end }}
+            {{- $current }}
+            {{ .Site.Author.name }}.
+            {{if .Site.Copyright }}
+              {{ .Site.Copyright | safeHTML }}
+            {{ end }}
+          </li> 
+        </ul>
+      </div>
+      <div id="go-top">
+        <a title="Back to Top" href="#">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </div>
     </div>
   </div>
 </footer>
