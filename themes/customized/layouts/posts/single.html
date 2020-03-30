@@ -60,12 +60,6 @@
             {{ end }}
         </p>
         {{ end }}
-
-        {{ if (.Params.showAuthorCard | default .Site.Params.showAuthorCard) }}
-          {{ range .Params.authors }}
-          {{ partial "author_card.html" (dict "author" . "context" $) }}
-          {{ end }}
-        {{ end }}
       </div>
   </div>
 
