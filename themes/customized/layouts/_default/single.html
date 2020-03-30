@@ -6,41 +6,30 @@
   </div>
   {{ end }}
 
-{{ define "main" }}
-<div class="content-outer">
-  <div id="page-content" class="row page">
-     <div id="primary" class="eight columns">
-        <section>
-          {{ with .Params.featured_image -}}
-          <div class="post-thumb">
-            <img src="{{ . | absURL }}" alt="post-image" title="post-image">
-          </div>
-          {{ end }}
-          <p>
-            {{ .Content }}
-            {{ with .Params.privacyOptOut -}}
-              <a id="privacyOptOut" href="javascript:gaOptout()">{{ . }}</a>
-            {{ end }}
-          </p>
-        </section> <!-- section end -->
-     </div> <!-- primary end -->
+  {{ define "main" }}
+  <div class="row">
+    <div class="col-xs-12 col-sm-8">
+      {{ with .Params.featured_image -}}
+      <div class="post-thumb">
+        <img src="{{ . | absURL }}" alt="post-image" title="post-image">
+      </div>
+      {{ end }}
+      <p>
+        {{ .Content }}
+        {{ with .Params.privacyOptOut -}}
+          <a id="privacyOptOut" href="javascript:gaOptout()">{{ . }}</a>
+        {{ end }}
+      </p>
+    </div>
 
-     <div id="secondary" class="four columns end">
-        <aside id="sidebar">
-          <div class="widget">
-            <!--<h5>Address and Phone</h5>
-            <p class="address">
-              Test street<br>
-              <span>(0) 123-456</span>
-            </p> -->
-            <h2 class="widget-title">Email and Social</h2>
-            <p class="socials">
-              E-mail: <a href="{{ .Site.Params.mail }}" target="_blank">{{ .Site.Params.mail_title }}</a><br>
-              Instagram: <a href="{{ .Site.Params.instagram }}" target="_blank">{{ .Site.Title }}</a>
-            </p>
-          </div>
-        </aside>
-     </div> <!-- secondary End-->
-  </div> <!-- page-content End-->
-</div>
-{{ end }}
+    <div class="col-xs-12 col-sm-4">
+      <div class="sidebar-widget">
+        <h2 class="widget-title">Email and Social</h2>
+        <p class="socials">
+          E-mail: <a href="{{ .Site.Params.mail }}" target="_blank">{{ .Site.Params.mail_title }}</a><br>
+          Instagram: <a href="{{ .Site.Params.instagram }}" target="_blank">{{ .Site.Title }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  {{ end }}
