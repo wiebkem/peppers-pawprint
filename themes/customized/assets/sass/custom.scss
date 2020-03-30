@@ -3,11 +3,10 @@
 @import 'footer';
 @import 'goToTop';
 @import 'blog';
+@import 'singlepage';
 
 // @import 'pagination';
 // @import 'comments';
-@import 'singlepage';
-
 
 body {
     font-family: $font-family;
@@ -73,7 +72,7 @@ li:hover a, li:active a, li a:hover, li a:active {
 
 /* main content */
 main {
-    #sidebar .widget {
+    .sidebar-widget {
         .widget-title {
             margin-bottom: $spacing-s;
         }
