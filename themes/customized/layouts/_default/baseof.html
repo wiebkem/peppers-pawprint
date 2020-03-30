@@ -12,10 +12,10 @@
 </head>
 <body>
   {{- partial "header.html" . -}}
-  <div id="header-container">
+  <div id="header-container" class="container">
   {{ block "header" . }}{{- end }}
   </div>
-  <main>
+  <main class="container">
   {{- block "main" . }}{{- end }}
   </main>
   {{- partial "footer.html" . -}}
