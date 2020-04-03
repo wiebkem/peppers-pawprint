@@ -22,7 +22,6 @@ main {
 
   .post {
     .post-header .post-header-title,
-    .post-meta .categories,
     .post-description,
     .post-content .tags {
       a, a:visited {
@@ -33,17 +32,44 @@ main {
         color: $color-grey-60;
       }
     }
-  
-    .post-header .post-header-title {
-      margin-bottom: $spacing-s;
 
-      a {
-        font-size: $font-size-header;
+    .post-image {
+      width: 100%;
+      margin-bottom: $spacing-m;
+
+      img {
+          max-height: 265px;;
+          width: 100%;
+          border-radius: $border-radius-l;
+      }
+    }
+  
+    .post-header {
+      text-align: center;
+
+      .post-header-title {
+        margin-bottom: $spacing-s;
+        font-family: $font-family-special;
+
+        a {
+          font-size: $font-size-header;
+        }
+      }
+
+      .date {
+        font-family: $font-family-italic;
+        font-size: $font-size-text-small;
       }
     }
 
-    .post-meta {
+    .categories {
       margin-bottom: $spacing-s;
+      display: grid;
+
+      .ghost-button {
+        width: 100%;
+        margin-bottom: $spacing-s;
+      }
     }
 
     .post-description {
@@ -53,6 +79,8 @@ main {
     .post-button {
       margin-bottom: $spacing-xl;
       display: inline-flex;
+      text-align: center;
+      width: 100%;
     }
 
     /* single post entry */
@@ -75,6 +103,29 @@ main {
           font-family: $font-family-medium;
         }
        }       
+    }
+  }
+
+  .first-entry .post-image img {
+    max-height: 500px;
+  }
+}
+
+@media(min-width: 992px) {
+  main {
+    .post {
+      .post-button {
+        width: auto;
+      }
+
+      .categories {
+        display: block;
+  
+        .ghost-button {
+          width: auto;
+          display: inline-block;
+        }
+      }
     }
   }
 }
