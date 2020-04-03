@@ -10,7 +10,7 @@
 
 body {
     font-family: $font-family;
-    color: $color-grey-100;
+    color: $color-grey-90;
 }
 
 h1, h1 a {
@@ -30,7 +30,7 @@ strong {
 }
 
 a, a:visited, li a, li a:visited {
-    color: $color-grey-100;
+    color: $color-grey-90;
 }
 
 li:hover a, li:active a, li a:hover, li a:active { 
@@ -42,11 +42,29 @@ li:hover a, li:active a, li a:hover, li a:active {
 .button {
     padding: $spacing-s $spacing-m;
 
-    border-radius: $button-border-radius;
+    border-radius: $border-radius-xl;
     background: $color-secondary;
     color: $color-grey-100;
 
+    text-align: center;
+    width: 100%;
+
     &:hover {
+        color: $color-white;
+        background: $color-secondary-darker;
+        text-decoration: none;
+    }
+}
+
+.ghost-button {
+    padding: $spacing-s $spacing-m;
+    margin-right: $spacing-s;
+
+    border-radius: $border-radius-xl;
+    border: 1px solid $color-secondary;
+    color: $color-grey-100;
+
+    &:hover, &:active {
         color: $color-white;
         background: $color-secondary-darker;
         text-decoration: none;
@@ -62,11 +80,11 @@ li:hover a, li:active a, li a:hover, li a:active {
 #header-container {
     margin-top: $header-height;
     padding-top: $spacing-xl;
-    padding-bottom: $spacing-xl;
 
     h1 {
         font-size: $font-size-display;
         margin: 0;
+        padding-bottom: $spacing-xl;
     }
 }
 
@@ -90,5 +108,46 @@ main {
         height: auto;
         max-width: 100%;
         object-fit: cover;
+        border-radius: $border-radius-l;
+    }
+}
+
+.custom-line {
+    background-color: $color-secondary;
+    border-radius: $border-radius-s;
+    height: $line-size;
+    text-align: center;
+    margin: $spacing-l 0;
+
+    #hexagon {
+        width: 20px;
+        height: $line-size;
+        background: $color-secondary;
+        position: relative;
+        margin: 0 auto;
+    
+        &:before {
+            content: "";
+            position: absolute;
+            top: -$border-radius-l;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-left: $border-radius-l solid transparent;
+            border-right: $border-radius-l solid transparent;
+            border-bottom: $border-radius-l solid $color-secondary;
+        }
+        
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: -$border-radius-l;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-left: $border-radius-l solid transparent;
+            border-right: $border-radius-l solid transparent;
+            border-top: $border-radius-l solid $color-secondary;
+        }
     }
 }
