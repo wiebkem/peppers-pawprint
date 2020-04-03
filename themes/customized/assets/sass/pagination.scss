@@ -1,47 +1,28 @@
 @import 'variables';
 
+.pagination {
+   margin-bottom: $spacing-l;
 
-// .pagination { margin: 0 auto 42px auto; }
-// .pagination {
-//    margin: 36px auto;
-//    text-align: center;
-// }
-// .pagination ul li {
-//    display: inline-block;
-//    margin: 0;
-//    padding: 0;
-// }
-// .pagination .page-numbers {
-//    font: 15px/18px notosans-bold, sans-serif;
-//    display: inline-block;
-//    padding: 6px 10px;
-//    margin-right: 3px;
-//    margin-bottom: 6px;
-// 	color: #6E757C;
-// 	background-color: #E6E8EB;
+   ul li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
 
-// 	-webkit-transition: all 200ms ease-in-out;
-// 	-moz-transition: all 200ms ease-in-out;
-// 	-o-transition: all 200ms ease-in-out;
-// 	-ms-transition: all 200ms ease-in-out;
-// 	transition: all 200ms ease-in-out;
+    .page-numbers {
+        padding: $spacing-s $spacing-m;
+        margin-right: $spacing-s;
 
-//    -moz-border-radius: 3px;
-//    -webkit-border-radius: 3px;
-//    -khtml-border-radius: 3px;
-// 	border-radius: 3px;
-// }
-// .pagination .page-numbers:hover {
-//    background: #838A91;
-//    color: #fff;
-// }
-// .pagination .current,
-// .pagination .current:hover {
-//    background-color: #11ABB0;
-//    color: #fff;
-// }
-// .pagination .inactive,
-// .pagination .inactive:hover {
-//    background-color: #E6E8EB;
-// 	color: #A9ADB2;
-// }
+        display: inline-block;
+        color: $color-grey-100;
+        background-color: $color-secondary;
+        border-radius: $border-radius-s;
+
+        &:hover,
+        &.current,
+        &.current:hover {
+            background: $color-secondary-darker;
+            color: $color-white;
+        }
+    }
+}
