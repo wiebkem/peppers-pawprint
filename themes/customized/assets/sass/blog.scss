@@ -20,6 +20,14 @@ main {
     }
   }
 
+  .sidebar-widget {
+    .widget-title {
+        margin-bottom: $spacing-s;
+        padding-bottom: $spacing-s;
+        border-bottom: 2px solid $color-secondary;
+    }
+  }
+
   .post {
     .post-header .post-header-title,
     .post-description,
@@ -63,7 +71,6 @@ main {
     }
 
     .categories {
-      //margin-bottom: $spacing-s;
       display: grid;
 
       .ghost-button {

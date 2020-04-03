@@ -37,7 +37,6 @@ li:hover a, li:active a, li a:hover, li a:active {
     text-decoration: none;
 }
 
-.tagcloud a,
 .button {
     padding: $spacing-s $spacing-m;
 
@@ -89,12 +88,6 @@ li:hover a, li:active a, li a:hover, li a:active {
 
 /* main content */
 main {
-    .sidebar-widget {
-        .widget-title {
-            margin-bottom: $spacing-s;
-        }
-    }
-
     /* post image */
     .post .post-thumb {
         margin: $spacing-s 0;
