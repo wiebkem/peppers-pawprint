@@ -114,13 +114,13 @@ main {
 .custom-line {
     background-color: $color-secondary;
     border-radius: $border-radius-s;
-    height: $line-size;
+    height: $line-size-m;
     text-align: center;
     margin: $spacing-l 0;
 
     #hexagon {
         width: 20px;
-        height: $line-size;
+        height: $line-size-m;
         background: $color-secondary;
         position: relative;
         margin: 0 auto;

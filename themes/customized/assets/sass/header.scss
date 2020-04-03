@@ -57,7 +57,7 @@ header {
   header {
     .nav-item {
       &.active .nav-link {
-        border-bottom: $line-size solid $color-secondary; 
+        border-bottom: $line-size-m solid $color-secondary; 
         background-color: transparent;
       }
 
