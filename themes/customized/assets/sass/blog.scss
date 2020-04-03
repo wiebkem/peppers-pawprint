@@ -35,7 +35,7 @@ main {
 
     .post-image {
       width: 100%;
-      margin-bottom: $spacing-m;
+      margin-bottom: $spacing-s;
 
       img {
           max-height: 265px;;
@@ -63,7 +63,7 @@ main {
     }
 
     .categories {
-      margin-bottom: $spacing-s;
+      //margin-bottom: $spacing-s;
       display: grid;
 
       .ghost-button {
