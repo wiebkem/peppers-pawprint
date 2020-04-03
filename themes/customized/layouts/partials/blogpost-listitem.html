@@ -1,0 +1,35 @@
+<div class="post">
+  <div class="post-header">
+    <p class="post-header-title"><a href="{{ .Permalink }}" title="">{{ .Title }}</a></p>
+    <time class="date" datetime="2014-01-14T11:24">{{ .Date.Format (.Site.Params.dateFormatToUse | default "Mon 02 January 2006") }}</time>
+    {{ partial "customLine.html" . }}
+    <div class="categories">
+      {{ with .Params.categories -}}
+      {{ $.Scratch.Set "firstcategory" true }}
+        {{ range . -}}
+          {{- $name := . -}}
+          {{- with $.Site.GetPage "taxonomy" (printf "/categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "/categories/%s" ($name | urlize))) -}}
+            <a class="ghost-button" href="{{ .Permalink }}">{{ $name }}</a>
+          {{- end -}}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <a href="{{ .Permalink }}" title="">
+    {{ with .Params.featured_image -}}
+      <div class="post-image">
+        <img src="{{ . | absURL }}" alt="post-image" title="post-image">
+      </div>
+    {{ end }}
+  </a>
+  
+  <div class="post-description">
+    <a href="{{ .Permalink }}" title="">
+      {{ .Description }}
+    </a>
+  </div>
+  <div class="post-button">
+    <a href="{{ .Permalink }}" class="button">{{i18n "readMore_link" }}</a>
+  </div>
+</div>
