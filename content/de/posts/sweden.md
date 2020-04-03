@@ -1,11 +1,9 @@
 +++
 title =  "Generelle Tipps für Schweden"
 date = 2020-01-26T10:46:00+01:00
-tags = [
-    "Schweden",
-]
 categories = [
-    "Reisen"
+    "Reisen",
+    "Schweden"
 ]
 featured_image = "article_images/swedenTravel.jpg"
 description = "Dieser Blogeintrag erzählt über die Reisemöglichkeiten von Deutschland nach Schweden, die Einreisebestimmungen für Hunde und die Nationalparks in Schweden."

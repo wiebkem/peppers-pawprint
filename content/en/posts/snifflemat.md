@@ -1,11 +1,9 @@
 +++
 title =  "Sniffle mat and searching for treats"
 date = 2020-03-21T09:00:00+01:00
-tags = [
-    "Indoor enrichment"
-]
 categories = [
-    "Dog enrichment"
+    "Dog enrichment",
+    "Indoor enrichment"
 ]
 featured_image = "article_images/sniffle-mat.jpg"
 description = "Currently, it is a difficult time for most of the people. While social distancing and probably a lockdown, there are lots of possibilities to do things with your dog indoors. At first, I want to introduce the sniffle mat and searching for treats."

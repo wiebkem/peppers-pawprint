@@ -1,11 +1,9 @@
 +++
 title =  "Aktivitäten rund um Ciney, Ardenne"
 date = 2020-02-06T07:47:39+01:00
-tags = [
-    "Belgien"
-]
 categories = [
-    "Reisen"
+    "Reisen",
+    "Belgien"
 ]
 featured_image = "article_images/ardennes.jpg"
 description = "Die Ardenne ist ein schönes Gebiet zum Wandern und um generell die Natur zu genießen. Wir haben uns ein Ferienhaus in Braibant mit zwei Fischteichen und einem großen eingezäuntem Garten gemietet. Von dort aus haben wir dann die Umgebung erkundet."

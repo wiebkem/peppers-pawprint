@@ -1,11 +1,9 @@
 +++
 title =  "Hand puzzle"
 date = 2020-03-22T09:00:00+01:00
-tags = [
-    "Indoor enrichment"
-]
 categories = [
-    "Dog enrichment"
+    "Dog enrichment",
+    "Indoor enrichment"
 ]
 featured_image = "article_images/hand-puzzle.jpeg"
 description = "Today I want to introduce the second enrichment - the hand puzzle. The hand puzzle is about the dog touching the hand with his nose or giving his paw and afterwards getting the reward."

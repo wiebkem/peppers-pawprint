@@ -1,11 +1,9 @@
 +++
 title =  "Händespiel"
 date = 2020-03-22T09:00:00+01:00
-tags = [
-    "Beschäftigung für drinnen"
-]
 categories = [
-    "Beschäftigung"
+    "Beschäftigung",
+    "Beschäftigung für drinnen"
 ]
 featured_image = "article_images/hand-puzzle.jpeg"
 description = "Heute möchte ich euch eine zweite Beschäftigung vorstellen - das Händespiel. Bei dem Händespiel geht es darum, dass der Hund mit der Nase die Hand anstupst oder seine Pfote gibt und danach die Belohnung bekommt."

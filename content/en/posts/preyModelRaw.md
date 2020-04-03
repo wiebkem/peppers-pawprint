@@ -1,11 +1,9 @@
 +++
 title =  "Rawdiet or Prey Model Raw"
 date = 2020-02-21T07:47:39+01:00
-tags = [
-    "Prey Model Raw"
-]
 categories = [
-    "Diet"
+    "Diet",
+    "Prey Model Raw"
 ]
 featured_image = "article_images/prey-model-raw.jpeg"
 description = "I am feeding Pepper raw according to the Prey Model Raw concept. Why do I feed Pepper this way and what's in his bowl? Figure it out in this blog entry."

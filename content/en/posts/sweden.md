@@ -1,11 +1,9 @@
 +++
 title =  "General tips for Sweden"
 date = 2020-01-26T10:46:00+01:00
-tags = [
-    "Sweden",
-]
 categories = [
-    "Travel"
+    "Travel",
+    "Sweden"
 ]
 featured_image = "article_images/swedenTravel.jpg"
 description = "This blog entry is about the travel options to Sweden from Germany, the entry requirements for dogs and the national parks in Sweden."

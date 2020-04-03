@@ -1,11 +1,9 @@
 +++
 title =  "Schnüffelmatte und Leckerlis suchen"
 date = 2020-03-21T09:00:00+01:00
-tags = [
-    "Beschäftigung für drinnen"
-]
 categories = [
-    "Beschäftigung"
+    "Beschäftigung",
+    "Beschäftigung für drinnen"
 ]
 featured_image = "article_images/sniffle-mat.jpg"
 description = "Es ist im Moment eine schwierige Zeit für viele Menschen. Gerade wenn Sozialkontakte gemieden werden und es vielleicht auch eine Ausgangssperre gibt, gibt es auch tolle Möglichkeiten Hunde drinnen zu beschäftigen. Die erste Bestäftigung die ich vorstellen möchte ist die Schnüffelmatte und das Suchen von Leckerlis."
