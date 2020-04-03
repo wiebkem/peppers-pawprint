@@ -5,7 +5,6 @@ footer {
 
   .footer-nav, .footer-social, .copyright {
     margin: 0;
-    padding: $spacing-m 0;
     text-align: center;
 
     li {
@@ -20,20 +19,29 @@ footer {
     }
   }
 
-  .footer-nav li {
-    a, a:visited {
-      font-family: $font-family-medium;
-      font-size: $font-size-h2;
+  .footer-nav {
+    padding: $spacing-m 0 $spacing-s 0;
+
+    li {
+      a, a:visited {
+        font-family: $font-family-medium;
+        font-size: $font-size-h2;
+      }
     }
   }
   
-  .footer-social li {
-    a, a:visited {
-      font-size: $font-size-h1;
+  .footer-social {
+    padding: $spacing-s 0 $spacing-m 0;
+
+    li {
+      a, a:visited {
+        font-size: $font-size-h1;
+      }
     }
   }
 
   .copyright {
+    padding: $spacing-m 0;
     border-top: $line-size-s solid $color-secondary;
   }
 }
