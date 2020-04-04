@@ -1,38 +1,13 @@
-{{ define "main" }}
-<div class="row">
-  <div class="col-xs-12 col-sm-8 col-md-9">
-    <div class="row">
-      {{- $pages := .Pages -}}
-      {{- if .IsHome -}}
-        {{- $pages = where .Site.RegularPages "Type" "posts" -}}
-      {{- end -}}
-      {{- $paginator := .Paginate $pages -}}
-      
-      {{ range first 1 $paginator.Pages -}}
-      <div class="col-xs-12 col-sm-12 col-md-12 first-entry">
-        {{ partial "blogpost-listitem.html" . }}
-      </div>
-      {{ end }}
-
-      {{ range (after 1 $paginator.Pages) -}}
-      <div class="col-xs-12 col-sm-12 col-md-6">
-        {{ partial "blogpost-listitem.html" . }}
-      </div>
-      {{ end }}
-    </div>
-
-      {{ partial "pagination.html" . }}
-  </div>
-
-  <div class="col-xs-12 col-sm-4 col-md-3">
-    <div class="sidebar-widget">
-      <h2 class="widget-title">{{ i18n "category" }}</h2>
-      <div class="tagcloud">
-        {{ range .Site.Taxonomies.categories }}
-          <a class="ghost-button" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
-        {{ end }}
-      </div>
-    </div>
+{{ define "header" }}
+<div id="page-title">
+  <div class="row">
+     <div class="col-xs-12 col-sm-12">
+        <h1>{{ i18n "blog" }}</h1>
+     </div>
   </div>
 </div>
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "blog.html" . }}
 {{ end }}
