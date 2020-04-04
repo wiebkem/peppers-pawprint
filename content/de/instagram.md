@@ -9,7 +9,7 @@ description = ""
 [![Leckerli Boxes](/article_images/treat-boxes.jpeg)](../posts/leckerli-boxes/)
 
 ## Händespiel
-[![Händespiel](/article_images/hand-puzzle.png)](../posts/handespiel/)
+[![Händespiel](/article_images/hand-puzzle.jpeg)](../posts/handespiel/)
 
 ## Schnüffelmatte und Leckerlis suchen
 [![Schnüffelmatte und Leckerlis suchen](/article_images/sniffle-mat.jpg)](../posts/schnuffelmatte-und-leckerlis-suchen/)

@@ -9,7 +9,7 @@ description = ""
 [![Treat boxes](/article_images/treat-boxes.jpeg)](../posts/treat-boxes/)
 
 ## Hand puzzle
-[![Hand puzzle](/article_images/hand-puzzle.png)](../posts/hand-puzzle/)
+[![Hand puzzle](/article_images/hand-puzzle.jpeg)](../posts/hand-puzzle/)
 
 ## Sniffle mat and searching for treats
 [![Sniffle mat and searching for treats](/article_images/sniffle-mat.jpg)](../posts/sniffle-mat-and-searching-for-treats/)
