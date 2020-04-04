@@ -5,6 +5,9 @@ header {
 	padding-bottom: $spacing-s;
 	padding-top: $spacing-s;
 
+  .navbar-collapse {
+    margin-top: $spacing-m;
+  }
 
   .nav-item {
     .nav-link {
