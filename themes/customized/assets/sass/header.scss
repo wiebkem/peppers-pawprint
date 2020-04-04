@@ -1,9 +1,14 @@
 @import 'variables';
 
+.navbar-expand-md>.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 header {
 	background-color: $color-white;
-	padding-bottom: $spacing-s;
-	padding-top: $spacing-s;
+  padding-top: $spacing-s;
+  padding-bottom: $spacing-s;
 
   .navbar-collapse {
     margin-top: $spacing-m;
