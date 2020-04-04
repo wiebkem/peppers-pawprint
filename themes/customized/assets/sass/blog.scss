@@ -1,10 +1,20 @@
 @import 'variables';
 
+#header-container,
+main {
+  .post-header-title {
+    margin-bottom: $spacing-s;
+    font-family: $font-family-special;
+  }
+}
+
 main {
   .post {
-    .post-header .post-header-title,
+    .post-header-title,
     .post-description,
-    .post-content .tags {
+    .post-content .tags,
+    .categories,
+    .post-content p {
       a, a:visited {
         text-decoration: none;
       }
@@ -17,6 +27,7 @@ main {
     .post-image {
       width: 100%;
       margin-bottom: $spacing-s;
+      margin-top: $spacing-s;
 
       img {
           max-height: 265px;;
@@ -24,31 +35,28 @@ main {
           border-radius: $border-radius-l;
       }
     }
+
+    .post-header-title {
+      text-align: center;
+     
+      a {
+        font-size: $font-size-header;
+      }
+    }
   
     .post-header {
       text-align: center;
-
-      .post-header-title {
-        margin-bottom: $spacing-s;
-        font-family: $font-family-special;
-
-        a {
-          font-size: $font-size-header;
-        }
-      }
 
       .date {
         font-family: $font-family-italic;
         font-size: $font-size-text-small;
       }
-    }
 
-    .categories {
-      display: grid;
-
-      .ghost-button {
-        width: 100%;
-        margin-bottom: $spacing-s;
+      .categories {
+        .tags {
+          font-size: $font-size-text-small;
+          color: $color-grey-80;
+        }
       }
     }
 
@@ -65,15 +73,27 @@ main {
 
     /* single post entry */
     .post-content {
+      margin-bottom: $spacing-xl;
+
       p {
-        margin-bottom: $spacing-s;
+        margin-bottom: $spacing-m;
 
         &.lead {
-          margin-bottom: $spacing-m;
-          color: $color-grey-70;
-          //font-family: $font-family-italic;
+          margin-bottom: $spacing-xl;
+          color: $color-grey-80;
+          font-family: $font-family-italic;
           font-size: $font-size-text;
         }
+      }
+
+      a, a:visited,
+      li a, li a:visited {
+        color: $color-secondary-evenDarker;
+      }
+
+      a:hover, a:active, a:focus,
+      li a:hover, li a:active, li a:focus {
+        color: $color-secondary;
       }
 
       .tags {
@@ -88,6 +108,12 @@ main {
 
   .first-entry .post-image img {
     max-height: 500px;
+  }
+
+  .post-thumb {
+    margin-top: $spacing-s;
+    margin-bottom: $spacing-m;
+    width: 100%;
   }
 }
 

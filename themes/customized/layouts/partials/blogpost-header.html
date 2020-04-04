@@ -3,7 +3,7 @@
   {{ partial "customLine.html" . }}
   
   <div class="categories">
-    <i class="fas fa-tags"></i>
+    <i class="tags fas fa-tags"></i>
     {{ with .Params.categories -}}
     {{ $.Scratch.Set "firstcategory" true }}
       {{ range . -}}
