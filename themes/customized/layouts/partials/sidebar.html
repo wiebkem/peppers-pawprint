@@ -1,0 +1,8 @@
+<div class="sidebar-widget">
+  <h2 class="widget-title">{{ i18n "category" }}</h2>
+  <div class="tagcloud">
+    {{ range .Site.Taxonomies.categories }}
+      <a class="ghost-button" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+    {{ end }}
+  </div>
+</div>
