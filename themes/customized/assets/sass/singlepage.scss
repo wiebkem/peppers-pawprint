@@ -1,12 +1,26 @@
 @import 'variables';
 
-main .sidebar-widget {  
-    .socials a, .socials a:visited {
-        color: $color-grey-100;
-        text-decoration: none;
+main {
+    .page-content {
+        margin-bottom: $spacing-xl;
 
-        &:hover, &:active {
-            color: $color-grey-60;
+        h2:not(:first-child) {
+            margin-top: $spacing-xl;
+        }
+
+        h3 {
+            margin-top: $spacing-l;
         }
     }
-  }
+
+    .sidebar-widget {  
+        .socials a, .socials a:visited {
+            color: $color-grey-100;
+            text-decoration: none;
+
+            &:hover, &:active {
+                color: $color-grey-60;
+            }
+        }
+    }
+}

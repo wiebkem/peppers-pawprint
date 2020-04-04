@@ -14,12 +14,12 @@
         <img src="{{ . | absURL }}" alt="post-image" title="post-image">
       </div>
       {{ end }}
-      <p>
+      <div class="page-content">
         {{ .Content }}
         {{ with .Params.privacyOptOut -}}
           <a id="privacyOptOut" href="javascript:gaOptout()">{{ . }}</a>
         {{ end }}
-      </p>
+      </div>
     </div>
 
     <div class="col-xs-12 col-sm-4">

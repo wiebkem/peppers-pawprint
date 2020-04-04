@@ -20,7 +20,7 @@ h1, h1 a {
     font-size: $font-size-h1;
 }
 
-h2 {
+h2, h3 {
     font-size: $font-size-h2;
 }
 
@@ -102,10 +102,13 @@ main {
         border-radius: $border-radius-l;
     }
 
-    .post .post-content {
+    .post .post-content,
+    .page-content {
         p a, p a:visited,
+        a, a:visited,
         li a, li a:visited {
             color: $color-secondary-evenDarker;
+            text-decoration: none;
         }
 
         p a:hover, p a:active, p a:focus,
