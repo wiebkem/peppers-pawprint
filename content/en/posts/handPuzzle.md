@@ -2,7 +2,7 @@
 title =  "Hand puzzle"
 date = 2020-03-22T09:00:00+01:00
 categories = [
-    "Dog enrichment",
+    "Enrichment",
     "Indoor enrichment"
 ]
 featured_image = "article_images/hand-puzzle.jpeg"

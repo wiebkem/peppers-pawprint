@@ -2,7 +2,7 @@
 title =  "Sniffle mat and searching for treats"
 date = 2020-03-21T09:00:00+01:00
 categories = [
-    "Dog enrichment",
+    "Enrichment",
     "Indoor enrichment"
 ]
 featured_image = "article_images/sniffle-mat.jpg"
