@@ -101,6 +101,18 @@ main {
         object-fit: cover;
         border-radius: $border-radius-l;
     }
+
+    .post .post-content {
+        p a, p a:visited,
+        li a, li a:visited {
+            color: $color-secondary-evenDarker;
+        }
+
+        p a:hover, p a:active, p a:focus,
+        li a:hover, li a:active, li a:focus {
+            color: $color-secondary;
+        }
+    }
 }
 
 .custom-line {

@@ -86,16 +86,6 @@ main {
         }
       }
 
-      a, a:visited,
-      li a, li a:visited {
-        color: $color-secondary-evenDarker;
-      }
-
-      a:hover, a:active, a:focus,
-      li a:hover, li a:active, li a:focus {
-        color: $color-secondary;
-      }
-
       .tags {
         margin-top: $spacing-m;
 
