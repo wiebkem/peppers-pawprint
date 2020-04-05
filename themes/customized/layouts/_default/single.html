@@ -2,30 +2,20 @@
   {{ partial "page-title.html" . }}
 {{ end }}
 
-  {{ define "main" }}
-  <div class="row">
-    <div class="col-xs-12 col-sm-8">
-      {{ with .Params.featured_image -}}
-      <div class="post-thumb">
-        <img src="{{ . | absURL }}" alt="post-image" title="post-image">
-      </div>
-      {{ end }}
-      <div class="page-content">
-        {{ .Content }}
-        {{ with .Params.privacyOptOut -}}
-          <a id="privacyOptOut" href="javascript:gaOptout()">{{ . }}</a>
-        {{ end }}
-      </div>
+{{ define "main" }}
+<div class="row">
+  <div class="col-xs-12 col-sm-12">
+    {{ with .Params.featured_image -}}
+    <div class="post-thumb">
+      <img src="{{ . | absURL }}" alt="post-image" title="post-image">
     </div>
-
-    <div class="col-xs-12 col-sm-4">
-      <div class="sidebar-widget">
-        <h2 class="widget-title">Email and Social</h2>
-        <p class="socials">
-          E-mail: <a href="{{ .Site.Params.mail }}" target="_blank">{{ .Site.Params.mail_title }}</a><br>
-          Instagram: <a href="{{ .Site.Params.instagram }}" target="_blank">{{ .Site.Title }}</a>
-        </p>
-      </div>
+    {{ end }}
+    <div class="page-content">
+      {{ .Content }}
+      {{ with .Params.privacyOptOut -}}
+        <a id="privacyOptOut" href="javascript:gaOptout()">{{ . }}</a>
+      {{ end }}
     </div>
   </div>
-  {{ end }}
+</div>
+{{ end }}
