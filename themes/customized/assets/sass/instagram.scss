@@ -7,7 +7,7 @@ main .instagram-content {
         text-align: center;
     }
 
-    h2:not(:first-child) {
-        margin-top: $spacing-xl;
+    p img {
+        margin-bottom: $spacing-xl;
     }
 }
