@@ -20,6 +20,21 @@
           {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "posts")) }}
           {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "tags")) }}
           {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "categories")) }}
+
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">{{ .Name }} <span class="ion-ios-arrow-down"></span></a>
+            <ul class="dropdown-menu">
+              {{ range .Children }}
+              <li class="{{ if $active }}active{{ end }}">
+                <a class="nav-link" href="{{ .URL | absLangURL | safeURL }}">{{ .Name }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </li>
+          {{ else }}
+
           <li class="nav-item {{ if $active }}active{{ end }}">
             {{ with $menuItem.Page }}
               <a class="nav-link" href="{{ .Permalink }}">{{ with $menuItem.Pre }}{{ . | safeHTML }}{{ end }}{{ $menuItem.Name }}</a>
@@ -31,6 +46,7 @@
               {{ end }}
             {{ end }}
           </li>
+          {{ end }}
           {{ end }}
         </ul>
         <ul class="navbar-nav languages">
