@@ -168,10 +168,24 @@ defaultContentLanguageInSubdir = true
 #    url = "/posts/"
 
   [[languages.en.menu.main]]
-    name = "About us"
+    name = "About"
     weight = 3
     identifier = "about"
-    url = "/about/"
+    hasChildren = true
+
+    [[languages.en.menu.main]]
+      parent = "about"
+      name = "Wiebke"
+      weight = 1
+      identifier = "wiebke"
+      url = "/about/wiebke/"
+
+    [[languages.en.menu.main]]
+      parent = "about"
+      name = "Pepper"
+      weight = 2
+      identifier = "pepper"
+      url = "/about/pepper/"
 
   [[languages.en.menu.social]]
     name = "E-mail"
@@ -228,10 +242,24 @@ defaultContentLanguageInSubdir = true
 #    url = "/posts/"
 
   [[languages.de.menu.main]]
-    name = "Über uns"
+    name = "Über mich"
     weight = 3
     identifier = "about"
-    url = "/about/"
+    hasChildren = true
+
+    [[languages.de.menu.main]]
+      parent = "about"
+      name = "Wiebke"
+      weight = 1
+      identifier = "wiebke"
+      url = "/about/wiebke/"
+
+    [[languages.de.menu.main]]
+      parent = "about"
+      name = "Pepper"
+      weight = 2
+      identifier = "pepper"
+      url = "/about/pepper/"
 
   [[languages.de.menu.social]]
     name = "E-Mail"
