@@ -24,6 +24,11 @@ h2, h3 {
     font-size: $font-size-h2;
 }
 
+h4 {
+    font-size: $font-size-text;
+    font-family: $font-family-medium;
+}
+
 p, a {
     font-size: $font-size-text;
 }

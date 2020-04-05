@@ -5,7 +5,7 @@
         <ul class="footer-nav">
           {{ if .Site.Menus.links }}
             {{ range .Site.Menus.links }}
-              <li><a href="{{ .URL | absLangURL | safeURL }}">{{ .Name }}.</a></li>
+              <li><a href="{{ .URL | absLangURL | safeURL }}">{{ .Name }}</a></li>
             {{ end }}
           {{ end }}
         </ul>
