@@ -9,6 +9,7 @@
 @import 'goToTop';
 @import 'pagination';
 @import 'sidebar';
+@import 'instagram';
 // @import 'comments';
 
 body {
@@ -120,6 +121,13 @@ main {
         li a:hover, li a:active, li a:focus {
             color: $color-secondary;
         }
+    }
+
+    .sidebar-widget .widget-title,
+    .instagram-content h2 {
+        margin-bottom: $spacing-s;
+        padding-bottom: $spacing-s;
+        border-bottom: 2px solid $color-secondary;
     }
 }
 

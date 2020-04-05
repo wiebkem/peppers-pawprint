@@ -1,13 +1,7 @@
 @import 'variables';
 
 main {
-  .sidebar-widget {  
-    .link-list {
-      margin-bottom: $spacing-m;
-      padding: 0;
-      list-style: none;
-    }
-
+  .sidebar-widget {
     .tagcloud {
       display: block;
       margin-bottom: $spacing-s;
@@ -17,14 +11,6 @@ main {
         display: inline-block;
         float: left;
       }
-    }
-  }
-
-  .sidebar-widget {
-    .widget-title {
-        margin-bottom: $spacing-s;
-        padding-bottom: $spacing-s;
-        border-bottom: 2px solid $color-secondary;
     }
   }
 }
