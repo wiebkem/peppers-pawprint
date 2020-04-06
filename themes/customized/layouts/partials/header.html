@@ -18,16 +18,16 @@
           {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
           {{ $active = or $active (eq .Name $current.Title) }}
           {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "posts")) }}
-          {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "tags")) }}
           {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "categories")) }}
+          {{ $active = or $active (and (eq .Name "About") (eq $current.Section "about")) }}
 
           {{ if .HasChildren }}
-          <li class="nav-item dropdown">
+          <li class="nav-item {{ if $active }}active{{ end }} dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
               aria-expanded="false">{{ .Name }} <span class="ion-ios-arrow-down"></span></a>
             <ul class="dropdown-menu">
               {{ range .Children }}
-              <li class="{{ if $active }}active{{ end }}">
+              <li>
                 <a class="nav-link" href="{{ .URL | absLangURL | safeURL }}">{{ .Name }}</a>
               </li>
               {{ end }}

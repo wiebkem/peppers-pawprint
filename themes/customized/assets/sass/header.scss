@@ -47,6 +47,10 @@ header {
     &.active .nav-link {
       background-color: $color-secondary; 
     }
+
+    &.dropdown.active .dropdown-menu .nav-link {
+      background-color: $color-white;
+    }
   }
   
   .navbar {
@@ -89,9 +93,21 @@ header {
         background-color: transparent;
       }
 
+      &.dropdown.active .dropdown-menu .nav-link {
+        border-bottom: none;
+      }
+
       .nav-link {
         padding-right: $spacing-m !important;
         padding-left: $spacing-m !important;
+      }
+    }
+
+    .dropdown-menu {
+      border-radius: $border-radius-s;
+  
+      li .nav-link:last-child {
+        border-radius: $border-radius-s;
       }
     }
 
