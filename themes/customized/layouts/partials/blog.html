@@ -3,7 +3,7 @@
     <div class="row">
       {{- $pages := .Pages -}}
       {{- if .IsHome -}}
-        {{- $pages = where .Site.RegularPages "Type" "posts" -}}
+        {{- $pages = where .Site.RegularPages "Type" "blog" -}}
       {{- end -}}
       {{- $paginator := .Paginate $pages -}}
       
