@@ -2,7 +2,9 @@
 title =  "Treat boxes"
 date = 2020-03-29T09:00:00+01:00
 categories = [
-    "Enrichment",
+    "Enrichment"
+]
+tags = [
     "Indoor enrichment"
 ]
 featured_image = "article_images/treat-boxes.jpeg"
