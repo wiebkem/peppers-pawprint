@@ -2,7 +2,9 @@
 title =  "Rohfütterung oder auch Prey Model Raw"
 date = 2020-02-21T07:47:39+01:00
 categories = [
-    "Fütterung",
+    "Fütterung"
+]
+tags = [
     "Prey Model Raw"
 ]
 featured_image = "article_images/prey-model-raw.jpeg"

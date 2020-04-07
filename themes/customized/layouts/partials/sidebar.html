@@ -1,8 +1,17 @@
 <div class="sidebar-widget">
   <h2 class="widget-title">{{ i18n "category" }}</h2>
-  <div class="tagcloud">
+  <div class="tagcloud categories">
     {{ range .Site.Taxonomies.categories }}
-      <a class="ghost-button" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+      <a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+    {{ end }}
+  </div>
+</div>
+
+<div class="sidebar-widget">
+  <h5 class="widget-title">{{ i18n "tags" }}</h5>
+  <div class="tagcloud tags">
+    {{ range .Site.Taxonomies.tags }}
+    <a class="ghost-button" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
     {{ end }}
   </div>
 </div>

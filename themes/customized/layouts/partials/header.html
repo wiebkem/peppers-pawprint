@@ -19,6 +19,7 @@
           {{ $active = or $active (eq .Name $current.Title) }}
           {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "posts")) }}
           {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "categories")) }}
+          {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "tags")) }}
           {{ $active = or $active (and (eq .Name "About") (eq $current.Section "about")) }}
 
           {{ if .HasChildren }}

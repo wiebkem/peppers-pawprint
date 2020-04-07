@@ -2,7 +2,9 @@
 title =  "Händespiel"
 date = 2020-03-22T09:00:00+01:00
 categories = [
-    "Beschäftigung",
+    "Beschäftigung"
+]
+tags = [
     "Beschäftigung für drinnen"
 ]
 featured_image = "article_images/hand-puzzle.jpeg"

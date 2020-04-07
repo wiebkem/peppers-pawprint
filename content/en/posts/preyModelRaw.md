@@ -2,7 +2,9 @@
 title =  "Rawdiet or Prey Model Raw"
 date = 2020-02-21T07:47:39+01:00
 categories = [
-    "Diet",
+    "Diet"
+]
+tags = [
     "Prey Model Raw"
 ]
 featured_image = "article_images/prey-model-raw.jpeg"

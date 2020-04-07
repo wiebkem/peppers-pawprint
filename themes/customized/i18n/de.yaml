@@ -31,6 +31,12 @@
 - id: category
   translation: Kategorie
 
+- id: tag
+  translation: Tag
+
+- id: tags
+  translation: Tags
+
 - id: readMore_link
   translation: Mehr lesen...
 

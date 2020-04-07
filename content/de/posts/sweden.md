@@ -2,7 +2,9 @@
 title =  "Generelle Tipps für Schweden"
 date = 2020-01-26T10:46:00+01:00
 categories = [
-    "Reisen",
+    "Reisen"
+]
+tags = [
     "Schweden"
 ]
 featured_image = "article_images/swedenTravel.jpg"

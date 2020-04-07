@@ -2,7 +2,9 @@
 title =  "Leckerli Boxes"
 date = 2020-03-29T09:00:00+01:00
 categories = [
-    "Beschäftigung",
+    "Beschäftigung"
+]
+tags = [
     "Beschäftigung für drinnen"
 ]
 featured_image = "article_images/treat-boxes.jpeg"
