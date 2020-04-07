@@ -41,7 +41,7 @@ a, a:visited, li a, li a:visited {
     color: $color-grey-90;
 }
 
-li:hover a, li:active a, li a:hover, li a:active { 
+li:hover a, li:active a, a:hover, a:active { 
     color: $color-grey-60;
     text-decoration: none;
 }
