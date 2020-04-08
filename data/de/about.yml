@@ -1,6 +1,11 @@
-pepper:
+wiebke:
   enable : true
   item:
+    #item loop
+    - content : "Ich freue mich, dass Du den Weg zu uns gefunden hast! 😃
+                Hier möchte ich Dich an unserem Weg 🛤️ teilhaben lassen und über interessante Themen im Hundealltag 🐶 berichten. Außerdem wirst Du mehr lesen über Reisen mit Hund und warum ich eine Ausbildung zum Hundetrainer 🐕 angefangen habe. Es bleibt also spannend!"
+      image : "images/about/pepper3.jpg"
+
     #item loop
     - title : "Freizeit"
       content : "Mit seinen 10 Jahren haben wir angefangen mit Mantrailing und er liebt es! 💞Generell findet er es super mit seiner Nase beschäftigt zu sein oder zusammen mit mir zu arbeiten. Aus diesem Grund machen wir z.B. auch oft verschiedene Leckerli Suchspiele oder wir erarbeiten uns neue Tricks mit dem Clicker.  

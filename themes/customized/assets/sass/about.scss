@@ -1,0 +1,20 @@
+@import 'variables';
+
+.about-page {
+    margin-bottom: $spacing-xl;
+
+    .about-content {
+        margin-top: $spacing-m;
+        margin-bottom: $spacing-m;
+
+        h2 {
+            font-family: $font-family-special;
+            text-align: center;
+            font-size: $font-size-h1;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

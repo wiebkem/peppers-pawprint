@@ -4,6 +4,7 @@
 
 @import 'blog';
 @import 'singlepage';
+@import 'about';
 
 /* partials */
 @import 'goToTop';
@@ -74,6 +75,24 @@ li:hover a, li:active a, a:hover, a:active {
         color: $color-white;
         background: $color-secondary-darker;
         text-decoration: none;
+    }
+}
+
+.showMobile {
+    display: block;
+}
+
+.showDesktop {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    .showMobile {
+        display: none;
+    }
+
+    .showDesktop {
+        display: block;
     }
 }
 
