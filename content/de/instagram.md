@@ -1,8 +1,5 @@
 +++
 title =  "Instagram"
-date = 2020-01-01T09:00:00+01:00
-featured_image = ""
-description = ""
 +++
 
 ## Leckerli Boxes
