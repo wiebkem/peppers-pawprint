@@ -21,6 +21,7 @@
           {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "categories")) }}
           {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "tags")) }}
           {{ $active = or $active (and (eq .Name "About") (eq $current.Section "about")) }}
+          {{ $active = or $active (and (eq .Name "Über") (eq $current.Section "about")) }}
 
           {{ if .HasChildren }}
           <li class="nav-item {{ if $active }}active{{ end }} dropdown">

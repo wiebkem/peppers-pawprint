@@ -238,7 +238,7 @@ defaultContentLanguageInSubdir = true
 #    url = "/blog/"
 
   [[languages.de.menu.main]]
-    name = "Über mich"
+    name = "Über"
     weight = 3
     identifier = "about"
     hasChildren = true
