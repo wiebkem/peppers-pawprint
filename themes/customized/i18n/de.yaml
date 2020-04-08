@@ -31,6 +31,9 @@
 - id: category
   translation: Kategorie
 
+- id: categories
+  translation: Kategorien
+
 - id: tag
   translation: Tag
 
