@@ -1,9 +1,11 @@
 +++
-title =  "Wiebke"
-date = 2019-12-08T20:14:39+01:00
-featured_image = "images/pepper.jpg"
-description = ""
+title =  "Über uns"
 +++
+
+**Geburtsdatum:** 🎂08.04.2009  
+**Geschlecht:** Männlich  
+**Rasse:** Schäferhund-Collie-Mischling 🐶
+
 
 Ich freue mich, dass Du den Weg zu uns gefunden hast! 😃
 

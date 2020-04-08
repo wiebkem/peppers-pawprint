@@ -1,9 +1,11 @@
 +++
-title =  "Wiebke"
-date = 2019-12-08T20:14:39+01:00
-featured_image = "images/pepper.jpg"
-description = ""
+title =  "About us"
 +++
+
+**Birthday:** 🎂08.04.2009  
+**Gender:** Male  
+**Breed:** Shepherd-Collie-Mix 🐶
+
 
 I am glad that you have found us! 😃
 
