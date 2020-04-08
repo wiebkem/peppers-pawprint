@@ -21,5 +21,10 @@ main {
         display: block;
       }
     }
+
+    .related-post {
+      margin-bottom: $spacing-xl;
+      text-align: center;
+    }
   }
 }

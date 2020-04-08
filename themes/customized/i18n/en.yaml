@@ -37,6 +37,9 @@
 - id: tags
   translation: Tags
 
+- id: related_posts
+  translation: Related posts
+
 - id: readMore_link
   translation: Read more...
 
