@@ -103,7 +103,6 @@ defaultContentLanguageInSubdir = true
   instagram =	"https://www.instagram.com/peppers_pawprint/"
   facebook =	"https://www.facebook.com/pepperspawprint/"
   mail =	"mailto:pepperspawprint@gmail.com"
-  mail_title =	"pepperspawprint@gmail.com"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
