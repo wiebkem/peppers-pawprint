@@ -14,7 +14,15 @@
         }
 
         p {
-            margin-bottom: 0;
+            margin-bottom: $spacing-s;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
+    }
+
+    .post-thumb img {
+        max-height: 360px;
     }
 }
