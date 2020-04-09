@@ -2,28 +2,38 @@ us:
   enable : true
   item:
     #item loop
-    - title : "Pepper"
+    - title : "Hej hej, I am Wiebke"
+      content : "During my childhood, we always had dogs and since I am 16 years old Pepper accompanies me.
+          When I moved from home at the age of 19 and therefore from Germany to the Netherlands to study, Pepper naturally came with me.
+          5 years later I went to Sweden for my Master education and at the moment I live with pepper and my boyfriend again in Arnhem in the Netherlands."
+      image : "images/about/pepper3.jpg"
+
+    #item loop
+    - title : "Dog trainer education"
+      content : "Currently, I am following an education as a dog trainer and afterwards I want to help human-dog-teams to live together in harmony. 
+          I am excited where the way is leading.
+
+
+          Feel free to contact me with any questions or suggestions. I look forward to meet you!"
+      image : "images/about/pepper2.jpg"
+    
+    #item loop
+    - title : "🐾 Pepper 🐾"
       content : "**Birthday:** 🎂08.04.2009  
               
               
-              **Gender:** Male  
+          **Gender:** Male  
               
 
-              **Breed:** Shepherd-Collie-Mix 🐶"
-      image : "images/about/pepper.jpg"
+          **Breed:** Shepherd-Collie-Mix 🐶
+          
+
+          One characteristic of Pepper is to roll in the grass 🌿. It became a standard procedure and he does it nearly every walk."
+      image : "images/about/pepper3.jpg"
 
     #item loop
     - title : "Leisure"
-      content : "We started mantrailing at the age of 10 and he loves it! 💞In general, he loves to work with his nose or working together with me. For this reason, we often work with sniff games or we develop new tricks with the clicker.  
-                
-      
-              If Pepper has the opportunity, he also likes to look out of the window. At the moment, all windows in the apartment are a little higher and therefore he uses the balcony. In one of my earlier apartments my bed was in front of the window and, when I was not there, he was sitting comfortably on it and watching the world 😂 (actually he isn't allowed to go on the bed... otherwise I wouldn't have any space for myself🙈)."
-      image : "images/about/pepper2.JPG"
-
-    #item loop
-    - title : "Characteristics"
-      content : "If he got to know and love ❤️ a person, he literally goes crazy when that person visits. The visitor is then greeted wildly and, of course, it will be checked whether the person has something tasty for him.  
-                
-      
-              On a walk, Pepper thinks it's great to roll in the grass 🌿. It became a standard procedure and cannot be left out during every walk."
-      image : "images/about/pepper3.jpg"
+      content : "Shortly before Pepper's 10th birthday we started with mantrailing. 
+          I find it a great dog enrichment and Pepper loves it in particular as he likes to work with his nose. 
+          For this reason, we do often different treats search games or we develop new tricks with the clicker 💞"
+      image : "images/about/pepper.jpg"
