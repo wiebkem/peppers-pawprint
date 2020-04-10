@@ -12,10 +12,10 @@
       </div>
       <div class="col-xs-12 col-sm-6">
         <ul class="footer-social">
-          {{ if .Site.Menus.social }}
-            {{ range .Site.Menus.social }}
+          {{ if .Site.Params.social }}
+            {{ range .Site.Params.social }}
             <li>
-              <a href="{{ .URL | safeURL }}" target="_blank">{{ .Pre }}</a>
+              <a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a>
             </li>
             {{ end }}
           {{ end }}

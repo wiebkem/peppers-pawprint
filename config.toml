@@ -99,16 +99,25 @@ defaultContentLanguageInSubdir = true
 
   google_verification = ""  # Google_Verification
 
-  # social accounts
-  instagram =	"https://www.instagram.com/peppers_pawprint/"
-  facebook =	"https://www.facebook.com/pepperspawprint/"
-  mail =	"mailto:pepperspawprint@gmail.com"
-
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   basicCSS = ['bootstrap.4.1.3.min.css', 'fontawesome.5.2.0.css', 'cookieconsent.min.css']
   basicJS = ['jquery-3.3.1.slim.min.js', 'popper.min.js', 'bootstrap.4.1.3.min.js']
   customJS = ['custom.js']              # if ['custom.js'], load '/static/js/custom.js' file
+
+
+  ############################# social site ########################
+  [[params.social]]
+  icon = "far fa-envelope"
+  link = "mailto:pepperspawprint@gmail.com"
+
+  [[params.social]]
+  icon = "fab fa-instagram"
+  link = "https://www.instagram.com/peppers_pawprint/"
+
+  [[params.social]]
+  icon = "fab fa-facebook-f"
+  link = "https://www.facebook.com/pepperspawprint/"
 
 # ------------------------------------- #
 # ---- Related Articles --------------- #
@@ -168,27 +177,6 @@ defaultContentLanguageInSubdir = true
     identifier = "about"
     url = "/about/"
 
-  [[languages.en.menu.social]]
-    name = "E-mail"
-    weight = 1
-    pre = '<i class="far fa-envelope"></i>'
-    identifier = "mail"
-    url = "mailto:pepperspawprint@gmail.com"
-
-  [[languages.en.menu.social]]
-    name = "Instagram"
-    weight = 2
-    pre = '<i class="fab fa-instagram"></i>'
-    identifier = "instagram"
-    url = "https://www.instagram.com/peppers_pawprint/"
-
-  [[languages.en.menu.social]]
-    name = "Facebook"
-    weight = 3
-    pre = '<i class="fab fa-facebook-f"></i>'
-    identifier = "facebook"
-    url = "https://www.facebook.com/pepperspawprint/"
-
   [[languages.en.menu.links]]
     name = "Privacy"
     weight = 1
@@ -235,27 +223,6 @@ defaultContentLanguageInSubdir = true
 #      weight = 1
 #      identifier = "wiebke"
 #      url = "/about/wiebke/"
-
-  [[languages.de.menu.social]]
-    name = "E-Mail"
-    weight = 1
-    pre = '<i class="far fa-envelope"></i>'
-    identifier = "mail"
-    url = "mailto:pepperspawprint@gmail.com"
-
-  [[languages.de.menu.social]]
-    name = "Instagram"
-    weight = 2
-    pre = '<i class="fab fa-instagram"></i>'
-    identifier = "instagram"
-    url = "https://www.instagram.com/peppers_pawprint/"
-
-  [[languages.de.menu.social]]
-    name = "Facebook"
-    weight = 3
-    pre = '<i class="fab fa-facebook-f"></i>'
-    identifier = "facebook"
-    url = "https://www.facebook.com/pepperspawprint/"
 
   [[languages.de.menu.links]]
     name = "Datenschutz"
