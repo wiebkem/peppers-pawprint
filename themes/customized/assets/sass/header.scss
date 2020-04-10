@@ -103,11 +103,22 @@ header {
       }
     }
 
-    .dropdown-menu {
-      border-radius: $border-radius-s;
-  
-      li .nav-link:last-child {
+    .languages {
+      .dropdown-menu {
         border-radius: $border-radius-s;
+    
+        li .nav-link:last-child {
+          border-radius: $border-radius-s;
+        }
+      }
+    }
+
+    .dropdown-menu {
+      right: 0;
+      left: auto;
+  
+      li .nav-link {
+        float: right;
       }
     }
 

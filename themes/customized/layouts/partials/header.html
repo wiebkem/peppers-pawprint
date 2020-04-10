@@ -25,8 +25,9 @@
 
           {{ if .HasChildren }}
           <li class="nav-item {{ if $active }}active{{ end }} dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">{{ .Name }} <span class="ion-ios-arrow-down"></span></a>
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              {{ .Name }} <i class="ion-ios-arrow-down"></i>
+            </a>
             <ul class="dropdown-menu">
               {{ range .Children }}
               <li>
@@ -51,29 +52,39 @@
           {{ end }}
           {{ end }}
         </ul>
+
+        <!-- Languages -->
+        {{ if .Site.Params.showMenuLanguages }}
         <ul class="navbar-nav languages">
-          <!-- Languages -->
-          {{ if .IsTranslated }}
-          {{- $last := (sub (len .Translations) 1) -}}
-            {{ range $index, $value := (.Translations | sort) -}}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ $value.Permalink }}"><i class="fa fa-globe"></i> {{ $value.Lang | upper }}</a>
-              </li>
-              {{- if ne $index $last }}, {{ end -}}
-            {{ end }}
-          {{ else }}
-          {{ if and (gt (len .Site.Home.AllTranslations) 1) (.Site.Params.showMenuLanguages | default false ) }}
-            {{- $.Scratch.Set "language" .Language -}}
-            {{ range .Site.Home.AllTranslations }}
-            {{ if ne ($.Scratch.Get "language") .Language }}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ .Permalink }}"><i class="fa fa-globe"></i> {{ .Language.LanguageName }}</a>
-              </li>
-            {{ end }}
-            {{ end }}
-          {{ end }}
-          {{ end }}
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-globe-europe"></i> {{ .Site.Language.Lang | upper }} <i class="ion-ios-arrow-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              {{ if .IsTranslated }}
+              {{- $last := (sub (len .Translations) 1) -}}
+                {{ range $index, $value := (.Translations | sort) -}}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ $value.Permalink }}">{{ .Language.LanguageName }}</a>
+                  </li>
+                  {{- if ne $index $last }}, {{ end -}}
+                {{ end }}
+              {{ else }}
+              {{ if (gt (len .Site.Home.AllTranslations) 1) }}
+                {{- $.Scratch.Set "language" .Language -}}
+                {{ range .Site.Home.AllTranslations }}
+                {{ if ne ($.Scratch.Get "language") .Language }}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                  </li>
+                {{ end }}
+                {{ end }}
+              {{ end }}
+              {{ end }}
+            </ul>
+          </li>
         </ul>
+        {{ end }}
       </div>
     </div>
   </div>
