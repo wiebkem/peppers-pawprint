@@ -5,8 +5,8 @@ title =  "Instagram"
 ## Snoep dozen
 [![Snoep dozen](/article_images/treat-boxes.jpeg)](../blog/snoep-dozen/)
 
-## Hand puzzel
-[![Hand puzzel](/article_images/hand-puzzle.jpeg)](../blog/hand-puzzel/)
+## Handspelletje
+[![Handspelletje](/article_images/hand-puzzle.jpeg)](../blog/handspelletje/)
 
 ## Snuffelmat en snoepjes zoeken
 [![Snuffelmat en snoepjes zoeken](/article_images/snuffle-mat.jpg)](../blog/snuffelmat-en-snoepjes-zoeken/)
