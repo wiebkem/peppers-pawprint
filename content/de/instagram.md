@@ -14,8 +14,8 @@ title =  "Instagram"
 ## Rohfütterung oder auch Prey Model Raw
 [![Rohfütterung oder auch Prey Model Raw](/article_images/prey-model-raw.jpeg)](../blog/rohfutterung-oder-auch-prey-model-raw/)
 
-## Aktivitäten rund um Ciney, Ardenne
-[![Aktivitäten rund um Ciney, Ardenne](/article_images/ardennes.jpg)](../blog/aktivitaten-rund-um-ciney-ardenne/)
+## Things to do around Ciney, Ardennes
+[![Things to do around Ciney, Ardennes](/article_images/ardennes.jpg)](../..//en/blog/things-to-do-around-ciney-ardennes/)
 
-## Generelle Tipps für Schweden
-[![Generelle Tipps für Schweden](/article_images/swedenTravel.jpg)](../blog/generelle-tipps-fur-schweden/)
+## General tips for Sweden
+[![General tips for Sweden](/article_images/swedenTravel.jpg)](../../en/blog/general-tips-for-sweden/)
