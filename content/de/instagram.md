@@ -9,7 +9,7 @@ title =  "Instagram"
 [![Händespiel](/article_images/hand-puzzle.jpeg)](../blog/handespiel/)
 
 ## Schnüffelmatte und Leckerlis suchen
-[![Schnüffelmatte und Leckerlis suchen](/article_images/sniffle-mat.jpg)](../blog/schnuffelmatte-und-leckerlis-suchen/)
+[![Schnüffelmatte und Leckerlis suchen](/article_images/snuffle-mat.jpg)](../blog/schnuffelmatte-und-leckerlis-suchen/)
 
 ## Rohfütterung oder auch Prey Model Raw
 [![Rohfütterung oder auch Prey Model Raw](/article_images/prey-model-raw.jpeg)](../blog/rohfutterung-oder-auch-prey-model-raw/)

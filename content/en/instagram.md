@@ -8,8 +8,8 @@ title =  "Instagram"
 ## Hand puzzle
 [![Hand puzzle](/article_images/hand-puzzle.jpeg)](../blog/hand-puzzle/)
 
-## Sniffle mat and searching for treats
-[![Sniffle mat and searching for treats](/article_images/sniffle-mat.jpg)](../blog/sniffle-mat-and-searching-for-treats/)
+## Snuffle mat and searching for treats
+[![Snuffle mat and searching for treats](/article_images/snuffle-mat.jpg)](../blog/snuffle-mat-and-searching-for-treats/)
 
 ## Rawdiet or Prey Model Raw
 [![Rawdiet or Prey Model Raw](/article_images/prey-model-raw.jpeg)](../blog/rawdiet-or-prey-model-raw/)
