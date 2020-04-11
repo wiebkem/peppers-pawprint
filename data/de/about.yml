@@ -6,7 +6,7 @@ us:
       content : "Schon in meiner Kindheit hatten wir eigentlich immer Hunde zu Hause und seitdem ich 16 Jahre alt bin begleitet mich Pepper.
           Als ich mit 19 Jahren von zu Hause und damit von Deutschland in die Niederlande zum Studieren gezogen bin, kam er natürlich mit.
           5 Jahre später ging es dann für meinen Master nach Schweden und momentan lebe ich mit Pepper und meinem Freund wieder in Arnhem in den Niederlanden."
-      image : "images/about/pepper3.jpg"
+      image : "images/about/wiebke.jpeg"
 
     #item loop
     - title : "Ausbildung zur Hundetrainerin"
