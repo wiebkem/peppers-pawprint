@@ -1,21 +1,20 @@
 +++
-title =  "Hand puzzle"
+title =  "Hand puzzel"
 date = 2020-03-22T09:00:00+01:00
 categories = [
-    "Enrichment"
+    "Hersenwerk"
 ]
 tags = [
-    "Indoor enrichment"
+    "Hersenwerk voor binnen"
 ]
 featured_image = "article_images/hand-puzzle.jpeg"
-description = "Today I want to introduce the second enrichment - the hand puzzle. The hand puzzle is about the dog touching the hand with his nose or giving his paw and afterwards getting the reward."
+description = "Vandaag wil ik een tweede hersenwerk introduceren - een hand puzzel. Dit spelletje gaat erover dat de hond een hand met zijn neus aanraakt of een poot geeft en daarna de beloning krijgt."
 +++
 
-To begin with, take one or multiple treats in your right hand and form a fist. The second hand should be flat besides it. Then the dog is allowed to come and smell on the right hand with the treats. As soon as the dog is touching the left hand with the nose, you can open the first to reward the dog.
+Om te beginnen neem een of meerdere snoepkes in je rechterhand en vorm een ​​vuist. De tweede hand moet plat ernaast houden. De hond mag dan aan de vuist met de snoepjes ruiken. Zodra de hond echter de platte hand met de neus aanraakt, kun je de vuist openen om de hond te belonen.
 
-Especially in the beginning, the dog probably tries to open the fist with the treats. You should ignore this.
-As soon as the dog understands to touch the hand, it is possible to place the two hands further away from each other. The distance of the hands should not be too far away, e.g. just a hand width, as the dog has to understand again that he should still touch the flat hand. Once the dog understands the action, the hands can be further moved from each other to increase the difficulty.
+Vooral in het begin probeert de hond waarschijnlijk de vuist meet de snoepjes te openen. Dit moet je negeren. Zodra de hond begrijpt dat hij de platte hand moet aanraken, is het mogelijk om de twee handen verder van elkaar te plaatsen. De afstand van de handen mag niet te ver weg zijn, b.v. slechts een handbreedte, omdat de hond opnieuw moet begrijpen dat hij nog steeds de platte hand moet aanraken. Zodra de hond de actie begrijpt, kunnen de handen weer verder van elkaar worden bewogen om de moeilijkheidsgraad te vergroten.
 
-Personally, I trained Pepper to touch my left hand, if I have treats in the right hand. If I have treats in the left hand, he gives me his paw in my right hand. Before a dog is able to give a paw, the trick should be learned outside the hand puzzle!
+Persoonlijk heb ik Pepper getraind om mijn linkerhand met de neus aan te raken, als ik snoepjes in de rechterhand heb. Als ik snoepjes in de linkerhand heb, geeft hij me zijn poot in mijn rechterhand. Voordat een hond een poot kan geven, moet deze truc buiten de hand puzzel worden geleerd!
 
-**Inside the family, the actions with the right and left hand should be the same for everyone. It's also possible to always get a nose touch or give the paw with both hands. Just keep in mind to not overdue it on a day so that the dog still has fun.**
+Binnen het gezin moeten de acties met de rechter- en linkerhand voor iedereen hetzelfde zijn. Het is ook mogelijk om altijd alleen met de neus te werken of de poot aan beide handen te geven. Herhaal de oefening niet te vaak per dag om de hond erin plezier te laten houden!
