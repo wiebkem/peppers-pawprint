@@ -1,20 +1,20 @@
 +++
-title =  "Treat boxes"
+title =  "Snoep dozen"
 date = 2020-03-29T09:00:00+01:00
 categories = [
-    "Enrichment"
+    "Hersenwerk"
 ]
 tags = [
-    "Indoor enrichment"
+    "Hersenwerk voor binnen"
 ]
 featured_image = "article_images/treat-boxes.jpeg"
-description = "Treat boxes are another indoor enrichment. Everyone has egg cartons, toilet paper rolls or other shipping boxes at home. These things can easily be turned into an enrichment for your dog."
+description = "Snoep dozen zijn een ander hersenwerk voor binnen. Iedereen heeft thuis eierendozen, wc-papierrollen of andere verzenddozen. Deze dingen kunnen gemakkelijk worden omgezet in een spelletje voor jouw hond."
 +++
 
-Take an egg carton or shipping box and fill it with treats. Especially at the beginning it is probably too difficult for your dog to open the closed box. You can just close the box lightly. This makes it easier for your dog.
+Neem een eierendoos of verzenddoos en vul deze met snoepjes. Zeker in het begin is het voor jouw hond waarschijnlijk te moeilijk om de doos te openen. Je kunt de doos gewoon lichtjes sluiten. Dit maakt het makkelijker voor je hond.
 
-Once your dog dares to open the box, you can close the box completely in a later attempt. Just look at your dog and decrease the difficulty accordingly!
+Zodra jouw hond de doos durft te openen, kun je de doos bij een latere poging volledig sluiten. Kijk gewoon naar jouw hond - deze geeft de moeilijkheidsgraad aan!
 
-Toilet paper or kitchen paper rolls can also be filled with treats - just fold the ends over. However, you should be careful with the roles that your dog does not eat them completely as this could happen in the beginning.
+Wc-papier of keukenpapierrollen kunnen ook worden gevuld met snoepjes - vouw gewoon de uiteinden om. Wees echter voorzichtig met de rollen dat jouw hond deze niet volledig opeet. Vooral in het begin kan dit gebeuren.
 
-**Have fun with your dog!**
+Veel plezier met jouw hond!
