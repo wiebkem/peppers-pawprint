@@ -1,0 +1,39 @@
+us:
+  enable : true
+  item:
+    #item loop
+    - title : "Hoi, ik ben Wiebke"
+      content : "Tijdens mijn jeugd hadden we eigenlijk altijd honden gehad en sinds mijn 16e is Pepper bij mij.
+          Toen ik op 19-jarige leeftijd uit huis hing en dus van Duitsland naar Nederland verhuisde om te studeren, kwam Pepper natuurlijk met mij mee.
+          5 jaar later ging ik voor mijn Masteropleiding naar Zweden en momenteel woon ik met Pepper en mijn vriend weer in Arnhem in Nederland."
+      image : "images/about/wiebke.jpeg"
+
+    #item loop
+    - title : "Kynologisch instructeur opleiding"
+      content : "Momenteel volg ik een opleiding tot kynologisch instructeur en daarna wil ik mens-hond-teams helpen om in harmonie samen te leven.
+          Ik ben benieuwd waar de weg naartoe leidt.
+          
+          
+          Neem gerust contact met mij op voor vragen of suggesties. Ik kijk ernaar uit je te ontmoeten!"
+      image : "images/about/pepper2.jpg"
+    
+    #item loop
+    - title : "🐾 Pepper 🐾"
+      content : "**Verjaardag:** 🎂08.04.2009
+          
+      
+          **Geslacht:** Mannelijk
+          
+          
+          **Ras:** Herdershond-Collie kruising 🐶
+          
+          
+          Een kenmerk van Pepper is om in het gras te rollen 🌿. Het werd een standaardprocedure en hij doet het bijna elke wandeling."
+      image : "images/about/pepper3.jpg"
+
+    #item loop
+    - title : "Vrije tijd"
+      content : "Kort voor Pepper's 10e verjaardag zijn we begonnen met speuren.
+          Ik vind het een geweldige sport en Pepper is er vooral dol op het werken met zijn neus.
+          Om deze reden doen we vaak verschillende zoekspellen of ontwikkelen we nieuwe tricks met de clicker 💞"
+      image : "images/about/pepper.jpg"
