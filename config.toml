@@ -269,7 +269,7 @@ defaultContentLanguageInSubdir = true
     url = "/privacy/"
 
   [[languages.nl.menu.links]]
-    name = "Imprint"
+    name = "Informatie"
     weight = 2
     identifier = "impressum"
     url = "/impressum/"
