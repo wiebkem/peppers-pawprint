@@ -46,6 +46,9 @@
 - id: readMore_link
   translation: Mehr lesen...
 
+- id: disclaimer_blog_posts
+  translation: Nicht alle Blogbeiträge sind in Deutsch verfügbar. Um alle Beiträge lesen zu können, änder die Sprache in Englisch. 
+
 
 # 404 error page
 - id: error_404

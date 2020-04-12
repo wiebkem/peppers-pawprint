@@ -1,4 +1,12 @@
 <div class="row">
+  {{ if ne .Site.Language.Lang "en" }}
+  <div class="col-xs-12 col-sm-12">
+    <div class="blog-disclaimer">
+      {{ i18n "disclaimer_blog_posts" }}
+    </div>
+  </div>
+  {{ end }}
+
   <div class="col-xs-12 col-sm-8 col-md-9">
     <div class="row">
       {{- $pages := .Pages -}}

@@ -46,6 +46,9 @@
 - id: readMore_link
   translation: Lees meer...
 
+- id: disclaimer_blog_posts
+  translation: Niet alle blog artikel zijn in het Nederlands beschikbaar. Wijzig de taal in het Engels om alle artikel te lezen.
+
 
 # 404 error page
 - id: error_404
