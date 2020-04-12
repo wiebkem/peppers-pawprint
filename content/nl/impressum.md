@@ -6,7 +6,6 @@ title =  "Informatie"
 Wiebke Meyer  
 Schepen van Ommerenstraat 66  
 6831 MB Arnhem  
-Netherlands 
 
 ## Contact
 Telefoon: +31633744468  
