@@ -238,7 +238,6 @@ defaultContentLanguageInSubdir = true
   languageCode = "nl"
   languageName = "Nederlands"
   contentDir = "content/nl"
-  cookie_consent_info_url = "/privacy/"
   copyright = "All rights reserved."
   weight = 3 
 
