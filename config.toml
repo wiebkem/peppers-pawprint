@@ -148,7 +148,6 @@ defaultContentLanguageInSubdir = true
   languageCode = "en"
   languageName = "English"
   contentDir = "content/en"
-  cookie_consent_info_url = "/information/cookies/"
   copyright = "All rights reserved."
   weight = 1    
 
@@ -195,7 +194,6 @@ defaultContentLanguageInSubdir = true
   languageCode = "de"
   languageName = "Deutsch"
   contentDir = "content/de"
-  cookie_consent_info_url = "de/information/cookies/"
   copyright = ""
   weight = 2
 
