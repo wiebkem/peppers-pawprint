@@ -158,7 +158,7 @@ defaultContentLanguageInSubdir = true
     url = "/posts/"
 
   [[languages.en.menu.main]]
-    name = "About"
+    name = "About us"
     weight = 10
     identifier = "about"
     url = "about/"
