@@ -38,3 +38,27 @@ us:
           Ich finde es eine super Auslastung für einen Hund und Pepper macht es besonders Spaß, da er sehr gerne mit seiner Nase arbeitet. 
           Aus diesem Grund machen wir z.B. auch oft verschiedene Leckerli Suchspiele oder wir erarbeiten neue Tricks mit dem Clicker 💞"
       image : "images/about/pepper.jpg"
+
+
+
+education:
+  enable : false
+  title : "Ausbildung"
+  item:
+    #item loop
+    - title : "Kynologisch instructeur"
+      institution : "Kynotrain"
+      country: "Niederlande"
+      year: "November 2019 - Oktober 2020"
+      image : ""
+
+
+seminars:
+  enable : false
+  title : "Fortbildung"
+  item:
+    #item loop
+    - title : "Webinar - Hunde führen"
+      institution : "The Big Foot Way"
+      country: "Deutschland"
+      year: "April 2020 - Juni 2020"

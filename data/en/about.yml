@@ -9,8 +9,8 @@ us:
       image : "images/about/wiebke.jpeg"
 
     #item loop
-    - title : "Dog trainer education"
-      content : "Currently, I am following an education as a dog trainer and afterwards I want to help human-dog-teams to live together in harmony. 
+    - title : "Dog instructor education"
+      content : "Currently, I am following an education as a dog instructor and afterwards I want to help human-dog-teams to live together in harmony. 
           I am excited where the way is leading.
 
 
@@ -37,3 +37,26 @@ us:
           I find it a great dog enrichment and Pepper loves it in particular as he likes to work with his nose. 
           For this reason, we do often different treats search games or we develop new tricks with the clicker 💞"
       image : "images/about/pepper.jpg"
+
+
+education:
+  enable : false
+  title : "Education"
+  item:
+    #item loop
+    - title : "Dog instructor"
+      institution : "Kynotrain"
+      country: "Netherlands"
+      year: "November 2019 - October 2020"
+      image : ""
+
+
+seminars:
+  enable : false
+  title : "Training"
+  item:
+    #item loop
+    - title : "Webinar - Leading dogs"
+      institution : "The Big Foot Way"
+      country: "Germany"
+      year: "April 2020 - June 2020"
