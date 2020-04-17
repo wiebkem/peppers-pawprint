@@ -76,12 +76,14 @@ window.onload = function() {
             idx = lunr(function() {
                 this.ref('url')
                 this.field('title')
+                this.field('description')
                 this.field('content')
 
                 res.forEach(function(doc) {
                     this.add(doc)
                     documents[doc.url] = {
                         'title': doc.title,
+                        'description': doc.description,
                         'content': doc.content,
                     }
                 }, this)
