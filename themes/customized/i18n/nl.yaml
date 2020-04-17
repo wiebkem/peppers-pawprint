@@ -40,6 +40,9 @@
 - id: tags
   translation: Tags
 
+- id: search
+  translation: Zoeken
+
 - id: related_posts
   translation: Gerelateerde artikel
 

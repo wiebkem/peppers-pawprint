@@ -43,6 +43,8 @@ defaultContentLanguageInSubdir = true
   priority = 0.5
   filename = "sitemap.xml"
 
+[outputs]
+  section = [ "HTML", "RSS", "JSON"]
 
 # ------------------------------------- #
 # ---- Privacy ------------------------ #
@@ -102,7 +104,7 @@ defaultContentLanguageInSubdir = true
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   basicCSS = ['bootstrap.4.1.3.min.css', 'fontawesome.5.13.0.css', 'cookieconsent.min.css']
-  basicJS = ['jquery-3.3.1.slim.min.js', 'popper.min.js', 'bootstrap.4.1.3.min.js']
+  basicJS = ['jquery-3.3.1.slim.min.js', 'popper.min.js', 'bootstrap.4.1.3.min.js', 'lunr.2.3.8.js', 'search.js']
   customJS = ['custom.js']              # if ['custom.js'], load '/static/js/custom.js' file
 
 
