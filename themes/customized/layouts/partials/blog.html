@@ -7,6 +7,10 @@
   </div>
   {{ end }}
 
+  <div class="col-xs-12 col-sm-4 col-md-3">
+    {{ partial "blog-sidebar.html" . }}
+  </div>
+
   <div class="col-xs-12 col-sm-8 col-md-9">
     <div class="row">
       {{- $pages := .Pages -}}
@@ -29,9 +33,5 @@
     </div>
 
     {{ partial "pagination.html" . }}
-  </div>
-
-  <div class="col-xs-12 col-sm-4 col-md-3">
-    {{ partial "blog-sidebar.html" . }}
   </div>
 </div>

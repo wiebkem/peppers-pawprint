@@ -8,6 +8,25 @@
 
 {{ define "main" }}
 <div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    {{ partial "blog-sidebar.html" . }}
+    
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    {{ with $related }}
+    <div class="sidebar-widget">
+      <h2 class="widget-title">{{ i18n "related_posts" }}</h2>
+      {{ range . }}
+      <div class="related-post clearfix">
+        <a href="{{ .Permalink }}">
+          <h3 class="post-header-title">{{ .Title }}</h3>
+          <img class="related-post-image" src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
+        </a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
   <div class="col-xs-12 col-sm-6 col-md-8">
     <div class="post">
       {{ partial "blogpost-header.html" . }}
@@ -23,25 +42,6 @@
         <p>{{ .Content }}</p>
       </div>
     </div>
-  </div>
-
-  <div class="col-xs-12 col-sm-6 col-md-4">
-    {{ $related := .Site.RegularPages.Related . | first 3 }}
-    {{ with $related }}
-    <div class="sidebar-widget">
-      <h2 class="widget-title">{{ i18n "related_posts" }}</h2>
-      {{ range . }}
-      <div class="related-post clearfix">
-        <a href="{{ .Permalink }}">
-          <h3 class="post-header-title">{{ .Title }}</h3>
-          <img class="related-post-image" src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
-        </a>
-      </div>
-      {{ end }}
-    </div>
-    {{ end }}
-
-    {{ partial "blog-sidebar.html" . }}
   </div>
 </div>
 {{ end }}
