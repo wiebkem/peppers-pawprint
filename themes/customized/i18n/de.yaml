@@ -43,6 +43,9 @@
 - id: search
   translation: Suchen
 
+- id: search_error
+  translation: Es ist ein Fehler aufgetreten. Versuche es bitte nochmal!
+
 - id: no_search_results
   translation: Keine Beiträge gefunden.
 

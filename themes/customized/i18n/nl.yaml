@@ -43,6 +43,9 @@
 - id: search
   translation: Zoeken
 
+- id: search_error
+  translation: Er is een fout opgetreden. Probeer het alstublieft opnieuw!
+
 - id: no_search_results
   translation: Geen artikel gevonden.
 

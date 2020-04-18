@@ -43,6 +43,9 @@
 - id: search
   translation: Search
 
+- id: search_error
+  translation: An error occured. Please try again!
+
 - id: no_search_results
   translation: No results found.
 

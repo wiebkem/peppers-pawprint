@@ -50,8 +50,8 @@ function renderSearchResults(results) {
     // if results are empty
     } else {
         searchResults.innerHTML = `
-        <div class="col-xs-12 col-sm-12 col-md-6">
-            <h2>${noSearchResults}</h2>
+        <div class="col-xs-12 col-sm-12">
+            <h2>${noSearchResultsTranslation}</h2>
         </div>
         `
     }
@@ -124,7 +124,11 @@ window.onload = function() {
         }
     ).catch(
         err => {
-            searchResults.innerHTML = `<p>${err}</p>`
+            searchResults.innerHTML = `
+            <div class="col-xs-12 col-sm-12">
+                <h2>${searchErrorTranslation}</h2>
+            </div>
+            `
         }
     )
 }
