@@ -13,10 +13,20 @@
   {{ end }}
 
   <div class="col-xs-12 col-sm-4 col-md-3">
+    <div class="sidebar-widget">
+      <h2 class="widget-title">{{ i18n "search" }}</h2>
+      <form class="search">
+          <input id="search-input" type="text" name="focus" required class="search-box" placeholder='{{ i18n "search" }}' />
+          <button class="close-icon" type="reset"></button>
+      </form>
+    </div>
+    
     {{ partial "blog-sidebar.html" . }}
   </div>
 
   <div class="col-xs-12 col-sm-8 col-md-9">
+    <div id="search-results" class="row search"></div>
+
     <div class="row">
       {{- $pages := .Pages -}}
       {{- if .IsHome -}}
