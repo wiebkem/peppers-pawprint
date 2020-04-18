@@ -43,6 +43,9 @@
 - id: search
   translation: Suchen
 
+- id: no_search_results
+  translation: Keine Beiträge gefunden.
+
 - id: related_posts
   translation: Ähnliche Beiträge
 

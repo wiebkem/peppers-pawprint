@@ -43,6 +43,9 @@
 - id: search
   translation: Search
 
+- id: no_search_results
+  translation: No results found.
+
 - id: related_posts
   translation: Related posts
 

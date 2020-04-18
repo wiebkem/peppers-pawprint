@@ -43,6 +43,9 @@
 - id: search
   translation: Zoeken
 
+- id: no_search_results
+  translation: Geen artkel gevonden.
+
 - id: related_posts
   translation: Gerelateerde artikel
 
