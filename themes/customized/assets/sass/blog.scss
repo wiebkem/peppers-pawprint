@@ -138,6 +138,42 @@ main {
       margin-bottom: $spacing-xl;
       text-align: center;
     }
+
+    .search {
+      #search-input {
+        padding: $spacing-s $spacing-m;
+        border: 1px solid $color-grey-40;
+        border-radius: $border-radius-s;
+        color: $color-grey-80;
+        width: 100%;
+  
+        &:not(:valid) ~ .close-icon {
+          display: none;
+        }
+      }
+  
+      .close-icon {
+        position: absolute;
+        padding: 0;
+        border-color: transparent;
+        vertical-align: middle;
+      }
+
+      .close-icon:after {
+        content: "X";
+        width: $spacing-l;
+        height: $spacing-l;
+        position: absolute;
+        background-color: $color-secondary;
+        z-index:1;
+        right: $spacing-m;
+        top: $spacing-s;
+        border-radius: 50%;
+        text-align: center;
+        color: $color-grey-100;
+        cursor: pointer;
+      }
+    }
   }
 }
 
