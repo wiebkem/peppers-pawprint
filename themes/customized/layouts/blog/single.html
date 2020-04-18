@@ -8,12 +8,12 @@
 
 {{ define "main" }}
 <div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
     {{ partial "blog-sidebar.html" . }}
     
     {{ $related := .Site.RegularPages.Related . | first 3 }}
     {{ with $related }}
-    <div class="sidebar-widget">
+    <div class="sidebar-widget showDesktop">
       <h2 class="widget-title">{{ i18n "related_posts" }}</h2>
       {{ range . }}
       <div class="related-post clearfix">
@@ -27,7 +27,7 @@
     {{ end }}
   </div>
 
-  <div class="col-xs-12 col-sm-6 col-md-8">
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
     <div class="post">
       {{ partial "blogpost-header.html" . }}
        
@@ -43,5 +43,22 @@
       </div>
     </div>
   </div>
+
+  {{ $related := .Site.RegularPages.Related . | first 3 }}
+  {{ with $related }}
+  <div class="col-xs-12 col-sm-12 showMobile">
+    <div class="sidebar-widget">
+      <h2 class="widget-title">{{ i18n "related_posts" }}</h2>
+      {{ range . }}
+      <div class="related-post clearfix">
+        <a href="{{ .Permalink }}">
+          <h3 class="post-header-title">{{ .Title }}</h3>
+          <img class="related-post-image" src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
 </div>
 {{ end }}
