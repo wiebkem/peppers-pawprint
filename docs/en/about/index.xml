@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About us on Pepper&#39;s Pawprint</title>
+    <link>https://www.peppers-pawprint.com/en/about/</link>
+    <description>Recent content in About us on Pepper&#39;s Pawprint</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>All rights reserved.</copyright>
+    
+	<atom:link href="https://www.peppers-pawprint.com/en/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
