@@ -4,8 +4,11 @@
   {
       "url": "{{ .RelPermalink }}",
       "title": "{{ .Title }}",
+      "date": "{{ .Date.Format (.Site.Params.dateFormatToUse | default "Mon 02 January 2006") }}",
+      "imageUrl": "{{ .Params.featured_image | absURL }}",
       "description": {{ .Description | plainify | jsonify }},
-      "content": {{ .Content | plainify | jsonify }}
+      "content": {{ .Content | plainify | jsonify }},
+      "buttonText": "{{i18n "readMore_link" }}"
   }
   {{ end }}
 ]
