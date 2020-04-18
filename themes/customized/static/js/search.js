@@ -2,7 +2,7 @@
 var idx, searchInput, searchResults = null
 var documents = []
 
-function renderSearchResults(results){
+function renderSearchResults(results) {
 
     if (results.length > 0) {
 
@@ -49,7 +49,11 @@ function renderSearchResults(results){
 
     // if results are empty
     } else {
-        searchResults.innerHTML = '<p>No results found.</p>'
+        searchResults.innerHTML = `
+        <div class="col-xs-12 col-sm-12 col-md-6">
+            <h2>${noSearchResults}</h2>
+        </div>
+        `
     }
 }
 
