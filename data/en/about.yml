@@ -15,7 +15,7 @@ us:
 
 
           Feel free to contact me with any questions or suggestions. I look forward to meet you!"
-      image : "images/about/pepper2.jpg"
+      image : "images/about/pepper2.JPG"
     
     #item loop
     - title : "🐾 Pepper 🐾"

@@ -15,7 +15,7 @@ us:
           
           
           Neem gerust contact met mij op voor vragen of suggesties. Ik kijk ernaar uit je te ontmoeten!"
-      image : "images/about/pepper2.jpg"
+      image : "images/about/pepper2.JPG"
     
     #item loop
     - title : "🐾 Pepper 🐾"
