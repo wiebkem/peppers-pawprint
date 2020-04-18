@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.peppers-pawprint.com/en/blog/</loc>
+    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.peppers-pawprint.com/en/categories/</loc>
     <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -9,14 +16,14 @@
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/category/dog-enrichment/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/category/enrichment/</loc>
     <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/tag/indoor-enrichment/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/tag/indoor-enrichment/</loc>
     <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -30,13 +37,6 @@
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/</loc>
-    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.peppers-pawprint.com/en/tags/</loc>
     <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,106 +44,102 @@
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/treat-boxes/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/treat-boxes/</loc>
     <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/hand-puzzle/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/hand-puzzle/</loc>
     <lastmod>2020-03-22T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/sniffle-mat-and-searching-for-treats/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/snuffle-mat-and-searching-for-treats/</loc>
     <lastmod>2020-03-21T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/category/diet/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/category/diet/</loc>
     <lastmod>2020-02-21T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/tag/prey-model-raw/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/tag/prey-model-raw/</loc>
     <lastmod>2020-02-21T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/rawdiet-or-prey-model-raw/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/rawdiet-or-prey-model-raw/</loc>
     <lastmod>2020-02-21T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/tag/belgium/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/tag/belgium/</loc>
     <lastmod>2020-02-06T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/things-to-do-around-ciney-ardennes/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/things-to-do-around-ciney-ardennes/</loc>
     <lastmod>2020-02-06T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/category/travel/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/category/travel/</loc>
     <lastmod>2020-02-06T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/general-tips-for-sweden/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/general-tips-for-sweden/</loc>
     <lastmod>2020-01-26T10:46:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/posts/tag/sweden/</loc>
+    <loc>https://www.peppers-pawprint.com/en/blog/tag/sweden/</loc>
     <lastmod>2020-01-26T10:46:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/instagram/</loc>
-    <lastmod>2020-01-01T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/about/</loc>
-    <lastmod>2019-12-08T20:14:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/impressum/</loc>
-    <lastmod>2019-12-08T20:14:39+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/instagram/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/privacy/</loc>
-    <lastmod>2019-12-08T20:14:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

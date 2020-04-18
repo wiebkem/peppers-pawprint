@@ -1,0 +1,827 @@
+/* Princess Sofia */
+@font-face {
+  font-family: 'princess-sofia';
+  src: url("/fonts/PrincessSofia-Regular.ttf");
+  src: url("/fonts/PrincessSofia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Roboto */
+@font-face {
+  font-family: 'opensans-bold';
+  src: url("/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-bolditalic';
+  src: url("/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-italic';
+  src: url("/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-regular';
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-medium';
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* color palette */
+/* font family */
+/* font size */
+/* spacing */
+/* border radius */
+/* line sizes */
+/* specials */
+/* Princess Sofia */
+@font-face {
+  font-family: 'princess-sofia';
+  src: url("/fonts/PrincessSofia-Regular.ttf");
+  src: url("/fonts/PrincessSofia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Roboto */
+@font-face {
+  font-family: 'opensans-bold';
+  src: url("/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-bolditalic';
+  src: url("/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-italic';
+  src: url("/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-regular';
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-medium';
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* color palette */
+/* font family */
+/* font size */
+/* spacing */
+/* border radius */
+/* line sizes */
+/* specials */
+.navbar-expand-md > .container {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+header {
+  background-color: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* header logo */ }
+  header .dropdown.show:hover .nav-link {
+    color: #191D1F; }
+  header .dropdown.show .dropdown-menu {
+    border: none;
+    padding: 0;
+    margin-top: 0; }
+    header .dropdown.show .dropdown-menu li {
+      padding-left: 16px; }
+      header .dropdown.show .dropdown-menu li:hover .nav-link {
+        color: #8C8E8F; }
+  header .navbar-collapse {
+    margin-top: 16px; }
+  header .nav-item .nav-link {
+    color: #191D1F;
+    padding-left: 8px; }
+  header .nav-item:hover .nav-link {
+    color: #8C8E8F; }
+  header .nav-item.active .nav-link {
+    background-color: #EDDCAC; }
+  header .nav-item.dropdown.active .dropdown-menu .nav-link {
+    background-color: #fff; }
+  header .navbar {
+    padding: 0; }
+  header .navbar-nav.languages {
+    margin-top: 0; }
+  header .navbar-toggler {
+    padding: 16px 16px;
+    margin: 0;
+    background-color: #EDDCAC;
+    border-color: #EDDCAC; }
+    header .navbar-toggler .fa-bars {
+      color: #535657; }
+  header .navbar-brand {
+    height: 64px;
+    padding: 0;
+    display: flex;
+    margin-right: 80px; }
+    header .navbar-brand .logo {
+      height: 64px; }
+
+@media (min-width: 768px) {
+  header .nav-item.active .nav-link {
+    border-bottom: 4px solid #EDDCAC;
+    background-color: transparent; }
+  header .nav-item.dropdown.active .dropdown-menu .nav-link {
+    border-bottom: none; }
+  header .nav-item .nav-link {
+    padding-right: 16px !important;
+    padding-left: 16px !important; }
+  header .languages .dropdown-menu {
+    border-radius: 4px; }
+    header .languages .dropdown-menu li .nav-link:last-child {
+      border-radius: 4px; }
+  header .dropdown-menu {
+    right: 0;
+    left: auto; }
+    header .dropdown-menu li .nav-link {
+      float: right; }
+  header .navbar-nav.languages {
+    margin-left: auto;
+    margin-top: auto; } }
+
+/* Princess Sofia */
+@font-face {
+  font-family: 'princess-sofia';
+  src: url("/fonts/PrincessSofia-Regular.ttf");
+  src: url("/fonts/PrincessSofia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Roboto */
+@font-face {
+  font-family: 'opensans-bold';
+  src: url("/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-bolditalic';
+  src: url("/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-italic';
+  src: url("/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-regular';
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-medium';
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* color palette */
+/* font family */
+/* font size */
+/* spacing */
+/* border radius */
+/* line sizes */
+/* specials */
+footer {
+  background-color: #F4F4F4; }
+  footer .footer-nav, footer .footer-social, footer .copyright {
+    margin: 0;
+    text-align: center; }
+    footer .footer-nav li, footer .footer-social li, footer .copyright li {
+      display: inline; }
+  footer .footer-nav li, footer .footer-social li {
+    margin-right: 16px;
+    margin-left: 16px; }
+  footer .footer-nav {
+    padding: 16px 0 8px 0; }
+    footer .footer-nav li a, footer .footer-nav li a:visited {
+      font-family: opensans-medium;
+      font-size: 21px; }
+  footer .footer-social {
+    padding: 8px 0 16px 0; }
+    footer .footer-social li a, footer .footer-social li a:visited {
+      font-size: 28px; }
+  footer .copyright {
+    padding: 16px 0;
+    border-top: 2px solid #EDDCAC; }
+
+/* Princess Sofia */
+@font-face {
+  font-family: 'princess-sofia';
+  src: url("/fonts/PrincessSofia-Regular.ttf");
+  src: url("/fonts/PrincessSofia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Roboto */
+@font-face {
+  font-family: 'opensans-bold';
+  src: url("/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-bolditalic';
+  src: url("/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-italic';
+  src: url("/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-regular';
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-medium';
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* color palette */
+/* font family */
+/* font size */
+/* spacing */
+/* border radius */
+/* line sizes */
+/* specials */
+#header-container .post-header-title,
+main .post-header-title {
+  margin-bottom: 8px;
+  font-family: princess-sofia; }
+
+main .blog-disclaimer {
+  background-color: #EDDCAC;
+  padding: 16px;
+  margin-bottom: 24px;
+  text-align: center; }
+
+main .post {
+  /* single post entry */ }
+  main .post .post-header-title a, main .post .post-header-title a:visited,
+  main .post .post-description a,
+  main .post .post-description a:visited,
+  main .post .post-content .tags a,
+  main .post .post-content .tags a:visited,
+  main .post .categories a,
+  main .post .categories a:visited,
+  main .post .post-content p a,
+  main .post .post-content p a:visited {
+    text-decoration: none; }
+  main .post .post-header-title a:hover, main .post .post-header-title a:active, main .post .post-header-title a:focus,
+  main .post .post-description a:hover,
+  main .post .post-description a:active,
+  main .post .post-description a:focus,
+  main .post .post-content .tags a:hover,
+  main .post .post-content .tags a:active,
+  main .post .post-content .tags a:focus,
+  main .post .categories a:hover,
+  main .post .categories a:active,
+  main .post .categories a:focus,
+  main .post .post-content p a:hover,
+  main .post .post-content p a:active,
+  main .post .post-content p a:focus {
+    color: #8C8E8F; }
+  main .post .post-image {
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 8px; }
+    main .post .post-image img {
+      max-height: 265px;
+      width: 100%;
+      border-radius: 12px; }
+  main .post .post-header-title {
+    text-align: center; }
+    main .post .post-header-title a {
+      font-size: 34px; }
+  main .post .post-header {
+    text-align: center; }
+    main .post .post-header .date {
+      font-family: opensans-italic;
+      font-size: 14px; }
+    main .post .post-header .categories .tags {
+      font-size: 14px;
+      color: #535657; }
+  main .post .post-description {
+    margin-bottom: 8px; }
+  main .post .post-button {
+    margin-bottom: 32px;
+    display: inline-flex;
+    text-align: center;
+    width: 100%; }
+  main .post .post-content {
+    margin-bottom: 32px; }
+    main .post .post-content p {
+      margin-bottom: 16px; }
+      main .post .post-content p.lead {
+        margin-bottom: 32px;
+        color: #535657;
+        font-family: opensans-italic;
+        font-size: 16px; }
+    main .post .post-content .tags {
+      margin-top: 16px; }
+      main .post .post-content .tags span {
+        font-family: opensans-medium; }
+
+main .first-entry .post-image img {
+  max-height: 500px; }
+
+main .post-thumb {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  width: 100%; }
+
+main .sidebar-widget {
+  margin-bottom: 32px; }
+  main .sidebar-widget .tagcloud {
+    margin-bottom: 8px; }
+    main .sidebar-widget .tagcloud a {
+      margin: 0 8px 8px 0;
+      display: inline-block;
+      float: left; }
+    main .sidebar-widget .tagcloud.categories {
+      display: grid; }
+    main .sidebar-widget .tagcloud.tags {
+      display: block; }
+  main .sidebar-widget .related-post {
+    margin-bottom: 32px;
+    text-align: center; }
+  main .sidebar-widget .search #search-input {
+    padding: 8px 16px;
+    border: 1px solid #D1D2D2;
+    border-radius: 4px;
+    color: #535657;
+    width: 100%; }
+    main .sidebar-widget .search #search-input:not(:valid) ~ .close-icon {
+      display: none; }
+  main .sidebar-widget .search .close-icon {
+    position: absolute;
+    padding: 0;
+    border-color: transparent;
+    vertical-align: middle; }
+  main .sidebar-widget .search .close-icon:after {
+    content: "X";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-color: #EDDCAC;
+    z-index: 1;
+    right: 16px;
+    top: 8px;
+    border-radius: 50%;
+    text-align: center;
+    color: #191D1F;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  main .post .post-button {
+    width: auto; }
+  main .post .categories {
+    display: block; }
+    main .post .categories .ghost-button {
+      width: auto;
+      display: inline-block; } }
+
+/* Princess Sofia */
+@font-face {
+  font-family: 'princess-sofia';
+  src: url("/fonts/PrincessSofia-Regular.ttf");
+  src: url("/fonts/PrincessSofia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Roboto */
+@font-face {
+  font-family: 'opensans-bold';
+  src: url("/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-bolditalic';
+  src: url("/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-italic';
+  src: url("/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-regular';
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-medium';
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* color palette */
+/* font family */
+/* font size */
+/* spacing */
+/* border radius */
+/* line sizes */
+/* specials */
+main .page-content {
+  margin-bottom: 32px; }
+  main .page-content h2:not(:first-child) {
+    margin-top: 32px; }
+  main .page-content h3 {
+    margin-top: 24px; }
+
+main .sidebar-widget .socials a, main .sidebar-widget .socials a:visited {
+  color: #191D1F;
+  text-decoration: none; }
+  main .sidebar-widget .socials a:hover, main .sidebar-widget .socials a:active, main .sidebar-widget .socials a:visited:hover, main .sidebar-widget .socials a:visited:active {
+    color: #8C8E8F; }
+
+main .instagram-content h2 {
+  font-family: princess-sofia;
+  font-size: 28px;
+  text-align: center; }
+
+main .instagram-content p img {
+  margin-bottom: 32px; }
+
+/* Princess Sofia */
+@font-face {
+  font-family: 'princess-sofia';
+  src: url("/fonts/PrincessSofia-Regular.ttf");
+  src: url("/fonts/PrincessSofia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Roboto */
+@font-face {
+  font-family: 'opensans-bold';
+  src: url("/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-bolditalic';
+  src: url("/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-italic';
+  src: url("/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-regular';
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-medium';
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* color palette */
+/* font family */
+/* font size */
+/* spacing */
+/* border radius */
+/* line sizes */
+/* specials */
+.about-page {
+  margin-bottom: 32px; }
+  .about-page .about-content {
+    margin-top: 16px;
+    margin-bottom: 16px; }
+    .about-page .about-content h2 {
+      font-family: princess-sofia;
+      text-align: center;
+      font-size: 28px; }
+    .about-page .about-content p {
+      margin-bottom: 8px; }
+      .about-page .about-content p:last-child {
+        margin-bottom: 0; }
+  .about-page .post-thumb img {
+    max-height: 360px; }
+
+/* partials */
+/* Princess Sofia */
+@font-face {
+  font-family: 'princess-sofia';
+  src: url("/fonts/PrincessSofia-Regular.ttf");
+  src: url("/fonts/PrincessSofia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Roboto */
+@font-face {
+  font-family: 'opensans-bold';
+  src: url("/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-bolditalic';
+  src: url("/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-italic';
+  src: url("/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-regular';
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-medium';
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* color palette */
+/* font family */
+/* font size */
+/* spacing */
+/* border radius */
+/* line sizes */
+/* specials */
+#go-top {
+  position: fixed;
+  bottom: 0px;
+  right: 24px; }
+  #go-top a, #go-top a:visited {
+    display: block;
+    background-color: #EDDCAC;
+    color: #191D1F; }
+    #go-top a:hover, #go-top a:active, #go-top a:visited:hover, #go-top a:visited:active {
+      background-color: #D4C49B;
+      color: #fff; }
+    #go-top a i, #go-top a:visited i {
+      padding: 16px 16px;
+      font-size: 21px; }
+
+/* Princess Sofia */
+@font-face {
+  font-family: 'princess-sofia';
+  src: url("/fonts/PrincessSofia-Regular.ttf");
+  src: url("/fonts/PrincessSofia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Roboto */
+@font-face {
+  font-family: 'opensans-bold';
+  src: url("/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-bolditalic';
+  src: url("/fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-italic';
+  src: url("/fonts/Open_Sans/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-regular';
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opensans-medium';
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* color palette */
+/* font family */
+/* font size */
+/* spacing */
+/* border radius */
+/* line sizes */
+/* specials */
+.pagination {
+  margin-bottom: 24px; }
+  .pagination ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+  .pagination .page-numbers {
+    padding: 8px 16px;
+    margin-right: 8px;
+    display: inline-block;
+    color: #191D1F;
+    background-color: #EDDCAC;
+    border-radius: 4px; }
+    .pagination .page-numbers:hover, .pagination .page-numbers.current, .pagination .page-numbers.current:hover {
+      background: #D4C49B;
+      color: #fff; }
+
+/* sticky footer start */
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: opensans-regular, sans-serif;
+  color: #3C3F41;
+  display: flex;
+  flex-direction: column; }
+
+.wrapper {
+  flex: 1 0 auto; }
+
+footer {
+  flex-shrink: 0; }
+
+/* sticky footer end */
+h1, h1 a {
+  font-size: 28px; }
+
+h2, h3 {
+  font-size: 21px; }
+
+h4 {
+  font-size: 16px;
+  font-family: opensans-medium; }
+
+p, a {
+  font-size: 16px; }
+
+strong {
+  font-family: opensans-medium; }
+
+a, a:visited, li a, li a:visited {
+  color: #3C3F41; }
+
+li:hover a, li:active a, a:hover, a:active {
+  color: #8C8E8F;
+  text-decoration: none; }
+
+.button {
+  padding: 8px 16px;
+  border-radius: 16px;
+  background: #EDDCAC;
+  color: #191D1F;
+  text-align: center;
+  width: 100%; }
+  .button:hover {
+    color: #fff;
+    background: #D4C49B;
+    text-decoration: none; }
+
+.ghost-button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 16px;
+  border: 1px solid #EDDCAC;
+  color: #191D1F; }
+  .ghost-button:hover, .ghost-button:active {
+    color: #fff;
+    background: #D4C49B;
+    text-decoration: none; }
+
+.showMobile {
+  display: block; }
+
+.showDesktop {
+  display: none; }
+
+@media (min-width: 768px) {
+  .showMobile {
+    display: none; }
+  .showDesktop {
+    display: block; } }
+
+/* custom styling for the cookie consent message */
+.cc-revoke {
+  display: none; }
+
+/* header container */
+#header-container {
+  padding-top: 112px; }
+  #header-container h1 {
+    font-size: 42px;
+    margin: 0;
+    padding-bottom: 32px;
+    text-align: center; }
+
+/* main content */
+main .post .post-thumb img,
+main .post-thumb img,
+main img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 12px; }
+
+main .post .post-content p a, main .post .post-content p a:visited,
+main .post .post-content a, main .post .post-content a:visited,
+main .post .post-content li a, main .post .post-content li a:visited,
+main .page-content p a,
+main .page-content p a:visited,
+main .page-content a,
+main .page-content a:visited,
+main .page-content li a,
+main .page-content li a:visited {
+  color: #ADA17F;
+  text-decoration: none; }
+
+main .post .post-content p a:hover, main .post .post-content p a:active, main .post .post-content p a:focus,
+main .post .post-content li a:hover, main .post .post-content li a:active, main .post .post-content li a:focus,
+main .page-content p a:hover,
+main .page-content p a:active,
+main .page-content p a:focus,
+main .page-content li a:hover,
+main .page-content li a:active,
+main .page-content li a:focus {
+  color: #EDDCAC; }
+
+main .sidebar-widget .widget-title,
+main .instagram-content h2 {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #EDDCAC; }
+
+.custom-line {
+  background-color: #EDDCAC;
+  border-radius: 4px;
+  height: 4px;
+  text-align: center;
+  margin: 24px 0; }
+  .custom-line #hexagon {
+    width: 20px;
+    height: 4px;
+    background: #EDDCAC;
+    position: relative;
+    margin: 0 auto; }
+    .custom-line #hexagon:before {
+      content: "";
+      position: absolute;
+      top: -12px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-bottom: 12px solid #EDDCAC; }
+    .custom-line #hexagon:after {
+      content: "";
+      position: absolute;
+      bottom: -12px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #EDDCAC; }
