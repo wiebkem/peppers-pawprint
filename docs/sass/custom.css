@@ -277,7 +277,7 @@ footer {
 /* line sizes */
 /* specials */
 #header-container .post-header-title,
-main .post-header-title {
+main .post-single-header-title {
   margin-bottom: 8px;
   font-family: princess-sofia; }
 
@@ -321,10 +321,14 @@ main .post {
       max-height: 265px;
       width: 100%;
       border-radius: 12px; }
-  main .post .post-header-title {
+  main .post .post-header-title,
+  main .post .post-single-header-title {
     text-align: center; }
-    main .post .post-header-title a {
+    main .post .post-header-title a,
+    main .post .post-single-header-title a {
       font-size: 34px; }
+  main .post .post-single-header-title {
+    font-size: 42px; }
   main .post .post-header {
     text-align: center; }
     main .post .post-header .date {
