@@ -1,11 +1,9 @@
 @import 'variables';
 
-#header-container,
-main {
-  .post-header-title {
-    margin-bottom: $spacing-s;
-    font-family: $font-family-special;
-  }
+#header-container .post-header-title,
+main .post-single-header-title {
+  margin-bottom: $spacing-s;
+  font-family: $font-family-special;
 }
 
 main {
@@ -43,12 +41,17 @@ main {
       }
     }
 
-    .post-header-title {
+    .post-header-title,
+    .post-single-header-title {
       text-align: center;
      
       a {
         font-size: $font-size-header;
       }
+    }
+
+    .post-single-header-title {
+      font-size: $font-size-display;
     }
   
     .post-header {
