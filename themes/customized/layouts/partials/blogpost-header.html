@@ -5,16 +5,23 @@
   <div class="categories">
     <i class="tags fas fa-tags"></i>
     {{ with .Params.categories -}}
-    {{ $.Scratch.Set "firstcategory" true }}
-      {{ range . -}}
+      {{ $len := (len .) }}
+      {{ range $index, $element := . }}
         {{- $name := . -}}
         {{- with $.Site.GetPage "taxonomy" (printf "/categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "/categories/%s" ($name | urlize))) -}}
-        {{- if not ($.Scratch.Get "firstcategory") -}}
-        ,  
-        {{ else -}}
-        {{- $.Scratch.Set "firstcategory" false -}}
+          <a href="{{ .Permalink }}">{{ $name }}</a>{{ if ne (add $index 1) $len }}, {{ end }}
         {{- end -}}
-        <a href="{{ .Permalink }}">{{ $name }}</a>
+      {{ end }}
+    {{ end }}
+
+    {{ with (and .Params.tags .Params.categories) -}} | {{ end }}
+
+    {{ with .Params.tags -}}
+      {{ $len := (len .) }}
+      {{ range $index, $element := . }}
+        {{- $name := . -}}
+        {{- with $.Site.GetPage "taxonomy" (printf "/tags/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "/tags/%s" ($name | urlize))) -}}
+          <a href="{{ .Permalink }}">{{ $name }}</a>{{ if ne (add $index 1) $len }}, {{ end }}
         {{- end -}}
       {{ end }}
     {{ end }}
