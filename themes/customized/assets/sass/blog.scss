@@ -1,9 +1,12 @@
 @import 'variables';
 
-#header-container .post-header-title,
-main .post-single-header-title {
-  margin-bottom: $spacing-s;
-  font-family: $font-family-special;
+#header-container,
+main {
+  .post-header-title,
+  .post-single-header-title {
+    margin-bottom: $spacing-s;
+    font-family: $font-family-special;
+  }
 }
 
 main {
