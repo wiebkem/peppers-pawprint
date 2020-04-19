@@ -277,6 +277,8 @@ footer {
 /* line sizes */
 /* specials */
 #header-container .post-header-title,
+#header-container .post-single-header-title,
+main .post-header-title,
 main .post-single-header-title {
   margin-bottom: 8px;
   font-family: princess-sofia; }
