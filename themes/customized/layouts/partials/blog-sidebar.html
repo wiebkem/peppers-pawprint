@@ -1,4 +1,5 @@
-<div class="sidebar-widget">
+<!-- categories -->
+<div class="sidebar-widget showDesktop">
   <h2 class="widget-title">{{ i18n "categories" }}</h2>
   <div class="tagcloud categories">
     {{ range .Site.Taxonomies.categories }}
@@ -7,11 +8,38 @@
   </div>
 </div>
 
-<div class="sidebar-widget">
+<!-- tags -->
+<div class="sidebar-widget showDesktop">
   <h5 class="widget-title">{{ i18n "tags" }}</h5>
   <div class="tagcloud tags clearfix">
     {{ range .Site.Taxonomies.tags }}
     <a class="ghost-button" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
     {{ end }}
+  </div>
+</div>
+
+<div class="sidebar-widget showMobile">
+  <!-- categories -->
+  <div class="dropdown filterDropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonCategories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{ i18n "categories" }}
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonCategories">
+      {{ range .Site.Taxonomies.categories }}
+        <a class="dropdown-item" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- tags -->
+  <div class="dropdown filterDropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonTags" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{ i18n "tags" }}
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonTags">
+      {{ range .Site.Taxonomies.tags }}
+        <a class="dropdown-item" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+      {{ end }}
+    </div>
   </div>
 </div>

@@ -145,6 +145,39 @@ main {
       text-align: center;
     }
 
+    .filterDropdown {
+      .btn,
+      &.show>.btn,
+      .btn:focus,
+      .btn:visited,
+      .btn.active,
+      .btn:active {
+        background: $color-secondary;
+        color: $color-grey-100;
+        border: none;
+        width: 100%;
+        margin-bottom: $spacing-s;
+        text-align: left;
+        padding: $spacing-s $spacing-m;
+
+        &::after {
+          position: absolute;
+          right: $spacing-m;
+          top: $spacing-m;
+        }
+      }
+
+      .dropdown-menu {
+        width: 100%;
+        border:1px solid $color-grey-40;
+        padding: 0;
+
+        .dropdown-item {
+          padding: $spacing-s $spacing-m;
+        }
+      }
+    }
+
     .search {
       #search-input {
         padding: $spacing-s $spacing-m;
