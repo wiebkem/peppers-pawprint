@@ -383,41 +383,12 @@ main .sidebar-widget {
   main .sidebar-widget .related-post {
     margin-bottom: 32px;
     text-align: center; }
-  main .sidebar-widget .filterDropdown .btn,
-  main .sidebar-widget .filterDropdown.show > .btn,
-  main .sidebar-widget .filterDropdown .btn:focus,
-  main .sidebar-widget .filterDropdown .btn:visited,
-  main .sidebar-widget .filterDropdown .btn.active,
-  main .sidebar-widget .filterDropdown .btn:active {
-    background: #EDDCAC;
-    color: #191D1F;
-    border: none;
+  main .sidebar-widget #filterSelect {
     width: 100%;
-    margin-bottom: 8px;
-    text-align: left;
-    padding: 8px 16px; }
-    main .sidebar-widget .filterDropdown .btn::after,
-    main .sidebar-widget .filterDropdown.show > .btn::after,
-    main .sidebar-widget .filterDropdown .btn:focus::after,
-    main .sidebar-widget .filterDropdown .btn:visited::after,
-    main .sidebar-widget .filterDropdown .btn.active::after,
-    main .sidebar-widget .filterDropdown .btn:active::after {
-      position: absolute;
-      right: 16px;
-      top: 16px; }
-  main .sidebar-widget .filterDropdown .dropdown-menu {
-    width: 100%;
+    height: auto;
     border-color: #D1D2D2;
-    padding: 0; }
-    main .sidebar-widget .filterDropdown .dropdown-menu .dropdown-header {
-      padding: 8px 16px;
-      color: #6A6C6D;
-      font-size: 14px; }
-    main .sidebar-widget .filterDropdown .dropdown-menu .dropdown-item {
-      padding: 8px 16px; }
-    main .sidebar-widget .filterDropdown .dropdown-menu .dropdown-divider {
-      border-color: #D1D2D2;
-      margin: 8px 0; }
+    color: #3C3F41;
+    padding: 8px 32px 8px 16px; }
   main .sidebar-widget .search #search-input {
     padding: 8px 16px;
     border: 1px solid #D1D2D2;
