@@ -416,6 +416,10 @@ main .sidebar-widget {
     color: #191D1F;
     cursor: pointer; }
 
+@media (min-width: 768px) {
+  main .sidebar-widget #filterSelect {
+    width: auto; } }
+
 @media (min-width: 992px) {
   main .post .post-button {
     width: auto; }
