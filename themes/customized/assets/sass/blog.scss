@@ -169,11 +169,22 @@ main {
 
       .dropdown-menu {
         width: 100%;
-        border:1px solid $color-grey-40;
+        border-color: $color-grey-40;
         padding: 0;
+
+        .dropdown-header {
+          padding: $spacing-s $spacing-m;
+          color: $color-grey-70;
+          font-size: $font-size-text-small;
+        }
 
         .dropdown-item {
           padding: $spacing-s $spacing-m;
+        }
+
+        .dropdown-divider {
+          border-color: $color-grey-40;
+          margin: $spacing-s 0;
         }
       }
     }

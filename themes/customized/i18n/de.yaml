@@ -40,6 +40,9 @@
 - id: tags
   translation: Tags
 
+- id: filter
+  translation: Filter
+
 - id: search
   translation: Suchen
 

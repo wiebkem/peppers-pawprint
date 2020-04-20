@@ -19,24 +19,19 @@
 </div>
 
 <div class="sidebar-widget showMobile">
-  <!-- categories -->
   <div class="dropdown filterDropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonCategories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      {{ i18n "categories" }}
+      {{ i18n "filter" }}
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonCategories">
+      <!-- categories -->
+      <div class="dropdown-header">{{ i18n "categories" }}</div>
       {{ range .Site.Taxonomies.categories }}
         <a class="dropdown-item" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
       {{ end }}
-    </div>
-  </div>
-
-  <!-- tags -->
-  <div class="dropdown filterDropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonTags" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      {{ i18n "tags" }}
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonTags">
+      <div class="dropdown-divider"></div>
+      <!-- tags -->
+      <div class="dropdown-header">{{ i18n "tags" }}</div>
       {{ range .Site.Taxonomies.tags }}
         <a class="dropdown-item" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
       {{ end }}
