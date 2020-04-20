@@ -859,3 +859,8 @@ main .instagram-content h2 {
       border-left: 12px solid transparent;
       border-right: 12px solid transparent;
       border-top: 12px solid #EDDCAC; }
+
+@media (max-width: 768px) {
+  main .page-content,
+  #header-container {
+    word-break: break-word; } }
