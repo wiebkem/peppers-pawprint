@@ -19,22 +19,32 @@
 </div>
 
 <div class="sidebar-widget showMobile">
-  <div class="dropdown filterDropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonCategories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      {{ i18n "filter" }}
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonCategories">
+  <!--<h2 class="widget-title">{{ i18n "filter" }}</h2>-->
+  <form>
+    <select class="form-control custom-select" id="exampleFormControlSelect1" onchange="location = this.options[this.selectedIndex].value;">
+      <!-- all 
+      <option value='{{ with .Site.GetPage "home" }}{{ .Permalink }}{{ end }}'>All blogs</option>-->
+      <option>{{ i18n "filter" }}</option>
+
+      <!-- Taxonomy {{ define "title" }}{{ .Title }} · {{ .Site.Title }}{{ end }} -->
+
       <!-- categories -->
-      <div class="dropdown-header">{{ i18n "categories" }}</div>
-      {{ range .Site.Taxonomies.categories }}
-        <a class="dropdown-item" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
-      {{ end }}
-      <div class="dropdown-divider"></div>
-      <!-- tags -->
-      <div class="dropdown-header">{{ i18n "tags" }}</div>
-      {{ range .Site.Taxonomies.tags }}
-        <a class="dropdown-item" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
-      {{ end }}
-    </div>
-  </div>
+      <optgroup label='{{ i18n "categories" }}'>
+        {{ range .Site.Taxonomies.categories }}
+        <option value="{{ .Page.Permalink }}">
+          {{ .Page.Title }} ({{ .Count }})
+        </option>
+        {{ end }}
+      </optgroup>
+
+      <!-- tags --> 
+      <optgroup label='{{ i18n "tags" }}'>
+        {{ range .Site.Taxonomies.tags }}
+        <option value="{{ .Page.Permalink }}">
+          {{ .Page.Title }} ({{ .Count }})
+        </option>
+        {{ end }}
+      </optgroup>
+    </select>
+  </form>
 </div>
