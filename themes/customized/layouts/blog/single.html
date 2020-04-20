@@ -33,6 +33,12 @@
       <div class="post-content">
         <p class="lead">{{ .Description }}</p>
         <p>{{ .Content }}</p>
+
+        {{ with .Params.info_without_guarantee -}}
+        <div class="blog-disclaimer">
+          {{ i18n "info_without_guarantee" }}
+        </div>
+        {{ end }}
       </div>
     </div>
   </div>

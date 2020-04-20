@@ -61,6 +61,9 @@
 - id: disclaimer_blog_posts
   translation: Not all blog posts are available. To be able to read all blog posts, change the language to English.
 
+- id: info_without_guarantee
+  translation: The information was compiled to the best of my knowledge and belief. However, all information is without guarantee.
+
 
 # 404 error page
 - id: error_404

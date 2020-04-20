@@ -8,6 +8,7 @@ tags = [
     "Prey Model Raw"
 ]
 featured_image = "article_images/prey-model-raw.jpeg"
+info_without_guarantee = true
 description = "I am feeding Pepper raw according to the Prey Model Raw concept. Why do I feed Pepper this way and what's in his bowl? Figure it out in this blog entry."
 +++
 

@@ -61,6 +61,9 @@
 - id: disclaimer_blog_posts
   translation: Niet alle blog artikel zijn in het Nederlands beschikbaar. Wijzig de taal in het Engels om alle artikel te lezen.
 
+- id: info_without_guarantee
+  translation: De informatie is naar mijn beste weten en overtuiging samengesteld. Alle informatie is echter zonder garantie.
+
 
 # 404 error page
 - id: error_404
