@@ -407,10 +407,17 @@ main .sidebar-widget {
       top: 16px; }
   main .sidebar-widget .filterDropdown .dropdown-menu {
     width: 100%;
-    border: 1px solid #D1D2D2;
+    border-color: #D1D2D2;
     padding: 0; }
+    main .sidebar-widget .filterDropdown .dropdown-menu .dropdown-header {
+      padding: 8px 16px;
+      color: #6A6C6D;
+      font-size: 14px; }
     main .sidebar-widget .filterDropdown .dropdown-menu .dropdown-item {
       padding: 8px 16px; }
+    main .sidebar-widget .filterDropdown .dropdown-menu .dropdown-divider {
+      border-color: #D1D2D2;
+      margin: 8px 0; }
   main .sidebar-widget .search #search-input {
     padding: 8px 16px;
     border: 1px solid #D1D2D2;
