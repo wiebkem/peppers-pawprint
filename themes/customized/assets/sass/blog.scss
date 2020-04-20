@@ -145,48 +145,12 @@ main {
       text-align: center;
     }
 
-    .filterDropdown {
-      .btn,
-      &.show>.btn,
-      .btn:focus,
-      .btn:visited,
-      .btn.active,
-      .btn:active {
-        background: $color-secondary;
-        color: $color-grey-100;
-        border: none;
-        width: 100%;
-        margin-bottom: $spacing-s;
-        text-align: left;
-        padding: $spacing-s $spacing-m;
-
-        &::after {
-          position: absolute;
-          right: $spacing-m;
-          top: $spacing-m;
-        }
-      }
-
-      .dropdown-menu {
-        width: 100%;
-        border-color: $color-grey-40;
-        padding: 0;
-
-        .dropdown-header {
-          padding: $spacing-s $spacing-m;
-          color: $color-grey-70;
-          font-size: $font-size-text-small;
-        }
-
-        .dropdown-item {
-          padding: $spacing-s $spacing-m;
-        }
-
-        .dropdown-divider {
-          border-color: $color-grey-40;
-          margin: $spacing-s 0;
-        }
-      }
+    #filterSelect {
+      width: 100%;
+      height: auto;
+      border-color: $color-grey-40;
+      color: $color-grey-90;
+      padding: $spacing-s $spacing-xl $spacing-s $spacing-m;
     }
 
     .search {
@@ -224,6 +188,12 @@ main {
         cursor: pointer;
       }
     }
+  }
+}
+
+@media(min-width: 768px) {
+  main .sidebar-widget #filterSelect {
+      //width: auto;
   }
 }
 

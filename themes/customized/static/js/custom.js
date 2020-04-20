@@ -1,4 +1,13 @@
+$(document).ready(function(){
+  // selected sidebar option based on taxonomy
+  var selectControl = $('#filterSelect option[value$="' + window.location.pathname + '"]');
+  if (selectControl != null && selectControl.length > 0) {
+    selectControl.attr('selected','selected');
+  }
+});
+
 (function() {
+  // privacy opt-out function
   var links = document.links;
   for (var i = 0, linksLength = links.length; i < linksLength; i++) {
     if (links[i].hostname != window.location.hostname && links[i].id != "privacyOptOut") {
@@ -6,7 +15,7 @@
       links[i].setAttribute("rel", "noopener noreferrer");
     }
   }
-})();
+});
 
 
 // Opt-out function

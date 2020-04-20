@@ -40,9 +40,6 @@
 - id: tags
   translation: Tags
 
-- id: filter
-  translation: Filter
-
 - id: search
   translation: Search
 
@@ -51,6 +48,9 @@
 
 - id: no_search_results
   translation: No results found.
+
+- id: all_posts
+  translation: All posts
 
 - id: related_posts
   translation: Related posts

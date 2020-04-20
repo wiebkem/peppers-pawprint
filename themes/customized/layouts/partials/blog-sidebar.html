@@ -1,32 +1,8 @@
-<!-- categories -->
-<div class="sidebar-widget showDesktop">
-  <h2 class="widget-title">{{ i18n "categories" }}</h2>
-  <div class="tagcloud categories">
-    {{ range .Site.Taxonomies.categories }}
-      <a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
-    {{ end }}
-  </div>
-</div>
-
-<!-- tags -->
-<div class="sidebar-widget showDesktop">
-  <h5 class="widget-title">{{ i18n "tags" }}</h5>
-  <div class="tagcloud tags clearfix">
-    {{ range .Site.Taxonomies.tags }}
-    <a class="ghost-button" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
-    {{ end }}
-  </div>
-</div>
-
-<div class="sidebar-widget showMobile">
-  <!--<h2 class="widget-title">{{ i18n "filter" }}</h2>-->
-  <form>
-    <select class="form-control custom-select" id="exampleFormControlSelect1" onchange="location = this.options[this.selectedIndex].value;">
-      <!-- all 
-      <option value='{{ with .Site.GetPage "home" }}{{ .Permalink }}{{ end }}'>All blogs</option>-->
-      <option>{{ i18n "filter" }}</option>
-
-      <!-- Taxonomy {{ define "title" }}{{ .Title }} · {{ .Site.Title }}{{ end }} -->
+<div class="row">
+  <div class="col-xs-12 col-sm-6 sidebar-widget">
+    <select class="form-control custom-select" id="filterSelect" onchange="location = this.options[this.selectedIndex].value;">
+      <!-- all -->
+      <option value='{{ with .Site.GetPage "home" }}{{ .Permalink }}{{ end }}'>{{ i18n "all_posts" }} ({{ len (where .Site.RegularPages "Type" "blog") }})</option>
 
       <!-- categories -->
       <optgroup label='{{ i18n "categories" }}'>
@@ -46,5 +22,5 @@
         {{ end }}
       </optgroup>
     </select>
-  </form>
+  </div>
 </div>
