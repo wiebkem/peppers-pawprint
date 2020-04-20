@@ -203,34 +203,53 @@ if (!doNotTrack) {
 </div>
 
 <div class="sidebar-widget showMobile">
-  <div class="dropdown filterDropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonCategories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Filter
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonCategories">
+  
+  <form>
+    <select class="form-control custom-select" id="exampleFormControlSelect1" onchange="location = this.options[this.selectedIndex].value;">
       
-      <div class="dropdown-header">Categories</div>
+      <option>Filter</option>
+
       
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/en/blog/category/diet/">Diet (1)</a>
+
       
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/en/blog/category/enrichment/">Enrichment (3)</a>
-      
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/en/blog/category/travel/">Travel (2)</a>
-      
-      <div class="dropdown-divider"></div>
-      
-      <div class="dropdown-header">Tags</div>
-      
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/en/blog/tag/belgium/">Belgium (1)</a>
-      
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/en/blog/tag/indoor-enrichment/">Indoor enrichment (3)</a>
-      
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/en/blog/tag/prey-model-raw/">Prey Model Raw (1)</a>
-      
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/en/blog/tag/sweden/">Sweden (1)</a>
-      
-    </div>
-  </div>
+      <optgroup label='Categories'>
+        
+        <option value="https://www.peppers-pawprint.com/en/blog/category/diet/">
+          Diet (1)
+        </option>
+        
+        <option value="https://www.peppers-pawprint.com/en/blog/category/enrichment/">
+          Enrichment (3)
+        </option>
+        
+        <option value="https://www.peppers-pawprint.com/en/blog/category/travel/">
+          Travel (2)
+        </option>
+        
+      </optgroup>
+
+       
+      <optgroup label='Tags'>
+        
+        <option value="https://www.peppers-pawprint.com/en/blog/tag/belgium/">
+          Belgium (1)
+        </option>
+        
+        <option value="https://www.peppers-pawprint.com/en/blog/tag/indoor-enrichment/">
+          Indoor enrichment (3)
+        </option>
+        
+        <option value="https://www.peppers-pawprint.com/en/blog/tag/prey-model-raw/">
+          Prey Model Raw (1)
+        </option>
+        
+        <option value="https://www.peppers-pawprint.com/en/blog/tag/sweden/">
+          Sweden (1)
+        </option>
+        
+      </optgroup>
+    </select>
+  </form>
 </div>
 
   </div>

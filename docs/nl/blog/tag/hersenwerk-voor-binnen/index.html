@@ -199,24 +199,33 @@ if (!doNotTrack) {
 </div>
 
 <div class="sidebar-widget showMobile">
-  <div class="dropdown filterDropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonCategories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Filter
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonCategories">
+  
+  <form>
+    <select class="form-control custom-select" id="exampleFormControlSelect1" onchange="location = this.options[this.selectedIndex].value;">
       
-      <div class="dropdown-header">Categorieën</div>
+      <option>Filter</option>
+
       
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/nl/blog/category/hersenwerk/">Hersenwerk (3)</a>
+
       
-      <div class="dropdown-divider"></div>
-      
-      <div class="dropdown-header">Tags</div>
-      
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/nl/blog/tag/hersenwerk-voor-binnen/">Hersenwerk voor binnen (3)</a>
-      
-    </div>
-  </div>
+      <optgroup label='Categorieën'>
+        
+        <option value="https://www.peppers-pawprint.com/nl/blog/category/hersenwerk/">
+          Hersenwerk (3)
+        </option>
+        
+      </optgroup>
+
+       
+      <optgroup label='Tags'>
+        
+        <option value="https://www.peppers-pawprint.com/nl/blog/tag/hersenwerk-voor-binnen/">
+          Hersenwerk voor binnen (3)
+        </option>
+        
+      </optgroup>
+    </select>
+  </form>
 </div>
 
   </div>

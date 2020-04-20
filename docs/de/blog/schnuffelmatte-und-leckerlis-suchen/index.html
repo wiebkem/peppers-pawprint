@@ -180,28 +180,41 @@ if (!doNotTrack) {
 </div>
 
 <div class="sidebar-widget showMobile">
-  <div class="dropdown filterDropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonCategories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Filter
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonCategories">
+  
+  <form>
+    <select class="form-control custom-select" id="exampleFormControlSelect1" onchange="location = this.options[this.selectedIndex].value;">
       
-      <div class="dropdown-header">Kategorien</div>
+      <option>Filter</option>
+
       
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/de/blog/category/beschaftigung/">Beschäftigung (3)</a>
+
       
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/de/blog/category/futterung/">Fütterung (1)</a>
-      
-      <div class="dropdown-divider"></div>
-      
-      <div class="dropdown-header">Tags</div>
-      
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/de/blog/tag/beschaftigung-fur-drinnen/">Beschäftigung für drinnen (3)</a>
-      
-        <a class="dropdown-item" href="https://www.peppers-pawprint.com/de/blog/tag/prey-model-raw/">Prey Model Raw (1)</a>
-      
-    </div>
-  </div>
+      <optgroup label='Kategorien'>
+        
+        <option value="https://www.peppers-pawprint.com/de/blog/category/beschaftigung/">
+          Beschäftigung (3)
+        </option>
+        
+        <option value="https://www.peppers-pawprint.com/de/blog/category/futterung/">
+          Fütterung (1)
+        </option>
+        
+      </optgroup>
+
+       
+      <optgroup label='Tags'>
+        
+        <option value="https://www.peppers-pawprint.com/de/blog/tag/beschaftigung-fur-drinnen/">
+          Beschäftigung für drinnen (3)
+        </option>
+        
+        <option value="https://www.peppers-pawprint.com/de/blog/tag/prey-model-raw/">
+          Prey Model Raw (1)
+        </option>
+        
+      </optgroup>
+    </select>
+  </form>
 </div>
 
     
@@ -264,6 +277,8 @@ if (!doNotTrack) {
 <p>Eine Alternative zur Schnüffelmatte ist das normale Suchen von Leckerlis. Man kann an verschiedenen Stellen im Haus oder Garten Leckerlis verstecken. Am Anfang sollten diese am besten am Boden abgelegt werden. Um den Schwierigkeitsgrad zu erhöhen ist es dann später auch möglich diese Leckerlis erhöht, z.B. auf Stühlen, zu verstecken.</p>
 <p><strong>Beim Verstecken von Leckerlis sind der Phantasie keine Grenzen gesetzt. Es gilt aber zu beachten, dass der Hund Spaß an der Aufgabe hat und die Übung nicht zu oft wiederholt wird. Nasenarbeit ist anstrengend!</strong></p>
 </p>
+
+        
       </div>
     </div>
   </div>
