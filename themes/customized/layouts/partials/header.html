@@ -60,24 +60,41 @@
               <i class="fas fa-globe-europe"></i> {{ .Site.Language.Lang | upper }} <i class="ion-ios-arrow-down"></i>
             </a>
             <ul class="dropdown-menu">
+              <!-- add all translations to the menu -->
               {{ if .IsTranslated }}
-              {{- $last := (sub (len .Translations) 1) -}}
-                {{ range $index, $value := (.Translations | sort) -}}
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{ $value.Permalink }}">{{ .Language.LanguageName }}</a>
-                  </li>
-                {{ end }}
-              {{ else }}
-              {{ if (gt (len .Site.Home.AllTranslations) 1) }}
-                {{- $.Scratch.Set "language" .Language -}}
-                {{ range .Site.Home.AllTranslations }}
-                {{ if ne ($.Scratch.Get "language") .Language }}
+                {{ range .Translations }}
+                  {{ if (eq (len .Translations) 1) }}
+                    {{- $.Scratch.Set "translatedLanguage" .Language -}}
+                  {{ end }}
                   <li class="nav-item">
                     <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
                   </li>
+                {{ end}}
+
+                <!-- if there are more general translations than this specific side is translated, add the general website to the translation menu -->
+                {{ if (gt (len .Site.Home.AllTranslations) (add (len .Translations) 1)) }}
+                  {{- $.Scratch.Set "language" .Language -}}
+                  {{ range .Site.Home.AllTranslations }}
+                    {{ if (and (ne ($.Scratch.Get "language") .Language) (ne ($.Scratch.Get "translatedLanguage") .Language)) }}
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                      </li>
+                    {{ end }}
+                  {{ end }}
                 {{ end }}
+
+              {{ else }}
+
+                {{ if (gt (len .Site.Home.AllTranslations) 1) }}
+                  {{- $.Scratch.Set "language" .Language -}}
+                  {{ range .Site.Home.AllTranslations }}
+                    {{ if (ne ($.Scratch.Get "language") .Language) }}
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                      </li>
+                    {{ end }}
+                  {{ end }}
                 {{ end }}
-              {{ end }}
               {{ end }}
             </ul>
           </li>
