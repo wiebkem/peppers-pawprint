@@ -1,0 +1,21 @@
+.youtube {
+    height: 200px;
+}
+
+@media(min-width: 500px) {
+    .youtube {
+        height: 250px;
+    }
+}
+
+@media(min-width: 768px) {
+    .youtube {
+        height: 260px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .youtube {
+        height: 500px;
+    }
+}
