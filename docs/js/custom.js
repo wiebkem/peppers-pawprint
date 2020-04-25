@@ -4,9 +4,7 @@ $(document).ready(function(){
   if (selectControl != null && selectControl.length > 0) {
     selectControl.attr('selected','selected');
   }
-});
 
-(function() {
   // privacy opt-out function
   var links = document.links;
   for (var i = 0, linksLength = links.length; i < linksLength; i++) {
@@ -16,7 +14,6 @@ $(document).ready(function(){
     }
   }
 });
-
 
 // Opt-out function
 function gaOptout() {
