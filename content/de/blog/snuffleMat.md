@@ -18,3 +18,5 @@ Es kann sein, dass der Hund am Anfang sehr hektisch ist und die Schnüffelmatte 
 Eine Alternative zur Schnüffelmatte ist das normale Suchen von Leckerlis. Man kann an verschiedenen Stellen im Haus oder Garten Leckerlis verstecken. Am Anfang sollten diese am besten am Boden abgelegt werden. Um den Schwierigkeitsgrad zu erhöhen ist es dann später auch möglich diese Leckerlis erhöht, z.B. auf Stühlen, zu verstecken.
 
 **Beim Verstecken von Leckerlis sind der Phantasie keine Grenzen gesetzt. Es gilt aber zu beachten, dass der Hund Spaß an der Aufgabe hat und die Übung nicht zu oft wiederholt wird. Nasenarbeit ist anstrengend!**
+
+{{< yt Y6PW5ifqyKQ >}}

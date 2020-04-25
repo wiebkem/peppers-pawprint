@@ -18,3 +18,5 @@ Maybe your dog is very excited in the beginning. If the snuffle mat is moving a 
 An alternative to a snuffle mat is just normal searching for treats. You can hide treats at different places inside the house or garden. At the beginning, the treats should be placed on the ground. Once you want to increase the difficulty you can also place the treats a little higher, e.g. on a chair.
 
 **While hiding the treats, use your imagination. Just keep in mind that the dog should have fun and the task shouldn't be repeated too often. Nose work is very exhausting!**
+
+{{< yt Y6PW5ifqyKQ >}}

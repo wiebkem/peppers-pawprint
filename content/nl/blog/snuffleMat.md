@@ -17,4 +17,6 @@ Misschien is jouw hond in het begin erg opgewonden. Als de snuffelmat veel bewee
 
 Een alternatief voor een snuffelmat is gewoon normaal zoeken naar snoepjes. Je kunt snoepjes op verschillende plaatsen in het huis of in de tuin verstoppen. In het begin moeten de snoepjes op de grond worden geplaatst. Als je de moeilijkheidsgraad wilt verhogen, kun je de snoepjes ook iets hoger plaatsen, b.v. op een stoel.
 
-Gebruik je fantasie terwijl je de snoepjes verstopt. Houd er rekening mee dat de hond plezier moet hebben en dat de taak niet te vaak moet worden herhaald. Hersenwerk is erg vermoeiend!
+**Gebruik je fantasie terwijl je de snoepjes verstopt. Houd er rekening mee dat de hond plezier moet hebben en dat de taak niet te vaak moet worden herhaald. Hersenwerk is erg vermoeiend!**
+
+{{< yt Y6PW5ifqyKQ >}}
