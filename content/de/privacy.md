@@ -134,6 +134,17 @@ Zweck und Umfang der Datenerhebung und die weitere Verarbeitung und Nutzung der 
 
 Wenn ein Nutzer Facebookmitglied ist und nicht möchte, dass Facebook über dieses Onlineangebot Daten über ihn sammelt und mit seinen bei Facebook gespeicherten Mitgliedsdaten verknüpft, muss er sich vor der Nutzung unseres Onlineangebotes bei Facebook ausloggen und seine Cookies löschen. Weitere Einstellungen und Widersprüche zur Nutzung von Daten für Werbezwecke, sind innerhalb der Facebook-Profileinstellungen möglich: https://www.facebook.com/settings?tab=ads oder über die US-amerikanische Seite http://www.aboutads.info/choices/ oder die EU-Seite http://www.youronlinechoices.com/. Die Einstellungen erfolgen plattformunabhängig, d.h. sie werden für alle Geräte, wie Desktopcomputer oder mobile Geräte übernommen.
 
+### Youtube-Videos
+Diese Website nutzt die Youtube-Einbettungsfunktion zur Anzeige und Wiedergabe von Videos des Anbieters „Youtube“, der zu der Google LLC., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA („Google“) gehört.
+
+Hierbei wird der erweiterte Datenschutzmodus verwendet, der nach Anbieterangaben eine Speicherung von Nutzerinformationen erst bei Wiedergabe des/der Videos in Gang setzt. Wird die Wiedergabe eingebetteter Youtube-Videos gestartet, setzt der Anbieter „Youtube“ Cookies ein, um Informationen über das Nutzerverhalten zu sammeln. Hinweisen von „Youtube“ zufolge dienen diese unter anderem dazu, Videostatistiken zu erfassen, die Nutzerfreundlichkeit zu verbessern und missbräuchliche Handlungsweisen zu unterbinden. Wenn Sie bei Google eingeloggt sind, werden Ihre Daten direkt Ihrem Konto zugeordnet, wenn Sie ein Video anklicken. Wenn Sie die Zuordnung mit Ihrem Profil bei YouTube nicht wünschen, müssen Sie sich vor Aktivierung des Buttons ausloggen. Google speichert Ihre Daten (selbst für nicht eingeloggte Nutzer) als Nutzungsprofile und wertet diese aus. Eine solche Auswertung erfolgt insbesondere gemäß Art. 6 Abs. 1 lit.f DSGVO auf Basis der berechtigten Interessen von Google an der Einblendung personalisierter Werbung, Marktforschung und/oder bedarfsgerechten Gestaltung seiner Website. Ihnen steht ein Widerspruchsrecht zu gegen die Bildung dieser Nutzerprofile, wobei Sie sich zur Ausübung dessen an YouTube richten müssen.
+
+Unabhängig von einer Wiedergabe der eingebetteten Videos wird bei jedem Aufruf dieser Website eine Verbindung zum Google-Netzwerk „DoubleClick“ aufgenommen, was ohne unseren Einfluss weitere Datenverarbeitungsvorgänge auslösen kann.
+
+Google LLC mit Sitz in den USA ist für das us-europäische Datenschutzübereinkommen „Privacy Shield“ zertifiziert, welches die Einhaltung des in der EU geltenden Datenschutzniveaus gewährleistet.
+
+Weitere Informationen zum Datenschutz bei „YouTube“ finden Sie in der Datenschutzerklärung des Anbieters unter: https://www.google.de/intl/de/policies/privacy
+
 ## 7. Plugins und Tools
 ### Google Web Fonts
 Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts die von der Google LLC., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA („Google“) bereitgestellt werden. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern von Google findet dabei nicht statt. Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.  
