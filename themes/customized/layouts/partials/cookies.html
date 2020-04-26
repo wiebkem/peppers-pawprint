@@ -64,6 +64,7 @@
 
     function enableYoutube() {
         var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
         youtube.show();
         youtube.attr({
             src: youtube.attr('data-src')

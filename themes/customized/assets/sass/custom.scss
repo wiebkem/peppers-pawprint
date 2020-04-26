@@ -97,6 +97,38 @@ li:hover a, li:active a, a:hover, a:active {
     }
 }
 
+main .blog-disclaimer,
+.youtube-disclaimer {
+    border: $border-radius-s solid $color-secondary;
+    border-radius: $border-radius-s;
+    padding: $spacing-m;
+    margin-bottom: $spacing-l;
+    text-align: center;
+}
+
+.youtube-disclaimer {
+    padding-bottom: $spacing-l;
+    
+    .fa-youtube {
+        font-size: $font-size-display;
+
+    }
+
+    .text-content {
+        margin-left: $spacing-s;
+        margin-bottom: $spacing-m;
+        text-align: initial;
+    }
+
+    #youtubeOptIn {
+        color: $color-grey-100;
+
+        &:hover {
+            color: $color-white;
+        }
+    }
+}
+
 .showMobile {
     display: block;
 }
