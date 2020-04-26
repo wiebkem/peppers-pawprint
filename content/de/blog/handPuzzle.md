@@ -18,3 +18,5 @@ Gerade zu Anfang wird der Hund wahrscheinlich versuchen die Hand mit den Leckerl
 Persönlich habe ich Pepper so trainiert, dass er meine linke Hand mit der Nase anstupst, wenn ich die Leckerlis in der rechten Hand habe. Wenn ich die Leckerlis allerdings in der linken Hand habe, gibt Pepper mir seine Pfote in die rechte Hand. Bevor der Hund die Pfote geben kann, muss er diesen Trick schon außerhalb des Händespiels erlernt haben!
 
 **Innerhalb der Familie sollten die Handlungen mit der rechten und linken Hand gleich sein. Es ist auch möglich bei beiden Händen den Hund entweder nur die Nase oder nur die Pfote geben zu lassen. Wiederhole die Übung nicht zu oft am Tag, damit der Hund weiterhin Spaß hat!**
+
+{{< yt kAcNuHxg3JI >}}

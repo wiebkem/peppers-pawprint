@@ -118,6 +118,10 @@ defaultContentLanguageInSubdir = true
   icon = "fab fa-facebook-f"
   link = "https://www.facebook.com/pepperspawprint/"
 
+  [[params.social]]
+  icon = "fab fa-youtube"
+  link = "https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA"
+
 # ------------------------------------- #
 # ---- Related Articles --------------- #
 # ------------------------------------- #

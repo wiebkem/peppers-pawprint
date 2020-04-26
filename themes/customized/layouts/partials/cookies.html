@@ -25,10 +25,13 @@
         onStatusChange: statusChange
     });
 
+    // cookie consent template is in head.html
+    // youtube consent template is in shortcodes/yt.html
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -37,7 +40,8 @@
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -56,6 +60,16 @@
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {

@@ -15,7 +15,7 @@
 
 # cookie dialog
 - id: cookie_message
-  translation: This website uses cookies. We use cookies to personalise content and to analyse our traffic. You can prevent these cookies from being stored. However, please note that if you do this you may not be able to use the full functionality of this website.
+  translation: This website uses cookies. We use cookies to personalise content, to analyse our traffic and for social media plugins. You can prevent these cookies from being stored. However, please note that if you do this you may not be able to use the full functionality of this website.
 
 - id: cookie_dismiss
   translation: Decline
@@ -63,6 +63,12 @@
 
 - id: info_without_guarantee
   translation: The information was compiled to the best of my knowledge and belief. However, all information is without guarantee.
+
+- id: disclaimer_youtube
+  translation: Youtube videos are not shown as the cookies were not accepted. If you want the see the youtube videos, you have to accept the cookies.
+
+- id: disclaimer_youtube_link
+  translation: Show cookie banner
 
 
 # 404 error page

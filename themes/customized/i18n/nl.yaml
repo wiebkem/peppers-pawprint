@@ -15,7 +15,7 @@
 
 # cookie dialog
 - id: cookie_message
-  translation: Deze website maakt gebruik van cookies. We gebruiken cookies om inhoud te personaliseren en om ons verkeer te analyseren. U kunt voorkomen dat deze cookies worden opgeslagen. Houd er echter rekening mee dat als u dit doet, u mogelijk niet de volledige functionaliteit van deze website kunt gebruiken.
+  translation: Deze website maakt gebruik van cookies. We gebruiken cookies om inhoud te personaliseren, om ons verkeer te analyseren en voor social media plugins. U kunt voorkomen dat deze cookies worden opgeslagen. Houd er echter rekening mee dat als u dit doet, u mogelijk niet de volledige functionaliteit van deze website kunt gebruiken.
 
 - id: cookie_dismiss
   translation: Weigeren
@@ -63,6 +63,12 @@
 
 - id: info_without_guarantee
   translation: De informatie is naar mijn beste weten en overtuiging samengesteld. Alle informatie is echter zonder garantie.
+
+- id: disclaimer_youtube
+  translation: YouTube-video's worden niet weergegeven omdat de cookies niet geaccepteerd zijn. Als u de YouTube-video's wilt zien, moet u de cookies accepteren.
+
+- id: disclaimer_youtube_link
+  translation: Cookiebanner weergeven
 
 
 # 404 error page

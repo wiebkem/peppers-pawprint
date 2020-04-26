@@ -1,0 +1,13 @@
+<iframe data-src="https://www.youtube.com/embed/{{ index .Params 0 }}?start={{ index .Params 1 }}"
+        style="width: 100%;"
+        allow="encrypted-media;"
+        allowfullscreen frameborder="0"
+        title="YouTube Video"
+        class="youtube">
+</iframe>
+
+<div class="youtube-disclaimer">
+        <div><i class="fab fa-youtube"></i></div>
+        <div class="text-content">{{ i18n "disclaimer_youtube" }}</div>
+        <a id="youtubeOptIn" class="button" href="javascript:openCookieBanner()">{{ i18n "disclaimer_youtube_link" }}</a>
+</div>

@@ -19,3 +19,5 @@ As soon as the dog understands to touch the hand, it is possible to place the tw
 Personally, I trained Pepper to touch my left hand, if I have treats in the right hand. If I have treats in the left hand, he gives me his paw in my right hand. Before a dog is able to give a paw, the trick should be learned outside the hand puzzle!
 
 **Inside the family, the actions with the right and left hand should be the same for everyone. It's also possible to always get a nose touch or give the paw with both hands. Just keep in mind to not overdue it on a day so that the dog still has fun.**
+
+{{< yt kAcNuHxg3JI >}}
