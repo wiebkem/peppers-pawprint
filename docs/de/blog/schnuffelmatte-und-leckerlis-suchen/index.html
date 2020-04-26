@@ -38,7 +38,7 @@
 <meta itemprop="description" content="Es ist im Moment eine schwierige Zeit für viele Menschen. Gerade wenn Sozialkontakte gemieden werden und es vielleicht auch eine Ausgangssperre gibt, gibt es auch tolle Möglichkeiten Hunde drinnen zu beschäftigen. Die erste Bestäftigung die ich vorstellen möchte ist die Schnüffelmatte und das Suchen von Leckerlis.">
 <meta itemprop="datePublished" content="2020-03-21T09:00:00&#43;01:00" />
 <meta itemprop="dateModified" content="2020-03-21T09:00:00&#43;01:00" />
-<meta itemprop="wordCount" content="177">
+<meta itemprop="wordCount" content="201">
 
 
 
@@ -199,6 +199,20 @@ if (!doNotTrack) {
 <p>Es kann sein, dass der Hund am Anfang sehr hektisch ist und die Schnüffelmatte hin und her rutscht. Hierbei kann es helfen diese Matte fest zu halten. Außerdem ist es wichtig die Leckerlis nicht gleich am Anfang ganz tief in der Matte zu verstecken. Der Schwierigkeitsgrad sollte langsam erhöht werden, sodass es nicht direkt zu schwer für den Hund ist.</p>
 <p>Eine Alternative zur Schnüffelmatte ist das normale Suchen von Leckerlis. Man kann an verschiedenen Stellen im Haus oder Garten Leckerlis verstecken. Am Anfang sollten diese am besten am Boden abgelegt werden. Um den Schwierigkeitsgrad zu erhöhen ist es dann später auch möglich diese Leckerlis erhöht, z.B. auf Stühlen, zu verstecken.</p>
 <p><strong>Beim Verstecken von Leckerlis sind der Phantasie keine Grenzen gesetzt. Es gilt aber zu beachten, dass der Hund Spaß an der Aufgabe hat und die Übung nicht zu oft wiederholt wird. Nasenarbeit ist anstrengend!</strong></p>
+<iframe data-src="https://www.youtube.com/embed/Y6PW5ifqyKQ?start="
+        style="width: 100%;"
+        allow="encrypted-media;"
+        allowfullscreen frameborder="0"
+        title="YouTube Video"
+        class="youtube">
+</iframe>
+
+<div class="youtube-disclaimer">
+        <div><i class="fab fa-youtube"></i></div>
+        <div class="text-content">Youtube-Videos werden nicht angezeigt, da die Cookies nicht akzeptiert wurden. Wenn Sie die YouTube-Videos anschauen möchten, müssen Sie die Cookies akzeptieren.</div>
+        <a id="youtubeOptIn" class="button" href="javascript:openCookieBanner()">Cookie Banner anzeigen</a>
+</div>
+
 </p>
 
         
@@ -263,6 +277,10 @@ if (!doNotTrack) {
               <a href="https://www.facebook.com/pepperspawprint/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             
+            <li>
+              <a href="https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            
           
         </ul>
       </div>
@@ -312,7 +330,7 @@ if (!doNotTrack) {
         "theme": "classic",
         "type": "opt-in",
         "content": {
-            "message": 'Diese Website verwendet Cookies. Wir verwenden Cookies, um Inhalte zu personalisieren und unseren Datenverkehr zu analysieren. Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.',
+            "message": 'Diese Website verwendet Cookies. Wir verwenden Cookies, um Inhalte zu personalisieren, unseren Datenverkehr zu analysieren, sowie für Social Media Verknüpfungen. Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.',
             "deny": 'Ablehnen',
             "allow": 'Erlauben',
             "link": 'Erfahren Sie mehr.',
@@ -322,10 +340,13 @@ if (!doNotTrack) {
         onStatusChange: statusChange
     });
 
+    
+    
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -334,7 +355,8 @@ if (!doNotTrack) {
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -353,6 +375,16 @@ if (!doNotTrack) {
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {

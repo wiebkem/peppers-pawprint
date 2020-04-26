@@ -270,6 +270,10 @@ Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
               <a href="https://www.facebook.com/pepperspawprint/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             
+            <li>
+              <a href="https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            
           
         </ul>
       </div>
@@ -319,7 +323,7 @@ Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
         "theme": "classic",
         "type": "opt-in",
         "content": {
-            "message": 'Diese Website verwendet Cookies. Wir verwenden Cookies, um Inhalte zu personalisieren und unseren Datenverkehr zu analysieren. Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.',
+            "message": 'Diese Website verwendet Cookies. Wir verwenden Cookies, um Inhalte zu personalisieren, unseren Datenverkehr zu analysieren, sowie für Social Media Verknüpfungen. Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.',
             "deny": 'Ablehnen',
             "allow": 'Erlauben',
             "link": 'Erfahren Sie mehr.',
@@ -329,10 +333,13 @@ Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
         onStatusChange: statusChange
     });
 
+    
+    
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -341,7 +348,8 @@ Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -360,6 +368,16 @@ Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {

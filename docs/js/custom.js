@@ -8,12 +8,19 @@ $(document).ready(function(){
   // privacy opt-out function
   var links = document.links;
   for (var i = 0, linksLength = links.length; i < linksLength; i++) {
-    if (links[i].hostname != window.location.hostname && links[i].id != "privacyOptOut") {
+    if (links[i].hostname != window.location.hostname && links[i].id != "privacyOptOut" && links[i].id != "youtubeOptIn") {
       links[i].target = "_blank";
       links[i].setAttribute("rel", "noopener noreferrer");
     }
   }
 });
+
+// open the cookie banner
+function openCookieBanner() {
+  var cookieBanner = $('div[aria-label="cookieconsent"]');
+  cookieBanner.removeClass('cc-invisible');
+  cookieBanner.show();
+}
 
 // Opt-out function
 function gaOptout() {

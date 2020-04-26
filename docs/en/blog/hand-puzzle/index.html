@@ -38,7 +38,7 @@
 <meta itemprop="description" content="Today I want to introduce the second enrichment - the hand puzzle. The hand puzzle is about the dog touching the hand with his nose or giving his paw and afterwards getting the reward.">
 <meta itemprop="datePublished" content="2020-03-22T09:00:00&#43;01:00" />
 <meta itemprop="dateModified" content="2020-03-22T09:00:00&#43;01:00" />
-<meta itemprop="wordCount" content="257">
+<meta itemprop="wordCount" content="285">
 
 
 
@@ -200,6 +200,20 @@ if (!doNotTrack) {
 As soon as the dog understands to touch the hand, it is possible to place the two hands further away from each other. The distance of the hands should not be too far away, e.g. just a hand width, as the dog has to understand again that he should still touch the flat hand. Once the dog understands the action, the hands can be further moved from each other to increase the difficulty.</p>
 <p>Personally, I trained Pepper to touch my left hand, if I have treats in the right hand. If I have treats in the left hand, he gives me his paw in my right hand. Before a dog is able to give a paw, the trick should be learned outside the hand puzzle!</p>
 <p><strong>Inside the family, the actions with the right and left hand should be the same for everyone. It's also possible to always get a nose touch or give the paw with both hands. Just keep in mind to not overdue it on a day so that the dog still has fun.</strong></p>
+<iframe data-src="https://www.youtube.com/embed/kAcNuHxg3JI?start="
+        style="width: 100%;"
+        allow="encrypted-media;"
+        allowfullscreen frameborder="0"
+        title="YouTube Video"
+        class="youtube">
+</iframe>
+
+<div class="youtube-disclaimer">
+        <div><i class="fab fa-youtube"></i></div>
+        <div class="text-content">Youtube videos are not shown as the cookies were not accepted. If you want the see the youtube videos, you have to accept the cookies.</div>
+        <a id="youtubeOptIn" class="button" href="javascript:openCookieBanner()">Show cookie banner</a>
+</div>
+
 </p>
 
         
@@ -264,6 +278,10 @@ As soon as the dog understands to touch the hand, it is possible to place the tw
               <a href="https://www.facebook.com/pepperspawprint/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             
+            <li>
+              <a href="https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            
           
         </ul>
       </div>
@@ -315,7 +333,7 @@ As soon as the dog understands to touch the hand, it is possible to place the tw
         "theme": "classic",
         "type": "opt-in",
         "content": {
-            "message": 'This website uses cookies. We use cookies to personalise content and to analyse our traffic. You can prevent these cookies from being stored. However, please note that if you do this you may not be able to use the full functionality of this website.',
+            "message": 'This website uses cookies. We use cookies to personalise content, to analyse our traffic and for social media plugins. You can prevent these cookies from being stored. However, please note that if you do this you may not be able to use the full functionality of this website.',
             "deny": 'Decline',
             "allow": 'Allow',
             "link": 'Learn more.',
@@ -325,10 +343,13 @@ As soon as the dog understands to touch the hand, it is possible to place the tw
         onStatusChange: statusChange
     });
 
+    
+    
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -337,7 +358,8 @@ As soon as the dog understands to touch the hand, it is possible to place the tw
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -356,6 +378,16 @@ As soon as the dog understands to touch the hand, it is possible to place the tw
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {

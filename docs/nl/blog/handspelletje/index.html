@@ -38,7 +38,7 @@
 <meta itemprop="description" content="Vandaag wil ik een tweede hersenwerk introduceren - het handspelletje. Dit spelletje gaat erover dat de hond een hand met zijn neus aanraakt of een poot geeft en vervolgens de beloning krijgt.">
 <meta itemprop="datePublished" content="2020-03-22T09:00:00&#43;01:00" />
 <meta itemprop="dateModified" content="2020-03-22T09:00:00&#43;01:00" />
-<meta itemprop="wordCount" content="248">
+<meta itemprop="wordCount" content="271">
 
 
 
@@ -195,10 +195,24 @@ if (!doNotTrack) {
 
       <div class="post-content">
         <p class="lead">Vandaag wil ik een tweede hersenwerk introduceren - het handspelletje. Dit spelletje gaat erover dat de hond een hand met zijn neus aanraakt of een poot geeft en vervolgens de beloning krijgt.</p>
-        <p><p>Om te beginnen neem een of meerdere snoepkes in je rechterhand en vorm een ​​vuist. Hou de tweede hand plat ernaast. De hond mag dan aan de vuist met de snoepjes ruiken. Zodra de hond echter de platte hand met de neus aanraakt, open je de vuist om de hond te belonen.</p>
+        <p><p>Om te beginnen neem een of meerdere snoepjes in je rechterhand en vorm een ​​vuist. Hou de tweede hand plat ernaast. De hond mag dan aan de vuist met de snoepjes ruiken. Zodra de hond echter de platte hand met de neus aanraakt, open je de vuist om de hond te belonen.</p>
 <p>Vooral in het begin probeert de hond waarschijnlijk de vuist meet de snoepjes te openen. Hierop mag niet worden gereageerd. Zodra de hond begrijpt dat hij de platte hand moet aanraken, is het mogelijk om de twee handen verder van elkaar te plaatsen. De afstand van de handen mag niet te ver weg zijn, b.v. slechts een handbreedte, omdat de hond opnieuw moet begrijpen dat hij nog steeds de platte hand moet aanraken. Zodra de hond de actie begrijpt, kunnen de handen weer verder van elkaar worden bewogen om de moeilijkheidsgraad te vergroten.</p>
 <p>Persoonlijk heb ik Pepper getraind om mijn linkerhand met de neus aan te raken, als ik snoepjes in de rechterhand heb. Als ik snoepjes in de linkerhand heb, geeft hij me zijn poot in mijn rechterhand. Voordat een hond een poot kan geven, moet deze truc buiten de hand puzzel worden geleerd!</p>
 <p>Binnen het gezin moeten de acties met de rechter- en linkerhand voor iedereen hetzelfde zijn. Het is ook mogelijk om altijd alleen met de neus te werken of de poot aan beide handen te geven. Herhaal de oefening niet te vaak per dag om de hond erin plezier te laten houden!</p>
+<iframe data-src="https://www.youtube.com/embed/kAcNuHxg3JI?start="
+        style="width: 100%;"
+        allow="encrypted-media;"
+        allowfullscreen frameborder="0"
+        title="YouTube Video"
+        class="youtube">
+</iframe>
+
+<div class="youtube-disclaimer">
+        <div><i class="fab fa-youtube"></i></div>
+        <div class="text-content">YouTube-video&#39;s worden niet weergegeven omdat de cookies niet geaccepteerd zijn. Als u de YouTube-video&#39;s wilt zien, moet u de cookies accepteren.</div>
+        <a id="youtubeOptIn" class="button" href="javascript:openCookieBanner()">Cookiebanner weergeven</a>
+</div>
+
 </p>
 
         
@@ -263,6 +277,10 @@ if (!doNotTrack) {
               <a href="https://www.facebook.com/pepperspawprint/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             
+            <li>
+              <a href="https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            
           
         </ul>
       </div>
@@ -314,7 +332,7 @@ if (!doNotTrack) {
         "theme": "classic",
         "type": "opt-in",
         "content": {
-            "message": 'Deze website maakt gebruik van cookies. We gebruiken cookies om inhoud te personaliseren en om ons verkeer te analyseren. U kunt voorkomen dat deze cookies worden opgeslagen. Houd er echter rekening mee dat als u dit doet, u mogelijk niet de volledige functionaliteit van deze website kunt gebruiken.',
+            "message": 'Deze website maakt gebruik van cookies. We gebruiken cookies om inhoud te personaliseren, om ons verkeer te analyseren en voor social media plugins. U kunt voorkomen dat deze cookies worden opgeslagen. Houd er echter rekening mee dat als u dit doet, u mogelijk niet de volledige functionaliteit van deze website kunt gebruiken.',
             "deny": 'Weigeren',
             "allow": 'Toestaan',
             "link": 'Meer informatie.',
@@ -324,10 +342,13 @@ if (!doNotTrack) {
         onStatusChange: statusChange
     });
 
+    
+    
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -336,7 +357,8 @@ if (!doNotTrack) {
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -355,6 +377,16 @@ if (!doNotTrack) {
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {

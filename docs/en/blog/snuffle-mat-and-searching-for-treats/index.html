@@ -38,7 +38,7 @@
 <meta itemprop="description" content="Currently, it is a difficult time for most of the people. While social distancing and probably a lockdown, there are lots of possibilities to do things with your dog indoors. At first, I want to introduce the snuffle mat and searching for treats.">
 <meta itemprop="datePublished" content="2020-03-21T09:00:00&#43;01:00" />
 <meta itemprop="dateModified" content="2020-03-21T09:00:00&#43;01:00" />
-<meta itemprop="wordCount" content="185">
+<meta itemprop="wordCount" content="213">
 
 
 
@@ -199,6 +199,20 @@ if (!doNotTrack) {
 <p>Maybe your dog is very excited in the beginning. If the snuffle mat is moving a lot, you can hold it so that your dog has it a bit easier. Additionally, it is important to place the treats not to deep inside the mat as it would be too difficult for your dog. The degree of difficulty should be increased slowly.</p>
 <p>An alternative to a snuffle mat is just normal searching for treats. You can hide treats at different places inside the house or garden. At the beginning, the treats should be placed on the ground. Once you want to increase the difficulty you can also place the treats a little higher, e.g. on a chair.</p>
 <p><strong>While hiding the treats, use your imagination. Just keep in mind that the dog should have fun and the task shouldn't be repeated too often. Nose work is very exhausting!</strong></p>
+<iframe data-src="https://www.youtube.com/embed/Y6PW5ifqyKQ?start="
+        style="width: 100%;"
+        allow="encrypted-media;"
+        allowfullscreen frameborder="0"
+        title="YouTube Video"
+        class="youtube">
+</iframe>
+
+<div class="youtube-disclaimer">
+        <div><i class="fab fa-youtube"></i></div>
+        <div class="text-content">Youtube videos are not shown as the cookies were not accepted. If you want the see the youtube videos, you have to accept the cookies.</div>
+        <a id="youtubeOptIn" class="button" href="javascript:openCookieBanner()">Show cookie banner</a>
+</div>
+
 </p>
 
         
@@ -263,6 +277,10 @@ if (!doNotTrack) {
               <a href="https://www.facebook.com/pepperspawprint/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             
+            <li>
+              <a href="https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            
           
         </ul>
       </div>
@@ -314,7 +332,7 @@ if (!doNotTrack) {
         "theme": "classic",
         "type": "opt-in",
         "content": {
-            "message": 'This website uses cookies. We use cookies to personalise content and to analyse our traffic. You can prevent these cookies from being stored. However, please note that if you do this you may not be able to use the full functionality of this website.',
+            "message": 'This website uses cookies. We use cookies to personalise content, to analyse our traffic and for social media plugins. You can prevent these cookies from being stored. However, please note that if you do this you may not be able to use the full functionality of this website.',
             "deny": 'Decline',
             "allow": 'Allow',
             "link": 'Learn more.',
@@ -324,10 +342,13 @@ if (!doNotTrack) {
         onStatusChange: statusChange
     });
 
+    
+    
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -336,7 +357,8 @@ if (!doNotTrack) {
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -355,6 +377,16 @@ if (!doNotTrack) {
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {

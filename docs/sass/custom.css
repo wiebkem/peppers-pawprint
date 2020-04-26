@@ -283,12 +283,6 @@ main .post-single-header-title {
   margin-bottom: 8px;
   font-family: princess-sofia; }
 
-main .blog-disclaimer {
-  background-color: #EDDCAC;
-  padding: 16px;
-  margin-bottom: 24px;
-  text-align: center; }
-
 main .post {
   /* single post entry */ }
   main .post .post-header-title a, main .post .post-header-title a:visited,
@@ -683,6 +677,22 @@ main .instagram-content p img {
       background: #D4C49B;
       color: #fff; }
 
+.youtube {
+  display: none;
+  height: 200px; }
+
+@media (min-width: 500px) {
+  .youtube {
+    height: 250px; } }
+
+@media (min-width: 768px) {
+  .youtube {
+    height: 260px; } }
+
+@media (min-width: 1200px) {
+  .youtube {
+    height: 500px; } }
+
 /* sticky footer start */
 html,
 body {
@@ -746,6 +756,27 @@ li:hover a, li:active a, a:hover, a:active {
     color: #fff;
     background: #D4C49B;
     text-decoration: none; }
+
+main .blog-disclaimer,
+.youtube-disclaimer {
+  border: 4px solid #EDDCAC;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 24px;
+  text-align: center; }
+
+.youtube-disclaimer {
+  padding-bottom: 24px; }
+  .youtube-disclaimer .fa-youtube {
+    font-size: 42px; }
+  .youtube-disclaimer .text-content {
+    margin-left: 8px;
+    margin-bottom: 16px;
+    text-align: initial; }
+  .youtube-disclaimer #youtubeOptIn {
+    color: #191D1F; }
+    .youtube-disclaimer #youtubeOptIn:hover {
+      color: #fff; }
 
 .showMobile {
   display: block; }

@@ -38,7 +38,7 @@
 <meta itemprop="description" content="Momenteel is het voor de meeste mensen een moeilijke tijd. Terwijl sociale afstand noodzakelijk is, zijn er tal van mogelijkheden om binnen met jouw hond bezig te zijn. In eerste instantie wil ik de snuffelmat en snoepspelletjes introduceren.">
 <meta itemprop="datePublished" content="2020-03-21T09:00:00&#43;01:00" />
 <meta itemprop="dateModified" content="2020-03-21T09:00:00&#43;01:00" />
-<meta itemprop="wordCount" content="180">
+<meta itemprop="wordCount" content="203">
 
 
 
@@ -198,7 +198,21 @@ if (!doNotTrack) {
         <p><p>De snuffelmat kan zowel binnen als in de tuin gebruikt worden. Bij voorkeur heb je kleine snoepjes die op verschillende plaatsen in de mat verborgen kunnen worden. Zodra je alle snoepjes hebt geplaatst, mag de hond ernaar zoeken.</p>
 <p>Misschien is jouw hond in het begin erg opgewonden. Als de snuffelmat veel beweegt, kun je hem vasthouden zodat je hond het wat makkelijker heeft. Bovendien is het belangrijk om de snoepjes niet te diep in de mat te plaatsen, omdat dit voor jouw hond nog te moeilijk zou zijn. De moeilijkheidsgraad moet langzaam worden verhoogd.</p>
 <p>Een alternatief voor een snuffelmat is gewoon normaal zoeken naar snoepjes. Je kunt snoepjes op verschillende plaatsen in het huis of in de tuin verstoppen. In het begin moeten de snoepjes op de grond worden geplaatst. Als je de moeilijkheidsgraad wilt verhogen, kun je de snoepjes ook iets hoger plaatsen, b.v. op een stoel.</p>
-<p>Gebruik je fantasie terwijl je de snoepjes verstopt. Houd er rekening mee dat de hond plezier moet hebben en dat de taak niet te vaak moet worden herhaald. Hersenwerk is erg vermoeiend!</p>
+<p><strong>Gebruik je fantasie terwijl je de snoepjes verstopt. Houd er rekening mee dat de hond plezier moet hebben en dat de taak niet te vaak moet worden herhaald. Hersenwerk is erg vermoeiend!</strong></p>
+<iframe data-src="https://www.youtube.com/embed/Y6PW5ifqyKQ?start="
+        style="width: 100%;"
+        allow="encrypted-media;"
+        allowfullscreen frameborder="0"
+        title="YouTube Video"
+        class="youtube">
+</iframe>
+
+<div class="youtube-disclaimer">
+        <div><i class="fab fa-youtube"></i></div>
+        <div class="text-content">YouTube-video&#39;s worden niet weergegeven omdat de cookies niet geaccepteerd zijn. Als u de YouTube-video&#39;s wilt zien, moet u de cookies accepteren.</div>
+        <a id="youtubeOptIn" class="button" href="javascript:openCookieBanner()">Cookiebanner weergeven</a>
+</div>
+
 </p>
 
         
@@ -263,6 +277,10 @@ if (!doNotTrack) {
               <a href="https://www.facebook.com/pepperspawprint/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             
+            <li>
+              <a href="https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            
           
         </ul>
       </div>
@@ -314,7 +332,7 @@ if (!doNotTrack) {
         "theme": "classic",
         "type": "opt-in",
         "content": {
-            "message": 'Deze website maakt gebruik van cookies. We gebruiken cookies om inhoud te personaliseren en om ons verkeer te analyseren. U kunt voorkomen dat deze cookies worden opgeslagen. Houd er echter rekening mee dat als u dit doet, u mogelijk niet de volledige functionaliteit van deze website kunt gebruiken.',
+            "message": 'Deze website maakt gebruik van cookies. We gebruiken cookies om inhoud te personaliseren, om ons verkeer te analyseren en voor social media plugins. U kunt voorkomen dat deze cookies worden opgeslagen. Houd er echter rekening mee dat als u dit doet, u mogelijk niet de volledige functionaliteit van deze website kunt gebruiken.',
             "deny": 'Weigeren',
             "allow": 'Toestaan',
             "link": 'Meer informatie.',
@@ -324,10 +342,13 @@ if (!doNotTrack) {
         onStatusChange: statusChange
     });
 
+    
+    
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -336,7 +357,8 @@ if (!doNotTrack) {
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -355,6 +377,16 @@ if (!doNotTrack) {
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {

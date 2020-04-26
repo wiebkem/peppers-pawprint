@@ -38,7 +38,7 @@
 <meta itemprop="description" content="Heute möchte ich euch eine zweite Beschäftigung vorstellen - das Händespiel. Bei dem Händespiel geht es darum, dass der Hund mit der Nase die Hand anstupst oder seine Pfote gibt und danach die Belohnung bekommt.">
 <meta itemprop="datePublished" content="2020-03-22T09:00:00&#43;01:00" />
 <meta itemprop="dateModified" content="2020-03-22T09:00:00&#43;01:00" />
-<meta itemprop="wordCount" content="262">
+<meta itemprop="wordCount" content="286">
 
 
 
@@ -199,6 +199,20 @@ if (!doNotTrack) {
 <p>Gerade zu Anfang wird der Hund wahrscheinlich versuchen die Hand mit den Leckerlis zu öffnen. Hierdrauf sollte nicht reagiert werden. Sobald der Hund verstanden hat, dass er die Hand anstupsen soll, ist es möglich die flache Hand weiter von der Faust zu entfernen. Der Abstand der Hände sollte noch nicht zu weit sein, z.B. nur eine Handfläche breit, da der Hund erstmal wieder verstehen muss, dass es immer noch um das anstupsen der flachen Hand geht. Sobald der Hund dies wieder verstanden hat, kann man die Hände immer weiter voneinander entfernen und damit die Schwierigkeit erhöhen.</p>
 <p>Persönlich habe ich Pepper so trainiert, dass er meine linke Hand mit der Nase anstupst, wenn ich die Leckerlis in der rechten Hand habe. Wenn ich die Leckerlis allerdings in der linken Hand habe, gibt Pepper mir seine Pfote in die rechte Hand. Bevor der Hund die Pfote geben kann, muss er diesen Trick schon außerhalb des Händespiels erlernt haben!</p>
 <p><strong>Innerhalb der Familie sollten die Handlungen mit der rechten und linken Hand gleich sein. Es ist auch möglich bei beiden Händen den Hund entweder nur die Nase oder nur die Pfote geben zu lassen. Wiederhole die Übung nicht zu oft am Tag, damit der Hund weiterhin Spaß hat!</strong></p>
+<iframe data-src="https://www.youtube.com/embed/kAcNuHxg3JI?start="
+        style="width: 100%;"
+        allow="encrypted-media;"
+        allowfullscreen frameborder="0"
+        title="YouTube Video"
+        class="youtube">
+</iframe>
+
+<div class="youtube-disclaimer">
+        <div><i class="fab fa-youtube"></i></div>
+        <div class="text-content">Youtube-Videos werden nicht angezeigt, da die Cookies nicht akzeptiert wurden. Wenn Sie die YouTube-Videos anschauen möchten, müssen Sie die Cookies akzeptieren.</div>
+        <a id="youtubeOptIn" class="button" href="javascript:openCookieBanner()">Cookie Banner anzeigen</a>
+</div>
+
 </p>
 
         
@@ -263,6 +277,10 @@ if (!doNotTrack) {
               <a href="https://www.facebook.com/pepperspawprint/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             
+            <li>
+              <a href="https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            
           
         </ul>
       </div>
@@ -312,7 +330,7 @@ if (!doNotTrack) {
         "theme": "classic",
         "type": "opt-in",
         "content": {
-            "message": 'Diese Website verwendet Cookies. Wir verwenden Cookies, um Inhalte zu personalisieren und unseren Datenverkehr zu analysieren. Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.',
+            "message": 'Diese Website verwendet Cookies. Wir verwenden Cookies, um Inhalte zu personalisieren, unseren Datenverkehr zu analysieren, sowie für Social Media Verknüpfungen. Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.',
             "deny": 'Ablehnen',
             "allow": 'Erlauben',
             "link": 'Erfahren Sie mehr.',
@@ -322,10 +340,13 @@ if (!doNotTrack) {
         onStatusChange: statusChange
     });
 
+    
+    
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -334,7 +355,8 @@ if (!doNotTrack) {
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -353,6 +375,16 @@ if (!doNotTrack) {
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {

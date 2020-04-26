@@ -263,6 +263,10 @@ if (!doNotTrack) {
               <a href="https://www.facebook.com/pepperspawprint/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             
+            <li>
+              <a href="https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            
           
         </ul>
       </div>
@@ -314,7 +318,7 @@ if (!doNotTrack) {
         "theme": "classic",
         "type": "opt-in",
         "content": {
-            "message": 'Deze website maakt gebruik van cookies. We gebruiken cookies om inhoud te personaliseren en om ons verkeer te analyseren. U kunt voorkomen dat deze cookies worden opgeslagen. Houd er echter rekening mee dat als u dit doet, u mogelijk niet de volledige functionaliteit van deze website kunt gebruiken.',
+            "message": 'Deze website maakt gebruik van cookies. We gebruiken cookies om inhoud te personaliseren, om ons verkeer te analyseren en voor social media plugins. U kunt voorkomen dat deze cookies worden opgeslagen. Houd er echter rekening mee dat als u dit doet, u mogelijk niet de volledige functionaliteit van deze website kunt gebruiken.',
             "deny": 'Weigeren',
             "allow": 'Toestaan',
             "link": 'Meer informatie.',
@@ -324,10 +328,13 @@ if (!doNotTrack) {
         onStatusChange: statusChange
     });
 
+    
+    
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -336,7 +343,8 @@ if (!doNotTrack) {
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -355,6 +363,16 @@ if (!doNotTrack) {
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {

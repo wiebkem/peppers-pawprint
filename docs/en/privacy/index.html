@@ -43,7 +43,7 @@ Interpretation and Definitions Interpretation The words of which the initial let
 We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
 Interpretation and Definitions Interpretation The words of which the initial letter is capitalized have meanings defined under the following conditions.">
 
-<meta itemprop="wordCount" content="3537">
+<meta itemprop="wordCount" content="3911">
 
 
 
@@ -306,6 +306,13 @@ With each call-up to one of the individual pages of this Internet website, which
 If the data subject is logged in at the same time on Facebook, Facebook detects with every call-up to our website by the data subject—and for the entire duration of their stay on our Internet site—which specific sub-site of our Internet page was visited by the data subject. This information is collected through the Facebook component and associated with the respective Facebook account of the data subject. If the data subject clicks on one of the Facebook buttons integrated into our website, e.g. the “Like” button, or if the data subject submits a comment, then Facebook matches this information with the personal Facebook user account of the data subject and stores the personal data.<br>
 Facebook always receives, through the Facebook component, information about a visit to our website by the data subject, whenever the data subject is logged in at the same time on Facebook during the time of the call-up to our website. This occurs regardless of whether the data subject clicks on the Facebook component or not. If such a transmission of information to Facebook is not desirable for the data subject, then he or she may prevent this by logging off from their Facebook account before a call-up to our website is made.<br>
 The data protection guideline published by Facebook, which is available at <a href="https://facebook.com/about/privacy/,">https://facebook.com/about/privacy/,</a> provides information about the collection, processing and use of personal data by Facebook. In addition, it is explained there what setting options Facebook offers to protect the privacy of the data subject. In addition, different configuration options are made available to allow the elimination of data transmission to Facebook. These applications may be used by the data subject to eliminate a data transmission to Facebook.</p>
+<h3 id="data-protection-provisions-about-the-application-and-use-of-youtube">Data protection provisions about the application and use of YouTube</h3>
+<p>On this website, the controller has integrated components of YouTube. YouTube is an Internet video portal that enables video publishers to set video clips and other users free of charge, which also provides free viewing, review and commenting on them. YouTube allows you to publish all kinds of videos, so you can access both full movies and TV broadcasts, as well as music videos, trailers, and videos made by users via the Internet portal.<br>
+The operating company of YouTube is YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, UNITED STATES. The YouTube, LLC is a subsidiary of Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043-1351, UNITED STATES.<br>
+With each call-up to one of the individual pages of this Internet site, which is operated by the controller and on which a YouTube component (YouTube video) was integrated, the Internet browser on the information technology system of the data subject is automatically prompted to download a display of the corresponding YouTube component. Further information about YouTube may be obtained under <a href="https://www.youtube.com/yt/about/en/">https://www.youtube.com/yt/about/en/</a>. During the course of this technical procedure, YouTube and Google gain knowledge of what specific sub-page of our website was visited by the data subject.<br>
+If the data subject is logged in on YouTube, YouTube recognizes with each call-up to a sub-page that contains a YouTube video, which specific sub-page of our Internet site was visited by the data subject. This information is collected by YouTube and Google and assigned to the respective YouTube account of the data subject.<br>
+YouTube and Google will receive information through the YouTube component that the data subject has visited our website, if the data subject at the time of the call to our website is logged in on YouTube; this occurs regardless of whether the person clicks on a YouTube video or not. If such a transmission of this information to YouTube and Google is not desirable for the data subject, the  delivery may be prevented if the data subject logs off from their own YouTube account before a call-up to our website is made.<br>
+YouTube’s data protection provisions, available at <a href="https://www.google.com/intl/en/policies/privacy/,">https://www.google.com/intl/en/policies/privacy/,</a> provide information about the collection, processing and use of personal data by YouTube and Google.</p>
 <h3 id="google-analytics">Google Analytics</h3>
 <p>The purpose of the Google Analytics component is to analyze the traffic on our website. Google uses the collected data and information, inter alia, to evaluate the use of our website and to provide online reports, which show the activities on our websites, and to provide other services concerning the use of our Internet site for us.<br>
 Google Analytics places a cookie on the information technology system of the data subject. The definition of cookies is explained above. With the setting of the cookie, Google is enabled to analyze the use of our website. With each call-up to one of the individual pages of this Internet site, which is operated by the controller and into which a Google Analytics component was integrated, the Internet browser on the information technology system of the data subject will automatically submit data through the Google Analytics component for the purpose of online advertising and the settlement of commissions to Google. During the course of this technical procedure, the enterprise Google gains knowledge of personal information, such as the IP address of the data subject, which serves Google, inter alia, to understand the origin of visitors and clicks, and subsequently create commission settlements.<br>
@@ -362,6 +369,10 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
               <a href="https://www.facebook.com/pepperspawprint/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             
+            <li>
+              <a href="https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            
           
         </ul>
       </div>
@@ -413,7 +424,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
         "theme": "classic",
         "type": "opt-in",
         "content": {
-            "message": 'This website uses cookies. We use cookies to personalise content and to analyse our traffic. You can prevent these cookies from being stored. However, please note that if you do this you may not be able to use the full functionality of this website.',
+            "message": 'This website uses cookies. We use cookies to personalise content, to analyse our traffic and for social media plugins. You can prevent these cookies from being stored. However, please note that if you do this you may not be able to use the full functionality of this website.',
             "deny": 'Decline',
             "allow": 'Allow',
             "link": 'Learn more.',
@@ -423,10 +434,13 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
         onStatusChange: statusChange
     });
 
+    
+    
     function initialise(status) {
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         }
@@ -435,7 +449,8 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
     function statusChange(status, chosenBefore) {
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
-            activateTemplate('#cookieConsent')
+            activateTemplate('#cookieConsent');
+            enableYoutube();
         } else {
             disableGoogleAnalytics();
         } 
@@ -454,6 +469,16 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
         } else {
             enableGoogleAnalytics();
         }
+    }
+
+    function enableYoutube() {
+        var youtube = $("iframe.youtube");
+        $(".youtube-disclaimer").hide();
+        youtube.show();
+        youtube.attr({
+            src: youtube.attr('data-src')
+
+        }).removeAttr('data-src');
     }
 
     function enableGoogleAnalytics() {
