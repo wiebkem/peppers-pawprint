@@ -17,6 +17,6 @@ Vooral in het begin probeert de hond waarschijnlijk de vuist meet de snoepjes te
 
 Persoonlijk heb ik Pepper getraind om mijn linkerhand met de neus aan te raken, als ik snoepjes in de rechterhand heb. Als ik snoepjes in de linkerhand heb, geeft hij me zijn poot in mijn rechterhand. Voordat een hond een poot kan geven, moet deze truc buiten de hand puzzel worden geleerd!
 
-Binnen het gezin moeten de acties met de rechter- en linkerhand voor iedereen hetzelfde zijn. Het is ook mogelijk om altijd alleen met de neus te werken of de poot aan beide handen te geven. Herhaal de oefening niet te vaak per dag om de hond erin plezier te laten houden!
+**Binnen het gezin moeten de acties met de rechter- en linkerhand voor iedereen hetzelfde zijn. Het is ook mogelijk om altijd alleen met de neus te werken of de poot aan beide handen te geven. Herhaal de oefening niet te vaak per dag om de hond erin plezier te laten houden!**
 
 {{< yt kAcNuHxg3JI >}}
