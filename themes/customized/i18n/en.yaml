@@ -64,6 +64,12 @@
 - id: info_without_guarantee
   translation: The information was compiled to the best of my knowledge and belief. However, all information is without guarantee.
 
+- id: disclaimer_youtube
+  translation: Youtube videos are not shown as the cookies were not accepted. If you want the see the youtube videos, you have to accept and opt-in for the cookies.
+
+- id: disclaimer_youtube_link
+  translation: Show cookie banner
+
 
 # 404 error page
 - id: error_404

@@ -64,6 +64,12 @@
 - id: info_without_guarantee
   translation: De informatie is naar mijn beste weten en overtuiging samengesteld. Alle informatie is echter zonder garantie.
 
+- id: disclaimer_youtube
+  translation: YouTube-video's worden niet weergegeven omdat de cookies niet geaccepteerd zijn. Als u de YouTube-video's wilt zien, moet u de cookies accepteren.
+
+- id: disclaimer_youtube_link
+  translation: Cookiebanner weergeven
+
 
 # 404 error page
 - id: error_404
