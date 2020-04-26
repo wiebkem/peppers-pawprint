@@ -18,3 +18,5 @@ Wenn Dein Hund sich dann traut den Karton zu öffnen, kannst du in einem später
 Auch Klopapier- oder Küchenpapierrollen können mit Leckerlis befüllt werden - klappe die Enden hierzu einfach um. Allerdings solltest Du bei den Rollen aufpassen, dass Dein Hund diese nicht komplett frisst. Gerade am Anfang kann der Hund noch sehr stürmisch sein.
 
 **Viel Spaß mit Deinem Hund!**
+
+{{< yt MVgZW7E-y6Q >}}

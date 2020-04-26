@@ -18,3 +18,5 @@ Once your dog dares to open the box, you can close the box completely in a later
 Toilet paper or kitchen paper rolls can also be filled with treats - just fold the ends over. However, you should be careful with the roles that your dog does not eat them completely as this could happen in the beginning.
 
 **Have fun with your dog!**
+
+{{< yt MVgZW7E-y6Q >}}
