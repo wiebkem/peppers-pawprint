@@ -1,7 +1,4 @@
 <div class="post">
-  <p class="post-header-title"><a href="{{ .Permalink }}" title="">{{ .Title }}</a></p>
-  {{ partial "blogpost-header.html" . }}
-
   <a href="{{ .Permalink }}" title="">
     {{ with .Params.featured_image -}}
       <div class="post-image">
@@ -9,6 +6,9 @@
       </div>
     {{ end }}
   </a>
+
+  <p class="post-header-title"><a href="{{ .Permalink }}" title="">{{ .Title }}</a></p>
+  {{ partial "blogpost-header.html" . }}
   
   <div class="post-description">
     <a href="{{ .Permalink }}" title="">
