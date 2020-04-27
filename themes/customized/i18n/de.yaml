@@ -52,6 +52,9 @@
 - id: all_posts
   translation: Alle Beiträge
 
+- id: latest_posts
+  translation: Letzte Beiträge
+
 - id: related_posts
   translation: Ähnliche Beiträge
 
