@@ -31,7 +31,7 @@ main {
       margin-top: $spacing-s;
 
       img {
-          max-height: 265px;;
+          height: 265px;;
           width: 100%;
           border-radius: $border-radius-l;
       }
@@ -103,7 +103,7 @@ main {
   }
 
   .first-entry .post-image img {
-    max-height: 500px;
+    height: 500px;
   }
 
   .post-thumb {
