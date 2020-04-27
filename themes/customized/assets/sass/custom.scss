@@ -9,12 +9,31 @@
 /* partials */
 @import 'goToTop';
 @import 'pagination';
+@import 'youtube';
 // @import 'comments';
+
+/* sticky footer start */
+html,
+body {
+    height: 100%;
+}
 
 body {
     font-family: $font-family;
     color: $color-grey-90;
+
+    display: flex;
+    flex-direction: column;
 }
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+/* sticky footer end */
 
 h1, h1 a {
     font-size: $font-size-h1;
@@ -78,6 +97,38 @@ li:hover a, li:active a, a:hover, a:active {
     }
 }
 
+main .blog-disclaimer,
+.youtube-disclaimer {
+    border: $border-radius-s solid $color-secondary;
+    border-radius: $border-radius-s;
+    padding: $spacing-m;
+    margin-bottom: $spacing-l;
+    text-align: center;
+}
+
+.youtube-disclaimer {
+    padding-bottom: $spacing-l;
+    
+    .fa-youtube {
+        font-size: $font-size-display;
+
+    }
+
+    .text-content {
+        margin-left: $spacing-s;
+        margin-bottom: $spacing-m;
+        text-align: initial;
+    }
+
+    #youtubeOptIn {
+        color: $color-grey-100;
+
+        &:hover {
+            color: $color-white;
+        }
+    }
+}
+
 .showMobile {
     display: block;
 }
@@ -103,8 +154,7 @@ li:hover a, li:active a, a:hover, a:active {
 
 /* header container */
 #header-container {
-    margin-top: $header-height;
-    padding-top: $spacing-xl;
+    padding-top: $header-height + $spacing-xl;
 
     h1 {
         font-size: $font-size-display;
@@ -185,5 +235,12 @@ main {
             border-right: $border-radius-l solid transparent;
             border-top: $border-radius-l solid $color-secondary;
         }
+    }
+}
+
+@media(max-width: 768px) {
+    main .page-content,
+    #header-container {
+        word-break: break-word;
     }
 }

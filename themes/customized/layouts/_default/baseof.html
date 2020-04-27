@@ -11,13 +11,18 @@
   {{- partial "head.html" . -}}
 </head>
 <body>
-  {{- partial "header.html" . -}}
-  <div id="header-container" class="container">
-  {{ block "header" . }}{{- end }}
+  <div class="wrapper">
+    {{- partial "header.html" . -}}
+
+    <div id="header-container" class="container">
+      {{ block "header" . }}{{- end }}
+    </div>
+
+    <main class="container">
+      {{- block "main" . }}{{- end }}
+    </main>
   </div>
-  <main class="container">
-  {{- block "main" . }}{{- end }}
-  </main>
+
   {{- partial "footer.html" . -}}
   {{ partial "scripts.html" . }}
 </body>

@@ -1,0 +1,14 @@
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<div class="sidebar-widget">
+  <h2 class="widget-title">{{ i18n "related_posts" }}</h2>
+  {{ range . }}
+  <div class="related-post clearfix">
+    <a href="{{ .Permalink }}">
+      <h3 class="post-header-title">{{ .Title }}</h3>
+      <img class="related-post-image" src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
+    </a>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

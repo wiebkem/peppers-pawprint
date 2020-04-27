@@ -1,17 +1,26 @@
-<div class="sidebar-widget">
-  <h2 class="widget-title">{{ i18n "categories" }}</h2>
-  <div class="tagcloud categories">
-    {{ range .Site.Taxonomies.categories }}
-      <a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
-    {{ end }}
-  </div>
-</div>
+<div class="row">
+  <div class="col-xs-12 col-sm-6 sidebar-widget">
+    <select class="form-control custom-select" id="filterSelect" onchange="location = this.options[this.selectedIndex].value;">
+      <!-- all -->
+      <option value='{{ with .Site.GetPage "home" }}{{ .Permalink }}{{ end }}'>{{ i18n "all_posts" }} ({{ len (where .Site.RegularPages "Type" "blog") }})</option>
 
-<div class="sidebar-widget">
-  <h5 class="widget-title">{{ i18n "tags" }}</h5>
-  <div class="tagcloud tags clearfix">
-    {{ range .Site.Taxonomies.tags }}
-    <a class="ghost-button" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
-    {{ end }}
+      <!-- categories -->
+      <optgroup label='{{ i18n "categories" }}'>
+        {{ range .Site.Taxonomies.categories }}
+        <option value="{{ .Page.Permalink }}">
+          {{ .Page.Title }} ({{ .Count }})
+        </option>
+        {{ end }}
+      </optgroup>
+
+      <!-- tags --> 
+      <optgroup label='{{ i18n "tags" }}'>
+        {{ range .Site.Taxonomies.tags }}
+        <option value="{{ .Page.Permalink }}">
+          {{ .Page.Title }} ({{ .Count }})
+        </option>
+        {{ end }}
+      </optgroup>
+    </select>
   </div>
 </div>

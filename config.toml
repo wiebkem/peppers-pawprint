@@ -24,7 +24,7 @@ paginatePath = "page"
 googleAnalytics = "UA-157451297-1"
 # change the tag in cookies.html functions and custom.js function
 
-# language support # en / de translations present in i18n
+# language support
 defaultContentLanguage = "en"           # Default language to use
 defaultContentLanguageInSubdir = true
 
@@ -42,7 +42,6 @@ defaultContentLanguageInSubdir = true
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
-
 
 # ------------------------------------- #
 # ---- Privacy ------------------------ #
@@ -118,6 +117,10 @@ defaultContentLanguageInSubdir = true
   [[params.social]]
   icon = "fab fa-facebook-f"
   link = "https://www.facebook.com/pepperspawprint/"
+
+  [[params.social]]
+  icon = "fab fa-youtube"
+  link = "https://www.youtube.com/channel/UC7fRn-QEGp807IVhresK8AA"
 
 # ------------------------------------- #
 # ---- Related Articles --------------- #

@@ -15,7 +15,7 @@
 
 # cookie dialog
 - id: cookie_message
-  translation: Diese Website verwendet Cookies. Wir verwenden Cookies, um Inhalte zu personalisieren und unseren Datenverkehr zu analysieren. Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
+  translation: Diese Website verwendet Cookies. Wir verwenden Cookies, um Inhalte zu personalisieren, unseren Datenverkehr zu analysieren, sowie für Social Media Verknüpfungen. Sie können eine Speicherung der Cookies verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
 
 - id: cookie_dismiss
   translation: Ablehnen
@@ -40,6 +40,18 @@
 - id: tags
   translation: Tags
 
+- id: search
+  translation: Suchen
+
+- id: search_error
+  translation: Es ist ein Fehler aufgetreten. Versuche es bitte nochmal!
+
+- id: no_search_results
+  translation: Keine Beiträge gefunden.
+
+- id: all_posts
+  translation: Alle Beiträge
+
 - id: related_posts
   translation: Ähnliche Beiträge
 
@@ -48,6 +60,15 @@
 
 - id: disclaimer_blog_posts
   translation: Nicht alle Blogbeiträge sind in Deutsch verfügbar. Um alle Beiträge lesen zu können, änder die Sprache in Englisch. 
+
+- id: info_without_guarantee
+  translation: Die Infos wurden nach bestem Wissen und Gewissen zusammengetragen. Alle Angaben sind dennoch ohne Gewähr.
+
+- id: disclaimer_youtube
+  translation: Youtube-Videos werden nicht angezeigt, da die Cookies nicht akzeptiert wurden. Wenn Sie die YouTube-Videos anschauen möchten, müssen Sie die Cookies akzeptieren.
+
+- id: disclaimer_youtube_link
+  translation: Cookie Banner anzeigen
 
 
 # 404 error page

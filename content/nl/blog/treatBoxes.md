@@ -17,4 +17,6 @@ Zodra jouw hond de doos durft te openen, kun je de doos bij een latere poging vo
 
 Wc-papier of keukenpapierrollen kunnen ook worden gevuld met snoepjes - vouw gewoon de uiteinden om. Wees echter voorzichtig met de rollen dat jouw hond deze niet volledig opeet. Vooral in het begin kan dit gebeuren.
 
-Veel plezier met jouw hond!
+**Veel plezier met jouw hond!**
+
+{{< yt MVgZW7E-y6Q >}}

@@ -15,7 +15,7 @@ us:
           
           
           Neem gerust contact met mij op voor vragen of suggesties. Ik kijk ernaar uit je te ontmoeten!"
-      image : "images/about/pepper2.jpg"
+      image : "images/about/pepper2.JPG"
     
     #item loop
     - title : "🐾 Pepper 🐾"
@@ -37,3 +37,26 @@ us:
           Ik vind het een geweldige sport en Pepper is er vooral dol op het werken met zijn neus.
           Om deze reden doen we vaak verschillende zoekspellen of ontwikkelen we nieuwe tricks met de clicker 💞"
       image : "images/about/pepper.jpg"
+
+
+education:
+  enable : false
+  title : "Opleiding"
+  item:
+    #item loop
+    - title : "Kynologisch instructeur"
+      institution : "Kynotrain"
+      country: "Nederland"
+      year: "November 2019 - Oktober 2020"
+      image : ""
+
+
+seminars:
+  enable : false
+  title : "Bijschooling"
+  item:
+    #item loop
+    - title : "Webinar - Honden leiden"
+      institution : "The Big Foot Way"
+      country: "Duitsland"
+      year: "April - Juni 2020"

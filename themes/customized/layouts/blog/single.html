@@ -1,15 +1,8 @@
-{{ define "header" }}
-<div class="row">
-  <div class="col-xs-12 col-sm-12">
-      <h1 class="post-header-title">{{ .Title }}</h1>
-  </div>
-</div>
-{{ end }}
-
 {{ define "main" }}
 <div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-8">
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
     <div class="post">
+      <h1 class="post-single-header-title">{{ .Title }}</h1>
       {{ partial "blogpost-header.html" . }}
        
       {{ with .Params.featured_image -}}
@@ -21,27 +14,18 @@
       <div class="post-content">
         <p class="lead">{{ .Description }}</p>
         <p>{{ .Content }}</p>
+
+        {{ with .Params.info_without_guarantee -}}
+        <div class="blog-disclaimer">
+          {{ i18n "info_without_guarantee" }}
+        </div>
+        {{ end }}
       </div>
     </div>
   </div>
 
-  <div class="col-xs-12 col-sm-6 col-md-4">
-    {{ $related := .Site.RegularPages.Related . | first 3 }}
-    {{ with $related }}
-    <div class="sidebar-widget">
-      <h2 class="widget-title">{{ i18n "related_posts" }}</h2>
-      {{ range . }}
-      <div class="related-post clearfix">
-        <a href="{{ .Permalink }}">
-          <h3 class="post-header-title">{{ .Title }}</h3>
-          <img class="related-post-image" src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
-        </a>
-      </div>
-      {{ end }}
-    </div>
-    {{ end }}
-
-    {{ partial "blog-sidebar.html" . }}
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">    
+    {{ partial "blog-single-sidebar.html" . }}
   </div>
 </div>
 {{ end }}
