@@ -2,7 +2,7 @@
   <div class="col-xs-12 col-sm-6 sidebar-widget">
     <select class="form-control custom-select" id="filterSelect" onchange="location = this.options[this.selectedIndex].value;">
       <!-- all -->
-      <option value='{{ with .Site.GetPage "home" }}{{ .Permalink }}{{ end }}'>{{ i18n "all_posts" }} ({{ len (where .Site.RegularPages "Type" "blog") }})</option>
+      <option value='{{ with .Site.GetPage "blog" }}{{ .Permalink }}{{ end }}'>{{ i18n "all_posts" }} ({{ len (where .Site.RegularPages "Type" "blog") }})</option>
 
       <!-- categories -->
       <optgroup label='{{ i18n "categories" }}'>
