@@ -2,12 +2,67 @@
 <div id="page-title">
   <div class="row">
      <div class="col-xs-12 col-sm-12">
-        <h1>{{ i18n "blog" }}</h1>
+        {{ $data := index .Site.Data .Site.Language.Lang }}
+
+        {{ if $data.home.enable }}
+        {{ with $data.home }}
+          <h1 class="home-title">{{ .title | markdownify }}</h1>
+          <img src="{{ .image | absURL }}" alt="post-image" title="post-image">
+        {{ end }}
+        {{ end }}
      </div>
   </div>
 </div>
 {{ end }}
 
 {{ define "main" }}
-  {{ partial "blog.html" . }}
+<div class="row">
+  <div class="col-xs-12 col-sm-12">
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+
+    {{ if $data.home.enable }}
+    {{ with $data.home }}
+      <p>{{ .content | markdownify }}</p>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  <div class="col-xs-12 col-sm-12">
+    <h2 class="home-widget-title">{{ i18n "latest_posts" }}</h2>
+    <div class="row">
+      {{ range first 2 (where .Site.RegularPages "Type" "blog") }}
+      <div class="col-xs-12 col-sm-12 col-md-6 first-entry">
+        {{ partial "blogpost-listitem.html" . }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12">
+    <h2 class="home-widget-title">Follow us</h2>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-6">
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+
+    <div class="fb-page" data-href="https://www.facebook.com/pepperspawprint/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+        <blockquote cite="https://www.facebook.com/pepperspawprint/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pepperspawprint/">Pepper&#039;s Pawprint</a></blockquote>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-6">
+    <!-- Latest Youtube video -->
+    <iframe data-src="https://www.youtube.com/embed/MVgZW7E-y6Q"
+        style="width: 100%;"
+        allow="encrypted-media;"
+        allowfullscreen frameborder="0"
+        title="YouTube Video"
+        class="youtube">
+    </iframe>
+  </div>
+</div>
 {{ end }}
