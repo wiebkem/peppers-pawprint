@@ -1,28 +1,13 @@
-- id: latest_posts
-  translation: Letzte Beiträge
-
-- id: latest_posts
-  translation: Latest posts
-
-<div class="sidebar-widget">
-  <h2 class="widget-title">{{ i18n "latest_posts" }}</h2>
-  {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
-  <div class="latest-post clearfix">
-    <a href="{{ .Permalink }}">
-      <h3 class="post-header-title">{{ .Title }}</h3>
-      <img class="latest-post-image" src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
-    </a>
+{{ define "header" }}
+<div id="page-title">
+  <div class="row">
+     <div class="col-xs-12 col-sm-12">
+        <h1>{{ i18n "blog" }}</h1>
+     </div>
   </div>
-  {{ end }}
 </div>
+{{ end }}
 
-
-<!-- FACEBOOK -->
-<!-- facebook feed start -->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
-<!-- facebook feed end -->
-
-<div class="fb-page" data-href="https://www.facebook.com/pepperspawprint/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
-    <blockquote cite="https://www.facebook.com/pepperspawprint/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pepperspawprint/">Pepper&#039;s Pawprint</a></blockquote>
-</div>
+{{ define "main" }}
+  {{ partial "blog.html" . }}
+{{ end }}
