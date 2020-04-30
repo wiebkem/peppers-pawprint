@@ -98,10 +98,6 @@ defaultContentLanguageInSubdir = true
 
   google_verification = ""  # Google_Verification
 
-  basicJS = ['jquery-3.3.1.slim.min.js', 'popper.min.js', 'bootstrap.4.1.3.min.js']
-  customJS = ['custom.js']              # if ['custom.js'], load '/static/js/custom.js' file
-
-
   ############################# social site ########################
   [[params.social]]
   icon = "far fa-envelope"
