@@ -12,7 +12,6 @@
 
     .home-content {
         margin-bottom: $spacing-xxl;
-        column-count: 2;
     }
 }
 
@@ -40,5 +39,11 @@ main {
 @media(min-width: 992px) and (max-width: 1199px) {
     main .home-blog-listitem .post-image img {
         height: 320px;
+    }
+}
+
+@media(min-width: 992px) {
+    #header-container .home-content {
+        column-count: 2;
     }
 }
