@@ -1,9 +1,21 @@
-{{ range .Site.Params.basicJS }}
-<script src="{{ "js/" | absURL }}{{ . }}" crossorigin="anonymous"></script>
-{{ end }}
+<!-- Basic JS -->
+{{ $jQuery := resources.Get "js/jquery-3.3.1.slim.min.js" }}
+{{ $popper := resources.Get "js/popper.min.js" }}
+{{ $bootstrap := resources.Get "js/bootstrap.4.1.3.min.js" }}
+{{ $cookieconsent := resources.Get "js/cookieconsent.min.js" }}
 
-{{ range .Site.Params.customJS }}
-<script src="{{ "js/" | absURL }}{{ . }}" crossorigin="anonymous"></script>
-{{ end }}
+<!-- Custom JS -->
+{{ $custom := resources.Get "js/custom.js" }}
+
+<!-- Bundling with custom JS -->
+{{ $jsCombined := slice $jQuery $popper $bootstrap $custom | resources.Concat "js/bundle.js" }}
+
+<!-- Minification -->
+{{ $js := $jsCombined | resources.Minify }}
+
+<!-- JS Injection -->
+<script src="{{ $js.RelPermalink }}"></script>
+
+
 
 {{ partial "cookies.html" . }}
