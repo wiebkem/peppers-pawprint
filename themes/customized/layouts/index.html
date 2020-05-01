@@ -8,7 +8,7 @@
         {{ with $data.home }}
           <h1 class="home-title">{{ .title | markdownify }}</h1>
           <img class="home-img" src="{{ .image | absURL }}" alt="post-image" title="post-image">
-          <p class="home-content">{{ .content | markdownify }}</p>
+          <div class="home-content">{{ .content | markdownify }}</div>
         {{ end }}
         {{ end }}
      </div>
