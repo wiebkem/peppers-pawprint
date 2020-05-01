@@ -5,6 +5,7 @@
 @import 'blog';
 @import 'singlepage';
 @import 'about';
+@import 'home';
 
 /* partials */
 @import 'goToTop';
@@ -152,6 +153,16 @@ main .blog-disclaimer,
     display: none;
 }
 
+/* img */
+main .post .post-thumb img,
+main .post-thumb img,
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: $border-radius-l;
+}
+
 /* header container */
 #header-container {
     padding-top: $header-height + $spacing-xl;
@@ -166,15 +177,6 @@ main .blog-disclaimer,
 
 /* main content */
 main {
-    .post .post-thumb img,
-    .post-thumb img,
-    img {
-        height: auto;
-        max-width: 100%;
-        object-fit: cover;
-        border-radius: $border-radius-l;
-    }
-
     .post .post-content,
     .page-content {
         p a, p a:visited,

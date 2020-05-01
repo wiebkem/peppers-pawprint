@@ -155,16 +155,16 @@ defaultContentLanguageInSubdir = true
   weight = 1 
 
   [[languages.en.menu.main]]
-    name = "Blog"
+    name = "Home"
     weight = 1
     identifier = "home"
     url = "/en/"
 
-#  [[languages.en.menu.main]]
-#    name = "Blog"
-#    weight = 2
-#    identifier = "blog"
-#    url = "/blog/"
+  [[languages.en.menu.main]]
+    name = "Blog"
+    weight = 2
+    identifier = "blog"
+    url = "/blog/"
 
   [[languages.en.menu.main]]
     name = "About us"
@@ -193,16 +193,16 @@ defaultContentLanguageInSubdir = true
   weight = 2
 
   [[languages.de.menu.main]]
-    name = "Blog"
+    name = "Home"
     weight = 1
     identifier = "home"
     url = "/de/"
 
-#  [[languages.de.menu.main]]
-#    name = "Blog"
-#    weight = 2
-#    identifier = "blog"
-#    url = "/blog/"
+  [[languages.de.menu.main]]
+    name = "Blog"
+    weight = 2
+    identifier = "blog"
+    url = "/blog/"
 
   [[languages.de.menu.main]]
     name = "Über uns"
@@ -238,16 +238,16 @@ defaultContentLanguageInSubdir = true
   weight = 3 
 
   [[languages.nl.menu.main]]
-    name = "Blog"
+    name = "Home"
     weight = 1
     identifier = "home"
     url = "/nl/"
 
-#  [[languages.nl.menu.main]]
-#    name = "Blog"
-#    weight = 2
-#    identifier = "blog"
-#    url = "/blog/"
+  [[languages.nl.menu.main]]
+    name = "Blog"
+    weight = 2
+    identifier = "blog"
+    url = "/blog/"
 
   [[languages.nl.menu.main]]
     name = "Over ons"

@@ -52,6 +52,9 @@
 - id: all_posts
   translation: Alle artikel
 
+- id: latest_posts
+  translation: Laatste artikel
+
 - id: related_posts
   translation: Gerelateerde artikel
 

@@ -2,12 +2,31 @@
 <div id="page-title">
   <div class="row">
      <div class="col-xs-12 col-sm-12">
-        <h1>{{ i18n "blog" }}</h1>
+        {{ $data := index .Site.Data .Site.Language.Lang }}
+
+        {{ if $data.home.enable }}
+        {{ with $data.home }}
+          <h1 class="home-title">{{ .title | markdownify }}</h1>
+          <img class="home-img" src="{{ .image | absURL }}" alt="post-image" title="post-image">
+          <div class="home-content">{{ .content | markdownify }}</div>
+        {{ end }}
+        {{ end }}
      </div>
   </div>
 </div>
 {{ end }}
 
 {{ define "main" }}
-  {{ partial "blog.html" . }}
+<div class="row">
+  <div class="col-xs-12 col-sm-12">
+    <h2 class="home-widget-title">{{ i18n "latest_posts" }}</h2>
+    <div class="row">
+      {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
+      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 home-blog-listitem">
+        {{ partial "blogpost-listitem.html" . }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
 {{ end }}
