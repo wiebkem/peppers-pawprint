@@ -29,12 +29,6 @@ main {
       width: 100%;
       margin-bottom: $spacing-s;
       margin-top: $spacing-s;
-
-      img {
-          height: 265px;;
-          width: 100%;
-          border-radius: $border-radius-l;
-      }
     }
 
     .post-header-title,
@@ -100,10 +94,6 @@ main {
         }
        }       
     }
-  }
-
-  .first-entry .post-image img {
-    height: 500px;
   }
 
   .post-thumb {

@@ -153,16 +153,6 @@ main .blog-disclaimer,
     display: none;
 }
 
-/* img */
-main .post .post-thumb img,
-main .post-thumb img,
-img {
-    height: auto;
-    max-width: 100%;
-    object-fit: cover;
-    border-radius: $border-radius-l;
-}
-
 /* header container */
 #header-container {
     padding-top: $header-height + $spacing-xl;
@@ -240,9 +230,90 @@ main {
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
     main .page-content,
     #header-container {
         word-break: break-word;
+    }
+}
+
+/* img 
+
+.first-entry .post-image img {
+    height: 500px;
+  }
+  */
+main .post .post-thumb img,
+main .post-thumb img,
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: $border-radius-l;
+}
+
+main .post .post-thumb img,
+main .post-thumb img,
+main .post .post-image img {
+    width: 100%;
+}
+
+@media(min-width: 768px) {
+    main .col-md-6 .post .post-thumb img,
+    main .col-md-6 .post-thumb img,
+    .col-md-6 img {
+        height: 265px;
+    }
+
+    main .col-md-4 .post .post-thumb img,
+    main .col-md-4 .post-thumb img,
+    .col-md-4 img {
+        height: 170px;
+    }
+}
+
+@media(min-width: 992px) {
+    main .col-md-6 .post .post-thumb img,
+    main .col-md-6 .post-thumb img,
+    .col-md-6 img {
+        height: 365px;
+    }
+
+    main .col-md-4 .post .post-thumb img,
+    main .col-md-4 .post-thumb img,
+    .col-md-4 img {
+        height: 220px;
+    }
+
+    main .col-lg-3 .post .post-thumb img,
+    main .col-lg-3 .post-thumb img,
+    .col-lg-3 img {
+        height: 170px;
+    }
+}
+
+@media(min-width: 1200px) {
+    main .col-md-6 .post .post-thumb img,
+    main .col-md-6 .post-thumb img,
+    .col-md-6 img {
+        height: 440px;
+    }
+
+    main .col-md-4 .post .post-thumb img,
+    main .col-md-4 .post-thumb img,
+    .col-md-4 img {
+        height: 265px;
+    }
+
+    main .col-lg-3 .post .post-thumb img,
+    main .col-lg-3 .post-thumb img,
+    .col-lg-3 img {
+        height: 220px;
+    }
+
+    main .col-xl-4 .post .post-thumb img,
+    main .col-xl-4 .post-thumb img,
+    .col-xl-4 img {
+        height: 285px;
     }
 }
