@@ -12,6 +12,10 @@
 
     .home-content {
         margin-bottom: $spacing-xxl;
+
+        .welcome-content {
+            margin-bottom: $spacing-s;
+        }
     }
 }
 
