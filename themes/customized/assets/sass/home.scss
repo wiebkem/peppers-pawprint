@@ -1,8 +1,7 @@
 @import 'variables';
 
 #header-container {
-    .home-title,
-    .home-img {
+    .home-title {
         padding-bottom: $spacing-m;
     }
 
@@ -11,6 +10,7 @@
     }
 
     .home-content {
+        margin-top: $spacing-m;
         margin-bottom: $spacing-xxl;
 
         .welcome-content {
