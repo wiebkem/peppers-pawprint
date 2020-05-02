@@ -48,12 +48,6 @@ main {
     }
 }
 
-@media(min-width: 992px) {
-    #header-container .home-content {
-        column-count: 2;
-    }
-}
-
 @media(min-width: 1200px) {
     .home-blog-listitem:last-of-type {
         display: block;

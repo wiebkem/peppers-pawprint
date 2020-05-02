@@ -1,7 +1,10 @@
 enable : true
 title : "Welcome to Pepper's Pawprint"
-content : "Welcome to my blog! I am glad that you have found your way to us 😃 
+welcomeContent : "I am glad that you have found your way to us 😃 
   On this page, I would like to share our path with you and report about interesting topics in everyday dog life 
   as well as enrichment ideas. You will also read more about our trips together and my dog instructor education 🐕. 
   Stay tuned and enjoy reading 🐾"
+nameContent : "**Why is the blog called Pepper's Pawprint?** Pepper is my first dog. I have had him for 11 years now and 
+  we have experienced a lot together. Pepper has definitely left his mark, so to speak his paw prints. Because of him 
+  I decided to start a dog instructor education and I hope that we have many more years together."
 image : "images/about/wiebke.jpeg"
