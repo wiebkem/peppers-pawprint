@@ -3,7 +3,7 @@ title =  "Instagram"
 +++
 
 ## Leckerli Boxes
-[![Leckerli Boxes](/article_images/treat-boxes.jpeg)](../blog/leckerli-boxes/)
+[{{< img src="/article_images/treat-boxes.jpeg" alt="Leckerli Boxes">}}](../blog/leckerli-boxes/)
 
 ## Händespiel
 [![Händespiel](/article_images/hand-puzzle.jpeg)](../blog/handespiel/)
