@@ -16,13 +16,13 @@ Mittlerweile ist Pepper 11 Jahre alt und wir haben noch nirgendwo länger als 2 
 
 ## Haus mit eingezäuntem Garten
 Als Pepper bei uns einzog, wohnte ich noch zu Hause bei meiner Familie in einem Haus mit eingezäuntem Garten. Ich finde einen Garten sehr praktisch, da man gerade im Sommer einfach die Terassentür auflassen kann. Dies war bei uns oft der Fall und Pepper konnte selbst entscheiden, ob er sich lieber in den Garten oder ins Haus legen wollte.  
-Ein eingezäunter Garten bietet die Sicherheit, dass der Hund nicht abhauen kann und Du nicht ständig zusammen mit dem Hund im Garten sein musst. Dies gibt mir innere Ruhe und ich konnte z.B. im Haus kochen während Pepper im Garten war.
+Ein eingezäunter Garten bietet die Sicherheit, dass der Hund nicht abhauen kann und Du nicht ständig zusammen mit dem Hund im Garten sein musst. Dies gab mir innere Ruhe und ich konnte z.B. im Haus kochen während Pepper im Garten war.
 
 ## Studentenwohnung ohne Balkon
 Als ich zum Studieren aus dem Haus gezogen bin, sind Pepper und ich in eine Studentenwohnung ohne Balkon im ersten Stock gezogen.  
 Pepper hatte kein Problem mit dem fehlenden Garten. Wir sind regelmäßig draußen spazieren gegangen und er hatte genügend Beschäftigung, sodass er sich in der Wohnung geschlafen hat.  
 Der einzige Nachteil: die Wohnung hatte keinen Fahrstuhl. Da Pepper noch jung war und ich wusste, dass ich dort nicht viele Jahre verbringen werde, war es in Ordnung. Wenn Du allerdings eine Wohnung für längere Zeit suchst, empfehle ich auf jeden Fall einen Fahrstuhl!  
-Zu der Zeit als wir in der Wohnung gewohnt haben, hat Pepper sich verletzt und musste operiert werden. Nach der OP haben wir ihn wieder mit nach Hause bekommen, aber er konnte noch nicht wieder alleine laufen. Ohne Fahrstuhl war es die Hölle Pepper bis in den ersten Stock zu tragen - ein 35kg Hund wird sehr schwer! Abends konnte er zum Glück wieder selbst laufen und ist mit meiner Hilfe auch sehr gut die Treppe heruntergekommen.
+Zu der Zeit als wir in der Wohnung gewohnt haben, hat Pepper sich verletzt und musste operiert werden. Nach der OP kam er mit nach Hause, aber er konnte noch nicht wieder alleine laufen. Ohne Fahrstuhl war es die Hölle Pepper bis in den ersten Stock zu tragen - ein 35kg Hund wird sehr schwer! Abends konnte er zum Glück wieder selbst laufen und ist mit meiner Hilfe auch sehr gut die Treppe heruntergekommen.
 
 ## Studentenhaus mit direktem Gartenanschluss
 Nach zwei Jahren ergab sich die Möglichkeit in ein Zimmer mit direktem Gartenanschluss in einem Haus zu ziehen. In diesem Haus habe ich mit drei weiteren Mitbewohnern gewohnt die selten das Bedürfnis hatten in den Garten zu gehen.  Daher hatten Pepper und ich den hoch umzäunten Garten meistens für uns.  

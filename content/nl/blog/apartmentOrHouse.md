@@ -12,7 +12,7 @@ description = "Kan ik een hond in een appartement houden of heb ik een huis met 
 draft = true
 +++
 
-Pepper is nu 11 jaar oud en we hebben nooit langer dan 2 jaar en 2 maanden op hetzelfde adres gewoond. We hebben dus veel verschillende woonsituaties uitgeprobeerd en willen we onze ervaringen delen.
+Pepper is nu 11 jaar oud en we hebben nooit langer dan 2 jaar en 2 maanden op hetzelfde adres gewoond. We hebben dus veel verschillende woonsituaties uitgeprobeerd en willen onze ervaringen delen.
 
 ## Huis met omheinde tuin
 Toen Pepper bij ons kwam, woonde ik nog thuis met mijn familie in een huis met een omheinde tuin. Ik denk dat een tuin heel praktisch is omdat je de tuindeur in de zomer gewoon open kunt laten. Dit was bij ons vaak het geval en Pepper kon zelf bepalen of hij liever in de tuin of in huis lag.  
