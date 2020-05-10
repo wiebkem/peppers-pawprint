@@ -9,6 +9,7 @@ tags = [
 ]
 featured_image = "article_images/apartmentOrHouse.jpeg"
 description = "Can I keep a dog in an apartment or do I need a house with a garden so that my dog ​​feels comfortable? In this blog post I talk about my experiences."
+draft = true
 +++
 
 Pepper is now 11 years old and we have never lived at the same address for longer than 2 years and 2 months. Personally, we have tried many different living situations and would like to share our experiences with advantages and disadvantages.
