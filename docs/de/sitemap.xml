@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/category/allgemein/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/categories/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/tag/leben-mit-hund/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/leben-mit-hund-wohnung-oder-haus/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/tags/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.peppers-pawprint.com/de/blog/category/beschaftigung/</loc>
     <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,35 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/de/blog/</loc>
-    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/categories/</loc>
-    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.peppers-pawprint.com/de/blog/leckerli-boxes/</loc>
-    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/</loc>
-    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/tags/</loc>
     <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
