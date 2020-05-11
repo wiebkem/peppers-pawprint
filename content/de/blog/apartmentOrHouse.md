@@ -9,10 +9,9 @@ tags = [
 ]
 featured_image = "article_images/apartmentOrHouse.jpeg"
 description = "Kann ich einen Hund in einer Wohnung halten oder brauche ich ein Haus mit Garten damit sich mein Hund wohl fühlt? In diesem Blogbeitrag spreche ich über meine Erfahrungen."
-draft = true
 +++
 
-Mittlerweile ist Pepper 11 Jahre alt und wir haben noch nirgendwo länger als 2 Jahre und 2 Monate an derselben Adresse gewohnt. Wir haben also viele verschiedene Wohnsituationen ausprobiert und möchten unsere Erfahrungen teilen.  
+Mittlerweile ist Pepper 11 Jahre alt und wir haben noch nie lange an derselben Adresse gewohnt. Wir haben also viele verschiedene Wohnsituationen ausprobiert und möchten unsere Erfahrungen teilen.  
 
 ## Haus mit eingezäuntem Garten
 Als Pepper bei uns einzog, wohnte ich noch zu Hause bei meiner Familie in einem Haus mit eingezäuntem Garten. Ich finde einen Garten sehr praktisch, da man gerade im Sommer einfach die Terassentür auflassen kann. Dies war bei uns oft der Fall und Pepper konnte selbst entscheiden, ob er sich lieber in den Garten oder ins Haus legen wollte.  
@@ -29,7 +28,7 @@ Nach zwei Jahren ergab sich die Möglichkeit in ein Zimmer mit direktem Gartenan
 In einer Sommernacht war es so warm, dass ich die Gartentür aufgemacht habe, damit wir beide wieder schlafen konnten. Pepper hat dann ganz entspannt auf dem Gras übernachtet und ich konnte durch die kühlere Luft auch wieder schlafen. Dies habe ich nur gemacht, da ich wusste, dass Pepper auch in der Nacht nicht aus dem Garten entwischen konnte. Außerdem hatte er die ganze Zeit die Möglichkeit wieder rein zu kommen.
 
 ## Studentenhaus mit eingezäuntem Garten
-Nach 2 Jahren und 2 Monaten sind wir in ein anderes Studentenhaus mit Garten gezogen. Dort hatten wir nur 2 Mitbewohner, aber diese waren anders. Die Atmosphäre war etwas familiärer und meine Mitbewohner haben Pepper z.B. auch ohne mich mit in den Garten genommen. Dies hätte ich aus Sicherheitsgründen nicht erlaubt, wenn der Garten nicht eingezäunt gewesen wäre.
+Nach 2 Jahren sind wir in ein anderes Studentenhaus mit Garten gezogen. Dort hatten wir nur 2 Mitbewohner und die Atmosphäre war etwas familiärer. Meine Mitbewohner haben Pepper z.B. auch ohne mich mit in den Garten genommen. Dies hätte ich aus Sicherheitsgründen nicht erlaubt, wenn der Garten nicht eingezäunt gewesen wäre.
 
 ## Studentenwohnung mit Balkon
 Nach drei Jahren mit Garten sind wir wieder in eine Wohnung im 2. Stock mit Fahrstuhl gezogen. In dieser Wohnung gab es auch einen Balkon.  

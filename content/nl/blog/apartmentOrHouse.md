@@ -9,10 +9,9 @@ tags = [
 ]
 featured_image = "article_images/apartmentOrHouse.jpeg"
 description = "Kan ik een hond in een appartement houden of heb ik een huis met een tuin nodig zodat mijn hond zich op zijn gemak voelt? In deze blogpost vertel ik over mijn ervaringen."
-draft = true
 +++
 
-Pepper is nu 11 jaar oud en we hebben nooit langer dan 2 jaar en 2 maanden op hetzelfde adres gewoond. We hebben dus veel verschillende woonsituaties uitgeprobeerd en willen onze ervaringen delen.
+Pepper is nu 11 jaar oud en we hebben nooit lang op hetzelfde adres gewoond. We hebben dus veel verschillende woonsituaties uitgeprobeerd en willen onze ervaringen delen.
 
 ## Huis met omheinde tuin
 Toen Pepper bij ons kwam, woonde ik nog thuis met mijn familie in een huis met een omheinde tuin. Ik denk dat een tuin heel praktisch is omdat je de tuindeur in de zomer gewoon open kunt laten. Dit was bij ons vaak het geval en Pepper kon zelf bepalen of hij liever in de tuin of in huis lag.  
@@ -29,7 +28,7 @@ Na twee jaar kreeg ik de kans om naar een kamer met directe tuinaansluiting in e
 Op een zomeravond was het zo warm dat ik de tuindeur opende zodat we allebei weer konden slapen. Pepper bracht vervolgens een heel ontspannen nacht door op het gras en dankzij de koelere lucht kon ik ook weer slapen. Ik deed dit alleen omdat ik wist dat Pepper 's nachts niet uit de tuin kon ontsnappen en hij had ook de hele tijd de mogelijkheid om weer binnen te komen.
 
 ## Studentenhuis met een omheinde tuin
-Na 2 jaar en 2 maanden zijn we verhuisd naar een ander studentenhuis met tuin. We hadden daar maar 2 huisgenoten, maar ze waren anders. De sfeer was wat vertrouwder en mijn huisgenoten namen Pepper ook zonder mij mee de tuin in. Om veiligheidsredenen had ik dit niet toegestaan ​​als de tuin niet omheind was geweest.  
+Na 2 jaar zijn we verhuisd naar een ander studentenhuis met tuin. We hadden daar maar 2 huisgenoten en de sfeer was wat vertrouwder. Mijn huisgenoten namen Pepper bijv. ook zonder mij mee de tuin in. Om veiligheidsredenen had ik dit niet toegestaan ​​als de tuin niet omheind was geweest.  
 
 ## Studentenappartement met balkon
 Na drie jaar met een tuin zijn we weer verhuisd naar een appartement met een balkon. Het bevond zich op de tweede verdieping en er was een lift.  

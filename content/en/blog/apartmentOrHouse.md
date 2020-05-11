@@ -9,10 +9,9 @@ tags = [
 ]
 featured_image = "article_images/apartmentOrHouse.jpeg"
 description = "Can I keep a dog in an apartment or do I need a house with a garden so that my dog ​​feels comfortable? In this blog post I talk about my experiences."
-draft = true
 +++
 
-Pepper is 11 years old now and we have never lived at the same address for longer than 2 years and 2 months. We have tried many different living situations and I would like to share our experiences with you.
+Pepper is 11 years old now and we have never lived at the same address for a long time. We have tried many different living situations and I would like to share our experiences with you.
 
 ## House with enclosed garden
 When Pepper moved in with us, I was still living at our family home in a house with an enclosed garden. I think a garden is very practical as you can just leave the patio door open in summer. This was often the case with us and Pepper could decide for himself whether he would rather lie in the garden or in the house. A fenced garden ensures that the dog cannot run away and that you don't have to be constantly in the garden with the dog. This always gave me peace of mind and I could e.g. cook while Pepper was in the garden.
@@ -28,7 +27,7 @@ After two years, I had the opportunity to move to a room with a direct garden co
 During the summer it got really hot and I opened the garden door to let the cooler air come in. At the same time, Pepper could go out in the garden and sleep. I only did this, because I knew that Pepper couldn't escape from the garden at night. He also had the opportunity to come back inside at all times.
 
 ## Student house with enclosed garden
-After 2 years and 2 months we moved to another student house with a garden. We only had 2 roommates there, but they were different. The atmosphere was more like a family and my roommates also took Pepper into the garden when I wasn't there. For safety reasons, I wouldn't have allowed this if the garden had not been enclosed.
+After 2 years we moved to another student house with a garden. We only had 2 roommates there and the atmosphere was more like a family. E.g. my roommates also took Pepper into the garden when I wasn't there. For safety reasons, I wouldn't have allowed this if the garden had not been enclosed.
 
 ## Student apartment with balcony
 After three years with a garden, we moved back to an apartment on the second floor with an elevator. This apartment also had a balcony.  
