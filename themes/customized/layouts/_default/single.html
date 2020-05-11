@@ -11,9 +11,7 @@
     </div>
     {{ end }}
 
-    {{ $current := . }}
-    {{ $current = (eq .Title "Instagram") }}
-    <div class="{{ if $current }}instagram-content{{ else }}page-content{{ end }}">
+    <div class="page-content">
       {{ .Content }}
       {{ with .Params.privacyOptOut -}}
         <a id="privacyOptOut" href="javascript:gaOptout()">{{ . }}</a>

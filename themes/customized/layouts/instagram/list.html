@@ -1,0 +1,18 @@
+{{ define "header" }}
+  {{ partial "page-title.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="row">
+  <div class="col-xs-12 col-sm-12 instagram-content">
+    {{ range (where .Site.RegularPages "Type" "blog") }}
+    <div>
+      <a href="{{ .Permalink }}">
+        <h2>{{ .Title }}</h2>
+        <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
