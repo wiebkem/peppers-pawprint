@@ -1,0 +1,15 @@
+@import 'variables';
+
+main {
+    .instagram-content {
+        h2 {
+            font-family: $font-family-special;
+            font-size: $font-size-h1;
+            text-align: center;
+        }
+    
+        img {
+            margin-bottom: $spacing-xl;
+        }
+    }
+}
