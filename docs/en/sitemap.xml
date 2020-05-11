@@ -3,14 +3,49 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/blog/</loc>
-    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/categories/</loc>
-    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/blog/category/general/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/blog/tag/living-with-a-dog/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/blog/living-with-a-dog-apartment-or-house/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/tags/</loc>
+    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -24,20 +59,6 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/blog/tag/indoor-enrichment/</loc>
-    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/</loc>
-    <lastmod>2020-03-29T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/tags/</loc>
     <lastmod>2020-03-29T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
