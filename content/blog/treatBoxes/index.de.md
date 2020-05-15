@@ -7,7 +7,6 @@ categories = [
 tags = [
     "Beschäftigung für drinnen"
 ]
-featured_image = "article_images/treat-boxes.jpeg"
 description = "Eine andere Beschäftigung für drinnen sind Leckerli Boxes. Jeder hat Eierkartons, Klopapierrollen oder andere Versandboxen zu Hause. Diese können ganz einfach zu einer Beschäftigung für Deinen Hund umfunktioniert werden."
 +++
 

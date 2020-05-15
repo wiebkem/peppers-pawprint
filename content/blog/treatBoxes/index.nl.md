@@ -7,7 +7,6 @@ categories = [
 tags = [
     "Hersenwerk voor binnen"
 ]
-featured_image = "article_images/treat-boxes.jpeg"
 description = "Snoep dozen zijn een ander hersenwerk voor binnen. Iedereen heeft thuis eierendozen, wc-papierrollen of andere verzenddozen. Deze dingen kunnen gemakkelijk worden omgezet in een spelletje voor jouw hond."
 +++
 

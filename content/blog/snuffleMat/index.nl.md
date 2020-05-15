@@ -7,7 +7,6 @@ categories = [
 tags = [
     "Hersenwerk voor binnen"
 ]
-featured_image = "article_images/snuffle-mat.jpg"
 description = "Momenteel is het voor de meeste mensen een moeilijke tijd. Terwijl sociale afstand noodzakelijk is, zijn er tal van mogelijkheden om binnen met jouw hond bezig te zijn. In eerste instantie wil ik de snuffelmat en snoepspelletjes introduceren."
 +++
 

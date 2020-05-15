@@ -7,7 +7,6 @@ categories = [
 tags = [
     "Sweden"
 ]
-featured_image = "article_images/swedenTravel.jpg"
 description = "This blog entry is about the travel options to Sweden from Germany, the entry requirements for dogs and the national parks in Sweden."
 +++
 

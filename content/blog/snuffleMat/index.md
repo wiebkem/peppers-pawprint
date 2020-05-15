@@ -7,7 +7,6 @@ categories = [
 tags = [
     "Indoor enrichment"
 ]
-featured_image = "article_images/snuffle-mat.jpg"
 description = "Currently, it is a difficult time for most of the people. While social distancing and probably a lockdown, there are lots of possibilities to do things with your dog indoors. At first, I want to introduce the snuffle mat and searching for treats."
 +++
 

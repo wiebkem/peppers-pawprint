@@ -7,7 +7,6 @@ categories = [
 tags = [
     "Prey Model Raw"
 ]
-featured_image = "article_images/prey-model-raw.jpeg"
 info_without_guarantee = true
 description = "Ich fütter Pepper roh nach dem Prey Model Raw Konzept. Warum fütter ich Pepper auf diese Art und was kommt alles in den Napf? Dies erfährst du in diesem Blogeintrag."
 +++
