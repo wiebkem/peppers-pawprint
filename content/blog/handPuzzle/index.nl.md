@@ -7,6 +7,11 @@ categories = [
 tags = [
     "Hersenwerk voor binnen"
 ]
+
+[[resources]]
+  src = "hand-puzzle.jpeg"
+  title = "Handspelletje"
+
 description = "Vandaag wil ik een tweede hersenwerk introduceren - het handspelletje. Dit spelletje gaat erover dat de hond een hand met zijn neus aanraakt of een poot geeft en vervolgens de beloning krijgt."
 +++
 

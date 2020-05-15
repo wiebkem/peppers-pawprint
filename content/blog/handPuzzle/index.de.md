@@ -7,6 +7,11 @@ categories = [
 tags = [
     "Beschäftigung für drinnen"
 ]
+
+[[resources]]
+  src = "hand-puzzle.jpeg"
+  title = "Händespiel"
+
 description = "Heute möchte ich euch eine zweite Beschäftigung vorstellen - das Händespiel. Bei dem Händespiel geht es darum, dass der Hund mit der Nase die Hand anstupst oder seine Pfote gibt und danach die Belohnung bekommt."
 +++
 

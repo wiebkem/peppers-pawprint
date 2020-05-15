@@ -7,6 +7,11 @@ categories = [
 tags = [
     "Leben mit Hund"
 ]
+
+[[resources]]
+  src = "apartmentOrHouse.jpeg"
+  title = "Wohnung oder Haus"
+
 description = "Kann ich einen Hund in einer Wohnung halten oder brauche ich ein Haus mit Garten damit sich mein Hund wohl fühlt? In diesem Blogbeitrag spreche ich über meine Erfahrungen."
 +++
 

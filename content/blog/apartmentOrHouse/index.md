@@ -7,6 +7,11 @@ categories = [
 tags = [
     "Living with a dog"
 ]
+
+[[resources]]
+  src = "apartmentOrHouse.jpeg"
+  title = "Apartment or house"
+
 description = "Can I have a dog in an apartment or do I need a house with a garden so that my dog ​​feels comfortable? In this blog post I talk about my experiences."
 +++
 

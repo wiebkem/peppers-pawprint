@@ -7,6 +7,11 @@ categories = [
 tags = [
     "Indoor enrichment"
 ]
+
+[[resources]]
+  src = "treat-boxes.jpeg"
+  title = "Treat boxes"
+
 description = "Treat boxes are another indoor enrichment. Everyone has egg cartons, toilet paper rolls or other shipping boxes at home. These things can easily be turned into an enrichment for your dog."
 +++
 

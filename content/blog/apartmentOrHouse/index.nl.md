@@ -7,6 +7,11 @@ categories = [
 tags = [ 
     "Wonen met een hond"
 ]
+
+[[resources]]
+  src = "apartmentOrHouse.jpeg"
+  title = "Appartement of huis"
+
 description = "Kan ik een hond in een appartement houden of heb ik een huis met een tuin nodig zodat mijn hond zich op zijn gemak voelt? In deze blogpost vertel ik over mijn ervaringen."
 +++
 
