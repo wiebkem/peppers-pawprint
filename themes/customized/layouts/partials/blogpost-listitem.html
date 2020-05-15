@@ -1,9 +1,11 @@
 <div class="post">
   <a href="{{ .Permalink }}" title="">
-    {{ with .Params.featured_image -}}
-      <div class="post-image">
-        <img src="{{ . | absURL }}" alt="post-image" title="post-image">
-      </div>
+    {{ with .Resources.ByType "image" }}
+      {{ range . }}
+        <div class="post-image">
+          <img src="{{ .RelPermalink }}" alt="post-image" title="post-image">
+        </div>
+      {{ end }}
     {{ end }}
   </a>
 
