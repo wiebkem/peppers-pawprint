@@ -165,7 +165,6 @@ defaultContentLanguageInSubdir = true
 [languages.en]
   languageCode = "en"
   languageName = "English"
-  contentDir = "content/en"
   copyright = "All rights reserved."
   weight = 1 
 
@@ -203,7 +202,6 @@ defaultContentLanguageInSubdir = true
 [languages.de]
   languageCode = "de"
   languageName = "Deutsch"
-  contentDir = "content/de"
   copyright = ""
   weight = 2
 
@@ -248,8 +246,7 @@ defaultContentLanguageInSubdir = true
 [languages.nl]
   languageCode = "nl"
   languageName = "Nederlands"
-  contentDir = "content/nl"
-  copyright = "All rights reserved."
+  copyright = ""
   weight = 3 
 
   [[languages.nl.menu.main]]
