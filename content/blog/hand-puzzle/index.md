@@ -7,12 +7,11 @@ categories = [
 tags = [
     "Indoor enrichment"
 ]
+description = "Today I want to introduce the second enrichment - the hand puzzle. The hand puzzle is about the dog touching the hand with his nose or giving his paw and afterwards getting the reward."
 
 [[resources]]
   src = "hand-puzzle.jpeg"
   title = "Hand puzzle"
-
-description = "Today I want to introduce the second enrichment - the hand puzzle. The hand puzzle is about the dog touching the hand with his nose or giving his paw and afterwards getting the reward."
 +++
 
 To begin with, take one or multiple treats in your right hand and form a fist. The second hand should be flat besides it. Then the dog is allowed to come and smell on the right hand with the treats. As soon as the dog is touching the left hand with the nose, you can open the first to reward the dog.

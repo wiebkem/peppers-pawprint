@@ -7,12 +7,11 @@ categories = [
 tags = [
     "Belgium"
 ]
+description = "The Ardennes is a beautiful area for hiking and for enjoying the nature in general. We rented a holiday home in Braibant with two fish ponds and a large fenced garden. From there we then explored the area."
 
 [[resources]]
   src = "ardennes.jpg"
   title = "Ardennes"
-
-description = "The Ardennes is a beautiful area for hiking and for enjoying the nature in general. We rented a holiday home in Braibant with two fish ponds and a large fenced garden. From there we then explored the area."
 +++
 
 ## Domain de Chevetogne

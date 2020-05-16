@@ -7,12 +7,11 @@ categories = [
 tags = [
     "Hersenwerk voor binnen"
 ]
+description = "Snoep dozen zijn een ander hersenwerk voor binnen. Iedereen heeft thuis eierendozen, wc-papierrollen of andere verzenddozen. Deze dingen kunnen gemakkelijk worden omgezet in een spelletje voor jouw hond."
 
 [[resources]]
   src = "treat-boxes.jpeg"
   title = "Snoep dozen"
-
-description = "Snoep dozen zijn een ander hersenwerk voor binnen. Iedereen heeft thuis eierendozen, wc-papierrollen of andere verzenddozen. Deze dingen kunnen gemakkelijk worden omgezet in een spelletje voor jouw hond."
 +++
 
 Neem een eierendoos of verzenddoos en vul deze met snoepjes. Zeker in het begin is het voor jouw hond waarschijnlijk te moeilijk om de doos te openen. Je kunt de doos gewoon lichtjes sluiten. Dit maakt het makkelijker voor je hond.

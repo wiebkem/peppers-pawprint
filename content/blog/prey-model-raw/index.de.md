@@ -7,13 +7,12 @@ categories = [
 tags = [
     "Prey Model Raw"
 ]
+info_without_guarantee = true
+description = "Ich fütter Pepper roh nach dem Prey Model Raw Konzept. Warum fütter ich Pepper auf diese Art und was kommt alles in den Napf? Dies erfährst du in diesem Blogeintrag."
 
 [[resources]]
   src = "prey-model-raw.jpeg"
   title = "Rohfütterung oder auch Prey Model Raw"
-
-info_without_guarantee = true
-description = "Ich fütter Pepper roh nach dem Prey Model Raw Konzept. Warum fütter ich Pepper auf diese Art und was kommt alles in den Napf? Dies erfährst du in diesem Blogeintrag."
 +++
 
 Wie ernährst Du deinen Hund? Was ist richtig und was ist falsch?  

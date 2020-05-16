@@ -7,12 +7,11 @@ categories = [
 tags = [
     "Sweden"
 ]
+description = "This blog entry is about the travel options to Sweden from Germany, the entry requirements for dogs and the national parks in Sweden."
 
 [[resources]]
   src = "swedenTravel.jpg"
   title = "General tips for Sweden"
-
-description = "This blog entry is about the travel options to Sweden from Germany, the entry requirements for dogs and the national parks in Sweden."
 +++
 
 It has always been my dream to live in Sweden for a while and this dream came true for my master’s degree. Pepper and I spent a total of 1.5 years in Sweden.

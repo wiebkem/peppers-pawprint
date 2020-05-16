@@ -7,12 +7,11 @@ categories = [
 tags = [
     "Beschäftigung für drinnen"
 ]
+description = "Heute möchte ich euch eine zweite Beschäftigung vorstellen - das Händespiel. Bei dem Händespiel geht es darum, dass der Hund mit der Nase die Hand anstupst oder seine Pfote gibt und danach die Belohnung bekommt."
 
 [[resources]]
   src = "hand-puzzle.jpeg"
   title = "Händespiel"
-
-description = "Heute möchte ich euch eine zweite Beschäftigung vorstellen - das Händespiel. Bei dem Händespiel geht es darum, dass der Hund mit der Nase die Hand anstupst oder seine Pfote gibt und danach die Belohnung bekommt."
 +++
 
 Zu Anfang nehme ein oder mehrere Leckerlis in die rechte Hand und forme diese zu einer Faust. Die zweite Hand halte flach daneben. Danach darf der Hund kommen und an der rechten Hand mit den Leckerlis riechen. Sobald der Hund dann die linke Hand mit der Nase anstupst, öffne die rechte Faust, sodass der Hund die Belohnung bekommt.

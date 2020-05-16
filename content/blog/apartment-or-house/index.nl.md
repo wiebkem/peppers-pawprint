@@ -7,12 +7,11 @@ categories = [
 tags = [ 
     "Wonen met een hond"
 ]
+description = "Kan ik een hond in een appartement houden of heb ik een huis met een tuin nodig zodat mijn hond zich op zijn gemak voelt? In deze blogpost vertel ik over mijn ervaringen."
 
 [[resources]]
   src = "apartmentOrHouse.jpeg"
   title = "Appartement of huis"
-
-description = "Kan ik een hond in een appartement houden of heb ik een huis met een tuin nodig zodat mijn hond zich op zijn gemak voelt? In deze blogpost vertel ik over mijn ervaringen."
 +++
 
 Pepper is nu 11 jaar oud en we hebben nooit lang op hetzelfde adres gewoond. We hebben dus veel verschillende woonsituaties uitgeprobeerd en willen onze ervaringen delen.

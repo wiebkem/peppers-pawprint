@@ -7,12 +7,11 @@ categories = [
 tags = [
     "Leben mit Hund"
 ]
+description = "Kann ich einen Hund in einer Wohnung halten oder brauche ich ein Haus mit Garten damit sich mein Hund wohl fühlt? In diesem Blogbeitrag spreche ich über meine Erfahrungen."
 
 [[resources]]
   src = "apartmentOrHouse.jpeg"
   title = "Wohnung oder Haus"
-
-description = "Kann ich einen Hund in einer Wohnung halten oder brauche ich ein Haus mit Garten damit sich mein Hund wohl fühlt? In diesem Blogbeitrag spreche ich über meine Erfahrungen."
 +++
 
 Mittlerweile ist Pepper 11 Jahre alt und wir haben noch nie lange an derselben Adresse gewohnt. Wir haben also viele verschiedene Wohnsituationen ausprobiert und möchten unsere Erfahrungen teilen.  

@@ -7,12 +7,11 @@ categories = [
 tags = [
     "Hersenwerk voor binnen"
 ]
+description = "Vandaag wil ik een tweede hersenwerk introduceren - het handspelletje. Dit spelletje gaat erover dat de hond een hand met zijn neus aanraakt of een poot geeft en vervolgens de beloning krijgt."
 
 [[resources]]
   src = "hand-puzzle.jpeg"
   title = "Handspelletje"
-
-description = "Vandaag wil ik een tweede hersenwerk introduceren - het handspelletje. Dit spelletje gaat erover dat de hond een hand met zijn neus aanraakt of een poot geeft en vervolgens de beloning krijgt."
 +++
 
 Om te beginnen neem een of meerdere snoepjes in je rechterhand en vorm een ​​vuist. Hou de tweede hand plat ernaast. De hond mag dan aan de vuist met de snoepjes ruiken. Zodra de hond echter de platte hand met de neus aanraakt, open je de vuist om de hond te belonen.
