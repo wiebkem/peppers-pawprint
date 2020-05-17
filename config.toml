@@ -84,7 +84,7 @@ defaultContentLanguageInSubdir = true
   siteLogoImage = "images/logo.png"     # shown besides logoTitle
   showAuthorCard = false # Whether to show author information below the article
 
-  faviconImage = "images/favicon.png"     # shown besides logoTitle
+  faviconImage = "images/favicon.ico"     # shown besides logoTitle
 
   showMenuLanguages = true
   autoLoadComments = false # auto load comment when scrolling down
