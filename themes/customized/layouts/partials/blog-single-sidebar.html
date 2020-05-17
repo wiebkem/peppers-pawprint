@@ -6,11 +6,7 @@
     <div class="related-post clearfix">
       <a href="{{ .Permalink }}">
         <h3 class="post-header-title">{{ .Title }}</h3>
-        {{ with .Resources.ByType "image" }}
-          {{ range . }}
-            <img class="related-post-image" src="{{ .RelPermalink }}" alt="{{ .Title }}">
-          {{ end }}
-        {{ end }}
+        {{ partial "responsive-image.html" . }}
       </a>
     </div>
     {{ end }}
@@ -22,11 +18,7 @@
     <div class="related-post clearfix">
       <a href="{{ .Permalink }}">
         <h3 class="post-header-title">{{ .Title }}</h3>
-        {{ with .Resources.ByType "image" }}
-          {{ range . }}
-            <img class="related-post-image" src="{{ .RelPermalink }}" alt="{{ .Title }}">
-          {{ end }}
-        {{ end }}
+        {{ partial "responsive-image.html" . }}
       </a>
     </div>
     {{ end }}

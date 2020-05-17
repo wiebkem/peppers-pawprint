@@ -9,11 +9,7 @@
     <div>
       <a href="{{ .Permalink }}">
         <h2>{{ .Title }}</h2>
-        {{ with .Resources.ByType "image" }}
-          {{ range . }}
-            <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-          {{ end }}
-        {{ end }}
+        {{ partial "responsive-image.html" . }}
       </a>
     </div>
     {{ end }}

@@ -5,13 +5,7 @@
       <h1 class="post-single-header-title">{{ .Title }}</h1>
       {{ partial "blogpost-header.html" . }}
 
-      {{ with .Resources.ByType "image" }}
-        {{ range . }}
-          <div class="post-thumb">
-            <img src="{{ .RelPermalink }}" alt="post-image" title="post-image">
-          </div>
-        {{ end }}
-      {{ end }}
+      {{ partial "responsive-image.html" . }}
 
       <div class="post-content">
         <p class="lead">{{ .Description }}</p>
