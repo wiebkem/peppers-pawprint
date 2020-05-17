@@ -40,12 +40,38 @@
           {{ with $large.RelPermalink }}, {{.}} 800w {{ end }}
         {{ end }}
         {{ if ge $src.Width "1000" }}
-          {{ with $large.RelPermalink }}, {{.}} 1000w {{ end }}
+          {{ with $xlarge.RelPermalink }}, {{.}} 1000w {{ end }}
         {{ end }}'
+        data-src="{{ $src.RelPermalink }}"
         {{ with .Title }}
           alt='{{.}}'
           title='{{.}}'
         {{ end }}>
+      <noscript>
+        <img
+          loading="lazy"
+          srcset='
+          {{ if ge $src.Width "200" }}
+            {{ with $tiny.RelPermalink }}{{.}} 200w{{ end }}
+          {{ end }}
+          {{ if ge $src.Width "300" }}
+            {{ with $small.RelPermalink }}, {{.}} 300w{{ end }}
+          {{ end }}
+          {{ if ge $src.Width "500" }}
+            {{ with $medium.RelPermalink }}, {{.}} 500w{{ end }}
+          {{ end }}
+          {{ if ge $src.Width "800" }}
+            {{ with $large.RelPermalink }}, {{.}} 800w {{ end }}
+          {{ end }}
+          {{ if ge $src.Width "1000" }}
+            {{ with $xlarge.RelPermalink }}, {{.}} 1000w {{ end }}
+          {{ end }}'
+          src="{{ $src.RelPermalink }}"
+          {{ with .Title }}
+            alt='{{.}}'
+            title='{{.}}'
+          {{ end }}>
+      </noscript>
     </div>
   {{ end }}
 {{ end }}
