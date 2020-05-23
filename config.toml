@@ -81,7 +81,7 @@ defaultContentLanguageInSubdir = true
   # site info (optional)
   keywords = ["blog", "dogblog","hundeblog"]
   description = "Pepper's Pawprint Blog"
-  siteLogoImage = "images/logo.png"     # shown besides logoTitle
+  siteLogoImage = "images/logo.svg"     # shown besides logoTitle
   showAuthorCard = false # Whether to show author information below the article
 
   faviconImage = "images/favicon.ico"     # shown besides logoTitle
