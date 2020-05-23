@@ -7,8 +7,11 @@ categories = [
 tags = [
     "Indoor enrichment"
 ]
-featured_image = "article_images/treat-boxes.jpeg"
 description = "Treat boxes are another indoor enrichment. Everyone has egg cartons, toilet paper rolls or other shipping boxes at home. These things can easily be turned into an enrichment for your dog."
+
+[[resources]]
+  src = "treat-boxes.jpeg"
+  title = "Treat boxes"
 +++
 
 Take an egg carton or shipping box and fill it with treats. Especially at the beginning it is probably too difficult for your dog to open the closed box. You can just close the box lightly. This makes it easier for your dog.

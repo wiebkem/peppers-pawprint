@@ -1,10 +1,6 @@
 <div class="post">
   <a href="{{ .Permalink }}" title="">
-    {{ with .Params.featured_image -}}
-      <div class="post-image">
-        <img src="{{ . | absURL }}" alt="post-image" title="post-image">
-      </div>
-    {{ end }}
+    {{ partial "responsive-image.html" . }}
   </a>
 
   <p class="post-header-title"><a href="{{ .Permalink }}" title="">{{ .Title }}</a></p>

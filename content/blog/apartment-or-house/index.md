@@ -7,8 +7,11 @@ categories = [
 tags = [
     "Living with a dog"
 ]
-featured_image = "article_images/apartmentOrHouse.jpeg"
 description = "Can I have a dog in an apartment or do I need a house with a garden so that my dog ​​feels comfortable? In this blog post I talk about my experiences."
+
+[[resources]]
+  src = "apartmentOrHouse.jpeg"
+  title = "Apartment or house"
 +++
 
 Pepper is 11 years old now and we have never lived at the same address for a long time. We have tried many different living situations and I would like to share our experiences with you.

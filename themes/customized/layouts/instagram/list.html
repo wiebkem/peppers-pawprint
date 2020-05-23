@@ -9,7 +9,7 @@
     <div>
       <a href="{{ .Permalink }}">
         <h2>{{ .Title }}</h2>
-        <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
+        {{ partial "responsive-image.html" . }}
       </a>
     </div>
     {{ end }}

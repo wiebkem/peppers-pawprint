@@ -7,8 +7,11 @@ categories = [
 tags = [
     "Indoor enrichment"
 ]
-featured_image = "article_images/snuffle-mat.jpg"
 description = "Currently, it is a difficult time for most of the people. While social distancing and probably a lockdown, there are lots of possibilities to do things with your dog indoors. At first, I want to introduce the snuffle mat and searching for treats."
+
+[[resources]]
+  src = "snuffle-mat.jpg"
+  title = "Snuffle mat and searching for treats"
 +++
 
 The snuffle mat can be used indoors or in the garden. Preferable you have small treats that can be hidden at different places inside the mat. Once you placed all treats, the dog is allowed to search for it.

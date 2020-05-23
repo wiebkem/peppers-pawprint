@@ -238,19 +238,14 @@ main {
     }
 }
 
-/* img 
-
-.first-entry .post-image img {
-    height: 500px;
-  }
-  */
+/* img */
 main .post .post-thumb img,
 main .post-thumb img,
 img {
     height: auto;
     max-width: 100%;
     object-fit: cover;
-    border-radius: $border-radius-l;
+    border-radius: $border-radius-l; // if changed, change it also in the post-thumb div for responsive-image partial
 }
 
 main .post .post-thumb img,

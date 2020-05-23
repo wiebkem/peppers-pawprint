@@ -7,8 +7,11 @@ categories = [
 tags = [
     "Beschäftigung für drinnen"
 ]
-featured_image = "article_images/snuffle-mat.jpg"
 description = "Es ist im Moment eine schwierige Zeit für viele Menschen. Gerade wenn Sozialkontakte gemieden werden und es vielleicht auch eine Ausgangssperre gibt, gibt es auch tolle Möglichkeiten Hunde drinnen zu beschäftigen. Die erste Bestäftigung die ich vorstellen möchte ist die Schnüffelmatte und das Suchen von Leckerlis."
+
+[[resources]]
+  src = "snuffle-mat.jpg"
+  title = "Schnüffelmatte und Leckerlis suchen"
 +++
 
 Die Schnüffelmatte kann man sowohl im Haus als auch im Garten benutzten. Am besten benutzt man kleine Leckerlis die dann an verschiedenen Stellen in der Matte versteckt werden. Danach darf der Hund suchen.

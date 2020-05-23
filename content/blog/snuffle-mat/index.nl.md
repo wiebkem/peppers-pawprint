@@ -7,8 +7,11 @@ categories = [
 tags = [
     "Hersenwerk voor binnen"
 ]
-featured_image = "article_images/snuffle-mat.jpg"
 description = "Momenteel is het voor de meeste mensen een moeilijke tijd. Terwijl sociale afstand noodzakelijk is, zijn er tal van mogelijkheden om binnen met jouw hond bezig te zijn. In eerste instantie wil ik de snuffelmat en snoepspelletjes introduceren."
+
+[[resources]]
+  src = "snuffle-mat.jpg"
+  title = "Snuffelmat en snoepjes zoeken"
 +++
 
 De snuffelmat kan zowel binnen als in de tuin gebruikt worden. Bij voorkeur heb je kleine snoepjes die op verschillende plaatsen in de mat verborgen kunnen worden. Zodra je alle snoepjes hebt geplaatst, mag de hond ernaar zoeken.

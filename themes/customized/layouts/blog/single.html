@@ -4,12 +4,8 @@
     <div class="post">
       <h1 class="post-single-header-title">{{ .Title }}</h1>
       {{ partial "blogpost-header.html" . }}
-       
-      {{ with .Params.featured_image -}}
-      <div class="post-thumb">
-        <img src="{{ . | absURL }}" alt="post-image" title="post-image">
-      </div>
-      {{ end }}
+
+      {{ partial "responsive-image.html" . }}
 
       <div class="post-content">
         <p class="lead">{{ .Description }}</p>

@@ -7,8 +7,11 @@ categories = [
 tags = [
     "Beschäftigung für drinnen"
 ]
-featured_image = "article_images/treat-boxes.jpeg"
 description = "Eine andere Beschäftigung für drinnen sind Leckerli Boxes. Jeder hat Eierkartons, Klopapierrollen oder andere Versandboxen zu Hause. Diese können ganz einfach zu einer Beschäftigung für Deinen Hund umfunktioniert werden."
+
+[[resources]]
+  src = "treat-boxes.jpeg"
+  title = "Leckerli Boxes"
 +++
 
 Nimm einen Eierkarton oder Versandbox und befülle diese mit Leckerlis. Gerade am Anfang ist es für den Hund wahrscheinlich zu schwer die verschlossene Box zu öffnen. Du kannst den Karton einfach nur zuklappen, aber nicht fest zu machen. Dies macht es Deinem Hund erstmal einfacher.
