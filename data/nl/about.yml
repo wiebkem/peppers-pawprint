@@ -6,7 +6,7 @@ us:
       content : "Tijdens mijn jeugd hadden we eigenlijk altijd honden gehad en sinds mijn 16e is Pepper bij mij.
           Toen ik op 19-jarige leeftijd uit huis ging en dus van Duitsland naar Nederland verhuisde om te studeren, kwam Pepper natuurlijk met mij mee.
           5 jaar later ging ik voor mijn Masteropleiding naar Zweden en tegenwoordig woon ik met Pepper en mijn vriend weer in Nederland."
-      image : "images/about/wiebke.jpeg"
+      image : "images/about/wiebke.jpg"
 
     #item loop
     - title : "Kynologisch instructeur opleiding"
@@ -15,7 +15,7 @@ us:
           
           
           Neem gerust contact met mij op voor vragen of suggesties. Ik kijk ernaar uit je te ontmoeten!"
-      image : "images/about/pepper2.JPG"
+      image : "images/about/pepper2.jpg"
     
     #item loop
     - title : "🐾 Pepper 🐾"

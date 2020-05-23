@@ -6,7 +6,7 @@ us:
       content : "During my childhood, we always had dogs and since I am 16 years old Pepper accompanies me.
           When I moved from home at the age of 19 and therefore from Germany to the Netherlands to study, Pepper naturally joined me.
           5 years later I went to Sweden for my Master education and at the moment I live with Pepper and my boyfriend again in the Netherlands."
-      image : "images/about/wiebke.jpeg"
+      image : "images/about/wiebke.jpg"
 
     #item loop
     - title : "Dog instructor education"
@@ -15,7 +15,7 @@ us:
 
 
           Feel free to contact me with any questions or suggestions. I look forward to meet you!"
-      image : "images/about/pepper2.JPG"
+      image : "images/about/pepper2.jpg"
     
     #item loop
     - title : "🐾 Pepper 🐾"
