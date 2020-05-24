@@ -37,7 +37,16 @@
   </div>
 
   <div class="col-xs-12 col-sm-12 social-media-widget">
-    <h2 class="home-widget-title">Follow us</h2>
+    <h2 class="home-widget-title">{{ i18n "social_media" }}</h2>
+    <div class="social-media-disclaimer">
+      <div>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div class="text-content">{{ i18n "disclaimer_social_media" }}</div>
+      <a id="socialMediaOptIn" class="button" href="javascript:openCookieBanner()">{{ i18n "disclaimer_social_media_link" }}</a>
+    </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 social-media-item">
         <!-- Instagram -->

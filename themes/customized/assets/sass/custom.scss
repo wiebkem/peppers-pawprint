@@ -111,11 +111,13 @@ main .blog-disclaimer,
 .social-media-disclaimer {
     padding-bottom: $spacing-l;
     
-    .fa-youtube {
+    .fab {
         font-size: $font-size-display;
+        margin-right: $spacing-s;
     }
 
     .text-content {
+        margin-top: $spacing-s;
         margin-left: $spacing-s;
         margin-bottom: $spacing-m;
         text-align: initial;
