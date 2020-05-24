@@ -29,8 +29,13 @@ main {
         border-bottom: $line-size-s solid $color-secondary;
     }
 
-    .social-media {
+    .social-media-widget {
         margin-bottom: $spacing-xl;
+
+        .instagram-item {
+            height: 500px;
+            overflow: scroll;
+        }
     }
 }
 
