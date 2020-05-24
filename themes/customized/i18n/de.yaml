@@ -70,7 +70,7 @@
 - id: disclaimer_youtube
   translation: Youtube-Videos werden nicht angezeigt, da die Cookies nicht akzeptiert wurden. Wenn Sie die YouTube-Videos anschauen möchten, müssen Sie die Cookies akzeptieren.
 
-- id: disclaimer_youtube_link
+- id: disclaimer_social_media_link
   translation: Cookie Banner anzeigen
 
 

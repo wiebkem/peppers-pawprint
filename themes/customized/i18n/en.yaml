@@ -70,7 +70,7 @@
 - id: disclaimer_youtube
   translation: Youtube videos are not shown as the cookies were not accepted. If you want the see the youtube videos, you have to accept the cookies.
 
-- id: disclaimer_youtube_link
+- id: disclaimer_social_media_link
   translation: Show cookie banner
 
 
