@@ -58,6 +58,9 @@
 - id: related_posts
   translation: Related posts
 
+- id: social_media
+  translation: Follow us on social media
+
 - id: readMore_link
   translation: Read more...
 
@@ -69,6 +72,9 @@
 
 - id: disclaimer_youtube
   translation: Youtube videos are not shown as the cookies were not accepted. If you want the see the youtube videos, you have to accept the cookies.
+
+- id: disclaimer_social_media
+  translation: Instagram, Facebook and YouTube are not shown as the cookies were not accepted. If you want the see Instagram, Facebook and YouTube, you have to accept the cookies.
 
 - id: disclaimer_social_media_link
   translation: Show cookie banner
