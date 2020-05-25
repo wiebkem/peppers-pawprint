@@ -100,7 +100,7 @@ li:hover a, li:active a, a:hover, a:active {
 }
 
 main .blog-disclaimer,
-.youtube-disclaimer {
+.social-media-disclaimer {
     border: $border-radius-s solid $color-secondary;
     border-radius: $border-radius-s;
     padding: $spacing-m;
@@ -108,21 +108,22 @@ main .blog-disclaimer,
     text-align: center;
 }
 
-.youtube-disclaimer {
+.social-media-disclaimer {
     padding-bottom: $spacing-l;
     
-    .fa-youtube {
+    .fab {
         font-size: $font-size-display;
-
+        margin-right: $spacing-s;
     }
 
     .text-content {
+        margin-top: $spacing-s;
         margin-left: $spacing-s;
         margin-bottom: $spacing-m;
         text-align: initial;
     }
 
-    #youtubeOptIn {
+    #socialMediaOptIn {
         color: $color-grey-100;
 
         &:hover {

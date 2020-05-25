@@ -58,6 +58,9 @@
 - id: related_posts
   translation: Gerelateerde artikel
 
+- id: social_media
+  translation: Volg ons op social media
+
 - id: readMore_link
   translation: Lees meer...
 
@@ -70,7 +73,10 @@
 - id: disclaimer_youtube
   translation: YouTube-video's worden niet weergegeven omdat de cookies niet geaccepteerd zijn. Als u de YouTube-video's wilt zien, moet u de cookies accepteren.
 
-- id: disclaimer_youtube_link
+- id: disclaimer_social_media
+  translation: Instagram, Facebook en YouTube worden niet weergegeven omdat de cookies niet geaccepteerd zijn. Als u Instagram, Facebook en YouTube wilt zien, moet u de cookies accepteren.
+
+- id: disclaimer_social_media_link
   translation: Cookiebanner weergeven
 
 
