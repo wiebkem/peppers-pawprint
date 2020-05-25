@@ -22,7 +22,7 @@
 
 
 
-<link rel="stylesheet" href="https://www.peppers-pawprint.com/bundle.min.0d65046b3e5f97badb9f6f8bbdeaab3e9ca76dd402b9bd9f65b9e0e28404c3f7.css" integrity="sha256-DWUEaz5fl7rbn2&#43;LveqrPpynbdQCub2fZbng4oQEw/c=">
+<link rel="stylesheet" href="https://www.peppers-pawprint.com/bundle.min.d91902035e45483d8fb059229305e128f93512ea06ff215fed444b0b5fc64ec8.css" integrity="sha256-2RkCA15FSD2PsFkikwXhKPk1EuoG/yFf7URLC1/GTsg=">
 
 
 
@@ -508,7 +508,7 @@ I usually kept Pepper on a long leash in the national parks which is 7.5 meters 
         var type = this.options.type
         if (type === 'opt-in' && status === 'allow') {
             activateTemplate('#cookieConsent');
-            enableYoutube();
+            enableSocialMedia();
         } else {
             disableGoogleAnalytics();
         }
@@ -518,7 +518,7 @@ I usually kept Pepper on a long leash in the national parks which is 7.5 meters 
         var type = this.options.type;
         if (type === 'opt-in' && status === 'allow') {
             activateTemplate('#cookieConsent');
-            enableYoutube();
+            enableSocialMedia();
         } else {
             disableGoogleAnalytics();
         } 
@@ -539,10 +539,12 @@ I usually kept Pepper on a long leash in the national parks which is 7.5 meters 
         }
     }
 
-    function enableYoutube() {
+    function enableSocialMedia() {
         var youtube = $("iframe.youtube");
-        $(".youtube-disclaimer").hide();
+        var socialMediaItem = $(".social-media-item");
+        $(".social-media-disclaimer").hide();
         youtube.show();
+        socialMediaItem.show();
         youtube.attr({
             src: youtube.attr('data-src')
 
