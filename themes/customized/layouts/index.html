@@ -57,15 +57,17 @@
 
       <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 social-media-item">
         <!-- Facebook -->
-        <div id="fb-root"></div>
-        {{ if eq .Site.Language.Lang "de" }}
-            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v7.0"></script>
-        {{ else if eq .Site.Language.Lang "nl" }}
-            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v7.0"></script>
-        {{ else }}
-            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
-        {{ end }}
-        <div class="fb-page" data-href="https://www.facebook.com/pepperspawprint/" data-tabs="timeline" data-width="1200" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/pepperspawprint/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pepperspawprint/">Pepper&#039;s Pawprint</a></blockquote></div>
+        <div class="facebook-item">
+          <div id="fb-root"></div>
+          {{ if eq .Site.Language.Lang "de" }}
+              <script async defer crossorigin="anonymous" src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v7.0"></script>
+          {{ else if eq .Site.Language.Lang "nl" }}
+              <script async defer crossorigin="anonymous" src="https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v7.0"></script>
+          {{ else }}
+              <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
+          {{ end }}
+          <div class="fb-page" data-href="https://www.facebook.com/pepperspawprint/" data-tabs="timeline" data-width="540" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/pepperspawprint/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pepperspawprint/">Pepper&#039;s Pawprint</a></blockquote></div>
+        </div>
       </div>
 
       <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 social-media-item">
