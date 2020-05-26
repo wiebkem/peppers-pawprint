@@ -2,10 +2,10 @@
 title =  "Rohfütterung oder auch Prey Model Raw"
 date = 2020-02-21T07:47:39+01:00
 categories = [
-    "Fütterung"
+    "Gesundheit"
 ]
 tags = [
-    "Prey Model Raw"
+    "Fütterung"
 ]
 info_without_guarantee = true
 description = "Ich fütter Pepper roh nach dem Prey Model Raw Konzept. Warum fütter ich Pepper auf diese Art und was kommt alles in den Napf? Dies erfährst du in diesem Blogeintrag."

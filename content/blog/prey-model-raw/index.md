@@ -2,10 +2,10 @@
 title =  "Rawdiet or Prey Model Raw"
 date = 2020-02-21T07:47:39+01:00
 categories = [
-    "Diet"
+    "Health"
 ]
 tags = [
-    "Prey Model Raw"
+    "Diet"
 ]
 info_without_guarantee = true
 description = "I am feeding Pepper raw according to the Prey Model Raw concept. Why do I feed Pepper this way and what's in his bowl? Figure it out in this blog entry."
