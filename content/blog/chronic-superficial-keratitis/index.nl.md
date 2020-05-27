@@ -16,7 +16,7 @@ De chronische superficiële keratitis kan worden gediagnosticeerd door een uitst
 Deze ziekte wordt ook pannus genoemd en is een "chronische aandoening van het hoornvlies" (Oog-dierenarts.be, n.d.). "Het begint als pigmentvorming op het oogwit aan de zijkant van het oog en kan zich vervolgens uitbreiden over het gehele oog, inclusief het hoornvlies" (Dierenkliniek Tiel-Drumpt, n.d.).
 
 ## Kan een chronische superficiële keratitis worden genezen?
-De ziekte is nog niet te genezen en de hond moet zijn hele leven worden behandeld. In het begin kreeg Pepper twee keer per dag speciale oogzalf. Beide ogen werden beter en we konden de hoeveelheid langzaam veranderen naar eenmaal per dag en vervolgens om de twee dagen.  
+De ziekte is niet te genezen en de hond moet zijn hele leven worden behandeld. In het begin kreeg Pepper twee keer per dag speciale oogzalf. Beide ogen werden beter en we konden de hoeveelheid langzaam veranderen naar eenmaal per dag en vervolgens om de twee dagen.  
 
 De speciale oogzalf die we gebruiken kost ongeveer € 40 voor 3,5g. Het is wel duur, maar de zalf is ook erg zuinig omdat er slechts een klein beetje in de ogen wordt gedruppeld. Pepper krijgt de zalf om de 2 dagen en dus kunnen we ongeveer 1,5 maand ermee overweg.
 
