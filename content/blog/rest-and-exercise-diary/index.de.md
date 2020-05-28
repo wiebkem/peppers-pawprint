@@ -21,6 +21,6 @@ Eine 4 Monate alte Hündin wurde von Bekannten aus dem Tierschutz adoptiert. Die
 
 Ich habe dann gefragt, ein Ruhe- und Bewegungstagebuch zu schreiben. In dem Tagebuch wurde die Uhrzeit des Spazierganges, die Länge und die Beschäftigung aufgeschrieben. Zusätzlich wurde vermerkt wie lange der Hund im Haus schläft und wann und wie sich mit der Hündin im Haus beschäftigt wurde.  
 
-Anhand des Tagebuchs konnte ich den Tipp geben, sich mehr mit der Hündin zu beschäftigen. Das Problem, in die Hacken der Menschen zu beißen, hat sich komplett gegeben, ohne an dem Problem selber zu arbeiten. Die Ursache war mangelnd Auslastund was sich anhand des Tagebuchs herausgestellt hat.  
+Anhand des Tagebuchs konnte ich den Tipp geben, sich mehr mit der Hündin zu beschäftigen. Das Problem, in die Hacken der Menschen zu beißen, hat sich komplett gegeben, ohne an dem Problem selber zu arbeiten. Die Ursache war mangelnde Auslastung was sich anhand des Tagebuchs herausgestellt hat.  
 
 Generell ist es schwierig einen Jundhund so zu beschäftigen, dass die Knochen und Gelenke nicht überlastet werden, der Junghund aber auch ausgelastet ist. Dies ist ein schmaler Grad und gerade so ein Tagebuch kann einen guten Aufschluss geben.
