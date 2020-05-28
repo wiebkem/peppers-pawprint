@@ -17,7 +17,7 @@ removePathAccents = true     # fix taxonomies in foreign languages
 # Pagination
 # number of entries per page for archives, tags and categories
 # since we don't have list view, recommend a large value
-paginate = 9
+paginate = 8
 paginatePath = "page"
 
 # service plugins
