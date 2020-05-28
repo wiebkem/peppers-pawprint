@@ -5,7 +5,7 @@
 @import 'blog';
 @import 'singlepage';
 @import 'about';
-@import 'instagram';
+@import 'links';
 @import 'home';
 
 /* partials */
@@ -185,7 +185,7 @@ main {
     }
 
     .sidebar-widget .widget-title,
-    .instagram-content h2 {
+    .links-content h2 {
         margin-bottom: $spacing-s;
         padding-bottom: $spacing-s;
         border-bottom: 2px solid $color-secondary;
