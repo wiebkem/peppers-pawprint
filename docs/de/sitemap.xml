@@ -2,21 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.peppers-pawprint.com/de/blog/category/allgemein/</loc>
-    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.peppers-pawprint.com/de/blog/</loc>
-    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
+    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/categories/</loc>
+    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/category/gesundheit/</loc>
+    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/</loc>
+    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/schaferhundkeratitis/</loc>
+    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/category/allgemein/</loc>
     <lastmod>2020-05-11T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -31,13 +52,6 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/blog/leben-mit-hund-wohnung-oder-haus/</loc>
-    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/</loc>
     <lastmod>2020-05-11T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -87,13 +101,6 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/blog/tag/futterung/</loc>
-    <lastmod>2020-02-21T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/blog/category/gesundheit/</loc>
     <lastmod>2020-02-21T07:47:39+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
