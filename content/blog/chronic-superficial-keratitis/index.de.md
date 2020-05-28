@@ -1,6 +1,6 @@
 +++
 title =  "Schäferhundkeratitis"
-date = 2020-05-28T09:00:00+01:00
+date = 2020-05-28T08:00:00+01:00
 categories = [
     "Gesundheit"
 ]
