@@ -1,6 +1,6 @@
 +++
 title =  "Wie viel Bewegung braucht mein Hund?"
-date = 2020-05-27T09:00:00+01:00
+date = 2020-05-27T08:00:00+01:00
 categories = [
     "Allgemein",
     "Beschäftigung"
@@ -18,6 +18,10 @@ Diese Empfehlung wird gegeben, damit die Knochen und Gelenke des jungen Hundes n
 
 #### Wann ist mein Hund ausgewachsen?
 Dies ist von Hunderasse zu Hunderasse unterschiedlich. Ein Dackel ist z.B. viel früher ausgewachsen als eine Deutsche Dogge. Oft wird gesagt, dass kleine Hunderassen schon mit 8-10 Monaten ausgewachsen sind. Im Gegenzug sind große und schwere Hunderassen oft erst mit 2-3 Jahren vollständig ausgewachsen.
+
+#### Ruhe- und Bewegungstagebuch
+Generell ist es schwierig einen Jundhund so zu beschäftigen, dass die Knochen und Gelenke nicht überlastet werden, der Junghund aber auch ausgelastet ist. Dies ist ein schmaler Grad und gerade so ein Tagebuch kann einen guten Aufschluss geben.
+
 
 ## Adult
 In diesem Beitrag zähle ich jeden ausgewachsenen Hund als Adult. Bei diesen Hunden sind die Knochen und Gelenke ausgehärtet und den Strapazen des Lebens gewachsen: einer Bergtour von mehreren Stunden, Fahrrad fahren, Rettungshundeeinsatz, etc. Adulte Hunde können vielseitig ausgelastet werden.  
