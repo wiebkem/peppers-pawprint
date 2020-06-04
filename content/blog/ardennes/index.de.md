@@ -7,7 +7,7 @@ categories = [
 tags = [
     "Belgien"
 ]
-featured_image = "article_images/ardennes.jpg"
+info_without_guarantee = true
 description = "Die Ardenne ist ein schönes Gebiet zum Wandern und um generell die Natur zu genießen. Wir haben uns ein Ferienhaus in Braibant mit zwei Fischteichen und einem großen eingezäuntem Garten gemietet. Von dort aus haben wir dann die Umgebung erkundet."
 +++
 

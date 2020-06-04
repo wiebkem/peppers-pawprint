@@ -7,7 +7,7 @@ categories = [
 tags = [
     "Schweden"
 ]
-featured_image = "article_images/swedenTravel.jpg"
+info_without_guarantee = true
 description = "Dieser Blogeintrag erzählt über die Reisemöglichkeiten von Deutschland nach Schweden, die Einreisebestimmungen für Hunde und die Nationalparks in Schweden."
 +++
 

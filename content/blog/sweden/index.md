@@ -7,6 +7,7 @@ categories = [
 tags = [
     "Sweden"
 ]
+info_without_guarantee = true
 description = "This blog entry is about the travel options to Sweden from Germany, the entry requirements for dogs and the national parks in Sweden."
 
 [[resources]]
