@@ -15,7 +15,7 @@ During the vacation week, we were at the Falun pit and saw the beautiful nature 
 ## Practical things
 During wild camping, every place should be left as you found it. I always took all the garbage back in my car and disposed it at the next opportunity.  
 
-Your own water consumption for cooking, drinking, etc. should not be underestimated. I had several water bottles (about 5 litres in total) with me and refilled them regularly, because I didn't want to use disposable bottles. Next time I will definitely buy a canister. This makes sense and is easier to be refilled as well.  
+Your own water consumption for cooking, drinking, etc. should not be underestimated. I had several water bottles (about 5 litres in total) with me and refilled them regularly, because I didn't want to use disposable bottles. Next time I will definitely buy a canister. This is easier and can be refilled as well.  
 
 Showering was not possible at the time. I washed myself regularly and also went to a stream or lake to wash myself without soap. Before the trip, I already got used to colder showers. Since there is no warm water for showering during wild camping, I wanted to be prepared for the cold streams. After a few days, I visited a friend and the first warm shower was really good!
 
