@@ -5,8 +5,7 @@ categories = [
     "Reisen"
 ]
 tags = [
-    "Schweden",
-    "Wildcamping"
+    "Schweden"
 ]
 description = "Vor genau 2 Jahren zu dieser Zeit war ich Wildcampen in Schweden. Ich war alleine mit Pepper, meinem Auto und den Campingsachen unterwegs. Damals wohnten wir noch in Göteborg, konnten direkt von dort aus starten und waren ungefähr eine Woche unterwegs."
 +++
@@ -27,6 +26,7 @@ Ich finde, dass Sicherheit eine sehr wichtige Rolle beim Wildcamping spielt. Nic
 
 An einem Tag saß ich die ganze Zeit an einem See. Kein Mensch war in meiner Nähe und ich hatte geplant dort zu übernachten. Um 19 Uhr kam ein Mann mit dem Fahrrad vorbei und fing in einer Mulde mit einer Schaufel an zu buddeln. Ich fand dies sehr komisch und fühlte mich nicht wohl dabei. Ich habe mich dann kurzerhand entschieden woanders hinzufahren. Der Mann hatte mir noch erklärt, dass er nur nach Regenwürmern zum Angeln buddelt. Trotzdem fand ich sein Verhalten einfach merkwürdig und es war mir wohler weiter zu fahren. Leider habe ich an dem Abend nicht mehr so einen schönen Platz gefunden und konnte erst wieder um 21 Uhr mein Zelt aufstellen. Es war mir aber wichtig, mich an dem Ort wohl und sicher zu fühlen, wenn ich dort alleine mit Pepper im Zelt schlafen möchte.  
 
-## Platzsuche
+## Zeltplatzsuche
 In Schweden gibt es die Regel, dass du immer mindestens ein paar 100 Meter von einem Haus entfernt zelten darfst. Ich habe immer einen Platz gesucht wo ich niemanden störe und der, wenn möglich, nicht direkt eingesehen werden konnte. Wir konnten eigentlich jeden Abend einen guten Platz finden.  
+
 Am Anfang haben wir uns einfach an den Platz gesetzt und ich habe ein Buch gelesen. Später zur Essenszeit kamen dann alle anderen Campingsachen dazu und zum Schluss habe ich dann das Zelt aufgebaut. Bevor ich schlafen gegangen bin, habe ich immer alle Sachen wieder ins Auto gepackt. In dem Fall konnte nichts über Nacht nass werden, ich habe keine Wildtiere mit Essen angelockt und alles war sicher verstaut.
