@@ -9,7 +9,6 @@ tags = [
     "Wildkamperen"
 ]
 description = "Precies 2 jaar geleden was ik wildkamperen in Zweden. Ben je benieuwd waar ik ben geweestHeb je ooit wild gekampeerd?"
-draft = true
 +++
 
 Precies 2 jaar geleden was ik wildkamperen in Zweden. Ik was alleen met Pepper, mijn auto en de kampeerspullen. Toen woonden we nog in Göteborg en konden direct vanuit daar starten.  
