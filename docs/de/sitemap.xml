@@ -3,27 +3,55 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/blog/</loc>
-    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/categories/</loc>
-    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/blog/category/gesundheit/</loc>
-    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/category/reisen/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/tag/schweden/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/tags/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/wildcamping/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/category/gesundheit/</loc>
     <lastmod>2020-05-28T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,13 +80,6 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/blog/leben-mit-hund-wohnung-oder-haus/</loc>
-    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/tags/</loc>
     <lastmod>2020-05-11T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -128,21 +149,7 @@
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/de/blog/category/reisen/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.peppers-pawprint.com/de/blog/generelle-tipps-fur-schweden/</loc>
-    <lastmod>2020-01-26T10:46:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/de/blog/tag/schweden/</loc>
     <lastmod>2020-01-26T10:46:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

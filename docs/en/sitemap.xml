@@ -3,14 +3,49 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/blog/</loc>
-    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/categories/</loc>
-    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/blog/tag/sweden/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/tags/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/blog/category/travel/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/blog/wild-camping/</loc>
+    <lastmod>2020-06-05T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -24,13 +59,6 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/blog/category/health/</loc>
-    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/</loc>
     <lastmod>2020-05-28T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,13 +80,6 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/blog/living-with-a-dog-apartment-or-house/</loc>
-    <lastmod>2020-05-11T09:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/tags/</loc>
     <lastmod>2020-05-11T09:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -128,21 +149,7 @@
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/blog/category/travel/</loc>
-    <lastmod>2020-02-06T07:47:39+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.peppers-pawprint.com/en/blog/general-tips-for-sweden/</loc>
-    <lastmod>2020-01-26T10:46:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/blog/tag/sweden/</loc>
     <lastmod>2020-01-26T10:46:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
