@@ -18,15 +18,15 @@ Beim Wildcamping sollte jeder Platz so verlassen werden, wie du diesen vorgefund
 
 Der eigene Wasserverbrauch zum Kochen, Trinken, usw. ist auch nicht zu unterschätzen. Ich hatte mehrere Wasserflaschen (insgesamt ungefähr 5 Liter) dabei und diese regelmäßig wieder aufgefüllt, da ich keine Einwegflaschen benutzen wollte. Beim nächsten Mal werde ich mir auf jeden Fall einen Kanister kaufen. Dies macht Sinn und ist am Ende auch einfacher wieder aufzufüllen.  
 
-Duschen war zu der Zeit nicht möglich. Ich habe mich regelmäßig gewaschen und bin auch in einen Bach oder See zum Waschen ohne Seife gegangen. Vor der Reise habe ich zu Hause die Dusche schon immer kälter gestellt. Da es beim Wildcamping kein warmes Wasser zum Duschen gibt, wollte ich schonmal auf die kalten Bäche vorbereitet sein. Nach ein paar Tagen habe ich noch eine Freundin besucht und die erste warme Dusche tat wieder richtig gut!
+Duschen war zu der Zeit nicht möglich. Ich habe mich regelmäßig gewaschen und bin auch in einen Bach oder See zum Waschen ohne Seife gegangen. Vor der Reise habe ich zu Hause die Dusche schon immer kälter gestellt. Da es beim Wildcamping kein warmes Wasser zum Duschen gibt, wollte ich schon mal auf die kalten Bäche vorbereitet sein. Nach ein paar Tagen habe ich noch eine Freundin besucht und die erste warme Dusche tat wieder richtig gut!
 
 ## Sicherheit
-Ich finde, dass Sicherheit eine sehr wichtige Rolle beim Wildcamping spielt. Nicht jeder Ort ist sicher und gerade ein Zelt kann nicht abgeschlossen werden. Ohne Pepper wäre ich definitief nicht alleine im Zelt losgezogen!  
+Ich finde, dass Sicherheit eine sehr wichtige Rolle beim Wildcamping spielt. Nicht jeder Ort ist sicher und gerade ein Zelt kann nicht abgeschlossen werden. Ohne Pepper wäre ich definitiv nicht alleine im Zelt losgezogen!  
 
 **Eine ganz wichtige Regel habe ich beim Wildcamping auch immer eingehalten: Bleibe nur dort, wo du dich wohl fühlst!**  
 
 An einem Tag saß ich die ganze Zeit an einem See. Kein Mensch war in meiner Nähe und ich hatte geplant dort zu übernachten. Um 19 Uhr kam ein Mann mit dem Fahrrad vorbei und fing in einer Mulde mit einer Schaufel an zu buddeln. Ich fand dies sehr komisch und fühlte mich nicht wohl dabei. Ich habe mich dann kurzerhand entschieden woanders hinzufahren. Der Mann hatte mir noch erklärt, dass er nur nach Regenwürmern zum Angeln buddelt. Trotzdem fand ich sein Verhalten einfach merkwürdig und es war mir wohler weiter zu fahren. Leider habe ich an dem Abend nicht mehr so einen schönen Platz gefunden und konnte erst wieder um 21 Uhr mein Zelt aufstellen. Es war mir aber wichtig, mich an dem Ort wohl und sicher zu fühlen, wenn ich dort alleine mit Pepper im Zelt schlafen möchte.  
 
 ## Platzsuche
-In Schweden gibt es die Regel, dass du immer mindestens eiin paar 100 Meter von einem Haus entfernt zelten darfst. Ich habe immer einen Platz gesucht wo ich niemanden störe und der, wenn möglich, nicht direkt eingesehen werden konnte. Wir konnten eigentlich jeden Abend einen guten Platz finden.  
+In Schweden gibt es die Regel, dass du immer mindestens ein paar 100 Meter von einem Haus entfernt zelten darfst. Ich habe immer einen Platz gesucht wo ich niemanden störe und der, wenn möglich, nicht direkt eingesehen werden konnte. Wir konnten eigentlich jeden Abend einen guten Platz finden.  
 Am Anfang haben wir uns einfach an den Platz gesetzt und ich habe ein Buch gelesen. Später zur Essenszeit kamen dann alle anderen Campingsachen dazu und zum Schluss habe ich dann das Zelt aufgebaut. Bevor ich schlafen gegangen bin, habe ich immer alle Sachen wieder ins Auto gepackt. In dem Fall konnte nichts über Nacht nass werden, ich habe keine Wildtiere mit Essen angelockt und alles war sicher verstaut.
