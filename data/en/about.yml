@@ -48,7 +48,6 @@ education:
       institution : "Kynotrain"
       country: "Netherlands"
       year: "November 2019 - October 2020"
-      image : ""
 
 
 seminars:
@@ -56,7 +55,7 @@ seminars:
   title : "Training"
   item:
     #item loop
-    - title : "Webinar - Leading dogs"
+    - title : "Webinar - Leading dogs calmly"
       institution : "The Big Foot Way"
       country: "Germany"
       year: "April 2020 - June 2020"

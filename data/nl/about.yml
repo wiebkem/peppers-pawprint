@@ -48,7 +48,6 @@ education:
       institution : "Kynotrain"
       country: "Nederland"
       year: "November 2019 - Oktober 2020"
-      image : ""
 
 
 seminars:
@@ -56,7 +55,7 @@ seminars:
   title : "Bijschooling"
   item:
     #item loop
-    - title : "Webinar - Honden leiden"
+    - title : "Webinar - Honden rustig leiden"
       institution : "The Big Foot Way"
       country: "Duitsland"
       year: "April - Juni 2020"
