@@ -9,6 +9,9 @@ description = "Ein Junghund darf nicht zu viel und zu weit laufen. Wie laste ich
 draft = true
 +++
 
+Gerade in der letzten Zeit fällt es mir auf, dass Hunde entweder zu viel oder zu wenig beschäftigt werden.
+
+
 Direkt von Anfang an möchte ich verdeutlichen, dass die Menge an Bewegung und Auslastung immer auf den jeweiligen Hund abgestimmt werden muss. Jeder Hund ist individuell und es gibt keine exakte Berechnung.
 
 ## Welpe / Junghund
