@@ -1,6 +1,6 @@
 +++
 title =  "Ruhe- und Bewegungstagebuch"
-date = 2020-06-07T06:00:00+01:00
+date = 2020-06-11T06:00:00+01:00
 categories = [
     "Allgemein"
 ]
@@ -25,7 +25,7 @@ Ein Ruhe- und Bewegungstagebuch gibt Einblicke wie lange dein Hund am Tag schlä
   - Was hat dein Hund im Garten gemacht?
 
 ## Beispiel aus der Praxis
-Eine 4 Monate alte Hündin wurde von Bekannten aus dem Tierschutz adoptiert. Nach einiger Zeit fing die Hündin allerdings an in die Hacken der Menschen zu beißen. Dies kann natürlich mehrere Ursachen haben, aber ohne es zu sehen, kann kein Hundetrainer Tipps geben!  
+Eine Hündin wurde von Bekannten aus dem Tierschutz adoptiert. Nach einiger Zeit fing die Hündin allerdings an in die Hacken der Menschen zu beißen. Dies kann natürlich mehrere Ursachen haben, aber ohne es zu sehen, kann kein Hundetrainer Tipps geben!  
 
 Auf die Frage wie viel der Hund beschäftigt wird, konnte nicht direkt geantwortet werden. Ich habe dann den Tipp gegeben ein Ruhe- und Bewegungstagebuch zu schreiben. In dem Tagebuch wurden die oben genannten Fragen beantwortet.  
 
