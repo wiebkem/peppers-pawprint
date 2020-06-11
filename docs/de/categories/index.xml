@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Pepper&#39;s Pawprint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Fri, 05 Jun 2020 08:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 06:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://www.peppers-pawprint.com/de/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Allgemein</title>
+      <link>https://www.peppers-pawprint.com/de/blog/category/allgemein/</link>
+      <pubDate>Thu, 11 Jun 2020 06:00:00 +0100</pubDate>
+      
+      <guid>https://www.peppers-pawprint.com/de/blog/category/allgemein/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Reisen</title>
@@ -26,15 +35,6 @@
       <pubDate>Thu, 28 May 2020 08:00:00 +0100</pubDate>
       
       <guid>https://www.peppers-pawprint.com/de/blog/category/gesundheit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Allgemein</title>
-      <link>https://www.peppers-pawprint.com/de/blog/category/allgemein/</link>
-      <pubDate>Mon, 11 May 2020 09:00:00 +0100</pubDate>
-      
-      <guid>https://www.peppers-pawprint.com/de/blog/category/allgemein/</guid>
       <description></description>
     </item>
     
