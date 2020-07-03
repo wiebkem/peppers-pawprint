@@ -13,10 +13,10 @@ We are taking day by day and adjust our daily walks according to how he feels. I
 
 Small walks for me take about 10 minutes at normal walking speed. However, when I walk with Pepper, we go very slowly so that he has enough time to sniffle. We also rest in between and e.g. just sit down in the grass. Then a 10 min walk quickly becomes 30 min.  
 
-For the past six months, we have also been using the elevator daily. We live on the first floor and it is no longer so easy for Pepper to walk the stairs. We only use them when it is necessary and take the elevator otherwise.  
+For the past six months, we have also been using the elevator daily. We live on the first floor and it is no longer so easy for Pepper to walk the stairs. That is why we always take the elevator and only use the stairs in exceptional cases.  
 
 ## Commands for an old dog
-Last weekend we were at my  parent’s place and their young dog got a treat for sitting. Of course, Pepper got one too - just because he looked adorable. Back in the days, I used to let him sit as well. Nowadays he just gets a treat for being adorable and I don't care if he actually just sits after saying it for the third time. That's the way it is and as an older dog I no longer emphasize it.  
+A few weeks ago, we were at my  parent’s place and their young dog got a treat for sitting. Of course, Pepper got one too - just because he looked adorable. Back in the days, I used to let him sit as well. Nowadays he just gets a treat for being adorable and I don't care if he actually just sits after saying it for the third time. That's the way it is and as an older dog I no longer emphasize it.  
 
 ## Memories
 Especially during the last few days, I was thinking about the time when it will be time to say goodbye. I asked myself the question: ‘Which memories do I want to have made?'.

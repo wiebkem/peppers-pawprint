@@ -13,7 +13,7 @@ Wir nehmen jeden Tag so wie er kommt und passen unsere Spaziergänge daran an, w
 
 Kleine Spaziergänge dauern für mich in normaler Laufgeschwindigkeit vielleicht 10 min. Wenn ich diese allerdings mit Pepper laufe, gehen wir ganz langsam, sodass er genügend Zeit zum Schnüffeln hat. Außerdem ruhen wir auch zwischendurch und setzten uns z.B. einfach ins Gras. Dann wird ein 10 min Spaziergang auch schnell mal zu 30 min.  
 
-Seit dem letzten halben Jahr benutzen wir außerdem täglich den Fahrstuhl. Wir wohnen im ersten Stock und es ist für Pepper mittlerweile nicht mehr so einfach die Treppe zu laufen. Nur wenn es mal sein muss, benutzen wir diese noch und nehmen ansonsten den Fahrstuhl.  
+Seit dem letzten halben Jahr benutzen wir außerdem täglich den Fahrstuhl. Wir wohnen im ersten Stock und es ist für Pepper mittlerweile nicht mehr so einfach die Treppe zu laufen. Deshalb nehmen wir immer den Aufzug und benutzen die Treppe nur in Ausnahmefällen.  
 
 ## Kommandos bei einem alten Hund
 Vor ein paar Wochen waren wir bei meinen Eltern und ihr Junghund hat für das Absitzen ein Leckerli bekommen. Pepper bekam natürlich auch eins - einfach nur weil er süß schaute. Früher hätte ich ihn auch noch absitzen lassen. Heute bekommt er einfach so mal Leckerlis zugesteckt und es stört mich nicht, wenn er erst beim dritten Mal 'Sitz' auch wirklich sitzt. So ist das eben und als älterer Hund lege ich da nicht mehr so viel Wert drauf.
