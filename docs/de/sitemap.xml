@@ -3,28 +3,35 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/blog/category/allgemein/</loc>
-    <lastmod>2020-06-11T06:00:00+01:00</lastmod>
+    <lastmod>2020-07-03T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/blog/</loc>
-    <lastmod>2020-06-11T06:00:00+01:00</lastmod>
+    <lastmod>2020-07-03T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/categories/</loc>
-    <lastmod>2020-06-11T06:00:00+01:00</lastmod>
+    <lastmod>2020-07-03T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/de/</loc>
-    <lastmod>2020-06-11T06:00:00+01:00</lastmod>
+    <lastmod>2020-07-03T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/de/blog/wenn-dein-hund-plotzlich-alt-ist/</loc>
+    <lastmod>2020-07-03T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
