@@ -32,10 +32,10 @@ Für die Moro'sche Karottensuppe brauchst du nur drei Zutaten:
 3. Bring das Wasser zum Kochen und lass es 90 Minuten lang köcheln.
 4. Gieß das Kochwasser ab und fange es auf - das Kochwasser brauchst du noch!
 5. Püriere die Karotten.
-6. Gib das aufgefangene Kochwasser hinzu bis du 1 Liter Moro'sche Karottensuppe erhältst.
+6. Gib das aufgefangene Kochwasser hinzu bis du 1 Liter Moro'sche Karottensuppe erhältst - die Suppe sollte in etwa die Konsistenz von Buttermilch haben.
 7. Füge nun das Salz hinzu.
-8. Vermische nochmal alles und die Suppe ist fertig - die Suppe sollte in etwa die Konsistenz von Buttermilch haben.
+8. Vermische nochmal alles und die Suppe ist fertig.
 
-# Quellen
+## Quellen
 - Pascal Thiele. 2019. Morosche Karottensuppe: So machst du das Hausmittel selber. [online] Verfügbar bei: <https://utopia.de/ratgeber/morosche-karottensuppe-so-machst-du-das-hausmittel-selber/> [Geöffnet am 19. Juli 2020].
 
