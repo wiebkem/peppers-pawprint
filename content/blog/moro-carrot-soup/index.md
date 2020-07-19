@@ -13,9 +13,9 @@ The secret of the carrot soup is the long cooking time, during which an importan
 
 Due to the long cooking process, important sugar molecules are released from the carrots. The bacteria attach to the sugar molecules, because they are very similar to the intestinal receptors, and so the bacteria are excreted with the feces. Because important mineral salts are lost through the diarrhea, the salt in the carrot soup helps replenish the body's electrolyte balance. (Pascal Thiele, 2019)
 
-## Application and dosis
+## Application and dose
 - The soup only helps with bacterial diarrhea and e.g. not with Giardia! Carbohydrates such as carrots are not good with Giardia as they feed on carbohydrates.
-- You can easily cook a large amount and freeze the rest. So you always have something in stock in case you need it.
+- You can easily cook a large amount and freeze the rest. In that case, you always have something in stock in case you need it.
 - It is best to give your dog a small portion 3-4 times a day. If the diarrhea is acute, it is better to give your dog no food for a day and only Moro's carrot soup. From day 2 you can then mix it with the normal food.
 
 **If the diarrhea does not improve in a few days, the diarrhea is bloody or the dog has a fever, go to the vet right away!**
