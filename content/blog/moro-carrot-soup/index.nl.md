@@ -1,6 +1,6 @@
 +++
 title =  "Moro’s wortelsoep tegen diarree"
-date = 2020-07-19T08:00:00+01:00
+date = 2020-07-20T08:00:00+01:00
 categories = [
     "Gezondheid"
 ]
@@ -23,7 +23,7 @@ Door het lange kookproces komen belangrijke suikermoleculen uit de wortels vrij.
 ## Ingrediënten
 Voor Moro's wortelsoep heb je maar drie ingrediënten nodig:
 - 500 g wortels
-- ca. 1,5 l water
+- 1 l water
 - 1 theelepel zout
 
 ## Bereiding
@@ -37,5 +37,5 @@ Voor Moro's wortelsoep heb je maar drie ingrediënten nodig:
 8. Meng alles opnieuw en de soep is klaar.
 
 ## Bronnen
-- Pascal Thiele. 2019. Morosche Karottensuppe: So machst du das Hausmittel selber. [Online] Verkrijgbaar bij: <https://utopia.de/ratgeber/morosche-karottensuppe-so-machst-du-das-hausmittel-selber/> [Geopend op 26 juli 2020].
+- Pascal Thiele. 2019. Morosche Karottensuppe: So machst du das Hausmittel selber. [Online] Verkrijgbaar bij: <https://utopia.de/ratgeber/morosche-karottensuppe-so-machst-du-das-hausmittel-selber/> [Geopend op 19 juli 2020].
 

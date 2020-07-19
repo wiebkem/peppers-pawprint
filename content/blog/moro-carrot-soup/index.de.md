@@ -1,6 +1,6 @@
 +++
 title =  "Moro'sche Karottensuppe bei Durchfall"
-date = 2020-07-19T08:00:00+01:00
+date = 2020-07-20T08:00:00+01:00
 categories = [
     "Gesundheit"
 ]
@@ -23,7 +23,7 @@ Das lange Kochen löst bedeutsame Zuckermoleküle aus den Karotten. Die Bakterie
 ## Zutaten
 Für die Moro'sche Karottensuppe brauchst du nur drei Zutaten:
 - 500 g Karotten
-- ca. 1,5 l Wasser
+- 1 L Wasser
 - 1 TL Salz
 
 ## Zubereitung
