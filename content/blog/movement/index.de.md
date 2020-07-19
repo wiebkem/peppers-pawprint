@@ -34,11 +34,6 @@ Dies kommt ganz auf die Rasse und das Gemüt deines Hundes an. Ein Molossertyp m
 
 Fordert dein Hund mehr Bewegung und Beschäftigung indem er unruhig im Haus hin- und herläuft? 
 
-## Senior
-
-Bewegung
-Beschäftigung
-Ruhe
 
 Tagebuch bei unerwünschtem Verhalten
 
