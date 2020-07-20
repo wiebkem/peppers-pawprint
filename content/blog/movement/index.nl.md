@@ -1,6 +1,6 @@
 +++
-title =  "Hoeveel beweging heeft mijn hond nodig?"
-date = 2020-05-27T08:00:00+01:00
+title =  "Hoeveel beweging & rust heeft mijn hond nodig?"
+date = 2020-07-20T08:00:00+01:00
 categories = [
     "Algemeen",
     "Hersenwerk"
