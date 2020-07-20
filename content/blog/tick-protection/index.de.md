@@ -17,4 +17,5 @@ draft = true
 - Chemisches Spot-on, Halsband, Tabletten
 - Keramikhalsband
 - Natürliche Leckerlis
+- Schwarzkümmelöl oder Dog Protect Zeck Weg Snack (https://www.raiffeisenmarkt.de/dog-protect-zeck-weg-snack-20619)
 
