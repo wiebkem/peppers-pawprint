@@ -3,27 +3,41 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/blog/</loc>
-    <lastmod>2020-07-03T08:00:00+01:00</lastmod>
+    <lastmod>2020-07-20T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/categories/</loc>
-    <lastmod>2020-07-03T08:00:00+01:00</lastmod>
+    <lastmod>2020-07-20T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.peppers-pawprint.com/en/blog/category/general/</loc>
-    <lastmod>2020-07-03T08:00:00+01:00</lastmod>
+    <loc>https://www.peppers-pawprint.com/en/blog/category/health/</loc>
+    <lastmod>2020-07-20T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/blog/moro-carrot-soup-for-diarrhea/</loc>
+    <lastmod>2020-07-20T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/</loc>
+    <lastmod>2020-07-20T08:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.peppers-pawprint.com/en/blog/category/general/</loc>
     <lastmod>2020-07-03T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -73,13 +87,6 @@
   
   <url>
     <loc>https://www.peppers-pawprint.com/en/blog/chronic-superficial-keratitis/</loc>
-    <lastmod>2020-05-28T08:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.peppers-pawprint.com/en/blog/category/health/</loc>
     <lastmod>2020-05-28T08:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
