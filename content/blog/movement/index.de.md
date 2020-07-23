@@ -17,7 +17,7 @@ Andererseits sehe ich auch Hunde, die zu wenig ausgelastet werden. Es gibt noch 
 
 ## Welche Gehgeschwindigkeit hat mein Hund?
 Ich finde es wichtig auf den eigenen Hund zu achten. Schon öfter habe ich Welpen gesehen, die mit einer straffen Leine mehr oder weniger hinter ihren Besitzern hergezogen wurden. Der Hund hatte nicht die Möglichkeit mit der Gehgeschwindigkeit der Besitzer mithalten zu können.  
-Das gleiche gilt natürlich für alte Hunde. Letztes Jahr hatte ich mit Pepper eine schnellere Gehgeschwindigkeit dann heute. Die gleiche Runde die wir letztes Jahr noch innerhalb von 20 Minuten entspannt laufen konnten, dauert heute 30-40 Minuten. Pepper läuft einfach generell langsamer und braucht auch viel mehr Zeit zum Schnüffel bei unseren Spaziergängen.  
+Das gleiche gilt natürlich für alte Hunde. Letztes Jahr hatte ich mit Pepper eine schnellere Gehgeschwindigkeit dann heute. Die gleiche Runde die wir letztes Jahr noch innerhalb von 20 Minuten entspannt laufen konnten, dauert heute 30-40 Minuten. Pepper läuft einfach generell langsamer und braucht auch viel mehr Zeit zum Schnüffeln bei unseren Spaziergängen.  
 
 Auch mir passiert es manchmal, dass ich zu schnell für Pepper laufe. Ich realisiere dann, dass er nicht mehr so gut mitlaufen kann und werde wieder langsamer. Sowas kann natürlich passieren, aber es sollte kein Dauerzustand sein!  
 
