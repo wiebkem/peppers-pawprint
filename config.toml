@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https://www.peppers-pawprint.com/"
+baseURL = "https://wiebkem.github.io/peppers-pawprint/"
 title = "Pepper's Pawprint"
 description = "Blog"
 publishDir = "docs"
