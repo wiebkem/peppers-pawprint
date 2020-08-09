@@ -25,24 +25,9 @@ Auch mir passiert es manchmal, dass ich zu schnell für Pepper laufe. Ich realis
 
 
 ## Ruhe während des Spaziergangs
-Wenn ich mit Pepper spazieren gehe, machen wir auch unterschiedlich lange Pausen zwischendurch. Es tut total gut einfach mal mit deinem Hund im Gras zu sitzen und gemeinsam das Umfeld zu beobachten und zu entspannen. Der Hund lernt dadurch, dass es auch möglich ist draußen zu entspannen. Dies kann auch von Vorteil sein, wenn du z.B. einen Bekannten triffst, ihr ein paar Minuten quatschen wollt und dein Hund sich einfach entspannt daneben legen kann.
+Wenn ich mit Pepper spazieren gehe, machen wir auch unterschiedlich lange Pausen zwischendurch. Es tut total gut einfach mal mit deinem Hund im Gras zu sitzen und gemeinsam das Umfeld zu beobachten und zu entspannen. Der Hund lernt dadurch, dass es auch möglich ist draußen zu entspannen. Dies kann z.B. von Vorteil sein, wenn du einen Bekannten triffst, ihr ein paar Minuten quatschen wollt und dein Hund sich dann einfach entspannt danebenlegen kann.
 
-Oftmals sind unsere Hunde es gewohnt bei einem Spaziergang die ganze Zeit "an" zu sein und nicht auch mal an der Leine entspannt neben einem zu liegen.
-
-
-## Welpe / Junghund
-Mach nicht zu viel mit deinem jungen Hund!
-
-#### Wie lange darf ich mit meinem Welpen / Junghund spazieren gehen?
-Die allgemeine Faustregel besagt, dass ein Junghund 3 mal täglich pro Lebensmonat 5 Minuten laufen darf. Das bedeutet, dass ein 5 Monate alter Hund 25 Minuten am Stück laufen darf. Dies klingt vielleicht nicht viel, aber am Tag sind dies zusammengerechnet fast 1,5 Stunden.  
-
-Diese Empfehlung wird gegeben, damit die Knochen und Gelenke des jungen Hundes nicht überlastet werden. Die Gelenke sind bei einem Junghund noch weich und sind erst beim ausgewachsenen Hund vollständig ausgehärtet.  
-
-#### Wann ist mein Hund ausgewachsen?
-Dies ist von Hunderasse zu Hunderasse unterschiedlich. Ein Dackel ist z.B. viel früher ausgewachsen als eine Deutsche Dogge. Oft wird gesagt, dass kleine Hunderassen schon mit 8-10 Monaten ausgewachsen sind. Im Gegenzug sind große und schwere Hunderassen oft erst mit 2-3 Jahren vollständig ausgewachsen.  
-
-Wenn du einen reinrassigen Hund hast, kannst du am Rassestandard ungefähr ausmachen, wann dein Hund ausgewachsen ist.  
-Wenn du einen Mischling hast, ist dies etwas schwieriger. Du kannst nach dem Rassestandard der mitgewirkten Rassen schauen und auch mit deinem Tierarzt besprechen, ab wann dein Hund wahrscheinlich ausgewachsen ist.
+Oftmals sind unsere Hunde es gewohnt bei einem Spaziergang die ganze Zeit "an" zu sein und nicht auch mal an der Leine entspannt neben einem zu liegen. Daher macht es Sinn diese Ruhe auch während eines Spaziergangs zu üben.
 
 
 ## Adult
