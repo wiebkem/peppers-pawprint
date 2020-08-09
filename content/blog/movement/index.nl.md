@@ -1,6 +1,6 @@
 +++
 title =  "Hoeveel uitdaging & rust heeft mijn hond nodig?"
-date = 2020-07-21T08:00:00+01:00
+date = 2020-08-09T08:00:00+01:00
 categories = [
     "Algemeen",
     "Hersenwerk"

@@ -1,6 +1,6 @@
 +++
 title =  "Wie viel Auslastung & Ruhe braucht mein Hund?"
-date = 2020-07-21T08:00:00+01:00
+date = 2020-08-09T08:00:00+01:00
 categories = [
     "Allgemein",
     "Beschäftigung"
@@ -11,7 +11,7 @@ draft = true
 
 Direkt von Anfang an möchte ich verdeutlichen, dass die Menge an Bewegung und Auslastung immer auf den jeweiligen Hund abgestimmt werden muss. Jeder Hund ist individuell und es gibt keine exakte Berechnung.  
 
-Heutzutage kommt es immer häufiger vor, dass viele Hunde zu viel ausgelastet werden. Dies kann daran erkannt werden, dass diese Hunde durch das Adrenalin in ihrem Körper keine Ruhe mehr finden können und somit eher unausgelastet auf andere Menschen wirken. Ein Teufelkreis wird in Gang gesetzt bei dem der Besitzer den Hund immer mehr "auslastet" und damit mehr hochpust, sodass dieser Hund nicht mehr entspannen kann.
+Heutzutage kommt es dennoch immer häufiger vor, dass viele Hunde zu viel ausgelastet werden. Dies kann daran erkannt werden, dass diese Hunde durch das Adrenalin in ihrem Körper keine Ruhe mehr finden können und somit eher unausgelastet auf andere Menschen wirken. Ein Teufelkreis wird in Gang gesetzt bei dem der Besitzer den Hund immer mehr "auslastet" und damit mehr hochpuscht, sodass dieser Hund nicht mehr entspannen kann.
 
 Andererseits sehe ich auch Hunde, die zu wenig ausgelastet werden. Es gibt noch definitiv Hunde die dauernd in der Handtasche getragen werden oder sich nie schmutzig machen dürfen.
 
@@ -23,6 +23,11 @@ Auch mir passiert es manchmal, dass ich zu schnell für Pepper laufe. Ich realis
 
 **Generell geht es darum auf deinen Hund zu achten und zu schauen welche Gehgeschwindigkeit für deinen Hund angenehm ist. Dabei sollte dein Hund nicht mit straffer Leine hinter dir her rennen müssen, sondern entspannt mitlaufen können. Beachte dabei, dass die angenehme Gehgeschwindigkeit für deinen Hund nicht automatisch deine eigene bevorzugte Gehgeschwindigkeit ist, wie wenn du z.B. ohne Hund unterwegs bist!**
 
+
+## Ruhe während des Spaziergangs
+Wenn ich mit Pepper spazieren gehe, machen wir auch unterschiedlich lange Pausen zwischendurch. Es tut total gut einfach mal mit deinem Hund im Gras zu sitzen und gemeinsam das Umfeld zu beobachten und zu entspannen. Der Hund lernt dadurch, dass es auch möglich ist draußen zu entspannen. Dies kann auch von Vorteil sein, wenn du z.B. einen Bekannten triffst, ihr ein paar Minuten quatschen wollt und dein Hund sich einfach entspannt daneben legen kann.
+
+Oftmals sind unsere Hunde es gewohnt bei einem Spaziergang die ganze Zeit "an" zu sein und nicht auch mal an der Leine entspannt neben einem zu liegen.
 
 
 ## Welpe / Junghund
